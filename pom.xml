@@ -5,6 +5,11 @@
     <artifactId>JavaProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>TradingViewIdeas</module>
+        <module>Dao</module>
+        <module>Utilities</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
