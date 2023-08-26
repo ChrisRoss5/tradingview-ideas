@@ -19,10 +19,15 @@ import java.util.function.Function;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
+import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
+import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
@@ -35,6 +40,7 @@ import hr.algebra.dal.repository.IdeaAuthorRepository;
 import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.dal.repository.ImageRepository;
 import hr.algebra.dal.repository.MarketRepository;
+import hr.algebra.dal.repository.SymbolRepository;
 import hr.algebra.model.Idea;
 import hr.algebra.model.Market;
 import hr.algebra.model.Symbol;
@@ -46,16 +52,19 @@ import hr.algebra.view.model.IdeasTableModel;
 public class IdeasPanel extends javax.swing.JPanel {
 
   private static final IdeaRepository ideaRepository = RepositoryFactory.getIdeaRepository();
-  private static final IdeaAuthorRepository ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
   private static final AuthorRepository authorRepository = RepositoryFactory.getAuthorRepository();
+  private static final IdeaAuthorRepository ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
+  private static final SymbolRepository symbolRepository = RepositoryFactory.getSymbolRepository();
   private static final MarketRepository marketRepository = RepositoryFactory.getMarketRepository();
   private static final ImageRepository imageRepository = RepositoryFactory.getImageRepository();
 
   private List<JTextComponent> validationFields;
+  private List<JComboBox<?>> validationComboBoxes;
   private List<JLabel> errorLabels;
 
   private Idea selectedIdea;
   private ImageIcon imageIcon;
+  private double imageRatio;
 
   public IdeasPanel() {
     initComponents();
@@ -64,289 +73,315 @@ public class IdeasPanel extends javax.swing.JPanel {
   @SuppressWarnings("unchecked")
   // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+  // <editor-fold defaultstate="collapsed" desc="Generated
+  // Code">//GEN-BEGIN:initComponents
+  private void initComponents() {
 
-        jSplitPane1 = new javax.swing.JSplitPane();
-        tabbedPaneMarkets = new javax.swing.JTabbedPane();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        tbIdeas = new javax.swing.JTable();
-        rightPanel = new javax.swing.JPanel();
-        tfTitle = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        tfLink = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        taDescription = new javax.swing.JTextArea();
-        jLabel5 = new javax.swing.JLabel();
-        tfPublishedDate = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        lbTitleError = new javax.swing.JLabel();
-        lbLinkError = new javax.swing.JLabel();
-        lbDescriptionError = new javax.swing.JLabel();
-        lbPublishedDateError = new javax.swing.JLabel();
-        lbPicturePathError = new javax.swing.JLabel();
-        cbSymbol = new javax.swing.JComboBox<>();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        lsIdeaAuthors = new javax.swing.JList<>();
-        lbSymbolError = new javax.swing.JLabel();
-        btnChooseImage = new javax.swing.JButton();
-        tfPicturePath = new javax.swing.JTextField();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        lsAuthors = new javax.swing.JList<>();
-        jLabel8 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        btnAdd = new javax.swing.JButton();
-        btnUpdate = new javax.swing.JButton();
-        btnDelete = new javax.swing.JButton();
-        lbIcon = new javax.swing.JLabel();
+    jSplitPane1 = new javax.swing.JSplitPane();
+    tabbedPaneMarkets = new javax.swing.JTabbedPane();
+    rightPanel = new javax.swing.JPanel();
+    tfTitle = new javax.swing.JTextField();
+    jLabel2 = new javax.swing.JLabel();
+    jLabel3 = new javax.swing.JLabel();
+    tfLink = new javax.swing.JTextField();
+    jLabel4 = new javax.swing.JLabel();
+    jScrollPane2 = new javax.swing.JScrollPane();
+    taDescription = new javax.swing.JTextArea();
+    jLabel5 = new javax.swing.JLabel();
+    tfPublishedDate = new javax.swing.JTextField();
+    jLabel6 = new javax.swing.JLabel();
+    jLabel7 = new javax.swing.JLabel();
+    lbTitleError = new javax.swing.JLabel();
+    lbLinkError = new javax.swing.JLabel();
+    lbDescriptionError = new javax.swing.JLabel();
+    lbPublishedDateError = new javax.swing.JLabel();
+    lbPicturePathError = new javax.swing.JLabel();
+    cbSymbol = new javax.swing.JComboBox<>();
+    jScrollPane3 = new javax.swing.JScrollPane();
+    lsIdeaAuthors = new javax.swing.JList<>();
+    lbSymbolError = new javax.swing.JLabel();
+    btnChooseImage = new javax.swing.JButton();
+    tfPicturePath = new javax.swing.JTextField();
+    jScrollPane4 = new javax.swing.JScrollPane();
+    lsAuthors = new javax.swing.JList<>();
+    jLabel8 = new javax.swing.JLabel();
+    jPanel2 = new javax.swing.JPanel();
+    btnAdd = new javax.swing.JButton();
+    btnUpdate = new javax.swing.JButton();
+    btnDelete = new javax.swing.JButton();
+    lbIcon = new javax.swing.JLabel();
+    cbMarket = new javax.swing.JComboBox<>();
+    jLabel9 = new javax.swing.JLabel();
+    lbMarketError = new javax.swing.JLabel();
 
-        setPreferredSize(new java.awt.Dimension(1000, 778));
-        addComponentListener(new java.awt.event.ComponentAdapter() {
-            public void componentShown(java.awt.event.ComponentEvent evt) {
-                formComponentShown(evt);
-            }
-        });
+    setPreferredSize(new java.awt.Dimension(1000, 778));
+    addComponentListener(new java.awt.event.ComponentAdapter() {
+      public void componentShown(java.awt.event.ComponentEvent evt) {
+        formComponentShown(evt);
+      }
+    });
 
-        jSplitPane1.setDividerLocation(400);
-        jSplitPane1.setResizeWeight(0.5);
+    jSplitPane1.setDividerLocation(400);
+    jSplitPane1.setResizeWeight(0.5);
 
-        tabbedPaneMarkets.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        tabbedPaneMarkets.setPreferredSize(new java.awt.Dimension(920, 433));
+    tabbedPaneMarkets.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+    tabbedPaneMarkets.setPreferredSize(new java.awt.Dimension(920, 433));
+    jSplitPane1.setLeftComponent(tabbedPaneMarkets);
 
-        tbIdeas.setAutoCreateRowSorter(true);
-        tbIdeas.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        tbIdeas.setShowGrid(true);
-        tbIdeas.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tbIdeasMouseClicked(evt);
-            }
-        });
-        tbIdeas.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyReleased(java.awt.event.KeyEvent evt) {
-                tbIdeasKeyReleased(evt);
-            }
-        });
-        jScrollPane1.setViewportView(tbIdeas);
+    jLabel2.setText("Title");
 
-        tabbedPaneMarkets.addTab("tab1", jScrollPane1);
+    jLabel3.setText("Link");
 
-        jSplitPane1.setLeftComponent(tabbedPaneMarkets);
+    jLabel4.setText("Description");
 
-        jLabel2.setText("Title");
+    taDescription.setColumns(20);
+    taDescription.setLineWrap(true);
+    taDescription.setRows(5);
+    jScrollPane2.setViewportView(taDescription);
 
-        jLabel3.setText("Link");
+    jLabel5.setText("Published date");
 
-        jLabel4.setText("Description");
+    jLabel6.setText("Symbol");
 
-        taDescription.setColumns(20);
-        taDescription.setLineWrap(true);
-        taDescription.setRows(5);
-        jScrollPane2.setViewportView(taDescription);
+    jLabel7.setText("Authors");
 
-        jLabel5.setText("Published date");
+    lbTitleError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbTitleError.setForeground(new java.awt.Color(255, 51, 51));
+    lbTitleError.setText("X");
 
-        jLabel6.setText("Symbol");
+    lbLinkError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbLinkError.setForeground(new java.awt.Color(255, 51, 51));
+    lbLinkError.setText("X");
 
-        jLabel7.setText("Authors");
+    lbDescriptionError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbDescriptionError.setForeground(new java.awt.Color(255, 51, 51));
+    lbDescriptionError.setText("X");
 
-        lbTitleError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        lbTitleError.setForeground(new java.awt.Color(255, 51, 51));
-        lbTitleError.setText("X");
+    lbPublishedDateError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbPublishedDateError.setForeground(new java.awt.Color(255, 51, 51));
+    lbPublishedDateError.setText("X");
 
-        lbLinkError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        lbLinkError.setForeground(new java.awt.Color(255, 51, 51));
-        lbLinkError.setText("X");
+    lbPicturePathError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbPicturePathError.setForeground(new java.awt.Color(255, 51, 51));
+    lbPicturePathError.setText("X");
 
-        lbDescriptionError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        lbDescriptionError.setForeground(new java.awt.Color(255, 51, 51));
-        lbDescriptionError.setText("X");
+    jScrollPane3.setViewportView(lsIdeaAuthors);
 
-        lbPublishedDateError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        lbPublishedDateError.setForeground(new java.awt.Color(255, 51, 51));
-        lbPublishedDateError.setText("X");
+    lbSymbolError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbSymbolError.setForeground(new java.awt.Color(255, 51, 51));
+    lbSymbolError.setText("X");
 
-        lbPicturePathError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        lbPicturePathError.setForeground(new java.awt.Color(255, 51, 51));
-        lbPicturePathError.setText("X");
+    btnChooseImage.setText("Choose");
+    btnChooseImage.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btnChooseImageActionPerformed(evt);
+      }
+    });
 
-        jScrollPane3.setViewportView(lsIdeaAuthors);
+    jScrollPane4.setViewportView(lsAuthors);
 
-        lbSymbolError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
-        lbSymbolError.setForeground(new java.awt.Color(255, 51, 51));
-        lbSymbolError.setText("X");
+    jLabel8.setText("Picture path");
 
-        btnChooseImage.setText("Choose");
-        btnChooseImage.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnChooseImageActionPerformed(evt);
-            }
-        });
+    jPanel2.setLayout(new java.awt.GridLayout(1, 0, 6, 0));
 
-        jScrollPane4.setViewportView(lsAuthors);
+    btnAdd.setText("Add");
+    btnAdd.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btnAddActionPerformed(evt);
+      }
+    });
+    jPanel2.add(btnAdd);
 
-        jLabel8.setText("Picture path");
+    btnUpdate.setText("Update");
+    btnUpdate.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btnUpdateActionPerformed(evt);
+      }
+    });
+    jPanel2.add(btnUpdate);
 
-        jPanel2.setLayout(new java.awt.GridLayout(1, 0, 6, 0));
+    btnDelete.setText("Delete");
+    btnDelete.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btnDeleteActionPerformed(evt);
+      }
+    });
+    jPanel2.add(btnDelete);
 
-        btnAdd.setText("Add");
-        btnAdd.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAddActionPerformed(evt);
-            }
-        });
-        jPanel2.add(btnAdd);
+    lbIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+    lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/no_image.png"))); // NOI18N
+    lbIcon.setMaximumSize(new java.awt.Dimension(500000, 342000));
+    lbIcon.setMinimumSize(new java.awt.Dimension(0, 0));
+    lbIcon.setPreferredSize(new java.awt.Dimension(1, 1));
 
-        btnUpdate.setText("Update");
-        btnUpdate.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnUpdateActionPerformed(evt);
-            }
-        });
-        jPanel2.add(btnUpdate);
+    jLabel9.setText("Market");
 
-        btnDelete.setText("Delete");
-        btnDelete.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDeleteActionPerformed(evt);
-            }
-        });
-        jPanel2.add(btnDelete);
+    lbMarketError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbMarketError.setForeground(new java.awt.Color(255, 51, 51));
+    lbMarketError.setText("X");
 
-        lbIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/no_image.png"))); // NOI18N
-        lbIcon.setMaximumSize(new java.awt.Dimension(500000, 342000));
-        lbIcon.setMinimumSize(new java.awt.Dimension(0, 0));
-        lbIcon.setPreferredSize(new java.awt.Dimension(1, 1));
-
-        javax.swing.GroupLayout rightPanelLayout = new javax.swing.GroupLayout(rightPanel);
-        rightPanel.setLayout(rightPanelLayout);
-        rightPanelLayout.setHorizontalGroup(
-            rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+    javax.swing.GroupLayout rightPanelLayout = new javax.swing.GroupLayout(rightPanel);
+    rightPanel.setLayout(rightPanelLayout);
+    rightPanelLayout.setHorizontalGroup(
+        rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rightPanelLayout.createSequentialGroup()
                 .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rightPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(rightPanelLayout.createSequentialGroup()
-                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGap(16, 16, 16))
-                            .addGroup(rightPanelLayout.createSequentialGroup()
-                                .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(tfLink)
-                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                    .addComponent(tfPublishedDate)
-                                    .addComponent(cbSymbol, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 308, Short.MAX_VALUE)
-                                    .addComponent(tfTitle, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lbLinkError)
-                                    .addComponent(lbDescriptionError)
-                                    .addComponent(lbPublishedDateError)
-                                    .addComponent(lbSymbolError)
-                                    .addComponent(lbTitleError, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, rightPanelLayout.createSequentialGroup()
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(rightPanelLayout.createSequentialGroup()
                                 .addGap(102, 102, 102)
                                 .addComponent(tfPicturePath)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnChooseImage, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(btnChooseImage, javax.swing.GroupLayout.PREFERRED_SIZE, 109,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(rightPanelLayout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(lbIcon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addComponent(lbIcon, javax.swing.GroupLayout.DEFAULT_SIZE,
+                                    javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lbPicturePathError)))
+                        .addComponent(lbPicturePathError))
+                    .addGroup(rightPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING,
+                                rightPanelLayout.createSequentialGroup()
+                                    .addGroup(
+                                        rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(
+                                        rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(rightPanelLayout.createSequentialGroup()
+                                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                    javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addGap(16, 16, 16))
+                                            .addGroup(rightPanelLayout.createSequentialGroup()
+                                                .addGroup(rightPanelLayout
+                                                    .createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(tfLink)
+                                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                        0, Short.MAX_VALUE)
+                                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE,
+                                                        308, Short.MAX_VALUE)
+                                                    .addComponent(tfTitle, javax.swing.GroupLayout.Alignment.TRAILING))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(rightPanelLayout
+                                                    .createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(lbLinkError)
+                                                    .addComponent(lbDescriptionError)
+                                                    .addComponent(lbTitleError, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                                        10, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addGroup(rightPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(tfPublishedDate)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lbPublishedDateError))
+                            .addGroup(rightPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbSymbol, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lbSymbolError))
+                            .addGroup(rightPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cbMarket, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lbMarketError, javax.swing.GroupLayout.PREFERRED_SIZE, 10,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        rightPanelLayout.setVerticalGroup(
-            rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 157,
+                    javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()));
+    rightPanelLayout.setVerticalGroup(
+        rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(rightPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(rightPanelLayout.createSequentialGroup()
-                        .addComponent(lbIcon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lbIcon, javax.swing.GroupLayout.DEFAULT_SIZE,
+                            javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnChooseImage)
-                            .addComponent(tfPicturePath, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tfPicturePath, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel8)
                             .addComponent(lbPicturePathError))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
+                                javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(lbTitleError)
-                                .addComponent(tfTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(tfTitle, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                    javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel3)
-                            .addComponent(tfLink, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tfLink, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lbLinkError))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel4)
                             .addComponent(lbDescriptionError)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 429, Short.MAX_VALUE))
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 408, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tfPublishedDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tfPublishedDate, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lbPublishedDateError)
                             .addComponent(jLabel5))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel6)
-                            .addComponent(cbSymbol, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cbSymbol, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(lbSymbolError))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel9)
+                            .addComponent(cbMarket, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbMarketError))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(rightPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel7)
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 97,
+                                javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE,
+                            javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18))
                     .addGroup(rightPanelLayout.createSequentialGroup()
                         .addComponent(jScrollPane4)
-                        .addContainerGap())))
-        );
+                        .addContainerGap()))));
 
-        jSplitPane1.setRightComponent(rightPanel);
+    jSplitPane1.setRightComponent(rightPanel);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jSplitPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1000, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jSplitPane1)
-        );
-    }// </editor-fold>//GEN-END:initComponents
+    javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+    this.setLayout(layout);
+    layout.setHorizontalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jSplitPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1000, Short.MAX_VALUE));
+    layout.setVerticalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jSplitPane1));
+  }// </editor-fold>//GEN-END:initComponents
 
   private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnAddActionPerformed
     if (!formValid()) {
@@ -430,70 +465,57 @@ public class IdeasPanel extends javax.swing.JPanel {
     }
     tfPicturePath.setText(file.get().getAbsolutePath());
     setLbIcon(new ImageIcon(file.get().getAbsolutePath()));
-    //setIcon(lbIcon, file.get());
   }// GEN-LAST:event_btnChooseImageActionPerformed
-
-  private void setIcon(JLabel label, File file) {
-    try {
-      label.setIcon(IconUtils.createIcon(file, label.getWidth(), label.getHeight()));
-    } catch (IOException ex) {
-      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to set icon!");
-    }
-  }
-
-  private void tbIdeasMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_tbIdeasMouseClicked
-  }// GEN-LAST:event_tbIdeasMouseClicked
-
-  private void tbIdeasKeyReleased(java.awt.event.KeyEvent evt) {// GEN-FIRST:event_tbIdeasKeyReleased
-  }// GEN-LAST:event_tbIdeasKeyReleased
 
   private void formComponentShown(java.awt.event.ComponentEvent evt) {// GEN-FIRST:event_formComponentShown
     init();
   }// GEN-LAST:event_formComponentShown
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAdd;
-    private javax.swing.JButton btnChooseImage;
-    private javax.swing.JButton btnDelete;
-    private javax.swing.JButton btnUpdate;
-    private javax.swing.JComboBox<String> cbSymbol;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JSplitPane jSplitPane1;
-    private javax.swing.JLabel lbDescriptionError;
-    private javax.swing.JLabel lbIcon;
-    private javax.swing.JLabel lbLinkError;
-    private javax.swing.JLabel lbPicturePathError;
-    private javax.swing.JLabel lbPublishedDateError;
-    private javax.swing.JLabel lbSymbolError;
-    private javax.swing.JLabel lbTitleError;
-    private javax.swing.JList<String> lsAuthors;
-    private javax.swing.JList<String> lsIdeaAuthors;
-    private javax.swing.JPanel rightPanel;
-    private javax.swing.JTextArea taDescription;
-    private javax.swing.JTabbedPane tabbedPaneMarkets;
-    private javax.swing.JTable tbIdeas;
-    private javax.swing.JTextField tfLink;
-    private javax.swing.JTextField tfPicturePath;
-    private javax.swing.JTextField tfPublishedDate;
-    private javax.swing.JTextField tfTitle;
-    // End of variables declaration//GEN-END:variables
+  // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JButton btnAdd;
+  private javax.swing.JButton btnChooseImage;
+  private javax.swing.JButton btnDelete;
+  private javax.swing.JButton btnUpdate;
+  private javax.swing.JComboBox<Market> cbMarket;
+  private javax.swing.JComboBox<Symbol> cbSymbol;
+  private javax.swing.JLabel jLabel2;
+  private javax.swing.JLabel jLabel3;
+  private javax.swing.JLabel jLabel4;
+  private javax.swing.JLabel jLabel5;
+  private javax.swing.JLabel jLabel6;
+  private javax.swing.JLabel jLabel7;
+  private javax.swing.JLabel jLabel8;
+  private javax.swing.JLabel jLabel9;
+  private javax.swing.JPanel jPanel2;
+  private javax.swing.JScrollPane jScrollPane2;
+  private javax.swing.JScrollPane jScrollPane3;
+  private javax.swing.JScrollPane jScrollPane4;
+  private javax.swing.JSplitPane jSplitPane1;
+  private javax.swing.JLabel lbDescriptionError;
+  private javax.swing.JLabel lbIcon;
+  private javax.swing.JLabel lbLinkError;
+  private javax.swing.JLabel lbMarketError;
+  private javax.swing.JLabel lbPicturePathError;
+  private javax.swing.JLabel lbPublishedDateError;
+  private javax.swing.JLabel lbSymbolError;
+  private javax.swing.JLabel lbTitleError;
+  private javax.swing.JList<String> lsAuthors;
+  private javax.swing.JList<String> lsIdeaAuthors;
+  private javax.swing.JPanel rightPanel;
+  private javax.swing.JTextArea taDescription;
+  private javax.swing.JTabbedPane tabbedPaneMarkets;
+  private javax.swing.JTextField tfLink;
+  private javax.swing.JTextField tfPicturePath;
+  private javax.swing.JTextField tfPublishedDate;
+  private javax.swing.JTextField tfTitle;
+  // End of variables declaration//GEN-END:variables
 
   private void init() {
     try {
       initTabbedPane();
       initLbIcon();
+      initComboBoxes();
+      initLists();
       initValidation();
       hideErrors();
     } catch (Exception ex) {
@@ -544,61 +566,70 @@ public class IdeasPanel extends javax.swing.JPanel {
 
   private void setLbIcon(ImageIcon imageIcon) {
     this.imageIcon = imageIcon;
+    this.imageRatio = (double) imageIcon.getIconWidth() / imageIcon.getIconHeight();
     updateLbIcon();
   }
 
   private void updateLbIcon() {
-    double ratio = (double) imageIcon.getIconWidth() / imageIcon.getIconHeight();
-    int w = lbIcon.getWidth();
-    int h = (int) (w / ratio);
-    Image newImage = imageIcon.getImage().getScaledInstance(w, h, Image.SCALE_SMOOTH);
+    int lbW = lbIcon.getWidth();
+    int h = (int) (lbW / imageRatio);
+    lbIcon.setPreferredSize(new Dimension(lbW, h));
+    int lbH = lbIcon.getHeight();
+    int w = (int) (lbH * imageRatio);
+    Image newImage = imageIcon.getImage().getScaledInstance(w, lbH, Image.SCALE_SMOOTH);
     lbIcon.setIcon(new ImageIcon(newImage));
-    lbIcon.setSize(w, h);
-    lbIcon.repaint();
-    lbIcon.setPreferredSize(new Dimension(w, h));
-        lbIcon.repaint();
-    lbIcon.setPreferredSize(new Dimension(w, h));
-        lbIcon.repaint();
-    System.out.println("h: " + h + " | H: " + lbIcon.getHeight());
+  }
+
+  private void initComboBoxes() throws Exception {
+    cbSymbol.removeAllItems();
+    for (Symbol symbol : symbolRepository.selectSymbols()) {
+      cbSymbol.addItem(symbol);
+    }
+    cbMarket.removeAllItems();
+    for (Market market : marketRepository.selectMarkets()) {
+      cbMarket.addItem(market);
+    }
+  }
+
+  private void initLists() throws Exception {
+    List<JList<?>> lists = Arrays.asList(lsAuthors, lsIdeaAuthors);
+    lsAuthors.removeAll();
   }
 
   private void initValidation() {
     validationFields = Arrays.asList(tfTitle, tfLink, taDescription, tfPublishedDate, tfPicturePath);
+    validationComboBoxes = Arrays.asList(cbSymbol, cbMarket);
     errorLabels = Arrays.asList(lbTitleError, lbLinkError, lbDescriptionError, lbPublishedDateError,
-        lbPicturePathError);
+        lbPicturePathError, lbSymbolError, lbMarketError);
   }
 
   private void hideErrors() {
     errorLabels.forEach(e -> e.setVisible(false));
-    lbSymbolError.setVisible(false);
   }
 
   private boolean formValid() {
     hideErrors();
-    boolean ok = true;
-    for (int i = 0; i < validationFields.size(); i++) {
-      ok &= !validationFields.get(i).getText().trim().isEmpty();
+    int i = 0;
+    for (; i < validationFields.size(); i++) {
       errorLabels.get(i).setVisible(validationFields.get(i).getText().trim().isEmpty());
       if ("Date".equals(validationFields.get(i).getName())) {
         try {
           LocalDateTime.parse(validationFields.get(i).getText().trim(), Idea.DATE_FORMATTER);
         } catch (Exception e) {
-          ok = false;
           errorLabels.get(i).setVisible(true);
         }
       }
     }
-    if (cbSymbol.getSelectedIndex() == -1) {
-      ok = false;
-      lbSymbolError.setVisible(true);
+    for (JComboBox<?> validationComboBox : validationComboBoxes) {
+      errorLabels.get(i++).setVisible(validationComboBox.getSelectedIndex() == -1);
     }
-    return ok;
+    return errorLabels.stream().noneMatch(e -> e.isVisible());
   }
 
   private void clearForm() {
     hideErrors();
     validationFields.forEach(e -> e.setText(""));
-    cbSymbol.setSelectedIndex(-1);
+    validationComboBoxes.forEach(e -> e.setSelectedIndex(-1));
     resetLbIcon();
     selectedIdea = null;
   }
@@ -634,13 +665,31 @@ public class IdeasPanel extends javax.swing.JPanel {
     if (idea.getPicturePath() != null && Files.exists(Paths.get(idea.getPicturePath()))) {
       tfPicturePath.setText(idea.getPicturePath());
       setLbIcon(new ImageIcon(idea.getPicturePath()));
-      //setIcon(lbIcon, new File(idea.getPicturePath()));
     }
     tfTitle.setText(idea.getTitle());
     tfLink.setText(idea.getLink());
     taDescription.setText(idea.getDescription());
     tfPublishedDate.setText(idea.getPublishedDate().format(Idea.DATE_FORMATTER));
-    cbSymbol.setSelectedItem(idea.getSymbol());
+    try {
+      cbSymbol.removeAllItems();
+      for (Symbol symbol : symbolRepository.selectSymbols()) {
+        cbSymbol.addItem(symbol.getName());
+      }
+      cbSymbol.setSelectedItem(idea.getSymbol().getName());
+    } catch (Exception ex) {
+      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+      MessageUtils.showErrorMessage("Error", "Unable to show symbols!");
+    }
+    try {
+      cbMarket.removeAllItems();
+      for (Market market : marketRepository.selectMarkets()) {
+        cbMarket.addItem(market.getName());
+      }
+      cbMarket.setSelectedItem(idea.getMarket().getName());
+    } catch (Exception ex) {
+      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+      MessageUtils.showErrorMessage("Error", "Unable to show markets!");
+    }
     try {
       String authors = ideaAuthorRepository.selectAuthorIdsByIdea(idea).stream()
           .map(id -> {

@@ -4,8 +4,6 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Types;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
@@ -17,8 +15,6 @@ import com.microsoft.sqlserver.jdbc.SQLServerException;
 import hr.algebra.dal.repository.IdeaAuthorRepository;
 import hr.algebra.model.Author;
 import hr.algebra.model.Idea;
-import hr.algebra.model.Market;
-import hr.algebra.model.Symbol;
 
 public class SqlIdeaAuthorRepository implements IdeaAuthorRepository {
   private static final String ID = "Id";
