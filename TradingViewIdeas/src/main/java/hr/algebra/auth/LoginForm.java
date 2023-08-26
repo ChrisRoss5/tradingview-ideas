@@ -18,7 +18,7 @@ public class LoginForm extends javax.swing.JFrame {
                 dispose();
                 new TradingViewIdeas().setVisible(true);
             }
-        }, 1000); // 1000 milliseconds = 1 second
+        }, 100); // 1000 milliseconds = 1 second
     }
 
     @SuppressWarnings("unchecked")
