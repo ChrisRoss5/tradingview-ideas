@@ -158,19 +158,22 @@ public class AdminPanel extends javax.swing.JPanel {
         }
       }
       IdeaParser.parse(selectedMarkets);
+      MessageUtils.showInformationMessage("Success", "Content downloaded!");
     } catch (Exception ex) {
-      Logger.getLogger(AdminPanel.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Unrecoverable error", "Unable to download content");
+      MessageUtils.showErrorMessage("Unrecoverable error", "Unable to download content!");
       System.exit(1);
     }
   }// GEN-LAST:event_btnLoadActionPerformed
 
   private void btnDeleteAllContentActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnDeleteAllContentActionPerformed
+    if (!MessageUtils.showConfirmDialog("Delete all content", "Are you sure you want to delete all content?")) {
+      return;
+    }
     try {
       adminControlsRepository.deleteAllContent();
       imageRepository.deleteAllImages();
     } catch (Exception ex) {
-      MessageUtils.showErrorMessage("Unrecoverable error", "Unable to delete all content");
+      MessageUtils.showErrorMessage("Unrecoverable error", "Unable to delete all content!");
       System.exit(1);
     }
   }// GEN-LAST:event_btnDeleteAllContentActionPerformed

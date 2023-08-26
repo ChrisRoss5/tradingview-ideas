@@ -15,4 +15,7 @@ public interface IdeaAuthorRepository {
 
   void deleteAssociation(Idea idea, Author author) throws Exception;
 
+  List<Integer> selectIdeaIdsByAuthor(Author author) throws Exception;
+
+  List<Integer> selectAuthorIdsByIdea(Idea idea) throws Exception;
 }

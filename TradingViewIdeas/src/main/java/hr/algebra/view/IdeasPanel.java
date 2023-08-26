@@ -5,36 +5,51 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
-import java.util.UUID;
+import java.util.function.Function;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
+import javax.swing.JComponent;
 import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTabbedPane;
+import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.text.JTextComponent;
 
 import hr.algebra.dal.factory.RepositoryFactory;
+import hr.algebra.dal.repository.AuthorRepository;
+import hr.algebra.dal.repository.IdeaAuthorRepository;
 import hr.algebra.dal.repository.IdeaRepository;
+import hr.algebra.dal.repository.ImageRepository;
+import hr.algebra.dal.repository.MarketRepository;
 import hr.algebra.model.Idea;
+import hr.algebra.model.Market;
+import hr.algebra.model.Symbol;
 import hr.algebra.utilities.FileUtils;
 import hr.algebra.utilities.IconUtils;
 import hr.algebra.utilities.MessageUtils;
-import hr.algebra.view.model.IdeaTableModel;
+import hr.algebra.view.model.IdeasTableModel;
 
 public class IdeasPanel extends javax.swing.JPanel {
 
-  private static final String DIR = "assets";
+  private static final IdeaRepository ideaRepository = RepositoryFactory.getIdeaRepository();
+  private static final IdeaAuthorRepository ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
+  private static final AuthorRepository authorRepository = RepositoryFactory.getAuthorRepository();
+  private static final MarketRepository marketRepository = RepositoryFactory.getMarketRepository();
+  private static final ImageRepository imageRepository = RepositoryFactory.getImageRepository();
 
   private List<JTextComponent> validationFields;
   private List<JLabel> errorLabels;
 
-  private IdeaRepository repository;
-  private IdeaTableModel articlesTableModel;
-
-  private Idea selectedArticle;
+  private Idea selectedIdea;
 
   public IdeasPanel() {
     initComponents();
@@ -45,36 +60,56 @@ public class IdeasPanel extends javax.swing.JPanel {
   // Code">//GEN-BEGIN:initComponents
   private void initComponents() {
 
+    jSplitPane1 = new javax.swing.JSplitPane();
+    tabbedPaneMarkets = new javax.swing.JTabbedPane();
     jScrollPane1 = new javax.swing.JScrollPane();
-    tbArticles = new javax.swing.JTable();
-    lbIcon = new javax.swing.JLabel();
-    jLabel2 = new javax.swing.JLabel();
+    tbIdeas = new javax.swing.JTable();
+    jPanel1 = new javax.swing.JPanel();
     tfTitle = new javax.swing.JTextField();
-    lbTitleError = new javax.swing.JLabel();
-    jLabel4 = new javax.swing.JLabel();
+    jLabel2 = new javax.swing.JLabel();
+    jLabel3 = new javax.swing.JLabel();
     tfLink = new javax.swing.JTextField();
-    lbLinkError = new javax.swing.JLabel();
-    jLabel6 = new javax.swing.JLabel();
-    lbDescriptionError = new javax.swing.JLabel();
+    jLabel4 = new javax.swing.JLabel();
     jScrollPane2 = new javax.swing.JScrollPane();
     taDescription = new javax.swing.JTextArea();
-    jLabel8 = new javax.swing.JLabel();
+    jLabel5 = new javax.swing.JLabel();
     tfPublishedDate = new javax.swing.JTextField();
-    lbPublishedDateError = new javax.swing.JLabel();
-    tfPicturePath = new javax.swing.JTextField();
-    btnChooseImage = new javax.swing.JButton();
+    jLabel6 = new javax.swing.JLabel();
+    jLabel7 = new javax.swing.JLabel();
     btnAdd = new javax.swing.JButton();
-    btnUpdate = new javax.swing.JButton();
     btnDelete = new javax.swing.JButton();
+    btnUpdate = new javax.swing.JButton();
+    lbTitleError = new javax.swing.JLabel();
+    lbLinkError = new javax.swing.JLabel();
+    lbDescriptionError = new javax.swing.JLabel();
+    lbPublishedDateError = new javax.swing.JLabel();
     lbPicturePathError = new javax.swing.JLabel();
+    cbSymbol = new javax.swing.JComboBox<>();
+    jScrollPane3 = new javax.swing.JScrollPane();
+    lsIdeaAuthors = new javax.swing.JList<>();
+    lbSymbolError = new javax.swing.JLabel();
+    lbIcon = new javax.swing.JLabel();
+    btnChooseImage = new javax.swing.JButton();
+    tfPicturePath = new javax.swing.JTextField();
+    jScrollPane4 = new javax.swing.JScrollPane();
+    lsAuthors = new javax.swing.JList<>();
+    jLabel8 = new javax.swing.JLabel();
 
+    setPreferredSize(new java.awt.Dimension(1000, 778));
     addComponentListener(new java.awt.event.ComponentAdapter() {
       public void componentShown(java.awt.event.ComponentEvent evt) {
         formComponentShown(evt);
       }
     });
 
-    tbArticles.setModel(new javax.swing.table.DefaultTableModel(
+    jSplitPane1.setDividerLocation(100);
+    jSplitPane1.setResizeWeight(0.5);
+
+    tabbedPaneMarkets.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+    tabbedPaneMarkets.setPreferredSize(new java.awt.Dimension(920, 433));
+
+    tbIdeas.setAutoCreateRowSorter(true);
+    tbIdeas.setModel(new javax.swing.table.DefaultTableModel(
         new Object[][] {
             { null, null, null, null },
             { null, null, null, null },
@@ -84,60 +119,50 @@ public class IdeasPanel extends javax.swing.JPanel {
         new String[] {
             "Title 1", "Title 2", "Title 3", "Title 4"
         }));
-    tbArticles.addMouseListener(new java.awt.event.MouseAdapter() {
+    tbIdeas.setShowGrid(true);
+    tbIdeas.addMouseListener(new java.awt.event.MouseAdapter() {
       public void mouseClicked(java.awt.event.MouseEvent evt) {
-        tbArticlesMouseClicked(evt);
+        tbIdeasMouseClicked(evt);
       }
     });
-    tbArticles.addKeyListener(new java.awt.event.KeyAdapter() {
+    tbIdeas.addKeyListener(new java.awt.event.KeyAdapter() {
       public void keyReleased(java.awt.event.KeyEvent evt) {
-        tbArticlesKeyReleased(evt);
+        tbIdeasKeyReleased(evt);
       }
     });
-    jScrollPane1.setViewportView(tbArticles);
+    jScrollPane1.setViewportView(tbIdeas);
 
-    lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/no_image.png"))); // NOI18N
+    tabbedPaneMarkets.addTab("tab1", jScrollPane1);
+
+    jSplitPane1.setLeftComponent(tabbedPaneMarkets);
 
     jLabel2.setText("Title");
 
-    lbTitleError.setForeground(new java.awt.Color(204, 0, 0));
-    lbTitleError.setText("X");
+    jLabel3.setText("Link");
 
-    jLabel4.setText("Link");
-
-    lbLinkError.setForeground(new java.awt.Color(204, 0, 0));
-    lbLinkError.setText("X");
-
-    jLabel6.setText("Description");
-
-    lbDescriptionError.setForeground(new java.awt.Color(204, 0, 0));
-    lbDescriptionError.setText("X");
+    jLabel4.setText("Description");
 
     taDescription.setColumns(20);
-    taDescription.setLineWrap(true);
     taDescription.setRows(5);
     jScrollPane2.setViewportView(taDescription);
 
-    jLabel8.setText("Published date (yyyy-dd-MMThh:mm:ss)");
+    jLabel5.setText("Published date");
 
-    tfPublishedDate.setName("Date"); // NOI18N
+    jLabel6.setText("Symbol");
 
-    lbPublishedDateError.setForeground(new java.awt.Color(204, 0, 0));
-    lbPublishedDateError.setText("X");
-
-    tfPicturePath.setEditable(false);
-
-    btnChooseImage.setText("Choose");
-    btnChooseImage.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        btnChooseImageActionPerformed(evt);
-      }
-    });
+    jLabel7.setText("Authors");
 
     btnAdd.setText("Add");
     btnAdd.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
         btnAddActionPerformed(evt);
+      }
+    });
+
+    btnDelete.setText("Delete");
+    btnDelete.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btnDeleteActionPerformed(evt);
       }
     });
 
@@ -148,160 +173,188 @@ public class IdeasPanel extends javax.swing.JPanel {
       }
     });
 
-    btnDelete.setBackground(new java.awt.Color(204, 0, 51));
-    btnDelete.setForeground(new java.awt.Color(255, 255, 255));
-    btnDelete.setText("Delete");
-    btnDelete.addActionListener(new java.awt.event.ActionListener() {
+    lbTitleError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbTitleError.setForeground(new java.awt.Color(255, 51, 51));
+    lbTitleError.setText("X");
+
+    lbLinkError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbLinkError.setForeground(new java.awt.Color(255, 51, 51));
+    lbLinkError.setText("X");
+
+    lbDescriptionError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbDescriptionError.setForeground(new java.awt.Color(255, 51, 51));
+    lbDescriptionError.setText("X");
+
+    lbPublishedDateError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbPublishedDateError.setForeground(new java.awt.Color(255, 51, 51));
+    lbPublishedDateError.setText("X");
+
+    lbPicturePathError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbPicturePathError.setForeground(new java.awt.Color(255, 51, 51));
+    lbPicturePathError.setText("X");
+
+    jScrollPane3.setViewportView(lsIdeaAuthors);
+
+    lbSymbolError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+    lbSymbolError.setForeground(new java.awt.Color(255, 51, 51));
+    lbSymbolError.setText("X");
+
+    lbIcon.setBackground(new java.awt.Color(204, 204, 204));
+    lbIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+    lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/no_image.png"))); // NOI18N
+
+    btnChooseImage.setText("Choose");
+    btnChooseImage.setMaximumSize(new java.awt.Dimension(72, 23));
+    btnChooseImage.setMinimumSize(new java.awt.Dimension(72, 23));
+    btnChooseImage.setPreferredSize(new java.awt.Dimension(72, 23));
+    btnChooseImage.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        btnDeleteActionPerformed(evt);
+        btnChooseImageActionPerformed(evt);
       }
     });
 
-    lbPicturePathError.setForeground(new java.awt.Color(204, 0, 0));
-    lbPicturePathError.setText("X");
+    jScrollPane4.setViewportView(lsAuthors);
+
+    jLabel8.setText("Picture path");
+
+    javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+    jPanel1.setLayout(jPanel1Layout);
+    jPanel1Layout.setHorizontalGroup(
+        jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 90,
+                        javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tfLink)
+                            .addComponent(jScrollPane2)
+                            .addComponent(tfPublishedDate)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 159,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnUpdate, javax.swing.GroupLayout.DEFAULT_SIZE,
+                                    javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 144,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(cbSymbol, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jScrollPane3)
+                            .addComponent(tfTitle, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lbLinkError)
+                            .addComponent(lbDescriptionError)
+                            .addComponent(lbPublishedDateError)
+                            .addComponent(lbSymbolError)
+                            .addComponent(lbTitleError, javax.swing.GroupLayout.PREFERRED_SIZE, 10,
+                                javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(tfPicturePath)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnChooseImage, javax.swing.GroupLayout.PREFERRED_SIZE, 147,
+                                    javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(0, 108, Short.MAX_VALUE)
+                                .addComponent(lbIcon)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbPicturePathError)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 157,
+                    javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()));
+    jPanel1Layout.setVerticalGroup(
+        jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lbIcon)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbPicturePathError)
+                            .addComponent(btnChooseImage, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tfPicturePath, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24,
+                                javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(2, 2, 2)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lbTitleError)
+                                    .addComponent(tfTitle, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                        javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel3)
+                            .addComponent(tfLink, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbLinkError))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(lbDescriptionError)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(tfPublishedDate, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbPublishedDateError)
+                            .addComponent(jLabel5))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel6)
+                            .addComponent(cbSymbol, javax.swing.GroupLayout.PREFERRED_SIZE,
+                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbSymbolError))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel7)
+                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 97,
+                                javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnAdd)
+                            .addComponent(btnDelete)
+                            .addComponent(btnUpdate))
+                        .addGap(17, 17, 17))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane4)
+                        .addContainerGap()))));
+
+    jSplitPane1.setRightComponent(jPanel1);
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
     this.setLayout(layout);
     layout.setHorizontalGroup(
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane1)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(9, 9, 9)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 84,
-                                        javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 84,
-                                        javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(tfTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 604,
-                                        javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(12, 12, 12)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 84,
-                                        javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(lbTitleError, javax.swing.GroupLayout.PREFERRED_SIZE, 20,
-                                            javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addGroup(layout
-                                                .createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addComponent(btnDelete, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                                    javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(tfLink, javax.swing.GroupLayout.Alignment.LEADING,
-                                                    javax.swing.GroupLayout.DEFAULT_SIZE, 601, Short.MAX_VALUE)
-                                                .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout
-                                                    .createSequentialGroup()
-                                                    .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 279,
-                                                        javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED,
-                                                        javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE,
-                                                        279, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout
-                                                    .createSequentialGroup()
-                                                    .addGroup(layout
-                                                        .createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING,
-                                                            false)
-                                                        .addComponent(tfPublishedDate)
-                                                        .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                                            223, Short.MAX_VALUE))
-                                                    .addGap(18, 18, 18)
-                                                    .addComponent(lbPublishedDateError,
-                                                        javax.swing.GroupLayout.PREFERRED_SIZE, 20,
-                                                        javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addGroup(
-                                                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(lbDescriptionError,
-                                                        javax.swing.GroupLayout.PREFERRED_SIZE, 20,
-                                                        javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(lbLinkError, javax.swing.GroupLayout.PREFERRED_SIZE,
-                                                        20, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                        .addGap(18, 18, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(lbIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 500,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(tfPicturePath)
-                                .addGap(18, 18, 18)
-                                .addComponent(btnChooseImage)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lbPicturePathError, javax.swing.GroupLayout.PREFERRED_SIZE, 20,
-                            javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(17, 17, 17)))));
+            .addComponent(jSplitPane1));
     layout.setVerticalGroup(
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(8, 8, 8)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 25,
-                            javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbTitleError, javax.swing.GroupLayout.PREFERRED_SIZE, 30,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfTitle, javax.swing.GroupLayout.PREFERRED_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 25,
-                            javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbLinkError, javax.swing.GroupLayout.PREFERRED_SIZE, 30,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfLink, javax.swing.GroupLayout.PREFERRED_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 25,
-                            javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lbDescriptionError, javax.swing.GroupLayout.PREFERRED_SIZE, 30,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 25,
-                            javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbPublishedDateError, javax.swing.GroupLayout.PREFERRED_SIZE, 30,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tfPublishedDate, javax.swing.GroupLayout.PREFERRED_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 33,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 33,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lbPicturePathError, javax.swing.GroupLayout.PREFERRED_SIZE, 30,
-                                javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lbIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 342,
-                                javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(23, 23, 23)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(tfPicturePath, javax.swing.GroupLayout.PREFERRED_SIZE,
-                        javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnChooseImage)
-                    .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 33,
-                        javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 300,
-                    javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap()));
+            .addComponent(jSplitPane1));
   }// </editor-fold>//GEN-END:initComponents
 
   private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnAddActionPerformed
@@ -309,75 +362,72 @@ public class IdeasPanel extends javax.swing.JPanel {
       return;
     }
     try {
-      /* String localPicturePath = uploadPicture();
-      Idea article = new Idea(
+      String localPicturePath = uploadImage();
+      Idea idea = new Idea(
           tfTitle.getText().trim(),
           tfLink.getText().trim(),
           taDescription.getText().trim(),
           localPicturePath,
-          LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER));
-      repository.createIdea(article);
-      articlesTableModel.setIdeas(repository.selectIdeas()); */
-
+          LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER),
+          (Symbol) cbSymbol.getSelectedItem(),
+          marketRepository.selectMarkets().get(0));
+      ideaRepository.createIdea(idea);
+      updateTableModels();
       clearForm();
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to create article!");
+      MessageUtils.showErrorMessage("Error", "Unable to create idea!");
     }
   }// GEN-LAST:event_btnAddActionPerformed
 
   private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnUpdateActionPerformed
-    if (selectedArticle == null) {
-      MessageUtils.showInformationMessage("Wrong operation", "Please choose article to update");
+    if (selectedIdea == null) {
+      MessageUtils.showInformationMessage("Wrong operation", "Please choose idea to update");
       return;
     }
     if (!formValid()) {
       return;
     }
     try {
-      if (!tfPicturePath.getText().trim().equals(selectedArticle.getPicturePath())) {
-        if (selectedArticle.getPicturePath() != null) {
-          Files.deleteIfExists(Paths.get(selectedArticle.getPicturePath()));
+      if (!tfPicturePath.getText().trim().equals(selectedIdea.getPicturePath())) {
+        if (selectedIdea.getPicturePath() != null) {
+          Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
         }
-        String localPicturePath = uploadPicture();
-        selectedArticle.setPicturePath(localPicturePath);
+        String localPicturePath = uploadImage();
+        selectedIdea.setPicturePath(localPicturePath);
       }
-
-      selectedArticle.setTitle(tfTitle.getText().trim());
-      selectedArticle.setLink(tfLink.getText().trim());
-      selectedArticle.setDescription(taDescription.getText().trim());
-      selectedArticle.setPublishedDate(LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER));
-
-      repository.updateIdea(selectedArticle.getId(), selectedArticle);
-      articlesTableModel.setIdeas(repository.selectIdeas());
-
+      selectedIdea.setTitle(tfTitle.getText().trim());
+      selectedIdea.setLink(tfLink.getText().trim());
+      selectedIdea.setDescription(taDescription.getText().trim());
+      selectedIdea.setPublishedDate(LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER));
+      ideaRepository.updateIdea(selectedIdea.getId(), selectedIdea);
+      updateTableModels();
       clearForm();
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to update article!");
+      MessageUtils.showErrorMessage("Error", "Unable to update idea!");
     }
 
   }// GEN-LAST:event_btnUpdateActionPerformed
 
   private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnDeleteActionPerformed
-    if (selectedArticle == null) {
-      MessageUtils.showInformationMessage("Wrong operation", "Please choose article to delete");
+    if (selectedIdea == null) {
+      MessageUtils.showInformationMessage("Wrong operation", "Please choose idea to delete");
       return;
     }
     if (MessageUtils.showConfirmDialog(
-        "Delete article",
-        "Do you really want to delete article?")) {
+        "Delete idea",
+        "Do you really want to delete idea?")) {
       try {
-        if (selectedArticle.getPicturePath() != null) {
-          Files.deleteIfExists(Paths.get(selectedArticle.getPicturePath()));
+        if (selectedIdea.getPicturePath() != null) {
+          Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
         }
-        repository.deleteIdea(selectedArticle.getId());
-        articlesTableModel.setIdeas(repository.selectIdeas());
-
+        ideaRepository.deleteIdea(selectedIdea.getId());
+        updateTableModels();
         clearForm();
       } catch (Exception ex) {
         Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-        MessageUtils.showErrorMessage("Error", "Unable to delete article!");
+        MessageUtils.showErrorMessage("Error", "Unable to delete idea!");
       }
     }
   }// GEN-LAST:event_btnDeleteActionPerformed
@@ -400,20 +450,13 @@ public class IdeasPanel extends javax.swing.JPanel {
     }
   }
 
-  private void tbArticlesMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_tbArticlesMouseClicked
-    showArticle();
-  }// GEN-LAST:event_tbArticlesMouseClicked
+  private void tbIdeasMouseClicked(java.awt.event.MouseEvent evt) {// GEN-FIRST:event_tbIdeasMouseClicked
+  }// GEN-LAST:event_tbIdeasMouseClicked
 
-  private void tbArticlesKeyReleased(java.awt.event.KeyEvent evt) {// GEN-FIRST:event_tbArticlesKeyReleased
-    showArticle();
-  }// GEN-LAST:event_tbArticlesKeyReleased
+  private void tbIdeasKeyReleased(java.awt.event.KeyEvent evt) {// GEN-FIRST:event_tbIdeasKeyReleased
+  }// GEN-LAST:event_tbIdeasKeyReleased
 
-  // init() cannot be done in JPanel constructor, but when the form is shown!
-  // JPanel constructor is called from JFrame constructor, and there may not yet
-  // be articles to show
-  // articles can be shown only after they have been parsed for the first time
   private void formComponentShown(java.awt.event.ComponentEvent evt) {// GEN-FIRST:event_formComponentShown
-
     init();
   }// GEN-LAST:event_formComponentShown
 
@@ -422,20 +465,32 @@ public class IdeasPanel extends javax.swing.JPanel {
   private javax.swing.JButton btnChooseImage;
   private javax.swing.JButton btnDelete;
   private javax.swing.JButton btnUpdate;
+  private javax.swing.JComboBox<String> cbSymbol;
   private javax.swing.JLabel jLabel2;
+  private javax.swing.JLabel jLabel3;
   private javax.swing.JLabel jLabel4;
+  private javax.swing.JLabel jLabel5;
   private javax.swing.JLabel jLabel6;
+  private javax.swing.JLabel jLabel7;
   private javax.swing.JLabel jLabel8;
+  private javax.swing.JPanel jPanel1;
   private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JScrollPane jScrollPane2;
+  private javax.swing.JScrollPane jScrollPane3;
+  private javax.swing.JScrollPane jScrollPane4;
+  private javax.swing.JSplitPane jSplitPane1;
+  private javax.swing.JTabbedPane tabbedPaneMarkets;
   private javax.swing.JLabel lbDescriptionError;
   private javax.swing.JLabel lbIcon;
   private javax.swing.JLabel lbLinkError;
   private javax.swing.JLabel lbPicturePathError;
   private javax.swing.JLabel lbPublishedDateError;
+  private javax.swing.JLabel lbSymbolError;
   private javax.swing.JLabel lbTitleError;
+  private javax.swing.JList<String> lsAuthors;
+  private javax.swing.JList<String> lsIdeaAuthors;
   private javax.swing.JTextArea taDescription;
-  private javax.swing.JTable tbArticles;
+  private javax.swing.JTable tbIdeas;
   private javax.swing.JTextField tfLink;
   private javax.swing.JTextField tfPicturePath;
   private javax.swing.JTextField tfPublishedDate;
@@ -444,15 +499,39 @@ public class IdeasPanel extends javax.swing.JPanel {
 
   private void init() {
     try {
+      initTabbedPane();
       initValidation();
       hideErrors();
-      initRepository();
-      initTable();
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
       MessageUtils.showErrorMessage("Unrecoverable error", "Cannot initiate the form");
       System.exit(1);
     }
+  }
+
+  private void initTabbedPane() throws Exception {
+    tabbedPaneMarkets.removeAll();
+    List<Market> dbMarkets = marketRepository.selectMarkets();
+    for (Market market : dbMarkets) {
+      JTable table = new JTable();
+      IdeasTableModel ideasTableModel = new IdeasTableModel(new ArrayList<>());
+      table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+      table.setAutoCreateRowSorter(true);
+      table.setRowHeight(25);
+      table.setModel(ideasTableModel);
+      table.addMouseListener(new java.awt.event.MouseAdapter() {
+        public void mouseClicked(java.awt.event.MouseEvent evt) {
+          showIdea(table, ideasTableModel);
+        }
+      });
+      table.addKeyListener(new java.awt.event.KeyAdapter() {
+        public void keyReleased(java.awt.event.KeyEvent evt) {
+          showIdea(table, ideasTableModel);
+        }
+      });
+      tabbedPaneMarkets.addTab(market.getName(), new JScrollPane(table));
+    }
+    updateTableModels();
   }
 
   private void initValidation() {
@@ -463,24 +542,12 @@ public class IdeasPanel extends javax.swing.JPanel {
 
   private void hideErrors() {
     errorLabels.forEach(e -> e.setVisible(false));
-  }
-
-  private void initRepository() throws Exception {
-    repository = RepositoryFactory.getIdeaRepository();
-  }
-
-  private void initTable() throws Exception {
-    tbArticles.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-    tbArticles.setAutoCreateRowSorter(true);
-    tbArticles.setRowHeight(25);
-    articlesTableModel = new IdeaTableModel(repository.selectIdeas());
-    tbArticles.setModel(articlesTableModel);
+    lbSymbolError.setVisible(false);
   }
 
   private boolean formValid() {
     hideErrors();
     boolean ok = true;
-
     for (int i = 0; i < validationFields.size(); i++) {
       ok &= !validationFields.get(i).getText().trim().isEmpty();
       errorLabels.get(i).setVisible(validationFields.get(i).getText().trim().isEmpty());
@@ -493,53 +560,89 @@ public class IdeasPanel extends javax.swing.JPanel {
         }
       }
     }
+    if (cbSymbol.getSelectedIndex() == -1) {
+      ok = false;
+      lbSymbolError.setVisible(true);
+    }
     return ok;
   }
 
   private void clearForm() {
     hideErrors();
     validationFields.forEach(e -> e.setText(""));
+    cbSymbol.setSelectedIndex(-1);
     lbIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/no_image.png")));
-    selectedArticle = null;
+    selectedIdea = null;
   }
 
-  private String uploadPicture() throws IOException {
-    String picturePath = tfPicturePath.getText();
-    String ext = picturePath.substring(picturePath.lastIndexOf("."));
-    String pictureName = UUID.randomUUID() + ext;
-    String localPicturePath = DIR + File.separator + pictureName;
-
-    FileUtils.copy(picturePath, localPicturePath);
-    return localPicturePath;
-  }
-
-  private void showArticle() {
-    clearForm();
-    int selectedRow = tbArticles.getSelectedRow();
-    int rowIndex = tbArticles.convertRowIndexToModel(selectedRow);
-    int selectedArticleId = (int) articlesTableModel.getValueAt(rowIndex, 0);
-
+  private String uploadImage() {
     try {
-      Optional<Idea> optArticle = repository.selectIdea(selectedArticleId);
-      if (optArticle.isPresent()) {
-        selectedArticle = optArticle.get();
-        fillForm(selectedArticle);
+      return imageRepository.saveImageFromPath(tfPicturePath.getText().trim());
+    } catch (Exception ex) {
+      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+      MessageUtils.showErrorMessage("Error", "Unable to save image!");
+    }
+    return "";
+  }
+
+  private void showIdea(JTable table, IdeasTableModel ideasTableModel) {
+    clearForm();
+    int selectedRow = table.getSelectedRow();
+    int rowIndex = table.convertRowIndexToModel(selectedRow);
+    int selectedIdeaId = (int) ideasTableModel.getValueAt(rowIndex, 0);
+    try {
+      Optional<Idea> optIdea = ideaRepository.selectIdea(selectedIdeaId);
+      if (optIdea.isPresent()) {
+        selectedIdea = optIdea.get();
+        fillForm(selectedIdea);
       }
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to show article!");
+      MessageUtils.showErrorMessage("Error", "Unable to show idea!");
     }
   }
 
-  private void fillForm(Idea article) {
-    if (article.getPicturePath() != null && Files.exists(Paths.get(article.getPicturePath()))) {
-      tfPicturePath.setText(article.getPicturePath());
-      setIcon(lbIcon, new File(article.getPicturePath()));
+  private void fillForm(Idea idea) {
+    if (idea.getPicturePath() != null && Files.exists(Paths.get(idea.getPicturePath()))) {
+      tfPicturePath.setText(idea.getPicturePath());
+      setIcon(lbIcon, new File(idea.getPicturePath()));
     }
-    tfTitle.setText(article.getTitle());
-    tfLink.setText(article.getLink());
-    taDescription.setText(article.getDescription());
-    tfPublishedDate.setText(article.getPublishedDate().format(Idea.DATE_FORMATTER));
+    tfTitle.setText(idea.getTitle());
+    tfLink.setText(idea.getLink());
+    taDescription.setText(idea.getDescription());
+    tfPublishedDate.setText(idea.getPublishedDate().format(Idea.DATE_FORMATTER));
+    cbSymbol.setSelectedItem(idea.getSymbol());
+    try {
+      String authors = ideaAuthorRepository.selectAuthorIdsByIdea(idea).stream()
+          .map(id -> {
+            try {
+              return authorRepository.selectAuthor(id).get().getName();
+            } catch (Exception ex) {
+              Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+              return null;
+            }
+          })
+          .filter(Objects::nonNull).toList().toString();
+      lsIdeaAuthors.setSelectedValue(authors, true);
+    } catch (Exception ex) {
+      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+      MessageUtils.showErrorMessage("Error", "Unable to show authors!");
+    }
   }
 
+  private void updateTableModels() throws Exception {
+    List<Idea> dbIdeas = ideaRepository.selectIdeas();
+    List<Market> dbMarkets = marketRepository.selectMarkets();
+    for (Market market : dbMarkets) {
+      List<Idea> marketIdeas = dbIdeas.stream()
+          .filter(idea -> idea.getMarket().getId() == market.getId())
+          .toList();
+      getIdeasTableModel(dbMarkets.indexOf(market)).setIdeas(marketIdeas);
+    }
+  }
+
+  private IdeasTableModel getIdeasTableModel(int index) {
+    return (IdeasTableModel) ((JTable) ((JScrollPane) tabbedPaneMarkets.getComponentAt(index)).getViewport().getView())
+        .getModel();
+  }
 }

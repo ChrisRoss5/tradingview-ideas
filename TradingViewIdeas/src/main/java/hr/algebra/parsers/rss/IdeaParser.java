@@ -10,10 +10,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.Map.Entry;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -92,7 +92,7 @@ public class IdeaParser {
         String authorName = selectText(bodyFragment, CssSelector.AUTHOR_NAME);
         String authorLink = selectAttribute(bodyFragment, CssSelector.AUTHOR_LINK, "href");
         String imageLink = selectAttribute(bodyFragment, CssSelector.IMAGE_LINK, "src");
-        String picturePath = imageRepository.saveImage(imageLink);
+        String picturePath = imageRepository.saveImageFromLink(imageLink);
         OffsetDateTime offsetDateTime = OffsetDateTime.parse(pubDate, DATE_FORMATTER);
         ZonedDateTime zonedDateTime = offsetDateTime.atZoneSameInstant(USER_TIME_ZONE);
         LocalDateTime publishedDate = zonedDateTime.toLocalDateTime();

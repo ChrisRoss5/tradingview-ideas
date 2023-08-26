@@ -242,16 +242,26 @@ go
 create procedure DeleteIdeaAuthor @Id int as
   delete from IdeaAuthor where Id = @Id
 go
-create procedure SelectIdeaAuthor @Id int as
+create view IdeaAuthorJoined as
   select * from IdeaAuthor
     inner join Idea on IdeaAuthor.IdeaId = Idea.Id
     inner join Author on IdeaAuthor.AuthorId = Author.Id
-  where IdeaAuthor.Id = @Id
+go
+create procedure SelectIdeaAuthor @Id int as
+  select * from IdeaAuthorJoined where IdeaAuthor.Id = @Id
+go
+create procedure SelectAuthorIdsByIdeaId @IdeaId int as
+  select Author.Id from IdeaAuthorJoined
+    inner join Author on IdeaAuthor.AuthorId = Author.Id
+  where IdeaAuthor.IdeaId = @IdeaId
+go
+create procedure SelectIdeaIdsByAuthorId @AuthorId int as
+  select Idea.Id from IdeaAuthorJoined
+    inner join Idea on IdeaAuthor.IdeaId = Idea.Id
+  where IdeaAuthor.AuthorId = @AuthorId
 go
 create procedure SelectIdeaAuthors as
-  select * from IdeaAuthor
-    inner join Idea on IdeaAuthor.IdeaId = Idea.Id
-    inner join Author on IdeaAuthor.AuthorId = Author.Id
+  select * from IdeaAuthorJoined
 go
 
 /* SYMBOL */

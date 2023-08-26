@@ -26,7 +26,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
         tpContent = new javax.swing.JTabbedPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1366, 768));
+        setPreferredSize(new java.awt.Dimension(1200, 900));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -36,7 +36,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tpContent, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+            .addComponent(tpContent, javax.swing.GroupLayout.DEFAULT_SIZE, 800, Short.MAX_VALUE)
         );
 
         pack();
@@ -78,7 +78,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     private void configurePanels() {
-        //tpContent.add(IDEAS, new IdeasPanel());
+        tpContent.add(IDEAS, new IdeasPanel());
         //tpContent.add(AUTHORS, new AuthorsPanel());
         //tpContent.add(SYMBOLS, new SymbolsPanel());
         tpContent.add(ADMIN, new AdminPanel());
