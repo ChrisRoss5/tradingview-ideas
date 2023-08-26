@@ -130,7 +130,7 @@
                                           <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
                                           <Component id="tfPublishedDate" alignment="0" max="32767" attributes="0"/>
                                           <Component id="cbSymbol" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jScrollPane3" alignment="0" pref="655" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane3" alignment="0" pref="308" max="32767" attributes="0"/>
                                           <Component id="tfTitle" alignment="1" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
@@ -199,7 +199,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                                   <Component id="lbDescriptionError" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jScrollPane2" alignment="0" pref="399" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane2" alignment="0" pref="429" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -261,6 +261,7 @@
                 <Component class="javax.swing.JTextArea" name="taDescription">
                   <Properties>
                     <Property name="columns" type="int" value="20"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
                   </Properties>
                 </Component>
