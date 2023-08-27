@@ -72,6 +72,6 @@ public final class Symbol {
 
   @Override
   public String toString() {
-    return "Symbol [id=" + id + ", name=" + name + ", description=" + description + ", link=" + link + "]";
+    return name;
   }
 }

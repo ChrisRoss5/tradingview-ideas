@@ -239,8 +239,11 @@ as
     AuthorId = @AuthorId
   where Id = @Id
 go
-create procedure DeleteIdeaAuthor @Id int as
-  delete from IdeaAuthor where Id = @Id
+create procedure DeleteIdeaAuthorByIdeaId @IdeaId int as
+  delete from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId
+go
+create procedure DeleteIdeaAuthorByAuthorId @AuthorId int as
+  delete from IdeaAuthor where IdeaAuthor.AuthorId = @AuthorId
 go
 create procedure SelectAuthorIdsByIdeaId @IdeaId int as
   select AuthorId from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId

@@ -125,8 +125,6 @@ public final class Idea {
 
     @Override
     public String toString() {
-      return "Idea [id=" + id + ", title=" + title + ", link=" + link + ", description=" + description
-          + ", picturePath=" + picturePath + ", publishedDate=" + publishedDate + ", symbol=" + symbol + ", market="
-          + market + "]";
+      return title;
     }
 }

@@ -5,7 +5,6 @@ import java.awt.Image;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.io.File;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
@@ -13,23 +12,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
+import java.util.Map.Entry;
 import java.util.Optional;
-import java.util.function.Function;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
 import javax.swing.JComboBox;
-import javax.swing.JComponent;
 import javax.swing.JLabel;
-import javax.swing.JList;
 import javax.swing.JScrollPane;
-import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.text.JTextComponent;
@@ -41,12 +33,13 @@ import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.dal.repository.ImageRepository;
 import hr.algebra.dal.repository.MarketRepository;
 import hr.algebra.dal.repository.SymbolRepository;
+import hr.algebra.model.Author;
 import hr.algebra.model.Idea;
 import hr.algebra.model.Market;
 import hr.algebra.model.Symbol;
 import hr.algebra.utilities.FileUtils;
-import hr.algebra.utilities.IconUtils;
 import hr.algebra.utilities.MessageUtils;
+import hr.algebra.view.handler.AuthorsTransferHandler;
 import hr.algebra.view.model.IdeasTableModel;
 
 public class IdeasPanel extends javax.swing.JPanel {
@@ -71,6 +64,7 @@ public class IdeasPanel extends javax.swing.JPanel {
   }
 
   @SuppressWarnings("unchecked")
+  // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
@@ -165,6 +159,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     lbPicturePathError.setForeground(new java.awt.Color(255, 51, 51));
     lbPicturePathError.setText("X");
 
+    lsIdeaAuthors.setDragEnabled(true);
     jScrollPane3.setViewportView(lsIdeaAuthors);
 
     lbSymbolError.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
@@ -178,6 +173,9 @@ public class IdeasPanel extends javax.swing.JPanel {
       }
     });
 
+    jScrollPane4.setToolTipText("");
+
+    lsAuthors.setDragEnabled(true);
     jScrollPane4.setViewportView(lsAuthors);
 
     jLabel8.setText("Picture path");
@@ -396,13 +394,23 @@ public class IdeasPanel extends javax.swing.JPanel {
           localPicturePath,
           LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER),
           (Symbol) cbSymbol.getSelectedItem(),
-          marketRepository.selectMarkets().get(0));
-      ideaRepository.createIdea(idea);
+          (Market) cbMarket.getSelectedItem());
+      int ideaId = ideaRepository.createIdea(idea);
+      List<Entry<Integer, Integer>> ideaAuthors = new ArrayList<>();
+      DefaultListModel<Author> model = (DefaultListModel<Author>) lsIdeaAuthors.getModel();
+      for (int i = 0; i < lsIdeaAuthors.getModel().getSize(); i++) {
+        ideaAuthors.add(Map.entry(ideaId, model.get(i).getId()));
+      }
+      ideaAuthorRepository.createAssociations(ideaAuthors);
       updateTableModels();
       clearForm();
     } catch (Exception ex) {
-      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to create idea!");
+      if (ex.getMessage().contains("Violation of UNIQUE KEY constraint")) {
+        MessageUtils.showErrorMessage("Error", "Idea with same link already exists!");
+      } else {
+        Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+        MessageUtils.showErrorMessage("Error", "Unable to create idea!");
+      }
     }
   }// GEN-LAST:event_btnAddActionPerformed
 
@@ -419,14 +427,22 @@ public class IdeasPanel extends javax.swing.JPanel {
         if (selectedIdea.getPicturePath() != null) {
           Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
         }
-        String localPicturePath = uploadImage();
-        selectedIdea.setPicturePath(localPicturePath);
+        selectedIdea.setPicturePath(uploadImage());
       }
       selectedIdea.setTitle(tfTitle.getText().trim());
       selectedIdea.setLink(tfLink.getText().trim());
       selectedIdea.setDescription(taDescription.getText().trim());
       selectedIdea.setPublishedDate(LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER));
+      selectedIdea.setSymbol((Symbol) cbSymbol.getSelectedItem());
+      selectedIdea.setMarket((Market) cbMarket.getSelectedItem());
       ideaRepository.updateIdea(selectedIdea.getId(), selectedIdea);
+      List<Entry<Integer, Integer>> ideaAuthors = new ArrayList<>();
+      DefaultListModel<Author> model = (DefaultListModel<Author>) lsIdeaAuthors.getModel();
+      for (int i = 0; i < lsIdeaAuthors.getModel().getSize(); i++) {
+        ideaAuthors.add(Map.entry(selectedIdea.getId(), model.get(i).getId()));
+      }
+      ideaAuthorRepository.deleteIdeaAssociations(selectedIdea.getId());
+      ideaAuthorRepository.createAssociations(ideaAuthors);
       updateTableModels();
       clearForm();
     } catch (Exception ex) {
@@ -449,6 +465,7 @@ public class IdeasPanel extends javax.swing.JPanel {
           Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
         }
         ideaRepository.deleteIdea(selectedIdea.getId());
+        ideaAuthorRepository.deleteIdeaAssociations(selectedIdea.getId());
         updateTableModels();
         clearForm();
       } catch (Exception ex) {
@@ -499,8 +516,8 @@ public class IdeasPanel extends javax.swing.JPanel {
   private javax.swing.JLabel lbPublishedDateError;
   private javax.swing.JLabel lbSymbolError;
   private javax.swing.JLabel lbTitleError;
-  private javax.swing.JList<String> lsAuthors;
-  private javax.swing.JList<String> lsIdeaAuthors;
+  private javax.swing.JList<Author> lsAuthors;
+  private javax.swing.JList<Author> lsIdeaAuthors;
   private javax.swing.JPanel rightPanel;
   private javax.swing.JTextArea taDescription;
   private javax.swing.JTabbedPane tabbedPaneMarkets;
@@ -592,8 +609,14 @@ public class IdeasPanel extends javax.swing.JPanel {
   }
 
   private void initLists() throws Exception {
-    List<JList<?>> lists = Arrays.asList(lsAuthors, lsIdeaAuthors);
-    lsAuthors.removeAll();
+    DefaultListModel<Author> sourceModel = new DefaultListModel<>();
+    for (Author author : authorRepository.selectAuthors()) {
+      sourceModel.addElement(author);
+    }
+    lsAuthors.setModel(sourceModel);
+    lsAuthors.setTransferHandler(new AuthorsTransferHandler(false));
+    lsIdeaAuthors.setModel(new DefaultListModel<>());
+    lsIdeaAuthors.setTransferHandler(new AuthorsTransferHandler(true));
   }
 
   private void initValidation() {
@@ -630,8 +653,11 @@ public class IdeasPanel extends javax.swing.JPanel {
     hideErrors();
     validationFields.forEach(e -> e.setText(""));
     validationComboBoxes.forEach(e -> e.setSelectedIndex(-1));
+    ((DefaultListModel<Author>) lsIdeaAuthors.getModel()).clear();
     resetLbIcon();
     selectedIdea = null;
+    btnUpdate.setEnabled(false);
+    btnDelete.setEnabled(false);
   }
 
   private String uploadImage() {
@@ -653,6 +679,8 @@ public class IdeasPanel extends javax.swing.JPanel {
       Optional<Idea> optIdea = ideaRepository.selectIdea(selectedIdeaId);
       if (optIdea.isPresent()) {
         selectedIdea = optIdea.get();
+        btnUpdate.setEnabled(true);
+        btnDelete.setEnabled(true);
         fillForm(selectedIdea);
       }
     } catch (Exception ex) {
@@ -670,38 +698,17 @@ public class IdeasPanel extends javax.swing.JPanel {
     tfLink.setText(idea.getLink());
     taDescription.setText(idea.getDescription());
     tfPublishedDate.setText(idea.getPublishedDate().format(Idea.DATE_FORMATTER));
+    cbSymbol.setSelectedItem(idea.getSymbol());
+    cbMarket.setSelectedItem(idea.getMarket());
     try {
-      cbSymbol.removeAllItems();
-      for (Symbol symbol : symbolRepository.selectSymbols()) {
-        cbSymbol.addItem(symbol.getName());
+      DefaultListModel<Author> model = (DefaultListModel<Author>) lsIdeaAuthors.getModel();
+      model.clear();
+      for (int authorId : ideaAuthorRepository.selectAuthorIdsByIdea(idea)) {
+        Optional<Author> author = authorRepository.selectAuthor(authorId);
+        if (author.isPresent()) {
+          model.addElement(author.get());
+        }
       }
-      cbSymbol.setSelectedItem(idea.getSymbol().getName());
-    } catch (Exception ex) {
-      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to show symbols!");
-    }
-    try {
-      cbMarket.removeAllItems();
-      for (Market market : marketRepository.selectMarkets()) {
-        cbMarket.addItem(market.getName());
-      }
-      cbMarket.setSelectedItem(idea.getMarket().getName());
-    } catch (Exception ex) {
-      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to show markets!");
-    }
-    try {
-      String authors = ideaAuthorRepository.selectAuthorIdsByIdea(idea).stream()
-          .map(id -> {
-            try {
-              return authorRepository.selectAuthor(id).get().getName();
-            } catch (Exception ex) {
-              Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-              return null;
-            }
-          })
-          .filter(Objects::nonNull).toList().toString();
-      lsIdeaAuthors.setSelectedValue(authors, true);
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
       MessageUtils.showErrorMessage("Error", "Unable to show authors!");

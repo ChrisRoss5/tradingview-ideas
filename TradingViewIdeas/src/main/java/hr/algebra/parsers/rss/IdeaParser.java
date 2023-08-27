@@ -125,10 +125,10 @@ public class IdeaParser {
     Map<String, Idea> dbIdeasMap = ideaRepository.selectIdeas().stream()
         .collect(Collectors.toMap(Idea::getLink, Function.identity()));
 
-    List<Entry<Idea, Author>> ideaAuthorEntries = ideaAuthorMap.entrySet().stream()
+    List<Entry<Integer, Integer>> ideaAuthorEntries = ideaAuthorMap.entrySet().stream()
         .map(entry -> Map.entry(
-            dbIdeasMap.get(entry.getKey().getLink()),
-            dbAuthorsMap.get(entry.getValue().getLink())))
+            dbIdeasMap.get(entry.getKey().getLink()).getId(),
+            dbAuthorsMap.get(entry.getValue().getLink()).getId()))
         .toList();
 
     ideaAuthorRepository.createAssociations(ideaAuthorEntries);
