@@ -28,6 +28,8 @@ public class TradingViewIdeas extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(1200, 900));
 
+        tpContent.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -79,7 +81,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
 
     private void configurePanels() {
         tpContent.add(IDEAS, new IdeasPanel());
-        //tpContent.add(AUTHORS, new AuthorsPanel());
+        tpContent.add(AUTHORS, new AuthorsPanel());
         //tpContent.add(SYMBOLS, new SymbolsPanel());
         tpContent.add(ADMIN, new AdminPanel());
     }

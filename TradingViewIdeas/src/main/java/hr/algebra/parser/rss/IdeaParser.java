@@ -1,4 +1,4 @@
-package hr.algebra.parsers.rss;
+package hr.algebra.parser.rss;
 
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;

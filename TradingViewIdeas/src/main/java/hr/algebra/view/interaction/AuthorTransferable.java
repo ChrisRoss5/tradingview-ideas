@@ -1,4 +1,4 @@
-package hr.algebra.view.handler;
+package hr.algebra.view.interaction;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;

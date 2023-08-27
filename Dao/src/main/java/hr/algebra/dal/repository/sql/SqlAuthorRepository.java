@@ -24,7 +24,6 @@ public class SqlAuthorRepository implements AuthorRepository {
   private static final String UPDATE_AUTHOR = "{ CALL UpdateAuthor (?,?,?) }";
   private static final String DELETE_AUTHOR = "{ CALL DeleteAuthor (?) }";
   private static final String SELECT_AUTHOR = "{ CALL SelectAuthor (?) }";
-  private static final String SELECT_AUTHOR_BY_LINK = "{ CALL SelectAuthorByLink (?) }";
   private static final String SELECT_AUTHORS = "{ CALL SelectAuthors }";
 
   @Override
@@ -83,22 +82,6 @@ public class SqlAuthorRepository implements AuthorRepository {
     DataSource dataSource = DataSourceSingleton.getInstance();
     try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SELECT_AUTHOR)) {
       stmt.setInt(ID, id);
-      if (stmt.execute()) {
-        ResultSet rs = stmt.getResultSet();
-        if (rs.next()) {
-          return Optional.of(createAuthorFromResultSet(rs));
-        }
-      }
-    }
-    return Optional.empty();
-  }
-
-  @Override
-  public Optional<Author> selectAuthorByLink(String link) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection();
-        CallableStatement stmt = con.prepareCall(SELECT_AUTHOR_BY_LINK)) {
-      stmt.setString(LINK, link);
       if (stmt.execute()) {
         ResultSet rs = stmt.getResultSet();
         if (rs.next()) {

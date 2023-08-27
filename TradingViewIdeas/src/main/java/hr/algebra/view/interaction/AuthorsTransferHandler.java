@@ -1,4 +1,4 @@
-package hr.algebra.view.handler;
+package hr.algebra.view.interaction;
 
 import java.awt.datatransfer.Transferable;
 import java.util.List;
@@ -12,7 +12,7 @@ import hr.algebra.model.Author;
 
 public class AuthorsTransferHandler extends TransferHandler {
 
-  boolean preserveModel;
+  private boolean preserveModel;
 
   public AuthorsTransferHandler(boolean preserveModel) {
     this.preserveModel = preserveModel;

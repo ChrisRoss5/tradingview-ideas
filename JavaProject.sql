@@ -211,9 +211,6 @@ go
 create procedure SelectAuthor @Id int as
   select * from Author where Id = @Id
 go
-create procedure SelectAuthorByLink @Link nvarchar(512) as
-  select * from Author where Link = @Link
-go
 create procedure SelectAuthors as
   select * from Author
 go
@@ -228,16 +225,6 @@ as
     insert into IdeaAuthor values (@IdeaId, @AuthorId)
     set @Id = SCOPE_IDENTITY()
   end
-go
-create procedure UpdateIdeaAuthor
-  @Id int,
-  @IdeaId int,
-  @AuthorId int
-as
-  update IdeaAuthor set
-    IdeaId = @IdeaId,
-    AuthorId = @AuthorId
-  where Id = @Id
 go
 create procedure DeleteIdeaAuthorByIdeaId @IdeaId int as
   delete from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId

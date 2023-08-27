@@ -24,6 +24,8 @@ import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.text.JTextComponent;
 
 import hr.algebra.dal.factory.RepositoryFactory;
@@ -39,8 +41,8 @@ import hr.algebra.model.Market;
 import hr.algebra.model.Symbol;
 import hr.algebra.utilities.FileUtils;
 import hr.algebra.utilities.MessageUtils;
-import hr.algebra.view.handler.AuthorsTransferHandler;
-import hr.algebra.view.model.IdeasTableModel;
+import hr.algebra.view.interaction.AuthorsTransferHandler;
+import hr.algebra.view.model.IdeaTableModel;
 
 public class IdeasPanel extends javax.swing.JPanel {
 
@@ -56,14 +58,19 @@ public class IdeasPanel extends javax.swing.JPanel {
   private List<JLabel> errorLabels;
 
   private Idea selectedIdea;
+  private Market selectedMarket;
   private ImageIcon imageIcon;
   private double imageRatio;
+  private boolean formLoaded;
 
   public IdeasPanel() {
     initComponents();
+    initValidation();
+    initListeners();
   }
 
   @SuppressWarnings("unchecked")
+  // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
@@ -100,7 +107,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     lsAuthors = new javax.swing.JList<>();
     jLabel8 = new javax.swing.JLabel();
     jPanel2 = new javax.swing.JPanel();
-    btnAdd = new javax.swing.JButton();
+    btnCreate = new javax.swing.JButton();
     btnUpdate = new javax.swing.JButton();
     btnDelete = new javax.swing.JButton();
     lbIcon = new javax.swing.JLabel();
@@ -182,13 +189,13 @@ public class IdeasPanel extends javax.swing.JPanel {
 
     jPanel2.setLayout(new java.awt.GridLayout(1, 0, 6, 0));
 
-    btnAdd.setText("Add");
-    btnAdd.addActionListener(new java.awt.event.ActionListener() {
+    btnCreate.setText("Create");
+    btnCreate.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        btnAddActionPerformed(evt);
+        btnCreateActionPerformed(evt);
       }
     });
-    jPanel2.add(btnAdd);
+    jPanel2.add(btnCreate);
 
     btnUpdate.setText("Update");
     btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -198,6 +205,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     });
     jPanel2.add(btnUpdate);
 
+    btnDelete.setBackground(new java.awt.Color(255, 102, 102));
     btnDelete.setText("Delete");
     btnDelete.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,7 +389,7 @@ public class IdeasPanel extends javax.swing.JPanel {
             .addComponent(jSplitPane1));
   }// </editor-fold>//GEN-END:initComponents
 
-  private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnAddActionPerformed
+  private void btnCreateActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnCreateActionPerformed
     if (!formValid()) {
       return;
     }
@@ -402,7 +410,7 @@ public class IdeasPanel extends javax.swing.JPanel {
         ideaAuthors.add(Map.entry(ideaId, model.get(i).getId()));
       }
       ideaAuthorRepository.createAssociations(ideaAuthors);
-      updateTableModels();
+      updateTables();
       clearForm();
     } catch (Exception ex) {
       if (ex.getMessage().contains("Violation of UNIQUE KEY constraint")) {
@@ -412,7 +420,7 @@ public class IdeasPanel extends javax.swing.JPanel {
         MessageUtils.showErrorMessage("Error", "Unable to create idea!");
       }
     }
-  }// GEN-LAST:event_btnAddActionPerformed
+  }// GEN-LAST:event_btnCreateActionPerformed
 
   private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnUpdateActionPerformed
     if (selectedIdea == null) {
@@ -443,7 +451,7 @@ public class IdeasPanel extends javax.swing.JPanel {
       }
       ideaAuthorRepository.deleteIdeaAssociations(selectedIdea.getId());
       ideaAuthorRepository.createAssociations(ideaAuthors);
-      updateTableModels();
+      updateTables();
       clearForm();
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
@@ -466,7 +474,7 @@ public class IdeasPanel extends javax.swing.JPanel {
         }
         ideaRepository.deleteIdea(selectedIdea.getId());
         ideaAuthorRepository.deleteIdeaAssociations(selectedIdea.getId());
-        updateTableModels();
+        updateTables();
         clearForm();
       } catch (Exception ex) {
         Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
@@ -485,12 +493,25 @@ public class IdeasPanel extends javax.swing.JPanel {
   }// GEN-LAST:event_btnChooseImageActionPerformed
 
   private void formComponentShown(java.awt.event.ComponentEvent evt) {// GEN-FIRST:event_formComponentShown
-    init();
+    try {
+      formLoaded = false;
+      loadTabbedPane();
+      loadComboBoxes();
+      loadLists();
+      resetLbIcon();
+      updateTables();
+      clearForm();
+      formLoaded = true;
+    } catch (Exception ex) {
+      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+      MessageUtils.showErrorMessage("Unrecoverable error", "Cannot load the form!");
+      System.exit(1);
+    }
   }// GEN-LAST:event_formComponentShown
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
-  private javax.swing.JButton btnAdd;
   private javax.swing.JButton btnChooseImage;
+  private javax.swing.JButton btnCreate;
   private javax.swing.JButton btnDelete;
   private javax.swing.JButton btnUpdate;
   private javax.swing.JComboBox<Market> cbMarket;
@@ -527,27 +548,45 @@ public class IdeasPanel extends javax.swing.JPanel {
   private javax.swing.JTextField tfTitle;
   // End of variables declaration//GEN-END:variables
 
-  private void init() {
-    try {
-      initTabbedPane();
-      initLbIcon();
-      initComboBoxes();
-      initLists();
-      initValidation();
-      hideErrors();
-    } catch (Exception ex) {
-      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Unrecoverable error", "Cannot initiate the form");
-      System.exit(1);
-    }
+  private void initValidation() {
+    validationFields = Arrays.asList(tfTitle, tfLink, taDescription, tfPublishedDate, tfPicturePath);
+    validationComboBoxes = Arrays.asList(cbSymbol, cbMarket);
+    errorLabels = Arrays.asList(lbTitleError, lbLinkError, lbDescriptionError, lbPublishedDateError,
+        lbPicturePathError, lbSymbolError, lbMarketError);
   }
 
-  private void initTabbedPane() throws Exception {
+  private void initListeners() {
+    tabbedPaneMarkets.addChangeListener(new ChangeListener() {
+      @Override
+      public void stateChanged(ChangeEvent e) {
+        if (formLoaded) {
+          try {
+            List<Market> dbMarkets = marketRepository.selectMarkets();
+            selectedMarket = dbMarkets.get(tabbedPaneMarkets.getSelectedIndex());
+            clearForm();
+          } catch (Exception ex) {
+            MessageUtils.showErrorMessage("Unrecoverable error", "Cannot change market!");
+            ex.printStackTrace();
+          }
+        }
+      }
+    });
+    lbIcon.addComponentListener(new ComponentAdapter() {
+      @Override
+      public void componentResized(ComponentEvent e) {
+        if (formLoaded) {
+          updateLbIcon();
+        }
+      }
+    });
+  }
+
+  private void loadTabbedPane() throws Exception {
     tabbedPaneMarkets.removeAll();
     List<Market> dbMarkets = marketRepository.selectMarkets();
     for (Market market : dbMarkets) {
       JTable table = new JTable();
-      IdeasTableModel ideasTableModel = new IdeasTableModel(new ArrayList<>());
+      IdeaTableModel ideasTableModel = new IdeaTableModel(new ArrayList<>());
       table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
       table.setAutoCreateRowSorter(true);
       table.setRowHeight(25);
@@ -564,17 +603,31 @@ public class IdeasPanel extends javax.swing.JPanel {
       });
       tabbedPaneMarkets.addTab(market.getName(), new JScrollPane(table));
     }
-    updateTableModels();
+    if (selectedMarket != null && dbMarkets.contains(selectedMarket)) {
+      tabbedPaneMarkets.setSelectedIndex(dbMarkets.indexOf(selectedMarket));
+    }
   }
 
-  private void initLbIcon() {
-    resetLbIcon();
-    lbIcon.addComponentListener(new ComponentAdapter() {
-      @Override
-      public void componentResized(ComponentEvent e) {
-        updateLbIcon();
-      }
-    });
+  private void loadComboBoxes() throws Exception {
+    cbSymbol.removeAllItems();
+    for (Symbol symbol : symbolRepository.selectSymbols()) {
+      cbSymbol.addItem(symbol);
+    }
+    cbMarket.removeAllItems();
+    for (Market market : marketRepository.selectMarkets()) {
+      cbMarket.addItem(market);
+    }
+  }
+
+  private void loadLists() throws Exception {
+    DefaultListModel<Author> sourceModel = new DefaultListModel<>();
+    for (Author author : authorRepository.selectAuthors()) {
+      sourceModel.addElement(author);
+    }
+    lsAuthors.setModel(sourceModel);
+    lsAuthors.setTransferHandler(new AuthorsTransferHandler(false));
+    lsIdeaAuthors.setModel(new DefaultListModel<>());
+    lsIdeaAuthors.setTransferHandler(new AuthorsTransferHandler(true));
   }
 
   private void resetLbIcon() {
@@ -589,41 +642,14 @@ public class IdeasPanel extends javax.swing.JPanel {
 
   private void updateLbIcon() {
     int lbW = lbIcon.getWidth();
-    int h = (int) (lbW / imageRatio);
-    lbIcon.setPreferredSize(new Dimension(lbW, h));
+    int imgH = (int) (lbW / imageRatio);
+    lbIcon.setPreferredSize(new Dimension(lbW, imgH));
     int lbH = lbIcon.getHeight();
-    int w = (int) (lbH * imageRatio);
-    Image newImage = imageIcon.getImage().getScaledInstance(w, lbH, Image.SCALE_SMOOTH);
+    int imgW = (int) (lbH * imageRatio);
+    int w = (imgW > lbW) ? lbW : imgW;
+    int h = (imgW > lbW) ? (int) (w / imageRatio) : lbH;
+    Image newImage = imageIcon.getImage().getScaledInstance(w, h, Image.SCALE_SMOOTH);
     lbIcon.setIcon(new ImageIcon(newImage));
-  }
-
-  private void initComboBoxes() throws Exception {
-    cbSymbol.removeAllItems();
-    for (Symbol symbol : symbolRepository.selectSymbols()) {
-      cbSymbol.addItem(symbol);
-    }
-    cbMarket.removeAllItems();
-    for (Market market : marketRepository.selectMarkets()) {
-      cbMarket.addItem(market);
-    }
-  }
-
-  private void initLists() throws Exception {
-    DefaultListModel<Author> sourceModel = new DefaultListModel<>();
-    for (Author author : authorRepository.selectAuthors()) {
-      sourceModel.addElement(author);
-    }
-    lsAuthors.setModel(sourceModel);
-    lsAuthors.setTransferHandler(new AuthorsTransferHandler(false));
-    lsIdeaAuthors.setModel(new DefaultListModel<>());
-    lsIdeaAuthors.setTransferHandler(new AuthorsTransferHandler(true));
-  }
-
-  private void initValidation() {
-    validationFields = Arrays.asList(tfTitle, tfLink, taDescription, tfPublishedDate, tfPicturePath);
-    validationComboBoxes = Arrays.asList(cbSymbol, cbMarket);
-    errorLabels = Arrays.asList(lbTitleError, lbLinkError, lbDescriptionError, lbPublishedDateError,
-        lbPicturePathError, lbSymbolError, lbMarketError);
   }
 
   private void hideErrors() {
@@ -670,7 +696,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     return "";
   }
 
-  private void showIdea(JTable table, IdeasTableModel ideasTableModel) {
+  private void showIdea(JTable table, IdeaTableModel ideasTableModel) {
     clearForm();
     int selectedRow = table.getSelectedRow();
     int rowIndex = table.convertRowIndexToModel(selectedRow);
@@ -715,19 +741,17 @@ public class IdeasPanel extends javax.swing.JPanel {
     }
   }
 
-  private void updateTableModels() throws Exception {
+  private void updateTables() throws Exception {
     List<Idea> dbIdeas = ideaRepository.selectIdeas();
     List<Market> dbMarkets = marketRepository.selectMarkets();
-    for (Market market : dbMarkets) {
+    for (int i = 0; i < dbMarkets.size(); i++) {
+      int marketId = dbMarkets.get(i).getId();
       List<Idea> marketIdeas = dbIdeas.stream()
-          .filter(idea -> idea.getMarket().getId() == market.getId())
+          .filter(idea -> idea.getMarket().getId() == marketId)
           .toList();
-      getIdeasTableModel(dbMarkets.indexOf(market)).setIdeas(marketIdeas);
+      IdeaTableModel tableModel = (IdeaTableModel) ((JTable) ((JScrollPane) tabbedPaneMarkets.getComponentAt(i))
+          .getViewport().getView()).getModel();
+      tableModel.setIdeas(marketIdeas);
     }
-  }
-
-  private IdeasTableModel getIdeasTableModel(int index) {
-    return (IdeasTableModel) ((JTable) ((JScrollPane) tabbedPaneMarkets.getComponentAt(index)).getViewport().getView())
-        .getModel();
   }
 }

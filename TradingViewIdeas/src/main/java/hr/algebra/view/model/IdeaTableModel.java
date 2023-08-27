@@ -1,17 +1,19 @@
 package hr.algebra.view.model;
 
-import hr.algebra.model.Idea;
 import java.util.List;
+
 import javax.swing.table.AbstractTableModel;
 
-public class IdeasTableModel extends AbstractTableModel {
+import hr.algebra.model.Idea;
+
+public class IdeaTableModel extends AbstractTableModel {
 
   private static final String[] COLUMN_NAMES = {
       "Id", "Title", "Link", "Description", "Published date", "Symbol", "Market", "Picture path" };
 
   private List<Idea> ideas;
 
-  public IdeasTableModel(List<Idea> ideas) {
+  public IdeaTableModel(List<Idea> ideas) {
     this.ideas = ideas;
   }
 

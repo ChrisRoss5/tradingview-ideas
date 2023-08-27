@@ -13,7 +13,7 @@ import hr.algebra.dal.repository.AdminControlsRepository;
 import hr.algebra.dal.repository.ImageRepository;
 import hr.algebra.dal.repository.MarketRepository;
 import hr.algebra.model.Market;
-import hr.algebra.parsers.rss.IdeaParser;
+import hr.algebra.parser.rss.IdeaParser;
 import hr.algebra.utilities.MessageUtils;
 
 public class AdminPanel extends javax.swing.JPanel {

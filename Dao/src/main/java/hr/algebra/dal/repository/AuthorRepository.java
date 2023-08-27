@@ -8,7 +8,7 @@ public interface AuthorRepository {
 
 
   int createAuthor(Author author) throws Exception;
-  
+
   void createAuthors(List<Author> authors) throws Exception;
 
   void updateAuthor(int id, Author author) throws Exception;
@@ -16,8 +16,6 @@ public interface AuthorRepository {
   void deleteAuthor(int id) throws Exception;
 
   Optional<Author> selectAuthor(int id) throws Exception;
-
-  Optional<Author> selectAuthorByLink(String link) throws Exception;
 
   List<Author> selectAuthors() throws Exception;
 }
