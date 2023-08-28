@@ -18,17 +18,20 @@ import hr.algebra.utilities.MessageUtils;
 
 public class AdminPanel extends javax.swing.JPanel {
 
-  private static final AdminControlsRepository adminControlsRepository = RepositoryFactory.getAdminControlsRepository();
-  private static final ImageRepository imageRepository = RepositoryFactory.getImageRepository();
-  private static final MarketRepository marketRepository = RepositoryFactory.getMarketRepository();
   private final Map<String, JCheckBox> marketCheckboxMap = new HashMap<>();
+
+  private final AdminControlsRepository adminControlsRepository;
+  private final ImageRepository imageRepository;
+  private final MarketRepository marketRepository;
 
   public AdminPanel() {
     initComponents();
+    adminControlsRepository = RepositoryFactory.getAdminControlsRepository();
+    imageRepository = RepositoryFactory.getImageRepository();
+    marketRepository = RepositoryFactory.getMarketRepository();
   }
 
   @SuppressWarnings("unchecked")
-  // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
   // Code">//GEN-BEGIN:initComponents
   private void initComponents() {

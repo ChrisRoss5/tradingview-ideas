@@ -41,21 +41,21 @@ import hr.algebra.model.Market;
 import hr.algebra.model.Symbol;
 import hr.algebra.utilities.FileUtils;
 import hr.algebra.utilities.MessageUtils;
-import hr.algebra.view.interaction.AuthorsTransferHandler;
+import hr.algebra.view.handler.AuthorsTransferHandler;
 import hr.algebra.view.model.IdeaTableModel;
 
 public class IdeasPanel extends javax.swing.JPanel {
 
-  private static final IdeaRepository ideaRepository = RepositoryFactory.getIdeaRepository();
-  private static final AuthorRepository authorRepository = RepositoryFactory.getAuthorRepository();
-  private static final IdeaAuthorRepository ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
-  private static final SymbolRepository symbolRepository = RepositoryFactory.getSymbolRepository();
-  private static final MarketRepository marketRepository = RepositoryFactory.getMarketRepository();
-  private static final ImageRepository imageRepository = RepositoryFactory.getImageRepository();
-
   private List<JTextComponent> validationFields;
   private List<JComboBox<?>> validationComboBoxes;
   private List<JLabel> errorLabels;
+
+  private final IdeaRepository ideaRepository;
+  private final AuthorRepository authorRepository;
+  private final IdeaAuthorRepository ideaAuthorRepository;
+  private final SymbolRepository symbolRepository;
+  private final MarketRepository marketRepository;
+  private final ImageRepository imageRepository;
 
   private Idea selectedIdea;
   private Market selectedMarket;
@@ -67,6 +67,12 @@ public class IdeasPanel extends javax.swing.JPanel {
     initComponents();
     initValidation();
     initListeners();
+    this.ideaRepository = RepositoryFactory.getIdeaRepository();
+    this.authorRepository = RepositoryFactory.getAuthorRepository();
+    this.ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
+    this.symbolRepository = RepositoryFactory.getSymbolRepository();
+    this.marketRepository = RepositoryFactory.getMarketRepository();
+    this.imageRepository = RepositoryFactory.getImageRepository();
   }
 
   @SuppressWarnings("unchecked")
@@ -454,8 +460,12 @@ public class IdeasPanel extends javax.swing.JPanel {
       updateTables();
       clearForm();
     } catch (Exception ex) {
-      Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to update idea!");
+      if (ex.getMessage().contains("Violation of UNIQUE KEY constraint")) {
+        MessageUtils.showErrorMessage("Error", "Idea with this link already exists!");
+      } else {
+        Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
+        MessageUtils.showErrorMessage("Error", "Unable to update idea!");
+      }
     }
 
   }// GEN-LAST:event_btnUpdateActionPerformed

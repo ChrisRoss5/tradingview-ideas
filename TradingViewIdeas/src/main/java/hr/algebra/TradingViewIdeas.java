@@ -82,7 +82,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
     private void configurePanels() {
         tpContent.add(IDEAS, new IdeasPanel());
         tpContent.add(AUTHORS, new AuthorsPanel());
-        //tpContent.add(SYMBOLS, new SymbolsPanel());
+        tpContent.add(SYMBOLS, new SymbolsPanel());
         tpContent.add(ADMIN, new AdminPanel());
     }
 }

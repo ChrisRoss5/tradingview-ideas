@@ -6,7 +6,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.swing.JLabel;
-import javax.swing.JTable;
 import javax.swing.table.TableColumn;
 import javax.swing.text.JTextComponent;
 
@@ -19,23 +18,20 @@ import hr.algebra.view.ui.ButtonCellEditor;
 import hr.algebra.view.ui.ButtonCellRenderer;
 
 public class AuthorsPanel extends javax.swing.JPanel {
-  private static final AuthorRepository authorRepository = RepositoryFactory.getAuthorRepository();
-
   private List<JTextComponent> validationFields;
   private List<JLabel> errorLabels;
+
+  private final AuthorRepository authorRepository;
 
   private AuthorTableModel authorTableModel;
 
   public AuthorsPanel() {
     initComponents();
     initValidation();
+    this.authorRepository = RepositoryFactory.getAuthorRepository();
   }
 
   @SuppressWarnings("unchecked")
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
   // <editor-fold defaultstate="collapsed" desc="Generated
   // Code">//GEN-BEGIN:initComponents
   private void initComponents() {
@@ -56,6 +52,8 @@ public class AuthorsPanel extends javax.swing.JPanel {
         formComponentShown(evt);
       }
     });
+
+    jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 1000));
 
     tbAuthors.setAutoCreateRowSorter(true);
     tbAuthors.setModel(new javax.swing.table.DefaultTableModel(
@@ -137,13 +135,14 @@ public class AuthorsPanel extends javax.swing.JPanel {
                         javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lbLinkError)
                     .addComponent(btnCreate))
-                .addContainerGap()));
+                .addGap(30, 30, 30)));
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
     this.setLayout(layout);
     layout.setHorizontalGroup(
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING,
+                javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(59, Short.MAX_VALUE)
                 .addComponent(bottomPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE,
@@ -152,11 +151,12 @@ public class AuthorsPanel extends javax.swing.JPanel {
     layout.setVerticalGroup(
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 800, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED,
+                    javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(bottomPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE,
                     javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)));
+                .addContainerGap()));
   }// </editor-fold>//GEN-END:initComponents
 
   private void btnCreateActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnCreateActionPerformed
@@ -204,13 +204,6 @@ public class AuthorsPanel extends javax.swing.JPanel {
     TableColumn deleteColumn = tbAuthors.getColumnModel().getColumn(3);
     deleteColumn.setCellRenderer(new ButtonCellRenderer());
     deleteColumn.setCellEditor(new ButtonCellEditor());
-    /*
-     * int tablePreferredHeight = calculateTablePreferredHeight(tbAuthors);
-     * System.out.println(tablePreferredHeight);
-     * jScrollPane1.setPreferredSize(new
-     * Dimension(jScrollPane1.getPreferredSize().width, tablePreferredHeight));
-     * System.out.println(jScrollPane1.getSize().height);
-     */
   }
 
   private void hideErrors() {
@@ -228,13 +221,5 @@ public class AuthorsPanel extends javax.swing.JPanel {
   private void clearForm() {
     hideErrors();
     validationFields.forEach(e -> e.setText(""));
-  }
-
-  // Calculate preferred height of the table
-  private static int calculateTablePreferredHeight(JTable table) {
-    int rowHeight = table.getRowHeight();
-    int rowCount = table.getRowCount();
-    int headerHeight = table.getTableHeader().getPreferredSize().height;
-    return headerHeight + (rowCount * rowHeight);
   }
 }

@@ -44,7 +44,7 @@ public class AuthorTableModel extends AbstractTableModel {
       }
     }
     return false;
-   }
+  }
 
   @Override
   public int getRowCount() {
@@ -82,7 +82,8 @@ public class AuthorTableModel extends AbstractTableModel {
   public void setValueAt(Object value, int rowIndex, int columnIndex) {
     Author author = authors.get(rowIndex);
     if (columnIndex == getColumnCount() - 1) {
-      if (!MessageUtils.showConfirmDialog("Delete author", "Are you sure you want to delete " + author.getName() + "?")) {
+      if (!MessageUtils.showConfirmDialog("Delete author",
+          "Are you sure you want to delete " + author.getName() + "?")) {
         return;
       }
       try {
@@ -107,8 +108,12 @@ public class AuthorTableModel extends AbstractTableModel {
       authorRepository.updateAuthor(author.getId(), author);
       fireTableRowsUpdated(rowIndex, rowIndex);
     } catch (Exception ex) {
-      Logger.getLogger(AuthorTableModel.class.getName()).log(Level.SEVERE, null, ex);
-      MessageUtils.showErrorMessage("Error", "Unable to update author!");
+      if (ex.getMessage().contains("Violation of UNIQUE KEY constraint")) {
+        MessageUtils.showErrorMessage("Error", "Author with this link already exists!");
+      } else {
+        Logger.getLogger(AuthorTableModel.class.getName()).log(Level.SEVERE, null, ex);
+        MessageUtils.showErrorMessage("Error", "Unable to update author!");
+      }
     }
   }
 
