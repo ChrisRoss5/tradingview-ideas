@@ -414,7 +414,7 @@ public class IdeasPanel extends javax.swing.JPanel {
       clearForm();
     } catch (Exception ex) {
       if (ex.getMessage().contains("Violation of UNIQUE KEY constraint")) {
-        MessageUtils.showErrorMessage("Error", "Idea with same link already exists!");
+        MessageUtils.showErrorMessage("Error", "Idea with this link already exists!");
       } else {
         Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
         MessageUtils.showErrorMessage("Error", "Unable to create idea!");
@@ -467,7 +467,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     }
     if (MessageUtils.showConfirmDialog(
         "Delete idea",
-        "Do you really want to delete idea?")) {
+        "Are you sure you want to delete idea?")) {
       try {
         if (selectedIdea.getPicturePath() != null) {
           Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
@@ -621,9 +621,7 @@ public class IdeasPanel extends javax.swing.JPanel {
 
   private void loadLists() throws Exception {
     DefaultListModel<Author> sourceModel = new DefaultListModel<>();
-    for (Author author : authorRepository.selectAuthors()) {
-      sourceModel.addElement(author);
-    }
+    sourceModel.addAll(authorRepository.selectAuthors());
     lsAuthors.setModel(sourceModel);
     lsAuthors.setTransferHandler(new AuthorsTransferHandler(false));
     lsIdeaAuthors.setModel(new DefaultListModel<>());
