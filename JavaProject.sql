@@ -64,9 +64,9 @@ alter table Idea add
     references Market(Id) on delete cascade
 alter table IdeaAuthor add
   constraint FK_IdeaAuthor_Idea foreign key (IdeaId)
-    references Idea(Id) on delete cascade,
+    references Idea(Id),
   constraint FK_IdeaAuthor_Author foreign key (AuthorId)
-    references Author(Id) on delete cascade
+    references Author(Id)
 alter table IdeaAuthor add
   constraint UQ_IdeaAuthorUnique unique (IdeaId, AuthorId)
 go
@@ -272,15 +272,15 @@ create procedure DeleteAllContent as
 
 /* USERS */
 declare @Id int
-exec CreateUser 'admin', '$2a$12$0makz2dfh.F8EjXONaQq1O2QuotAZc33lrRcXHzFJ2ZSBXMuEK0ma', 'ADMIN', @Id output
+exec CreateUser 'admin', '$2a$09$Q4KC0FpkkMtQTYNAmtA/Q.wRZurIxw4xMi3Z5SDmmVpmSQxh6OYw.', 'ADMIN', @Id output
 exec CreateUser 'user', '$2a$12$XIOs1Mas/1VDxO4jUe5rG.VGNVZrilvwwwqiUR2fEBFnOXsGqSyNq', 'USER', @Id output
 go
 
 /* MARKETS */
 declare @Id int
-exec CreateMarket 'Commodities', 0, @Id output
-exec CreateMarket 'Crypto', 0, @Id output
-exec CreateMarket 'Currencies', 0, @Id output
-exec CreateMarket 'Indices', 0, @Id output
-exec CreateMarket 'Stocks', 0, @Id output
+exec CreateMarket 'Commodities', 1, @Id output
+exec CreateMarket 'Crypto', 1, @Id output
+exec CreateMarket 'Currencies', 1, @Id output
+exec CreateMarket 'Indices', 1, @Id output
+exec CreateMarket 'Stocks', 1, @Id output
 go

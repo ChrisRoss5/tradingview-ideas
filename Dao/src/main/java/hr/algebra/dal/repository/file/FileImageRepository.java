@@ -1,7 +1,6 @@
 package hr.algebra.dal.repository.file;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -14,7 +13,7 @@ import hr.algebra.dal.repository.ImageRepository;
 import hr.algebra.factory.UrlConnectionFactory;
 
 public class FileImageRepository implements ImageRepository {
-  private static final String DIR = "assets";
+  private static final String DIR = "images";
   private static final String EXT = ".png";
 
   @Override

@@ -5,7 +5,6 @@ import java.util.logging.Logger;
 
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatGitHubDarkIJTheme;
 
-import hr.algebra.auth.LoginForm;
 import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.model.IdeaArchive;
@@ -14,6 +13,7 @@ import hr.algebra.view.AdminPanel;
 import hr.algebra.view.AuthorsPanel;
 import hr.algebra.view.IdeasPanel;
 import hr.algebra.view.SymbolsPanel;
+import hr.algebra.view.auth.LoginForm;
 
 // https://www.tradingview.com/publishing-tools/
 
@@ -23,7 +23,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
   private static final String AUTHORS = "Authors";
   private static final String SYMBOLS = "Symbols";
   private static final String ADMIN = "Admin";
-  private static final String EXPORT_FILENAME = "src/main/resources/xml/ideas.xml";
+  private static final String EXPORT_FILENAME = "src/main/xml/ideas.xml";
 
   private final IdeaRepository ideaRepository;
 

@@ -2,11 +2,16 @@ package hr.algebra.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+
+import hr.algebra.adapter.LocalDateTimeAdapter;
+
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(propOrder = { "title", "link", "description", "publishedDate", "symbol", "market" })
@@ -21,6 +26,7 @@ public final class Idea {
   private String description;
   @XmlTransient
   private String picturePath;
+  @XmlJavaTypeAdapter(LocalDateTimeAdapter.class)
   @XmlElement(name = "publisheddate")
   private LocalDateTime publishedDate;
   private Symbol symbol;
@@ -131,10 +137,5 @@ public final class Idea {
       return false;
     }
     return true;
-  }
-
-  @Override
-  public String toString() {
-    return title;
   }
 }
