@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import javax.sql.DataSource;
-import javax.swing.text.html.Option;
-
 import com.microsoft.sqlserver.jdbc.SQLServerException;
 
 import hr.algebra.dal.repository.SymbolRepository;
@@ -25,8 +23,6 @@ public class SqlSymbolRepository implements SymbolRepository {
   private static final String CREATE_SYMBOL = "{ CALL CreateSymbol (?,?,?,?) }";
   private static final String UPDATE_SYMBOL = "{ CALL UpdateSymbol (?,?,?,?) }";
   private static final String DELETE_SYMBOL = "{ CALL DeleteSymbol (?) }";
-  private static final String SELECT_SYMBOL = "{ CALL SelectSymbol (?) }";
-  private static final String SELECT_SYMBOL_BY_LINK = "{ CALL SelectSymbolByLink (?) }";
   private static final String SELECT_SYMBOLS = "{ CALL SelectSymbols }";
 
   @Override
@@ -80,34 +76,6 @@ public class SqlSymbolRepository implements SymbolRepository {
       stmt.setInt(ID, id);
       stmt.executeUpdate();
     }
-  }
-
-  @Override
-  public Optional<Symbol> selectSymbol(int id) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SELECT_SYMBOL)) {
-      stmt.setInt(ID, id);
-      try (ResultSet rs = stmt.executeQuery()) {
-        if (rs.next()) {
-          return Optional.of(createSymbolFromResultSet(rs));
-        }
-      }
-    }
-    return Optional.empty();
-  }
-
-  @Override
-  public Optional<Symbol> selectSymbolByLink(String link) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SELECT_SYMBOL_BY_LINK)) {
-      stmt.setString(LINK, link);
-      try (ResultSet rs = stmt.executeQuery()) {
-        if (rs.next()) {
-          return Optional.of(createSymbolFromResultSet(rs));
-        }
-      }
-    }
-    return Optional.empty();
   }
 
   @Override

@@ -17,7 +17,7 @@ create table [User]
 (
   Id int primary key identity,
   Username nvarchar(256) not null unique,
-  [Password] nvarchar(256) not null,
+  PasswordHash nvarchar(256) not null,
   [Role] nvarchar(256) default 'User',
 )
 create table Idea
@@ -76,23 +76,17 @@ go
 /* USER */
 create procedure CreateUser
   @Username nvarchar(256),
-  @Password nvarchar(256),
+  @PasswordHash nvarchar(256),
   @Role nvarchar(256),
   @Id int output
 as
   begin
-    insert into [User] values (@Username, @Password, @Role)
+    insert into [User] values (@Username, @PasswordHash, @Role)
     set @Id = SCOPE_IDENTITY()
   end
 go
 create procedure SelectUserByUsername @Username nvarchar(256) as
   select * from [User] where Username = @Username
-go
-create procedure SelectUserByUsernameAndPassword
-  @Username nvarchar(256),
-  @Password nvarchar(256)
-as
-  select * from [User] where Username = @Username and [Password] = @Password
 go
 
 /* IDEA */
@@ -156,9 +150,6 @@ go
 create procedure SelectIdea @Id int as
   select * from IdeaJoined where Id = @Id
 go
-create procedure SelectIdeaByLink @Link nvarchar(512) as
-  select * from IdeaJoined where Link = @Link
-go
 create procedure SelectIdeas as
   select * from IdeaJoined
 go
@@ -208,14 +199,8 @@ go
 create procedure DeleteIdeaAuthorByIdeaId @IdeaId int as
   delete from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId
 go
-create procedure DeleteIdeaAuthorByAuthorId @AuthorId int as
-  delete from IdeaAuthor where IdeaAuthor.AuthorId = @AuthorId
-go
 create procedure SelectAuthorIdsByIdeaId @IdeaId int as
   select AuthorId from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId
-go
-create procedure SelectIdeaIdsByAuthorId @AuthorId int as
-  select IdeaId from IdeaAuthor where IdeaAuthor.AuthorId = @AuthorId
 go
 
 /* SYMBOL */
@@ -245,12 +230,6 @@ go
 create procedure DeleteSymbol @Id int as
   delete from Symbol where Id = @Id
 go
-create procedure SelectSymbol @Id int as
-  select * from Symbol where Id = @Id
-go
-create procedure SelectSymbolByLink @Link nvarchar(512) as
-  select * from Symbol where Link = @Link
-go
 create procedure SelectSymbols as
   select * from Symbol
 go
@@ -266,21 +245,11 @@ as
     set @Id = SCOPE_IDENTITY()
   end
 go
-create procedure UpdateMarket
+create procedure SetSelectedMarket
   @Id int,
-  @Name nvarchar(256),
   @IsSelected bit
 as
-  update Market set
-    [Name] = @Name,
-    IsSelected = @IsSelected
-  where Id = @Id
-go
-create procedure DeleteMarket @Id int as
-  delete from Market where Id = @Id
-go
-create procedure SelectMarket @Id int as
-  select * from Market where Id = @Id
+  update Market set IsSelected = @IsSelected where Id = @Id
 go
 create procedure SelectMarkets as
   select * from Market
@@ -303,8 +272,8 @@ create procedure DeleteAllContent as
 
 /* USERS */
 declare @Id int
-exec CreateUser 'admin', 'admin', 'ADMIN', @Id output
-exec CreateUser 'user', 'user', 'USER', @Id output
+exec CreateUser 'admin', '$2a$12$0makz2dfh.F8EjXONaQq1O2QuotAZc33lrRcXHzFJ2ZSBXMuEK0ma', 'ADMIN', @Id output
+exec CreateUser 'user', '$2a$12$XIOs1Mas/1VDxO4jUe5rG.VGNVZrilvwwwqiUR2fEBFnOXsGqSyNq', 'USER', @Id output
 go
 
 /* MARKETS */

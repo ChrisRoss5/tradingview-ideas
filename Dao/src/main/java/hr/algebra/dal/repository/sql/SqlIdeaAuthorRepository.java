@@ -20,7 +20,6 @@ public class SqlIdeaAuthorRepository implements IdeaAuthorRepository {
 
   private static final String CREATE_IDEA_AUTHOR = "{ CALL CreateIdeaAuthor (?,?,?) }";
   private static final String DELETE_IDEA_AUTHOR_BY_IDEA_ID = "{ CALL DeleteIdeaAuthorByIdeaId (?) }";
-  private static final String DELETE_IDEA_AUTHOR_BY_AUTHOR_ID = "{ CALL DeleteIdeaAuthorByAuthorId (?) }";
   private static final String SELECT_AUTHOR_IDS_BY_IDEA_ID = "{ CALL SelectAuthorIdsByIdeaId (?) }";
 
   @Override
@@ -42,16 +41,6 @@ public class SqlIdeaAuthorRepository implements IdeaAuthorRepository {
     try (Connection con = dataSource.getConnection();
         CallableStatement stmt = con.prepareCall(DELETE_IDEA_AUTHOR_BY_IDEA_ID)) {
       stmt.setInt(IDEA_ID, ideaId);
-      stmt.executeUpdate();
-    }
-  }
-
-  @Override
-  public void deleteAuthorAssociations(int authorId) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection();
-        CallableStatement stmt = con.prepareCall(DELETE_IDEA_AUTHOR_BY_AUTHOR_ID)) {
-      stmt.setInt(AUTHOR_ID, authorId);
       stmt.executeUpdate();
     }
   }

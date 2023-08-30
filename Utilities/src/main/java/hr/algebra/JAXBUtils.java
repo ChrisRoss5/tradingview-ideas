@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package hr.algebra.utilities;
+package hr.algebra;
 
 import java.io.File;
 import javax.xml.bind.JAXBContext;
@@ -19,7 +14,7 @@ public class JAXBUtils {
 
     private JAXBUtils() {
     }
-    
+
     public static void save(Object object, String filename) throws JAXBException {
         JAXBContext context = JAXBContext.newInstance(object.getClass());
         Marshaller marshaller = context.createMarshaller();
@@ -32,5 +27,5 @@ public class JAXBUtils {
         Unmarshaller unmarshaller = context.createUnmarshaller();
         return unmarshaller.unmarshal(new File(filename));
     }
-    
+
 }

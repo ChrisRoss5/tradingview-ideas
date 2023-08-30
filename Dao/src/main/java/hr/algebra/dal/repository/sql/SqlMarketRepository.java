@@ -17,56 +17,17 @@ public class SqlMarketRepository implements MarketRepository {
   private static final String NAME = "Name";
   private static final String IS_SELECTED = "IsSelected";
 
-  private static final String CREATE_MARKET = "{ CALL CreateMarket (?,?,?) }";
-  private static final String UPDATE_MARKET = "{ CALL UpdateMarket (?,?,?) }";
-  private static final String DELETE_MARKET = "{ CALL DeleteMarket (?) }";
-  private static final String SELECT_MARKET = "{ CALL SelectMarket (?) }";
+  private static final String SET_SELECTED_MARKET = "{ CALL SetSelectedMarket (?,?) }";
   private static final String SELECT_MARKETS = "{ CALL SelectMarkets }";
 
   @Override
-  public int createMarket(Market market) throws Exception {
+  public void setSelected(int id, boolean isSelected) throws Exception {
     DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(CREATE_MARKET)) {
-      stmt.setString(NAME, market.getName());
-      stmt.setBoolean(IS_SELECTED, market.isSelected());
-      stmt.registerOutParameter(ID, Types.INTEGER);
-      stmt.executeUpdate();
-      return stmt.getInt(ID);
-    }
-  }
-
-  @Override
-  public void updateMarket(int id, Market market) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(UPDATE_MARKET)) {
+    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SET_SELECTED_MARKET)) {
       stmt.setInt(ID, id);
-      stmt.setString(NAME, market.getName());
-      stmt.setBoolean(IS_SELECTED, market.isSelected());
+      stmt.setBoolean(IS_SELECTED, isSelected);
       stmt.executeUpdate();
     }
-  }
-
-  @Override
-  public void deleteMarket(int id) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(DELETE_MARKET)) {
-      stmt.setInt(ID, id);
-      stmt.executeUpdate();
-    }
-  }
-
-  @Override
-  public Optional<Market> selectMarket(int id) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SELECT_MARKET)) {
-      stmt.setInt(ID, id);
-      try (ResultSet rs = stmt.executeQuery()) {
-        if (rs.next()) {
-          return Optional.of(new Market(rs.getInt(ID), rs.getString(NAME), rs.getBoolean(IS_SELECTED)));
-        }
-      }
-    }
-    return Optional.empty();
   }
 
   @Override

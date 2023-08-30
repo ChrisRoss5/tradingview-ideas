@@ -1,33 +1,46 @@
 package hr.algebra.view;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Logger;
 
 import javax.swing.JCheckBox;
 
+import hr.algebra.MessageUtils;
 import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.AdminControlsRepository;
+import hr.algebra.dal.repository.AuthorRepository;
+import hr.algebra.dal.repository.IdeaAuthorRepository;
+import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.dal.repository.ImageRepository;
 import hr.algebra.dal.repository.MarketRepository;
+import hr.algebra.dal.repository.SymbolRepository;
 import hr.algebra.model.Market;
 import hr.algebra.parser.rss.IdeaParser;
-import hr.algebra.utilities.MessageUtils;
 
 public class AdminPanel extends javax.swing.JPanel {
 
-  private final Map<String, JCheckBox> marketCheckboxMap = new HashMap<>();
-
   private final AdminControlsRepository adminControlsRepository;
   private final ImageRepository imageRepository;
+  private final IdeaRepository ideaRepository;
+  private final AuthorRepository authorRepository;
+  private final IdeaAuthorRepository ideaAuthorRepository;
+  private final SymbolRepository symbolRepository;
   private final MarketRepository marketRepository;
+
+  private final Map<String, JCheckBox> marketCheckboxMap = new HashMap<>();
 
   public AdminPanel() {
     initComponents();
+    initMarketCheckboxes();
     adminControlsRepository = RepositoryFactory.getAdminControlsRepository();
     imageRepository = RepositoryFactory.getImageRepository();
+    ideaRepository = RepositoryFactory.getIdeaRepository();
+    authorRepository = RepositoryFactory.getAuthorRepository();
+    ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
+    symbolRepository = RepositoryFactory.getSymbolRepository();
     marketRepository = RepositoryFactory.getMarketRepository();
   }
 
@@ -154,13 +167,15 @@ public class AdminPanel extends javax.swing.JPanel {
       List<Market> selectedMarkets = new ArrayList<>();
       for (Market market : markets) {
         JCheckBox checkBox = marketCheckboxMap.get(market.getName());
-        if (checkBox != null && checkBox.isSelected()) {
-          market.setSelected(true);
-          marketRepository.updateMarket(market.getId(), market);
-          selectedMarkets.add(market);
+        if (checkBox != null) {
+          marketRepository.setSelected(market.getId(), checkBox.isSelected());
+          if (checkBox.isSelected()) {
+            selectedMarkets.add(market);
+          }
         }
       }
-      IdeaParser.parse(selectedMarkets);
+      IdeaParser.parseAndSave(ideaRepository, authorRepository, ideaAuthorRepository, symbolRepository, imageRepository,
+          selectedMarkets);
       MessageUtils.showInformationMessage("Success", "Content downloaded!");
     } catch (Exception ex) {
       MessageUtils.showErrorMessage("Unrecoverable error", "Unable to download content!");
@@ -196,23 +211,27 @@ public class AdminPanel extends javax.swing.JPanel {
   private javax.swing.JSeparator jSeparator1;
   // End of variables declaration//GEN-END:variables
 
-  private void init() {
+  private void initMarketCheckboxes() {
     marketCheckboxMap.put("Commodities", cbCommodities);
     marketCheckboxMap.put("Crypto", cbCrypto);
     marketCheckboxMap.put("Indices", cbIndices);
     marketCheckboxMap.put("Currencies", cbCurrencies);
     marketCheckboxMap.put("Stocks", cbStocks);
+  }
 
+  private void init() {
+    marketCheckboxMap.values().forEach(cb -> cb.setVisible(false));
     try {
       List<Market> markets = marketRepository.selectMarkets();
       for (Market market : markets) {
         JCheckBox checkBox = marketCheckboxMap.get(market.getName());
         if (checkBox != null) {
           checkBox.setSelected(market.isSelected());
+          checkBox.setVisible(true);
         }
       }
     } catch (Exception ex) {
-      MessageUtils.showErrorMessage("Unrecoverable error", "Unable to load markets");
+      MessageUtils.showErrorMessage("Unrecoverable error", "Unable to load markets!");
       System.exit(1);
     }
   }

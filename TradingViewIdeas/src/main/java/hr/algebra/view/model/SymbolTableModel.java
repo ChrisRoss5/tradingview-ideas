@@ -6,9 +6,9 @@ import java.util.logging.Logger;
 
 import javax.swing.table.AbstractTableModel;
 
+import hr.algebra.MessageUtils;
 import hr.algebra.dal.repository.SymbolRepository;
 import hr.algebra.model.Symbol;
-import hr.algebra.utilities.MessageUtils;
 import hr.algebra.view.IdeasPanel;
 
 public class SymbolTableModel extends AbstractTableModel {

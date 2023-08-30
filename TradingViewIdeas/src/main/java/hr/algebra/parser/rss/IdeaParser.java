@@ -36,11 +36,6 @@ public class IdeaParser {
   private static final String RSS_URL = "https://www.tradingview.com/feed";
   private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.RFC_1123_DATE_TIME;
   private static final ZoneId USER_TIME_ZONE = ZoneId.systemDefault();
-  private static final IdeaRepository ideaRepository = RepositoryFactory.getIdeaRepository();
-  private static final AuthorRepository authorRepository = RepositoryFactory.getAuthorRepository();
-  private static final IdeaAuthorRepository ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
-  private static final SymbolRepository symbolRepository = RepositoryFactory.getSymbolRepository();
-  private static final ImageRepository imageRepository = RepositoryFactory.getImageRepository();
 
   private enum CssSelector {
     ITEM("item"),
@@ -67,7 +62,14 @@ public class IdeaParser {
     }
   }
 
-  public static void parse(List<Market> markets) throws Exception {
+  public static void parseAndSave(
+      IdeaRepository ideaRepository,
+      AuthorRepository authorRepository,
+      IdeaAuthorRepository ideaAuthorRepository,
+      SymbolRepository symbolRepository,
+      ImageRepository imageRepository,
+      List<Market> markets) throws Exception {
+
     Set<Symbol> symbols = new HashSet<>();
     Set<Author> authors = new HashSet<>();
     Map<Idea, Author> ideaAuthorMap = new HashMap<>();

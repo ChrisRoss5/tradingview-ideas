@@ -10,15 +10,11 @@ public final class User {
     USER, ADMIN
   }
 
-  public User(String username, String password, UserRole role) {
+  public User(int id, String username, String password, UserRole role) {
+    this.id = id;
     this.username = username;
     this.password = password;
     this.role = role;
-  }
-
-  public User(int id, String username, String password, UserRole role) {
-    this(username, password, role);
-    this.id = id;
   }
 
   public int getId() {

@@ -9,10 +9,10 @@ import javax.swing.JLabel;
 import javax.swing.table.TableColumn;
 import javax.swing.text.JTextComponent;
 
+import hr.algebra.MessageUtils;
 import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.SymbolRepository;
 import hr.algebra.model.Symbol;
-import hr.algebra.utilities.MessageUtils;
 import hr.algebra.view.model.SymbolTableModel;
 import hr.algebra.view.ui.ButtonCellEditor;
 import hr.algebra.view.ui.ButtonCellRenderer;
@@ -230,7 +230,7 @@ public class SymbolsPanel extends javax.swing.JPanel {
   private void loadTable() throws Exception {
     symbolTableModel = new SymbolTableModel(symbolRepository);
     tbSymbols.setModel(symbolTableModel);
-    TableColumn deleteColumn = tbSymbols.getColumnModel().getColumn(3);
+    TableColumn deleteColumn = tbSymbols.getColumnModel().getColumn(tbSymbols.getColumnCount() - 1);
     deleteColumn.setCellRenderer(new ButtonCellRenderer());
     deleteColumn.setCellEditor(new ButtonCellEditor());
   }

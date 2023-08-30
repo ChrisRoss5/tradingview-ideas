@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hr.algebra.utilities;
+package hr.algebra;
 
 import hr.algebra.factory.UrlConnectionFactory;
 import java.io.File;

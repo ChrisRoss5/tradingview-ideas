@@ -6,7 +6,6 @@ import java.util.Optional;
 
 public interface AuthorRepository {
 
-
   int createAuthor(Author author) throws Exception;
 
   void createAuthors(List<Author> authors) throws Exception;
@@ -18,4 +17,5 @@ public interface AuthorRepository {
   Optional<Author> selectAuthor(int id) throws Exception;
 
   List<Author> selectAuthors() throws Exception;
+
 }

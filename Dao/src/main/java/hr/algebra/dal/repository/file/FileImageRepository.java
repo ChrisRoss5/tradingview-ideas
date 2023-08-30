@@ -3,8 +3,8 @@ package hr.algebra.dal.repository.file;
 import java.io.File;
 import java.util.UUID;
 
+import hr.algebra.FileUtils;
 import hr.algebra.dal.repository.ImageRepository;
-import hr.algebra.utilities.FileUtils;
 
 public class FileImageRepository implements ImageRepository {
   private static final String DIR = "assets";

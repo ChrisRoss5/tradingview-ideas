@@ -16,7 +16,6 @@ public interface IdeaRepository {
 
   Optional<Idea> selectIdea(int id) throws Exception;
 
-  Optional<Idea> selectIdeaByLink(String link) throws Exception;
-
   List<Idea> selectIdeas() throws Exception;
+
 }

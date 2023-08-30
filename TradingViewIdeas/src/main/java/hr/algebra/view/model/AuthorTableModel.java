@@ -6,9 +6,9 @@ import java.util.logging.Logger;
 
 import javax.swing.table.AbstractTableModel;
 
+import hr.algebra.MessageUtils;
 import hr.algebra.dal.repository.AuthorRepository;
 import hr.algebra.model.Author;
-import hr.algebra.utilities.MessageUtils;
 import hr.algebra.view.IdeasPanel;
 
 public class AuthorTableModel extends AbstractTableModel {

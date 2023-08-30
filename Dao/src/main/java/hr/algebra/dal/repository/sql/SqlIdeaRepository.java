@@ -39,7 +39,6 @@ public class SqlIdeaRepository implements IdeaRepository {
   private static final String UPDATE_IDEA = "{ CALL UpdateIdea (?,?,?,?,?,?,?,?) }";
   private static final String DELETE_IDEA = "{ CALL DeleteIdea (?) }";
   private static final String SELECT_IDEA = "{ CALL SelectIdea (?) }";
-  private static final String SELECT_IDEA_BY_LINK = "{ CALL SelectIdeaByLink (?) }";
   private static final String SELECT_IDEAS = "{ CALL SelectIdeas }";
 
   @Override
@@ -112,21 +111,6 @@ public class SqlIdeaRepository implements IdeaRepository {
     DataSource dataSource = DataSourceSingleton.getInstance();
     try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SELECT_IDEA)) {
       stmt.setInt(ID, id);
-      try (ResultSet rs = stmt.executeQuery()) {
-        if (rs.next()) {
-          return Optional.of(createIdeaFromResultSet(rs));
-        }
-      }
-    }
-    return Optional.empty();
-  }
-
-  @Override
-  public Optional<Idea> selectIdeaByLink(String link) throws Exception {
-    DataSource dataSource = DataSourceSingleton.getInstance();
-    try (Connection con = dataSource.getConnection();
-        CallableStatement stmt = con.prepareCall(SELECT_IDEA_BY_LINK)) {
-      stmt.setString(LINK, link);
       try (ResultSet rs = stmt.executeQuery()) {
         if (rs.next()) {
           return Optional.of(createIdeaFromResultSet(rs));
