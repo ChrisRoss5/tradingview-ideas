@@ -1,6 +1,5 @@
 package hr.algebra;
 
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -9,7 +8,6 @@ import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatGitHubDarkIJTh
 import hr.algebra.auth.LoginForm;
 import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.IdeaRepository;
-import hr.algebra.model.Idea;
 import hr.algebra.model.IdeaArchive;
 import hr.algebra.model.User;
 import hr.algebra.view.AdminPanel;
@@ -40,67 +38,66 @@ public class TradingViewIdeas extends javax.swing.JFrame {
 
   @SuppressWarnings("unchecked")
   // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+  // Code">//GEN-BEGIN:initComponents
+  private void initComponents() {
 
-        tpContent = new javax.swing.JTabbedPane();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        menuExport = new javax.swing.JMenu();
-        miExportIdeas = new javax.swing.JMenuItem();
-        menuAccount = new javax.swing.JMenu();
-        miLogOut = new javax.swing.JMenuItem();
+    tpContent = new javax.swing.JTabbedPane();
+    jMenuBar1 = new javax.swing.JMenuBar();
+    menuExport = new javax.swing.JMenu();
+    miExportIdeas = new javax.swing.JMenuItem();
+    menuAccount = new javax.swing.JMenu();
+    miLogOut = new javax.swing.JMenuItem();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+    setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        tpContent.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+    tpContent.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
 
-        menuExport.setMnemonic('D');
-        menuExport.setText("Export");
+    menuExport.setMnemonic('D');
+    menuExport.setText("Export");
 
-        miExportIdeas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        miExportIdeas.setMnemonic('I');
-        miExportIdeas.setText("Export Ideas");
-        miExportIdeas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                miExportIdeasActionPerformed(evt);
-            }
-        });
-        menuExport.add(miExportIdeas);
+    miExportIdeas.setAccelerator(
+        javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+    miExportIdeas.setMnemonic('I');
+    miExportIdeas.setText("Export Ideas");
+    miExportIdeas.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        miExportIdeasActionPerformed(evt);
+      }
+    });
+    menuExport.add(miExportIdeas);
 
-        jMenuBar1.add(menuExport);
+    jMenuBar1.add(menuExport);
 
-        menuAccount.setMnemonic('A');
-        menuAccount.setText("Account");
+    menuAccount.setMnemonic('A');
+    menuAccount.setText("Account");
 
-        miLogOut.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        miLogOut.setMnemonic('O');
-        miLogOut.setText("Log out");
-        miLogOut.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                miLogOutActionPerformed(evt);
-            }
-        });
-        menuAccount.add(miLogOut);
+    miLogOut.setAccelerator(
+        javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+    miLogOut.setMnemonic('O');
+    miLogOut.setText("Log out");
+    miLogOut.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        miLogOutActionPerformed(evt);
+      }
+    });
+    menuAccount.add(miLogOut);
 
-        jMenuBar1.add(menuAccount);
+    jMenuBar1.add(menuAccount);
 
-        setJMenuBar(jMenuBar1);
+    setJMenuBar(jMenuBar1);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tpContent, javax.swing.GroupLayout.DEFAULT_SIZE, 1200, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tpContent, javax.swing.GroupLayout.DEFAULT_SIZE, 877, Short.MAX_VALUE)
-        );
+    javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+    getContentPane().setLayout(layout);
+    layout.setHorizontalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tpContent, javax.swing.GroupLayout.DEFAULT_SIZE, 1200, Short.MAX_VALUE));
+    layout.setVerticalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tpContent, javax.swing.GroupLayout.DEFAULT_SIZE, 877, Short.MAX_VALUE));
 
-        pack();
-        setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    pack();
+    setLocationRelativeTo(null);
+  }// </editor-fold>//GEN-END:initComponents
 
   private void miExportIdeasActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_miExportIdeasActionPerformed
     try {
@@ -125,14 +122,14 @@ public class TradingViewIdeas extends javax.swing.JFrame {
     });
   }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenu menuAccount;
-    private javax.swing.JMenu menuExport;
-    private javax.swing.JMenuItem miExportIdeas;
-    private javax.swing.JMenuItem miLogOut;
-    private javax.swing.JTabbedPane tpContent;
-    // End of variables declaration//GEN-END:variables
+  // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JMenuBar jMenuBar1;
+  private javax.swing.JMenu menuAccount;
+  private javax.swing.JMenu menuExport;
+  private javax.swing.JMenuItem miExportIdeas;
+  private javax.swing.JMenuItem miLogOut;
+  private javax.swing.JTabbedPane tpContent;
+  // End of variables declaration//GEN-END:variables
 
   private void configurePanels() {
     tpContent.add(IDEAS, new IdeasPanel());

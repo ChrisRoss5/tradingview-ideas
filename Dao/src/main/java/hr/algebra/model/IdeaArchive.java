@@ -9,21 +9,21 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "ideaarchive")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class IdeaArchive {
+public final class IdeaArchive {
 
-    @XmlElementWrapper
-    @XmlElement(name = "idea")
-    private List<Idea> ideas;
+  @XmlElementWrapper
+  @XmlElement(name = "idea")
+  private List<Idea> ideas;
 
-    public IdeaArchive() {
-    }
+  public IdeaArchive() {
+  }
 
-    public IdeaArchive(List<Idea> ideas) {
-        this.ideas = ideas;
-    }
+  public IdeaArchive(List<Idea> ideas) {
+    this.ideas = ideas;
+  }
 
-    public List<Idea> getIdeas() {
-        return ideas;
-    }
+  public List<Idea> getIdeas() {
+    return ideas;
+  }
 
 }

@@ -1,8 +1,17 @@
 package hr.algebra.model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlTransient;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = { "name" })
 public final class Market {
+  @XmlTransient
   private int id;
   private String name;
+  @XmlTransient
   private boolean isSelected;
 
   public Market(String name, boolean isSelected) {

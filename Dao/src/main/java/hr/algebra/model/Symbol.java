@@ -1,6 +1,14 @@
 package hr.algebra.model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlTransient;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = { "name", "description", "link" })
 public final class Symbol {
+  @XmlTransient
   private int id;
   private String name;
   private String description;

@@ -385,7 +385,7 @@ public class IdeasPanel extends javax.swing.JPanel {
       int ideaId = ideaRepository.createIdea(idea);
       List<Entry<Integer, Integer>> ideaAuthors = new ArrayList<>();
       DefaultListModel<Author> model = (DefaultListModel<Author>) lsIdeaAuthors.getModel();
-      for (int i = 0; i < lsIdeaAuthors.getModel().getSize(); i++) {
+      for (int i = 0; i < model.getSize(); i++) {
         ideaAuthors.add(Map.entry(ideaId, model.get(i).getId()));
       }
       ideaAuthorRepository.createAssociations(ideaAuthors);
