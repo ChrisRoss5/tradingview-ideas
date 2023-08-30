@@ -49,8 +49,7 @@ public final class User {
     this.role = role;
   }
 
-  @Override
-  public String toString() {
-    return username;
+  public boolean isAdmin() {
+    return role == UserRole.ADMIN;
   }
 }

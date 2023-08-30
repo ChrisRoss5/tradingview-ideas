@@ -85,24 +85,6 @@ as
     set @Id = SCOPE_IDENTITY()
   end
 go
-create procedure UpdateUser
-  @Id int,
-  @Username nvarchar(256),
-  @Password nvarchar(256),
-  @Role nvarchar(256)
-as
-  update [User] set
-    Username = @Username,
-    [Password] = @Password,
-    [Role] = @Role
-  where Id = @Id
-go
-create procedure DeleteUser @Id int as
-  delete from [User] where Id = @Id
-go
-create procedure SelectUser @Id int as
-  select * from [User] where Id = @Id
-go
 create procedure SelectUserByUsername @Username nvarchar(256) as
   select * from [User] where Username = @Username
 go
@@ -111,9 +93,6 @@ create procedure SelectUserByUsernameAndPassword
   @Password nvarchar(256)
 as
   select * from [User] where Username = @Username and [Password] = @Password
-go
-create procedure SelectUsers as
-  select * from [User]
 go
 
 /* IDEA */
@@ -324,8 +303,8 @@ create procedure DeleteAllContent as
 
 /* USERS */
 declare @Id int
-exec CreateUser 'admin', 'admin', 'Admin', @Id output
-exec CreateUser 'user', 'user', 'User', @Id output
+exec CreateUser 'admin', 'admin', 'ADMIN', @Id output
+exec CreateUser 'user', 'user', 'USER', @Id output
 go
 
 /* MARKETS */

@@ -21,6 +21,7 @@
       <artifactId>mssql-jdbc</artifactId>
       <version>8.4.1.jre14</version>
     </dependency>
+    
   </dependencies>
   <properties>
     <maven.compiler.source>19</maven.compiler.source>

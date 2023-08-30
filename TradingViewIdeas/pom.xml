@@ -29,6 +29,6 @@
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <exec.mainClass>hr.algebra.auth.LoginForm</exec.mainClass>
+        <exec.mainClass>hr.algebra.TradingViewIdeas</exec.mainClass>
     </properties>
 </project>
