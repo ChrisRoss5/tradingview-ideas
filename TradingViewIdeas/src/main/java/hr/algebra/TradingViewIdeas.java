@@ -20,8 +20,7 @@ import hr.algebra.view.auth.LoginForm;
 
 public class TradingViewIdeas extends javax.swing.JFrame {
 
-  private static final boolean skipLogin = true;
-
+  private static final boolean AUTO_LOGIN_AS_ADMIN = true;
   private static final String IDEAS = "Ideas";
   private static final String AUTHORS = "Authors";
   private static final String SYMBOLS = "Symbols";
@@ -36,6 +35,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
     this.user = user;
     initComponents();
     configurePanels();
+    setTitle("TradingView Ideas - " + user.getUsername());
   }
 
   @SuppressWarnings("unchecked")
@@ -120,7 +120,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
     // https://github.com/JFormDesigner/FlatLaf/tree/main/flatlaf-intellij-themes#themes
     FlatGitHubDarkIJTheme.setup();
     java.awt.EventQueue.invokeLater(() -> {
-      if (skipLogin) {
+      if (AUTO_LOGIN_AS_ADMIN) {
         new TradingViewIdeas(new User(1, "admin", "admin", UserRole.ADMIN)).setVisible(true);
         return;
       }

@@ -90,8 +90,8 @@ public class AuthorTableModel extends AbstractTableModel {
         return;
       }
       try {
-        authorRepository.deleteAuthor(author.getId());
         ideaAuthorRepository.deleteAuthorAssociations(author.getId());
+        authorRepository.deleteAuthor(author.getId());
         authors.remove(rowIndex);
         fireTableRowsDeleted(rowIndex, rowIndex);
       } catch (Exception ex) {

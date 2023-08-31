@@ -5,6 +5,7 @@ import java.awt.Image;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
@@ -28,6 +29,8 @@ import javax.swing.ListSelectionModel;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.text.JTextComponent;
+
+import org.jdesktop.swingx.prompt.PromptSupport;
 
 import hr.algebra.FileUtils;
 import hr.algebra.MessageUtils;
@@ -401,15 +404,15 @@ public class IdeasPanel extends javax.swing.JPanel {
     if (!formValid()) {
       return;
     }
+    String newPicturePath = uploadImage();
     try {
-      String localPicturePath = uploadImage();
       DefaultListModel<Author> model = (DefaultListModel<Author>) lsIdeaAuthors.getModel();
       List<Author> authors = Collections.list(model.elements());
       Idea idea = new Idea(
           tfTitle.getText().trim(),
           tfLink.getText().trim(),
           taDescription.getText().trim(),
-          localPicturePath,
+          newPicturePath,
           LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER),
           (Symbol) cbSymbol.getSelectedItem(),
           (Market) cbMarket.getSelectedItem(),
@@ -428,23 +431,27 @@ public class IdeasPanel extends javax.swing.JPanel {
         Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
         MessageUtils.showErrorMessage("Error", "Unable to create idea!");
       }
+      try {
+        Files.deleteIfExists(Paths.get(newPicturePath));
+      } catch (IOException ex2) {
+        Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex2);
+      }
     }
   }// GEN-LAST:event_btnCreateActionPerformed
 
   private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnUpdateActionPerformed
-    if (selectedIdea == null) {
-      MessageUtils.showInformationMessage("Wrong operation", "Please choose idea to update");
-      return;
-    }
     if (!formValid()) {
       return;
     }
+    String currentPicturePath = selectedIdea.getPicturePath();
+    String newPicturePath = "";
     try {
-      if (!tfPicturePath.getText().trim().equals(selectedIdea.getPicturePath())) {
-        if (selectedIdea.getPicturePath() != null) {
-          Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
+      if (!tfPicturePath.getText().trim().equals(currentPicturePath)) {
+        if (currentPicturePath != null) {
+          Files.deleteIfExists(Paths.get(currentPicturePath));
         }
-        selectedIdea.setPicturePath(uploadImage());
+        newPicturePath = uploadImage();
+        selectedIdea.setPicturePath(newPicturePath);
       }
       selectedIdea.setTitle(tfTitle.getText().trim());
       selectedIdea.setLink(tfLink.getText().trim());
@@ -470,29 +477,32 @@ public class IdeasPanel extends javax.swing.JPanel {
         Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
         MessageUtils.showErrorMessage("Error", "Unable to update idea!");
       }
+      try {
+        Files.deleteIfExists(Paths.get(newPicturePath));
+        uploadImage(currentPicturePath);
+      } catch (IOException ex2) {
+        Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex2);
+      }
     }
 
   }// GEN-LAST:event_btnUpdateActionPerformed
 
   private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnDeleteActionPerformed
-    if (selectedIdea == null) {
-      MessageUtils.showInformationMessage("Wrong operation", "Please choose idea to delete");
-      return;
-    }
     if (MessageUtils.showConfirmDialog(
         "Delete idea",
         "Are you sure you want to delete idea?")) {
       try {
+        ideaAuthorRepository.deleteIdeaAssociations(selectedIdea.getId());
+        ideaRepository.deleteIdea(selectedIdea.getId());
         if (selectedIdea.getPicturePath() != null) {
           Files.deleteIfExists(Paths.get(selectedIdea.getPicturePath()));
         }
-        ideaRepository.deleteIdea(selectedIdea.getId());
-        ideaAuthorRepository.deleteIdeaAssociations(selectedIdea.getId());
         updateTables();
         clearForm();
       } catch (Exception ex) {
         Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
         MessageUtils.showErrorMessage("Error", "Unable to delete idea!");
+
       }
     }
   }// GEN-LAST:event_btnDeleteActionPerformed
@@ -567,6 +577,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     validationComboBoxes = Arrays.asList(cbSymbol, cbMarket);
     errorLabels = Arrays.asList(lbTitleError, lbLinkError, lbDescriptionError, lbPublishedDateError,
         lbPicturePathError, lbSymbolError, lbMarketError);
+    PromptSupport.setPrompt( "yyyy-MM-ddTHH:mm:ss" , tfPublishedDate);
   }
 
   private void initListeners() {
@@ -673,9 +684,9 @@ public class IdeasPanel extends javax.swing.JPanel {
     int i = 0;
     for (; i < validationFields.size(); i++) {
       errorLabels.get(i).setVisible(validationFields.get(i).getText().trim().isEmpty());
-      if ("Date".equals(validationFields.get(i).getName())) {
+      if (validationFields.get(i) == tfPublishedDate) {
         try {
-          LocalDateTime.parse(validationFields.get(i).getText().trim(), Idea.DATE_FORMATTER);
+          LocalDateTime.parse(tfPublishedDate.getText().trim(), Idea.DATE_FORMATTER);
         } catch (Exception e) {
           errorLabels.get(i).setVisible(true);
         }
@@ -699,8 +710,12 @@ public class IdeasPanel extends javax.swing.JPanel {
   }
 
   private String uploadImage() {
+    return uploadImage(tfPicturePath.getText().trim());
+  }
+
+  private String uploadImage(String path) {
     try {
-      return imageRepository.saveImageFromPath(tfPicturePath.getText().trim());
+      return imageRepository.saveImageFromPath(path);
     } catch (Exception ex) {
       Logger.getLogger(IdeasPanel.class.getName()).log(Level.SEVERE, null, ex);
       MessageUtils.showErrorMessage("Error", "Unable to save image!");

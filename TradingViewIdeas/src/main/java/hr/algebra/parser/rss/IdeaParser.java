@@ -137,7 +137,7 @@ public class IdeaParser {
 
   private static String selectText(Element element, CssSelector selector) {
     Element el = element.selectFirst(selector.getSelector());
-    return el == null ? "" : el.text();
+    return el == null ? "" : el.wholeText();
   }
 
   private static String selectAttribute(Element element, CssSelector selector, String attribute) {

@@ -85,7 +85,7 @@ public class SymbolTableModel extends AbstractTableModel {
     Symbol symbol = symbols.get(rowIndex);
     if (columnIndex == getColumnCount() - 1) {
       if (!MessageUtils.showConfirmDialog("Delete symbol",
-          "Are you sure you want to delete " + symbol.getName() + "and all its ideas?")) {
+          "Are you sure you want to delete " + symbol.getName() + " and all its ideas?")) {
         return;
       }
       try {

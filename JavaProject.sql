@@ -64,9 +64,9 @@ alter table Idea add
     references Market(Id) on delete cascade
 alter table IdeaAuthor add
   constraint FK_IdeaAuthor_Idea foreign key (IdeaId)
-    references Idea(Id),
+    references Idea(Id) on delete cascade,
   constraint FK_IdeaAuthor_Author foreign key (AuthorId)
-    references Author(Id)
+    references Author(Id) on delete cascade
 alter table IdeaAuthor add
   constraint UQ_IdeaAuthorUnique unique (IdeaId, AuthorId)
 go
@@ -264,10 +264,10 @@ create procedure DeleteAllContent as
     delete from IdeaAuthor
     delete from Author
     delete from Symbol
-    dbcc checkident('Idea', reseed, 1)
-    dbcc checkident('IdeaAuthor', reseed, 1)
-    dbcc checkident('Author', reseed, 1)
-    dbcc checkident('Symbol', reseed, 1)
+    dbcc checkident('Idea', reseed, 0)
+    dbcc checkident('IdeaAuthor', reseed, 0)
+    dbcc checkident('Author', reseed, 0)
+    dbcc checkident('Symbol', reseed, 0)
   end
 go
 

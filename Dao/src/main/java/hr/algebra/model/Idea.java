@@ -13,25 +13,46 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import hr.algebra.adapter.LocalDateTimeAdapter;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
+@AllArgsConstructor
+@Getter
+@Setter
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@ToString
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(propOrder = { "title", "link", "description", "publishedDate", "symbol", "market", "authors" })
 public final class Idea {
 
   public static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
 
+  @Setter(AccessLevel.NONE)
   @XmlTransient
   private int id;
+
   private String title;
+
+  @EqualsAndHashCode.Include
   private String link;
+
   private String description;
+
   @XmlTransient
   private String picturePath;
+
   @XmlJavaTypeAdapter(LocalDateTimeAdapter.class)
   @XmlElement(name = "publisheddate")
   private LocalDateTime publishedDate;
+
   private Symbol symbol;
+
   private Market market;
+
   @XmlElementWrapper
   @XmlElement(name = "author")
   private List<Author> authors;
@@ -46,109 +67,5 @@ public final class Idea {
     this.symbol = symbol;
     this.market = market;
     this.authors = authors;
-  }
-
-  public Idea(int id, String title, String link, String description, String picturePath, LocalDateTime publishedDate,
-      Symbol symbol, Market market, List<Author> authors) {
-    this(title, link, description, picturePath, publishedDate, symbol, market, authors);
-    this.id = id;
-  }
-
-  public int getId() {
-    return id;
-  }
-
-  public String getTitle() {
-    return title;
-  }
-
-  public void setTitle(String title) {
-    this.title = title;
-  }
-
-  public String getLink() {
-    return link;
-  }
-
-  public void setLink(String link) {
-    this.link = link;
-  }
-
-  public String getDescription() {
-    return description;
-  }
-
-  public void setDescription(String description) {
-    this.description = description;
-  }
-
-  public String getPicturePath() {
-    return picturePath;
-  }
-
-  public void setPicturePath(String picturePath) {
-    this.picturePath = picturePath;
-  }
-
-  public LocalDateTime getPublishedDate() {
-    return publishedDate;
-  }
-
-  public void setPublishedDate(LocalDateTime publishedDate) {
-    this.publishedDate = publishedDate;
-  }
-
-  public Symbol getSymbol() {
-    return symbol;
-  }
-
-  public void setSymbol(Symbol symbol) {
-    this.symbol = symbol;
-  }
-
-  public Market getMarket() {
-    return market;
-  }
-
-  public void setMarket(Market market) {
-    this.market = market;
-  }
-
-  public List<Author> getAuthors() {
-    return authors;
-  }
-
-  public void setAuthors(List<Author> authors) {
-    this.authors = authors;
-  }
-
-  @Override
-  public int hashCode() {
-    final int prime = 31;
-    int result = 1;
-    result = prime * result + ((link == null) ? 0 : link.hashCode());
-    return result;
-  }
-
-  @Override
-  public boolean equals(Object obj) {
-    if (this == obj) {
-      return true;
-    }
-    if (obj == null) {
-      return false;
-    }
-    if (getClass() != obj.getClass()) {
-      return false;
-    }
-    Idea other = (Idea) obj;
-    if (link == null) {
-      if (other.link != null) {
-        return false;
-      }
-    } else if (!link.equals(other.link)) {
-      return false;
-    }
-    return true;
   }
 }

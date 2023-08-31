@@ -185,8 +185,7 @@ public class AdminPanel extends javax.swing.JPanel {
           btnLoad.setText("Loading...");
           btnLoad.setEnabled(false);
           IdeaParser.parseAndSave(ideaRepository, authorRepository, ideaAuthorRepository, symbolRepository,
-              imageRepository,
-              selectedMarkets);
+              imageRepository, selectedMarkets);
           MessageUtils.showInformationMessage("Success", "Content downloaded!");
           btnLoad.setText("Load TradingView Feed");
           btnLoad.setEnabled(true);
@@ -194,6 +193,7 @@ public class AdminPanel extends javax.swing.JPanel {
           Logger.getLogger(AdminPanel.class.getName()).log(Level.SEVERE, null, ex);
           MessageUtils.showErrorMessage("Unrecoverable error", "Unable to download content!");
           System.exit(1);
+          
         }
       }).start();
     } catch (Exception ex) {
@@ -208,16 +208,30 @@ public class AdminPanel extends javax.swing.JPanel {
       return;
     }
     try {
-      adminControlsRepository.deleteAllContent();
-      imageRepository.deleteAllImages();
+      new Thread(() -> {
+        try {
+          btnDeleteAllContent.setText("Deleting...");
+          btnDeleteAllContent.setEnabled(false);
+          adminControlsRepository.deleteAllContent();
+          imageRepository.deleteAllImages();
+          MessageUtils.showInformationMessage("Success", "All content deleted!");
+          btnDeleteAllContent.setText("Delete all content feed");
+          btnDeleteAllContent.setEnabled(true);
+        } catch (Exception ex) {
+          Logger.getLogger(AdminPanel.class.getName()).log(Level.SEVERE, null, ex);
+          MessageUtils.showErrorMessage("Unrecoverable error", "Unable to download content!");
+          System.exit(1);
+        }
+      }).start();
     } catch (Exception ex) {
+      Logger.getLogger(AdminPanel.class.getName()).log(Level.SEVERE, null, ex);
       MessageUtils.showErrorMessage("Unrecoverable error", "Unable to delete all content!");
       System.exit(1);
     }
   }// GEN-LAST:event_btnDeleteAllContentActionPerformed
 
   private void formComponentShown(java.awt.event.ComponentEvent evt) {
-    init();
+    loadMarketCheckboxes();
   }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -239,7 +253,7 @@ public class AdminPanel extends javax.swing.JPanel {
     marketCheckboxMap.put("Stocks", cbStocks);
   }
 
-  private void init() {
+  private void loadMarketCheckboxes() {
     marketCheckboxMap.values().forEach(cb -> cb.setVisible(false));
     try {
       List<Market> markets = marketRepository.selectMarkets();
