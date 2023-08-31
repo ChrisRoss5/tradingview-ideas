@@ -18,17 +18,17 @@ import hr.algebra.view.ui.ButtonCellEditor;
 import hr.algebra.view.ui.ButtonCellRenderer;
 
 public class SymbolsPanel extends javax.swing.JPanel {
+  private final SymbolRepository symbolRepository;
+
   private List<JTextComponent> validationFields;
   private List<JLabel> errorLabels;
-
-  private final SymbolRepository symbolRepository;
 
   private SymbolTableModel symbolTableModel;
 
   public SymbolsPanel() {
+    this.symbolRepository = RepositoryFactory.getSymbolRepository();
     initComponents();
     initValidation();
-    this.symbolRepository = RepositoryFactory.getSymbolRepository();
   }
 
   @SuppressWarnings("unchecked")

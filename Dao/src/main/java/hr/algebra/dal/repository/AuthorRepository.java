@@ -2,7 +2,6 @@ package hr.algebra.dal.repository;
 
 import hr.algebra.model.Author;
 import java.util.List;
-import java.util.Optional;
 
 public interface AuthorRepository {
 
@@ -13,8 +12,6 @@ public interface AuthorRepository {
   void updateAuthor(int id, Author author) throws Exception;
 
   void deleteAuthor(int id) throws Exception;
-
-  Optional<Author> selectAuthor(int id) throws Exception;
 
   List<Author> selectAuthors() throws Exception;
 

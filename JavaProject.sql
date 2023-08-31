@@ -142,10 +142,15 @@ create view IdeaJoined as
     Symbol.[Link] as SymbolLink,
     Market.[Id] as MarketId,
     Market.[Name] as MarketName,
-    Market.[IsSelected] as MarketIsSelected
+    Market.[IsSelected] as MarketIsSelected,
+    Author.[Id] as AuthorId,
+    Author.[Name] as AuthorName,
+    Author.[Link] as AuthorLink
   from Idea
     inner join Symbol on Idea.SymbolId = Symbol.Id
     inner join Market on Idea.MarketId = Market.Id
+    left join IdeaAuthor on Idea.Id = IdeaAuthor.IdeaId
+    left join Author on IdeaAuthor.AuthorId = Author.Id
 go
 create procedure SelectIdea @Id int as
   select * from IdeaJoined where Id = @Id
@@ -178,9 +183,6 @@ go
 create procedure DeleteAuthor @Id int as
   delete from Author where Id = @Id
 go
-create procedure SelectAuthor @Id int as
-  select * from Author where Id = @Id
-go
 create procedure SelectAuthors as
   select * from Author
 go
@@ -199,8 +201,8 @@ go
 create procedure DeleteIdeaAuthorByIdeaId @IdeaId int as
   delete from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId
 go
-create procedure SelectAuthorIdsByIdeaId @IdeaId int as
-  select AuthorId from IdeaAuthor where IdeaAuthor.IdeaId = @IdeaId
+create procedure DeleteIdeaAuthorByAuthorId @AuthorId int as
+  delete from IdeaAuthor where IdeaAuthor.AuthorId = @AuthorId
 go
 
 /* SYMBOL */
@@ -262,11 +264,12 @@ create procedure DeleteAllContent as
     delete from IdeaAuthor
     delete from Author
     delete from Symbol
-    dbcc checkident('Idea', reseed, 0)
-    dbcc checkident('IdeaAuthor', reseed, 0)
-    dbcc checkident('Author', reseed, 0)
-    dbcc checkident('Symbol', reseed, 0)
+    dbcc checkident('Idea', reseed, 1)
+    dbcc checkident('IdeaAuthor', reseed, 1)
+    dbcc checkident('Author', reseed, 1)
+    dbcc checkident('Symbol', reseed, 1)
   end
+go
 
 /* INSERTIONS */
 
@@ -278,9 +281,9 @@ go
 
 /* MARKETS */
 declare @Id int
-exec CreateMarket 'Commodities', 1, @Id output
-exec CreateMarket 'Crypto', 1, @Id output
-exec CreateMarket 'Currencies', 1, @Id output
-exec CreateMarket 'Indices', 1, @Id output
-exec CreateMarket 'Stocks', 1, @Id output
+exec CreateMarket 'Commodities', 0, @Id output
+exec CreateMarket 'Crypto', 0, @Id output
+exec CreateMarket 'Currencies', 0, @Id output
+exec CreateMarket 'Indices', 0, @Id output
+exec CreateMarket 'Stocks', 0, @Id output
 go

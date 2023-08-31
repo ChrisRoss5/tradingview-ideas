@@ -12,13 +12,11 @@ public class RegisterForm extends javax.swing.JFrame {
   private final UserRepository userRepository;
 
   public RegisterForm() {
-    initComponents();
     userRepository = RepositoryFactory.getUserRepository();
+    initComponents();
   }
 
   @SuppressWarnings("unchecked")
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
         java.awt.GridBagConstraints gridBagConstraints;

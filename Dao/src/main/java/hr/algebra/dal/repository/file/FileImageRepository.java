@@ -13,7 +13,7 @@ import hr.algebra.dal.repository.ImageRepository;
 import hr.algebra.factory.UrlConnectionFactory;
 
 public class FileImageRepository implements ImageRepository {
-  private static final String DIR = "images";
+  private static final String DIR = "loaded_assets";
   private static final String EXT = ".png";
 
   @Override

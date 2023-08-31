@@ -8,8 +8,6 @@ import hr.algebra.dal.repository.UserRepository;
 import hr.algebra.model.User;
 
 import java.util.Optional;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.logging.Logger;
 
 public class LoginForm extends javax.swing.JFrame {
@@ -17,8 +15,8 @@ public class LoginForm extends javax.swing.JFrame {
   private final UserRepository userRepository;
 
   public LoginForm() {
-    initComponents();
     userRepository = RepositoryFactory.getUserRepository();
+    initComponents();
   }
 
   @SuppressWarnings("unchecked")

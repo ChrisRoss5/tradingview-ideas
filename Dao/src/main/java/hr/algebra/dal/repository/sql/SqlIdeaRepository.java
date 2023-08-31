@@ -7,7 +7,9 @@ import java.sql.Types;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import javax.sql.DataSource;
@@ -15,6 +17,7 @@ import javax.sql.DataSource;
 import com.microsoft.sqlserver.jdbc.SQLServerException;
 
 import hr.algebra.dal.repository.IdeaRepository;
+import hr.algebra.model.Author;
 import hr.algebra.model.Idea;
 import hr.algebra.model.Market;
 import hr.algebra.model.Symbol;
@@ -34,6 +37,9 @@ public class SqlIdeaRepository implements IdeaRepository {
   private static final String MARKET_ID = "MarketId";
   private static final String MARKET_NAME = "MarketName";
   private static final String MARKET_IS_SELECTED = "MarketIsSelected";
+  private static final String AUTHOR_ID = "AuthorId";
+  private static final String AUTHOR_NAME = "AuthorName";
+  private static final String AUTHOR_LINK = "AuthorLink";
 
   private static final String CREATE_IDEA = "{ CALL CreateIdea (?,?,?,?,?,?,?,?) }";
   private static final String UPDATE_IDEA = "{ CALL UpdateIdea (?,?,?,?,?,?,?,?) }";
@@ -112,44 +118,53 @@ public class SqlIdeaRepository implements IdeaRepository {
     try (Connection con = dataSource.getConnection(); CallableStatement stmt = con.prepareCall(SELECT_IDEA)) {
       stmt.setInt(ID, id);
       try (ResultSet rs = stmt.executeQuery()) {
-        if (rs.next()) {
-          return Optional.of(createIdeaFromResultSet(rs));
-        }
+        List<Idea> ideas = createIdeasFromResultSet(rs);
+        return ideas.isEmpty() ? Optional.empty() : Optional.of(ideas.get(0));
       }
     }
-    return Optional.empty();
   }
 
   @Override
   public List<Idea> selectIdeas() throws Exception {
-    List<Idea> ideas = new ArrayList<>();
     DataSource dataSource = DataSourceSingleton.getInstance();
     try (Connection con = dataSource.getConnection();
         CallableStatement stmt = con.prepareCall(SELECT_IDEAS);
         ResultSet rs = stmt.executeQuery()) {
-      while (rs.next()) {
-        ideas.add(createIdeaFromResultSet(rs));
-      }
+      return createIdeasFromResultSet(rs);
     }
-    return ideas;
   }
 
-  private static Idea createIdeaFromResultSet(ResultSet rs) throws Exception {
-    return new Idea(
-        rs.getInt(ID),
-        rs.getString(TITLE),
-        rs.getString(LINK),
-        rs.getString(DESCRIPTION),
-        rs.getString(PICTURE_PATH),
-        LocalDateTime.parse(rs.getString(PUBLISHED_DATE), DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSSSSSS")),
-        new Symbol(
-            rs.getInt(SYMBOL_ID),
-            rs.getString(SYMBOL_NAME),
-            rs.getString(SYMBOL_DESCRIPTION),
-            rs.getString(SYMBOL_LINK)),
-        new Market(
-            rs.getInt(MARKET_ID),
-            rs.getString(MARKET_NAME),
-            rs.getBoolean(MARKET_IS_SELECTED)));
+  private static List<Idea> createIdeasFromResultSet(ResultSet rs) throws Exception {
+    Map<Integer, Idea> ideaMap = new HashMap<>();
+    while (rs.next()) {
+      int ideaId = rs.getInt(ID);
+      Idea idea = ideaMap.getOrDefault(ideaId, new Idea(
+          ideaId,
+          rs.getString(TITLE),
+          rs.getString(LINK),
+          rs.getString(DESCRIPTION),
+          rs.getString(PICTURE_PATH),
+          LocalDateTime.parse(rs.getString(PUBLISHED_DATE),
+              DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSSSSSS")),
+          new Symbol(
+              rs.getInt(SYMBOL_ID),
+              rs.getString(SYMBOL_NAME),
+              rs.getString(SYMBOL_DESCRIPTION),
+              rs.getString(SYMBOL_LINK)),
+          new Market(
+              rs.getInt(MARKET_ID),
+              rs.getString(MARKET_NAME),
+              rs.getBoolean(MARKET_IS_SELECTED)),
+          new ArrayList<>()));
+      Author author = new Author(
+          rs.getInt(AUTHOR_ID),
+          rs.getString(AUTHOR_NAME),
+          rs.getString(AUTHOR_LINK));
+      List<Author> authors = idea.getAuthors();
+      authors.add(author);
+      idea.setAuthors(authors);
+      ideaMap.put(ideaId, idea);
+    }
+    return ideaMap.values().stream().toList();
   }
 }

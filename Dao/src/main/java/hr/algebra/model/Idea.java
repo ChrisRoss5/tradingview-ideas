@@ -2,19 +2,20 @@ package hr.algebra.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import hr.algebra.adapter.LocalDateTimeAdapter;
 
-
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(propOrder = { "title", "link", "description", "publishedDate", "symbol", "market" })
+@XmlType(propOrder = { "title", "link", "description", "publishedDate", "symbol", "market", "authors" })
 public final class Idea {
 
   public static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
@@ -31,9 +32,12 @@ public final class Idea {
   private LocalDateTime publishedDate;
   private Symbol symbol;
   private Market market;
+  @XmlElementWrapper
+  @XmlElement(name = "author")
+  private List<Author> authors;
 
   public Idea(String title, String link, String description, String picturePath, LocalDateTime publishedDate,
-      Symbol symbol, Market market) {
+      Symbol symbol, Market market, List<Author> authors) {
     this.title = title;
     this.link = link;
     this.description = description;
@@ -41,11 +45,12 @@ public final class Idea {
     this.publishedDate = publishedDate;
     this.symbol = symbol;
     this.market = market;
+    this.authors = authors;
   }
 
   public Idea(int id, String title, String link, String description, String picturePath, LocalDateTime publishedDate,
-      Symbol symbol, Market market) {
-    this(title, link, description, picturePath, publishedDate, symbol, market);
+      Symbol symbol, Market market, List<Author> authors) {
+    this(title, link, description, picturePath, publishedDate, symbol, market, authors);
     this.id = id;
   }
 
@@ -107,6 +112,14 @@ public final class Idea {
 
   public void setMarket(Market market) {
     this.market = market;
+  }
+
+  public List<Author> getAuthors() {
+    return authors;
+  }
+
+  public void setAuthors(List<Author> authors) {
+    this.authors = authors;
   }
 
   @Override

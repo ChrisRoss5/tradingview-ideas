@@ -9,6 +9,7 @@ import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.model.IdeaArchive;
 import hr.algebra.model.User;
+import hr.algebra.model.User.UserRole;
 import hr.algebra.view.AdminPanel;
 import hr.algebra.view.AuthorsPanel;
 import hr.algebra.view.IdeasPanel;
@@ -19,19 +20,20 @@ import hr.algebra.view.auth.LoginForm;
 
 public class TradingViewIdeas extends javax.swing.JFrame {
 
+  private static final boolean skipLogin = true;
+
   private static final String IDEAS = "Ideas";
   private static final String AUTHORS = "Authors";
   private static final String SYMBOLS = "Symbols";
   private static final String ADMIN = "Admin";
-  private static final String EXPORT_FILENAME = "src/main/xml/ideas.xml";
+  private static final String EXPORT_FILENAME = "src/main/resources/exports/ideas.xml";
 
   private final IdeaRepository ideaRepository;
-
   private final User user;
 
   public TradingViewIdeas(User user) {
+    this.ideaRepository = RepositoryFactory.getIdeaRepository();
     this.user = user;
-    ideaRepository = RepositoryFactory.getIdeaRepository();
     initComponents();
     configurePanels();
   }
@@ -118,6 +120,10 @@ public class TradingViewIdeas extends javax.swing.JFrame {
     // https://github.com/JFormDesigner/FlatLaf/tree/main/flatlaf-intellij-themes#themes
     FlatGitHubDarkIJTheme.setup();
     java.awt.EventQueue.invokeLater(() -> {
+      if (skipLogin) {
+        new TradingViewIdeas(new User(1, "admin", "admin", UserRole.ADMIN)).setVisible(true);
+        return;
+      }
       new LoginForm().setVisible(true);
     });
   }

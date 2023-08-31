@@ -28,5 +28,5 @@ replay_pid*
 /TradingViewIdeas/target/
 
 # Other
-/TradingViewIdeas/images/
-/TradingViewIdeas/xml/
+loaded_assets/
+exports/

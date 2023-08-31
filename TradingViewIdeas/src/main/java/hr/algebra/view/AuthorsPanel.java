@@ -12,6 +12,7 @@ import javax.swing.text.JTextComponent;
 import hr.algebra.MessageUtils;
 import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.AuthorRepository;
+import hr.algebra.dal.repository.IdeaAuthorRepository;
 import hr.algebra.model.Author;
 import hr.algebra.view.model.AuthorTableModel;
 import hr.algebra.view.ui.ButtonCellEditor;
@@ -19,6 +20,7 @@ import hr.algebra.view.ui.ButtonCellRenderer;
 
 public class AuthorsPanel extends javax.swing.JPanel {
   private final AuthorRepository authorRepository;
+  private final IdeaAuthorRepository ideaAuthorRepository;
 
   private List<JTextComponent> validationFields;
   private List<JLabel> errorLabels;
@@ -26,9 +28,10 @@ public class AuthorsPanel extends javax.swing.JPanel {
   private AuthorTableModel authorTableModel;
 
   public AuthorsPanel() {
+    this.authorRepository = RepositoryFactory.getAuthorRepository();
+    this.ideaAuthorRepository = RepositoryFactory.getIdeaAuthorRepository();
     initComponents();
     initValidation();
-    this.authorRepository = RepositoryFactory.getAuthorRepository();
   }
 
   @SuppressWarnings("unchecked")
@@ -199,7 +202,7 @@ public class AuthorsPanel extends javax.swing.JPanel {
   }
 
   private void loadTable() throws Exception {
-    authorTableModel = new AuthorTableModel(authorRepository);
+    authorTableModel = new AuthorTableModel(authorRepository, ideaAuthorRepository);
     tbAuthors.setModel(authorTableModel);
     TableColumn deleteColumn = tbAuthors.getColumnModel().getColumn(tbAuthors.getColumnCount() - 1);
     deleteColumn.setCellRenderer(new ButtonCellRenderer());

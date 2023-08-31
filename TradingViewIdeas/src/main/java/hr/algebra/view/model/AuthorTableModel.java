@@ -8,6 +8,7 @@ import javax.swing.table.AbstractTableModel;
 
 import hr.algebra.MessageUtils;
 import hr.algebra.dal.repository.AuthorRepository;
+import hr.algebra.dal.repository.IdeaAuthorRepository;
 import hr.algebra.model.Author;
 import hr.algebra.view.IdeasPanel;
 
@@ -17,9 +18,11 @@ public class AuthorTableModel extends AbstractTableModel {
 
   private List<Author> authors;
   private AuthorRepository authorRepository;
+  private IdeaAuthorRepository ideaAuthorRepository;
 
-  public AuthorTableModel(AuthorRepository authorRepository) throws Exception {
+  public AuthorTableModel(AuthorRepository authorRepository, IdeaAuthorRepository ideaAuthorRepository) throws Exception {
     this.authorRepository = authorRepository;
+    this.ideaAuthorRepository = ideaAuthorRepository;
     setAuthors(authorRepository.selectAuthors());
   }
 
@@ -88,6 +91,7 @@ public class AuthorTableModel extends AbstractTableModel {
       }
       try {
         authorRepository.deleteAuthor(author.getId());
+        ideaAuthorRepository.deleteAuthorAssociations(author.getId());
         authors.remove(rowIndex);
         fireTableRowsDeleted(rowIndex, rowIndex);
       } catch (Exception ex) {

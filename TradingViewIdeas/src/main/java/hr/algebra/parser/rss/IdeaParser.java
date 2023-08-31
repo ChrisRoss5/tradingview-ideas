@@ -6,7 +6,6 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -20,7 +19,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import hr.algebra.dal.factory.RepositoryFactory;
 import hr.algebra.dal.repository.AuthorRepository;
 import hr.algebra.dal.repository.IdeaAuthorRepository;
 import hr.algebra.dal.repository.IdeaRepository;
@@ -72,7 +70,7 @@ public class IdeaParser {
 
     Set<Symbol> symbols = new HashSet<>();
     Set<Author> authors = new HashSet<>();
-    Map<Idea, Author> ideaAuthorMap = new HashMap<>();
+    List<Idea> ideas = new ArrayList<>();
 
     long time1 = System.nanoTime();
 
@@ -100,10 +98,10 @@ public class IdeaParser {
         LocalDateTime publishedDate = zonedDateTime.toLocalDateTime();
         Symbol symbol = new Symbol(symbolName, symbolDescription, symbolLink);
         Author author = new Author(authorName, authorLink);
-        Idea idea = new Idea(title, link, description, picturePath, publishedDate, symbol, market);
+        Idea idea = new Idea(title, link, description, picturePath, publishedDate, symbol, market, List.of(author));
         symbols.add(symbol);
         authors.add(author);
-        ideaAuthorMap.put(idea, author);
+        ideas.add(idea);
       }
     }
 
@@ -118,19 +116,17 @@ public class IdeaParser {
     Map<String, Author> dbAuthorsMap = authorRepository.selectAuthors().stream()
         .collect(Collectors.toMap(Author::getLink, Function.identity()));
 
-    for (Idea idea : ideaAuthorMap.keySet()) {
-      idea.setSymbol(dbSymbolsMap.get(idea.getSymbol().getLink()));
-    }
+    ideas.forEach(idea -> idea.setSymbol(dbSymbolsMap.get(idea.getSymbol().getLink())));
 
-    ideaRepository.createIdeas(new ArrayList<>(ideaAuthorMap.keySet()));
+    ideaRepository.createIdeas(ideas);
 
     Map<String, Idea> dbIdeasMap = ideaRepository.selectIdeas().stream()
         .collect(Collectors.toMap(Idea::getLink, Function.identity()));
 
-    List<Entry<Integer, Integer>> ideaAuthorEntries = ideaAuthorMap.entrySet().stream()
-        .map(entry -> Map.entry(
-            dbIdeasMap.get(entry.getKey().getLink()).getId(),
-            dbAuthorsMap.get(entry.getValue().getLink()).getId()))
+    List<Entry<Integer, Integer>> ideaAuthorEntries = ideas.stream()
+        .map(idea -> Map.entry(
+            dbIdeasMap.get(idea.getLink()).getId(),
+            dbAuthorsMap.get(idea.getAuthors().get(0).getLink()).getId()))
         .toList();
 
     ideaAuthorRepository.createAssociations(ideaAuthorEntries);
