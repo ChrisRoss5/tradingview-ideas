@@ -81,11 +81,6 @@ public class IdeasPanel extends javax.swing.JPanel {
 
   @SuppressWarnings("unchecked")
   // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
-  // <editor-fold defaultstate="collapsed" desc="Generated
   // Code">//GEN-BEGIN:initComponents
   private void initComponents() {
 
@@ -577,7 +572,7 @@ public class IdeasPanel extends javax.swing.JPanel {
     validationComboBoxes = Arrays.asList(cbSymbol, cbMarket);
     errorLabels = Arrays.asList(lbTitleError, lbLinkError, lbDescriptionError, lbPublishedDateError,
         lbPicturePathError, lbSymbolError, lbMarketError);
-    PromptSupport.setPrompt( "yyyy-MM-ddTHH:mm:ss" , tfPublishedDate);
+    PromptSupport.setPrompt("yyyy-MM-ddTHH:mm:ss", tfPublishedDate);
   }
 
   private void initListeners() {
@@ -648,9 +643,9 @@ public class IdeasPanel extends javax.swing.JPanel {
     DefaultListModel<Author> sourceModel = new DefaultListModel<>();
     sourceModel.addAll(authorRepository.selectAuthors());
     lsAuthors.setModel(sourceModel);
-    lsAuthors.setTransferHandler(new AuthorsTransferHandler(false));
+    lsAuthors.setTransferHandler(new AuthorsTransferHandler(true));
     lsIdeaAuthors.setModel(new DefaultListModel<>());
-    lsIdeaAuthors.setTransferHandler(new AuthorsTransferHandler(true));
+    lsIdeaAuthors.setTransferHandler(new AuthorsTransferHandler(false));
   }
 
   private void resetLbIcon() {

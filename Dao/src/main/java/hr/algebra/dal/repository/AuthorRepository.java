@@ -1,7 +1,8 @@
 package hr.algebra.dal.repository;
 
-import hr.algebra.model.Author;
 import java.util.List;
+
+import hr.algebra.model.Author;
 
 public interface AuthorRepository {
 

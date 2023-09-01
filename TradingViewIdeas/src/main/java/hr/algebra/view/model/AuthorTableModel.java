@@ -20,7 +20,8 @@ public class AuthorTableModel extends AbstractTableModel {
   private AuthorRepository authorRepository;
   private IdeaAuthorRepository ideaAuthorRepository;
 
-  public AuthorTableModel(AuthorRepository authorRepository, IdeaAuthorRepository ideaAuthorRepository) throws Exception {
+  public AuthorTableModel(AuthorRepository authorRepository, IdeaAuthorRepository ideaAuthorRepository)
+      throws Exception {
     this.authorRepository = authorRepository;
     this.ideaAuthorRepository = ideaAuthorRepository;
     setAuthors(authorRepository.selectAuthors());

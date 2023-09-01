@@ -193,7 +193,7 @@ public class AdminPanel extends javax.swing.JPanel {
           Logger.getLogger(AdminPanel.class.getName()).log(Level.SEVERE, null, ex);
           MessageUtils.showErrorMessage("Unrecoverable error", "Unable to download content!");
           System.exit(1);
-          
+
         }
       }).start();
     } catch (Exception ex) {

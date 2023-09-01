@@ -1,15 +1,17 @@
 package hr.algebra.view.model;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.swing.table.AbstractTableModel;
 
+import hr.algebra.model.Author;
 import hr.algebra.model.Idea;
 
 public class IdeaTableModel extends AbstractTableModel {
 
   private static final String[] COLUMN_NAMES = {
-      "Id", "Title", "Link", "Description", "Published date", "Symbol", "Market", "Picture path" };
+      "Id", "Title", "Link", "Description", "Published date", "Symbol", "Market", "Authors", "Picture path" };
 
   private List<Idea> ideas;
 
@@ -51,6 +53,9 @@ public class IdeaTableModel extends AbstractTableModel {
       case 6:
         return ideas.get(rowIndex).getMarket().getName();
       case 7:
+        return ideas.get(rowIndex).getAuthors().stream()
+            .map(Author::getName).collect(Collectors.joining(", "));
+      case 8:
         return ideas.get(rowIndex).getPicturePath();
       default:
         throw new RuntimeException("No such column");

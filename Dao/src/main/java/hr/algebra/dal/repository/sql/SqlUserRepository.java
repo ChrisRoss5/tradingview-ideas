@@ -1,7 +1,5 @@
 package hr.algebra.dal.repository.sql;
 
-import org.mindrot.jbcrypt.BCrypt;
-
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -9,6 +7,8 @@ import java.sql.Types;
 import java.util.Optional;
 
 import javax.sql.DataSource;
+
+import org.mindrot.jbcrypt.BCrypt;
 
 import hr.algebra.dal.repository.UserRepository;
 import hr.algebra.model.User;

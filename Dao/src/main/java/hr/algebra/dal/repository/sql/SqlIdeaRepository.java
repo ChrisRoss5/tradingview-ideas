@@ -156,13 +156,15 @@ public class SqlIdeaRepository implements IdeaRepository {
               rs.getString(MARKET_NAME),
               rs.getBoolean(MARKET_IS_SELECTED)),
           new ArrayList<>()));
-      Author author = new Author(
-          rs.getInt(AUTHOR_ID),
-          rs.getString(AUTHOR_NAME),
-          rs.getString(AUTHOR_LINK));
-      List<Author> authors = idea.getAuthors();
-      authors.add(author);
-      idea.setAuthors(authors);
+      if (rs.getInt(AUTHOR_ID) != 0) {
+        Author author = new Author(
+            rs.getInt(AUTHOR_ID),
+            rs.getString(AUTHOR_NAME),
+            rs.getString(AUTHOR_LINK));
+        List<Author> authors = idea.getAuthors();
+        authors.add(author);
+        idea.setAuthors(authors);
+      }
       ideaMap.put(ideaId, idea);
     }
     return ideaMap.values().stream().toList();

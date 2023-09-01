@@ -12,6 +12,7 @@ import hr.algebra.model.Author;
 
 public class AuthorsTransferHandler extends TransferHandler {
 
+  private static boolean isImportingToPreservedModelList = false;
   private boolean preserveModel;
 
   public AuthorsTransferHandler(boolean preserveModel) {
@@ -20,19 +21,18 @@ public class AuthorsTransferHandler extends TransferHandler {
 
   @Override
   public int getSourceActions(JComponent c) {
-    return COPY_OR_MOVE;
+    return MOVE;
   }
 
   @Override
   protected Transferable createTransferable(JComponent c) {
-    JList<Author> list = (JList<Author>) c;
-    List<Author> selectedAuthors = list.getSelectedValuesList();
+    List<Author> selectedAuthors = ((JList<Author>) c).getSelectedValuesList();
     return new AuthorTransferable(selectedAuthors);
   }
 
   @Override
   protected void exportDone(JComponent source, Transferable data, int action) {
-    if (action == MOVE && preserveModel) {
+    if (action == MOVE && !preserveModel && isImportingToPreservedModelList) {
       JList<Author> list = (JList<Author>) source;
       AuthorTransferable transferable = (AuthorTransferable) data;
       DefaultListModel<Author> model = (DefaultListModel<Author>) list.getModel();
@@ -49,11 +49,12 @@ public class AuthorsTransferHandler extends TransferHandler {
 
   @Override
   public boolean importData(TransferSupport support) {
-    if (!preserveModel) {
-      return true;
-    }
     if (!canImport(support)) {
       return false;
+    }
+    isImportingToPreservedModelList = preserveModel;
+    if (preserveModel) {
+      return true;
     }
     JList<Author> targetList = (JList<Author>) support.getComponent();
     DefaultListModel<Author> model = (DefaultListModel<Author>) targetList.getModel();

@@ -1,6 +1,7 @@
 package hr.algebra.adapter;
 
 import java.time.LocalDateTime;
+
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
 import hr.algebra.model.Idea;

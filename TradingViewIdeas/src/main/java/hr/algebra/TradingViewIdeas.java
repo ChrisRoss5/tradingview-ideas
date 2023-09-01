@@ -20,7 +20,7 @@ import hr.algebra.view.auth.LoginForm;
 
 public class TradingViewIdeas extends javax.swing.JFrame {
 
-  private static final boolean AUTO_LOGIN_AS_ADMIN = true;
+  private static final boolean AUTO_LOGIN_AS_ADMIN = false;
   private static final String IDEAS = "Ideas";
   private static final String AUTHORS = "Authors";
   private static final String SYMBOLS = "Symbols";
@@ -104,7 +104,7 @@ public class TradingViewIdeas extends javax.swing.JFrame {
   private void miExportIdeasActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_miExportIdeasActionPerformed
     try {
       JAXBUtils.save(new IdeaArchive(ideaRepository.selectIdeas()), EXPORT_FILENAME);
-      MessageUtils.showInformationMessage("Info", "Ideas saved!");
+      MessageUtils.showInformationMessage("Info", "Ideas saved to " + EXPORT_FILENAME);
     } catch (Exception ex) {
       MessageUtils.showErrorMessage("Error", "Unable to export ideas!");
       Logger.getLogger(TradingViewIdeas.class.getName()).log(Level.SEVERE, null, ex);

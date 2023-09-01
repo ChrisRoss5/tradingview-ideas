@@ -5,7 +5,14 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import hr.algebra.dal.repository.*;
+import hr.algebra.dal.repository.AdminControlsRepository;
+import hr.algebra.dal.repository.AuthorRepository;
+import hr.algebra.dal.repository.IdeaAuthorRepository;
+import hr.algebra.dal.repository.IdeaRepository;
+import hr.algebra.dal.repository.ImageRepository;
+import hr.algebra.dal.repository.MarketRepository;
+import hr.algebra.dal.repository.SymbolRepository;
+import hr.algebra.dal.repository.UserRepository;
 
 public final class RepositoryFactory {
 

@@ -1,8 +1,9 @@
 package hr.algebra.dal.repository;
 
-import hr.algebra.model.Idea;
 import java.util.List;
 import java.util.Optional;
+
+import hr.algebra.model.Idea;
 
 public interface IdeaRepository {
 

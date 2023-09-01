@@ -1,6 +1,7 @@
 package hr.algebra.dal.repository;
 
 import java.util.List;
+
 import hr.algebra.model.Symbol;
 
 public interface SymbolRepository {

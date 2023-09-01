@@ -11,6 +11,7 @@ import javax.swing.text.JTextComponent;
 
 import hr.algebra.MessageUtils;
 import hr.algebra.dal.factory.RepositoryFactory;
+import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.dal.repository.SymbolRepository;
 import hr.algebra.model.Symbol;
 import hr.algebra.view.model.SymbolTableModel;
@@ -24,9 +25,11 @@ public class SymbolsPanel extends javax.swing.JPanel {
   private List<JLabel> errorLabels;
 
   private SymbolTableModel symbolTableModel;
+  private IdeaRepository ideaRepository;
 
   public SymbolsPanel() {
     this.symbolRepository = RepositoryFactory.getSymbolRepository();
+    this.ideaRepository = RepositoryFactory.getIdeaRepository();
     initComponents();
     initValidation();
   }
@@ -228,7 +231,7 @@ public class SymbolsPanel extends javax.swing.JPanel {
   }
 
   private void loadTable() throws Exception {
-    symbolTableModel = new SymbolTableModel(symbolRepository);
+    symbolTableModel = new SymbolTableModel(symbolRepository, ideaRepository);
     tbSymbols.setModel(symbolTableModel);
     TableColumn deleteColumn = tbSymbols.getColumnModel().getColumn(tbSymbols.getColumnCount() - 1);
     deleteColumn.setCellRenderer(new ButtonCellRenderer());

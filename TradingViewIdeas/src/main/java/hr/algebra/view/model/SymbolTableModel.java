@@ -1,5 +1,7 @@
 package hr.algebra.view.model;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -7,7 +9,9 @@ import java.util.logging.Logger;
 import javax.swing.table.AbstractTableModel;
 
 import hr.algebra.MessageUtils;
+import hr.algebra.dal.repository.IdeaRepository;
 import hr.algebra.dal.repository.SymbolRepository;
+import hr.algebra.model.Idea;
 import hr.algebra.model.Symbol;
 import hr.algebra.view.IdeasPanel;
 
@@ -17,9 +21,11 @@ public class SymbolTableModel extends AbstractTableModel {
 
   private List<Symbol> symbols;
   private SymbolRepository symbolRepository;
+  private IdeaRepository ideaRepository;
 
-  public SymbolTableModel(SymbolRepository symbolRepository) throws Exception {
+  public SymbolTableModel(SymbolRepository symbolRepository, IdeaRepository ideaRepository) throws Exception {
     this.symbolRepository = symbolRepository;
+    this.ideaRepository = ideaRepository;
     setSymbols(symbolRepository.selectSymbols());
   }
 
@@ -84,11 +90,19 @@ public class SymbolTableModel extends AbstractTableModel {
   public void setValueAt(Object value, int rowIndex, int columnIndex) {
     Symbol symbol = symbols.get(rowIndex);
     if (columnIndex == getColumnCount() - 1) {
-      if (!MessageUtils.showConfirmDialog("Delete symbol",
-          "Are you sure you want to delete " + symbol.getName() + " and all its ideas?")) {
-        return;
-      }
       try {
+        List<Idea> ideas = ideaRepository.selectIdeas().stream()
+            .filter(idea -> idea.getSymbol().getId() == symbol.getId()).toList();
+        if (!MessageUtils.showConfirmDialog("Delete symbol",
+            "Are you sure you want to delete " + symbol.getName() +
+                " and " + ideas.size() + " idea(s) that use it?")) {
+          return;
+        }
+        for (Idea idea : ideas) {
+          if (idea.getPicturePath() != null) {
+            Files.deleteIfExists(Paths.get(idea.getPicturePath()));
+          }
+        }
         symbolRepository.deleteSymbol(symbol.getId());
         symbols.remove(rowIndex);
         fireTableRowsDeleted(rowIndex, rowIndex);
