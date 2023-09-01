@@ -13,7 +13,7 @@ import hr.algebra.model.Author;
 public class AuthorsTransferHandler extends TransferHandler {
 
   private static boolean isImportingToPreservedModelList = false;
-  private boolean preserveModel;
+  private final boolean preserveModel;
 
   public AuthorsTransferHandler(boolean preserveModel) {
     this.preserveModel = preserveModel;

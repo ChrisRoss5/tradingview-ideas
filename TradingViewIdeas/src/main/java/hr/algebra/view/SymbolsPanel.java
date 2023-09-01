@@ -20,12 +20,12 @@ import hr.algebra.view.ui.ButtonCellRenderer;
 
 public class SymbolsPanel extends javax.swing.JPanel {
   private final SymbolRepository symbolRepository;
+  private final IdeaRepository ideaRepository;
 
   private List<JTextComponent> validationFields;
   private List<JLabel> errorLabels;
 
   private SymbolTableModel symbolTableModel;
-  private IdeaRepository ideaRepository;
 
   public SymbolsPanel() {
     this.symbolRepository = RepositoryFactory.getSymbolRepository();

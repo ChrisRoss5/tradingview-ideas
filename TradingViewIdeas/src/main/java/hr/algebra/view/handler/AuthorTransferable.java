@@ -11,7 +11,7 @@ public class AuthorTransferable implements Transferable {
   public static final DataFlavor AUTHOR_FLAVOR = new DataFlavor(
       Author.class, "Author");
 
-  private List<Author> authors;
+  private final List<Author> authors;
 
   public AuthorTransferable(List<Author> authors) {
     this.authors = authors;

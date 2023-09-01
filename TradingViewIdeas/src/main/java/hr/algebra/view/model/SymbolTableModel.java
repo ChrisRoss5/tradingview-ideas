@@ -19,9 +19,10 @@ public class SymbolTableModel extends AbstractTableModel {
 
   private static final String[] COLUMN_NAMES = { "Id", "Name", "Description", "Link", "" };
 
+  private final SymbolRepository symbolRepository;
+  private final IdeaRepository ideaRepository;
+  
   private List<Symbol> symbols;
-  private SymbolRepository symbolRepository;
-  private IdeaRepository ideaRepository;
 
   public SymbolTableModel(SymbolRepository symbolRepository, IdeaRepository ideaRepository) throws Exception {
     this.symbolRepository = symbolRepository;

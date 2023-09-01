@@ -16,9 +16,10 @@ public class AuthorTableModel extends AbstractTableModel {
 
   private static final String[] COLUMN_NAMES = { "Id", "Name", "Link", "" };
 
+  private final AuthorRepository authorRepository;
+  private final IdeaAuthorRepository ideaAuthorRepository;
+  
   private List<Author> authors;
-  private AuthorRepository authorRepository;
-  private IdeaAuthorRepository ideaAuthorRepository;
 
   public AuthorTableModel(AuthorRepository authorRepository, IdeaAuthorRepository ideaAuthorRepository)
       throws Exception {
