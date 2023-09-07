@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>TradingView Ideas</title><link>https://www.tradingview.com</link><description>Latest market outlook from popular traders on TradingView.</description><atom:link rel="self" href="https://www.tradingview.com/feed/"></atom:link><language>en</language><lastBuildDate>Thu, 07 Sep 2023 09:08:02 -0500</lastBuildDate><item><title>BTC 4H </title><link>https://www.tradingview.com/chart/BTCUSDT/yr4tWbgO-BTC-4H/</link><description>BTC
+It is located in Polbek
+Pullback to the level of 22454.08-22013.81. This point is suitable for buying if we do not have a close below this range, otherwise
+19862.07 can be a good option for spot
+The goals ahead are also clear
+
+
+Follow to be updated
+@crypto_com_persian
+</description><pubDate>Thu, 07 Sep 2023 09:08:02 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSDT/yr4tWbgO-BTC-4H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/amin30max/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28306,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EA%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BTC 4H </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSDT/">Bitcoin / TetherUS</a>	<span class="symbol-descr">BINANCE:BTCUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/amin30max/" title="User Profile">amin30max</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSDT/yr4tWbgO-BTC-4H/">
+	<img src="https://s3.tradingview.com/y/yr4tWbgO_mid.png"/>
+</a>
+<p>BTC <br/>
+It is located in Polbek <br/>
+Pullback to the level of 22454.08-22013.81. This point is suitable for buying if we do not have a close below this range, otherwise <br/>
+19862.07 can be a good option for spot <br/>
+The goals ahead are also clear <br/>
+ <br/>
+ <br/>
+Follow to be updated <br/>
+@crypto_com_persian <br/>
+</p>]]></content:encoded></item><item><title>Starting to buy bitcoin again on a possible diamond bottom</title><link>https://www.tradingview.com/chart/BTCUSD/jEpahDHO-Starting-to-buy-bitcoin-again-on-a-possible-diamond-bottom/</link><description>Starting to re-add to bitcoin here around 25700 in what could be the beginnings of a diamond bottom formation on the hourly charts (which is a reversal patten bottom indicator after a bear downtrend).
+
+The larger technicals are showing a higher low on the weekly chart here still so its worth adding here and see what happens, stop loss is nice and tight at the bottom of the diamond.
+
+Weekly nice and oversold so its worth trying to go long here imo</description><pubDate>Thu, 07 Sep 2023 09:02:20 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSD/jEpahDHO-Starting-to-buy-bitcoin-again-on-a-possible-diamond-bottom/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/breakoutfakeout/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/6662133-tBui_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Starting to buy bitcoin again on a possible diamond bottom</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSD/">Bitcoin / United States Dollar</a>	<span class="symbol-descr">COINBASE:BTCUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/breakoutfakeout/" title="User Profile">breakoutfakeout</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSD/jEpahDHO-Starting-to-buy-bitcoin-again-on-a-possible-diamond-bottom/">
+	<img src="https://s3.tradingview.com/j/jEpahDHO_mid.png"/>
+</a>
+<p>Starting to re-add to bitcoin here around 25700 in what could be the beginnings of a diamond bottom formation on the hourly charts (which is a reversal patten bottom indicator after a bear downtrend). <br/>
+ <br/>
+The larger technicals are showing a higher low on the weekly chart here still so its worth adding here and see what happens, stop loss is nice and tight at the bottom of the diamond. <br/>
+ <br/>
+Weekly nice and oversold so its worth trying to go long here imo</p>]]></content:encoded></item><item><title>#UNI/USDT 4h Bullish Ascending Triangle</title><link>https://www.tradingview.com/chart/UNIUSDT.P/qwzVKPBL-UNI-USDT-4h-Bullish-Ascending-Triangle/</link><description>Hello everyone!
+
+Currently, there is accumulation within the bullish ascending triangle. We have formed EQHs that we will be removing later on.
+Expecting a correction in the Fibonacci range of 0.705 - 0.79 for a touch of the trendline and a move towards Fibonacci 1.618.
+
+Best wishes!</description><pubDate>Thu, 07 Sep 2023 08:56:46 -0500</pubDate><guid>https://www.tradingview.com/chart/UNIUSDT.P/qwzVKPBL-UNI-USDT-4h-Bullish-Ascending-Triangle/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/WoWAcEDuDe/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/31715877-g8ge_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>#UNI/USDT 4h Bullish Ascending Triangle</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/UNIUSDT.P/">UNIUSDT Perpetual Contract</a>	<span class="symbol-descr">BYBIT:UNIUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/WoWAcEDuDe/" title="User Profile">WoWAcEDuDe</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/UNIUSDT.P/qwzVKPBL-UNI-USDT-4h-Bullish-Ascending-Triangle/">
+	<img src="https://s3.tradingview.com/q/qwzVKPBL_mid.png"/>
+</a>
+<p>Hello everyone! <br/>
+ <br/>
+Currently, there is accumulation within the bullish ascending triangle. We have formed EQHs that we will be removing later on. <br/>
+Expecting a correction in the Fibonacci range of 0.705 - 0.79 for a touch of the trendline and a move towards Fibonacci 1.618. <br/>
+ <br/>
+Best wishes!</p>]]></content:encoded></item><item><title>AMB 4H</title><link>https://www.tradingview.com/chart/AMBUSDT.P/HnuItThK-AMB-4H/</link><description>AMB
+It is in an upward trend with a gentle slope
+Special spot deals
+
+Follow to take advantage of the signals</description><pubDate>Thu, 07 Sep 2023 08:55:58 -0500</pubDate><guid>https://www.tradingview.com/chart/AMBUSDT.P/HnuItThK-AMB-4H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/amin30max/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28306,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EA%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>AMB 4H</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/AMBUSDT.P/">Ambrosus / TetherUS PERPETUAL CONTRACT</a>	<span class="symbol-descr">BINANCE:AMBUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/amin30max/" title="User Profile">amin30max</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AMBUSDT.P/HnuItThK-AMB-4H/">
+	<img src="https://s3.tradingview.com/h/HnuItThK_mid.png"/>
+</a>
+<p>AMB <br/>
+It is in an upward trend with a gentle slope <br/>
+Special spot deals <br/>
+ <br/>
+Follow to take advantage of the signals</p>]]></content:encoded></item><item><title>Crypto XMR Morning star reversal with bullish divergence - Buy</title><link>https://www.tradingview.com/chart/XMRUSDT/07M5SMZv-Crypto-XMR-Morning-star-reversal-with-bullish-divergence-Buy/</link><description>Crypto - Monero - XMR
+
+We have a few indicators pointing in the same direction right now. The morning star reversal is a bullish candle.  There are 3 bullish divergences with price and RSI.  STO is low so price is ready for a bounce.  And we have just gone oversold for the first time since November 22.  Feels like time for a bounce to me.  Time to get Long.
+
+Price = 142.10
+Target 1 = 157
+Stop loss = 134. Stay safe fam.
+
+</description><pubDate>Thu, 07 Sep 2023 08:52:16 -0500</pubDate><guid>https://www.tradingview.com/chart/XMRUSDT/07M5SMZv-Crypto-XMR-Morning-star-reversal-with-bullish-divergence-Buy/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/thecryptochart/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/17383502-Wcai_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Crypto XMR Morning star reversal with bullish divergence - Buy</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/XMRUSDT/">Monero / TetherUS</a>	<span class="symbol-descr">BINANCE:XMRUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/thecryptochart/" title="User Profile">thecryptochart</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/XMRUSDT/07M5SMZv-Crypto-XMR-Morning-star-reversal-with-bullish-divergence-Buy/">
+	<img src="https://s3.tradingview.com/0/07M5SMZv_mid.png"/>
+</a>
+<p>Crypto - Monero - XMR <br/>
+ <br/>
+We have a few indicators pointing in the same direction right now. The morning star reversal is a bullish candle.  There are 3 bullish divergences with price and RSI.  STO is low so price is ready for a bounce.  And we have just gone oversold for the first time since November 22.  Feels like time for a bounce to me.  Time to get Long. <br/>
+ <br/>
+Price = 142.10 <br/>
+Target 1 = 157 <br/>
+Stop loss = 134. Stay safe fam. <br/>
+ <br/>
+</p>]]></content:encoded></item><item><title>FTIFI 4H </title><link>https://www.tradingview.com/chart/FITFIUSDT.P/9ce64CBQ-FTIFI-4H/</link><description>FTIFI
+If we can have above the level of 0.00395 close candle, it can reach the targets
+0.00435
+0.00474
+0.00525
+And ....
+have an upward trend
+Follow to be updated</description><pubDate>Thu, 07 Sep 2023 08:51:52 -0500</pubDate><guid>https://www.tradingview.com/chart/FITFIUSDT.P/9ce64CBQ-FTIFI-4H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/amin30max/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28306,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EA%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>FTIFI 4H </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/FITFIUSDT.P/">FITFI / Tether PERPETUAL FUTURES</a>	<span class="symbol-descr">MEXC:FITFIUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/amin30max/" title="User Profile">amin30max</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/FITFIUSDT.P/9ce64CBQ-FTIFI-4H/">
+	<img src="https://s3.tradingview.com/9/9ce64CBQ_mid.png"/>
+</a>
+<p>FTIFI <br/>
+If we can have above the level of 0.00395 close candle, it can reach the targets <br/>
+0.00435 <br/>
+0.00474 <br/>
+0.00525 <br/>
+And .... <br/>
+have an upward trend <br/>
+Follow to be updated</p>]]></content:encoded></item><item><title>Perp Buy Trade </title><link>https://www.tradingview.com/chart/PERPUSDT/hGmuody0-Perp-Buy-Trade/</link><description>Here is My Study On ANKR.
+
+Welcome to my channel! Here you'll find daily technical analysis ofthe latest trends in the crypto market. From Bitcoin to altcoins, I'lIl be sharing my insights and predictions to help you make informed decisions
+about your investments. Follow me for the latest updates and join the conversation in the comments!
+Crypto technical analysis uses past price history to predict future price. It's not a guarantee and shouldn't be relied on solely for investment decisions. Consider other factors such as market trends, economic strength and
+information dissemination. Use with caution.
+This Is Not A Finacial Advise</description><pubDate>Thu, 07 Sep 2023 08:49:20 -0500</pubDate><guid>https://www.tradingview.com/chart/PERPUSDT/hGmuody0-Perp-Buy-Trade/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/MoonTradingForecast/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/15961268-zVKm_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Perp Buy Trade </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/PERPUSDT/">PERPUSDT SPOT</a>	<span class="symbol-descr">BYBIT:PERPUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/MoonTradingForecast/" title="User Profile">MoonTradingForecast</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/PERPUSDT/hGmuody0-Perp-Buy-Trade/">
+	<img src="https://s3.tradingview.com/h/hGmuody0_mid.png"/>
+</a>
+<p>Here is My Study On ANKR. <br/>
+ <br/>
+Welcome to my channel! Here you'll find daily technical analysis ofthe latest trends in the crypto market. From Bitcoin to altcoins, I'lIl be sharing my insights and predictions to help you make informed decisions <br/>
+about your investments. Follow me for the latest updates and join the conversation in the comments! <br/>
+Crypto technical analysis uses past price history to predict future price. It's not a guarantee and shouldn't be relied on solely for investment decisions. Consider other factors such as market trends, economic strength and <br/>
+information dissemination. Use with caution. <br/>
+This Is Not A Finacial Advise</p>]]></content:encoded></item><item><title>Rune short</title><link>https://www.tradingview.com/chart/RUNEUSDT.P/GCMxpF8D-Rune-short/</link><description>short thought for final cleaning to go up. I think we are in wave 4. this means preparation for 5</description><pubDate>Thu, 07 Sep 2023 08:45:10 -0500</pubDate><guid>https://www.tradingview.com/chart/RUNEUSDT.P/GCMxpF8D-Rune-short/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/CryptoWOLVER/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/10885233-EsZL_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Rune short</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/RUNEUSDT.P/">RUNE / TetherUS PERPETUAL CONTRACT</a>	<span class="symbol-descr">BINANCE:RUNEUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/CryptoWOLVER/" title="User Profile">CryptoWOLVER</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/RUNEUSDT.P/GCMxpF8D-Rune-short/">
+	<img src="https://s3.tradingview.com/g/GCMxpF8D_mid.png"/>
+</a>
+<p>short thought for final cleaning to go up. I think we are in wave 4. this means preparation for 5</p>]]></content:encoded></item><item><title>Bitcoin is Ready to ⚔️Attack⚔️ the Resistance Line⏰(1-Hour)⏰</title><link>https://www.tradingview.com/chart/BTCUSDT/Vj1p3MOi-Bitcoin-is-Ready-to-Attack-the-Resistance-Line-1-Hour/</link><description>💡Bitcoin has not had many price changes in the last 7 days (of course, we witnessed an emotional market in some minutes). Most of the time, Bitcoin has been moving between two  lines  of  Support  and  Resistance  and the 🟢 Support zone($25,840_$25,600) 🟢.
+
+📚In general, it is more difficult to profit when there is  Little Movement  in the financial markets than when the financial markets are  Trending .
+
+🌊If we want to evaluate the recent movements of Bitcoin during the last seven days according to the  theory of Elliott waves , it seems that Bitcoin is forming a correction pattern of  Double Three Correction(WXY) .
+
+🌊Bitcoin is on the way to complete the last corrective wave, the  Wave Y. 
+
+🔔I expect Bitcoin to at least go  UP  to the  Resistance line  and, if it breaks, to the 🟡 Price Reversal Zone(PRZ) 🟡.
+
+💡Also, there is a possibility that the  Contracting Triangle  will develop in the coming days, but it is too  Early  to talk about this scenario.
+
+💡In terms of classical analysis, Bitcoin has been able to form a  Symmetrical Triangle . In general, the symmetric triangle is a  Continuing Pattern , and if Bitcoin can break the downward  Support line , we should expect more losses.
+ -------------------------------------------------------------------------------- 
+🌐➕ Positive News ➕🌐:
+
+BTC bull market began in March, more will realize in a year — Arthur Hayes.
+
+Following SEC delays, ARK Invest and 21Shares file for spot Ether ETF.
+
+Grayscale Bitcoin Trust’s alleged wallet addresses released by Arkham.
+
+🌐➖ Negative News ➖🌐:
+
+Crypto Exchanges Are the Least Trusted Financial Institutions, Survey Says.
+
+$24 Million Worth of Crypto Wiped out Overnight in Massive Phishing Attack.
+
+Palau to freeze USD-backed stablecoin after pilot launch in July
+ -------------------------------------------------------------------------------- 
+Bitcoin Analyze ( BTCUSDT ), 1-hour time frame ⏰.
+
+Do not forget to put Stop loss for your positions (For every position you want to open).
+
+Please follow your strategy; this is just my Idea, and I will be glad to see your ideas in this post.
+
+ Please do not forget the ✅'  like '✅ button 🙏😊 &amp; Share it with your friends; thanks, and Trade safe.</description><pubDate>Thu, 07 Sep 2023 08:41:55 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSDT/Vj1p3MOi-Bitcoin-is-Ready-to-Attack-the-Resistance-Line-1-Hour/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/pejman_zwin/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/7826455-oBvF_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Bitcoin is Ready to ⚔️Attack⚔️ the Resistance Line⏰(1-Hour)⏰</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSDT/">Bitcoin / TetherUS</a>	<span class="symbol-descr">BINANCE:BTCUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/pejman_zwin/" title="User Profile">pejman_zwin</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSDT/Vj1p3MOi-Bitcoin-is-Ready-to-Attack-the-Resistance-Line-1-Hour/">
+	<img src="https://s3.tradingview.com/v/Vj1p3MOi_mid.png"/>
+</a>
+<p>💡Bitcoin has not had many price changes in the last 7 days (of course, we witnessed an emotional market in some minutes). Most of the time, Bitcoin has been moving between two <strong>lines</strong> of <strong>Support </strong>and <strong>Resistance</strong> and the 🟢<strong>Support zone($25,840_$25,600)</strong>🟢. <br/>
+ <br/>
+📚In general, it is more difficult to profit when there is <strong>Little Movement</strong> in the financial markets than when the financial markets are <strong>Trending</strong>. <br/>
+ <br/>
+🌊If we want to evaluate the recent movements of Bitcoin during the last seven days according to the <strong>theory of Elliott waves</strong>, it seems that Bitcoin is forming a correction pattern of <strong>Double Three Correction(WXY)</strong>. <br/>
+ <br/>
+🌊Bitcoin is on the way to complete the last corrective wave, the <strong>Wave Y.</strong> <br/>
+ <br/>
+🔔I expect Bitcoin to at least go <strong>UP </strong>to the <strong>Resistance line</strong> and, if it breaks, to the 🟡<strong>Price Reversal Zone(PRZ)</strong>🟡. <br/>
+ <br/>
+💡Also, there is a possibility that the <strong>Contracting Triangle</strong> will develop in the coming days, but it is too <strong>Early </strong>to talk about this scenario. <br/>
+ <br/>
+💡In terms of classical analysis, Bitcoin has been able to form a <strong>Symmetrical Triangle</strong>. In general, the symmetric triangle is a <strong>Continuing Pattern</strong>, and if Bitcoin can break the downward <strong>Support line</strong>, we should expect more losses. <br/>
+<strong>--------------------------------------------------------------------------------</strong> <br/>
+🌐➕<strong>Positive News</strong>➕🌐: <br/>
+ <br/>
+BTC bull market began in March, more will realize in a year — Arthur Hayes. <br/>
+ <br/>
+Following SEC delays, ARK Invest and 21Shares file for spot Ether ETF. <br/>
+ <br/>
+Grayscale Bitcoin Trust’s alleged wallet addresses released by Arkham. <br/>
+ <br/>
+🌐➖<strong>Negative News</strong>➖🌐: <br/>
+ <br/>
+Crypto Exchanges Are the Least Trusted Financial Institutions, Survey Says. <br/>
+ <br/>
+$24 Million Worth of Crypto Wiped out Overnight in Massive Phishing Attack. <br/>
+ <br/>
+Palau to freeze USD-backed stablecoin after pilot launch in July <br/>
+<strong>--------------------------------------------------------------------------------</strong> <br/>
+Bitcoin Analyze ( BTCUSDT ), 1-hour time frame ⏰. <br/>
+ <br/>
+Do not forget to put Stop loss for your positions (For every position you want to open). <br/>
+ <br/>
+Please follow your strategy; this is just my Idea, and I will be glad to see your ideas in this post. <br/>
+ <br/>
+<strong>Please do not forget the ✅' <em>like</em>'✅ button 🙏😊 &amp; Share it with your friends; thanks, and Trade safe.</strong></p>]]></content:encoded></item><item><title>BUY KASusdt</title><link>https://www.tradingview.com/chart/KASUSDT/BKfgr4a4-BUY-KASusdt/</link><description>Kurze Rede, schnell einsteigen, TP beachten, SL nachziehen.</description><pubDate>Thu, 07 Sep 2023 08:33:45 -0500</pubDate><guid>https://www.tradingview.com/chart/KASUSDT/BKfgr4a4-BUY-KASusdt/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mfcall/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/22637365-nK9e_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BUY KASusdt</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/KASUSDT/">KASPA / Tether</a>	<span class="symbol-descr">KUCOIN:KASUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mfcall/" title="User Profile">mfcall</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/KASUSDT/BKfgr4a4-BUY-KASusdt/">
+	<img src="https://s3.tradingview.com/b/BKfgr4a4_mid.png"/>
+</a>
+<p>Kurze Rede, schnell einsteigen, TP beachten, SL nachziehen.</p>]]></content:encoded></item><item><title>DOGE: Approaching Support</title><link>https://www.tradingview.com/chart/DOGEUSDT/mKz4XQDx-DOGE-Approaching-Support/</link><description>DogeCoin (DOGE) technical analysis: 
+
+ Trade setup : Following a bullish breakout from Falling Wedge pattern, price reached $0.085 for a 30% gain. Now it’s pulled back below 200-day moving average ($0.08) and below $0.07 support, giving up all of those prior gains. We wait for price to either  1)  regain those key levels to confirm Uptrend, or  2)  pull back to $0.053 support for a swing entry.
+
+ Trend : Downtrend across all time horizons (Short- Medium- and Long-Term).
+
+ Momentum  is Mixed as MACD Line is above MACD Signal Line (Bullish) but RSI &lt; 45 (Bearish).
+
+ Support and Resistance : Nearest Support Zone is $0.060, then $0.053. The nearest Resistance Zone is $0.070 then $0.100.</description><pubDate>Thu, 07 Sep 2023 08:32:29 -0500</pubDate><guid>https://www.tradingview.com/chart/DOGEUSDT/mKz4XQDx-DOGE-Approaching-Support/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/altFINS/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/2050872-y06c_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>DOGE: Approaching Support</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/DOGEUSDT/">Dogecoin / TetherUS</a>	<span class="symbol-descr">BINANCE:DOGEUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/altFINS/" title="User Profile">altFINS</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DOGEUSDT/mKz4XQDx-DOGE-Approaching-Support/">
+	<img src="https://s3.tradingview.com/m/mKz4XQDx_mid.png"/>
+</a>
+<p><strong>DogeCoin (DOGE) technical analysis:</strong> <br/>
+ <br/>
+<strong>Trade setup</strong>: Following a bullish breakout from Falling Wedge pattern, price reached $0.085 for a 30% gain. Now it’s pulled back below 200-day moving average ($0.08) and below $0.07 support, giving up all of those prior gains. We wait for price to either <strong>1)</strong> regain those key levels to confirm Uptrend, or <strong>2)</strong> pull back to $0.053 support for a swing entry. <br/>
+ <br/>
+<strong>Trend</strong>: Downtrend across all time horizons (Short- Medium- and Long-Term). <br/>
+ <br/>
+<strong>Momentum</strong> is Mixed as MACD Line is above MACD Signal Line (Bullish) but RSI &lt; 45 (Bearish). <br/>
+ <br/>
+<strong>Support and Resistance</strong>: Nearest Support Zone is $0.060, then $0.053. The nearest Resistance Zone is $0.070 then $0.100.</p>]]></content:encoded></item><item><title>BTCUSD is in a Bearish Rectangle Pattern</title><link>https://www.tradingview.com/chart/BTCUSD/B7XVl7zO-BTCUSD-is-in-a-Bearish-Rectangle-Pattern/</link><description>The price is consolidating for a while during a downtrend on 1HR time frame.
+Bears are catching their breath before pushing the price further down.
+No divergences have been noted.
+
+Verdict: Bears to win.</description><pubDate>Thu, 07 Sep 2023 08:19:15 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSD/B7XVl7zO-BTCUSD-is-in-a-Bearish-Rectangle-Pattern/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/qasim009/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28132,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EQ%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BTCUSD is in a Bearish Rectangle Pattern</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSD/">Bitcoin / U.S. dollar</a>	<span class="symbol-descr">BITSTAMP:BTCUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/qasim009/" title="User Profile">qasim009</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSD/B7XVl7zO-BTCUSD-is-in-a-Bearish-Rectangle-Pattern/">
+	<img src="https://s3.tradingview.com/b/B7XVl7zO_mid.png"/>
+</a>
+<p>The price is consolidating for a while during a downtrend on 1HR time frame. <br/>
+Bears are catching their breath before pushing the price further down. <br/>
+No divergences have been noted. <br/>
+ <br/>
+Verdict: Bears to win.</p>]]></content:encoded></item><item><title>Maybe a make it</title><link>https://www.tradingview.com/chart/USDT.D/Hy4cakML-Maybe-a-make-it/</link><description>My idea it’s negative in sooner but in middle will be positive </description><pubDate>Thu, 07 Sep 2023 08:16:51 -0500</pubDate><guid>https://www.tradingview.com/chart/USDT.D/Hy4cakML-Maybe-a-make-it/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ipmgpa7w8e/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28279,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EI%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Maybe a make it</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDT.D/">USDT.D+USDC.D</a>	<span class="symbol-descr">CRYPTOCAP:USDT.D+CRYPTOCAP:USDC.D</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ipmgpa7w8e/" title="User Profile">ipmgpa7w8e</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDT.D/Hy4cakML-Maybe-a-make-it/">
+	<img src="https://s3.tradingview.com/h/Hy4cakML_mid.png"/>
+</a>
+<p>My idea it’s negative in sooner but in middle will be positive </p>]]></content:encoded></item><item><title>🔥Worldcoin Is Copying Aptos. Pump Soon❓</title><link>https://www.tradingview.com/chart/WLDUSDT/bBQM8r5C-Worldcoin-Is-Copying-Aptos-Pump-Soon/</link><description>Worldcoin is a fresh alt on Binance. Usually, such alts pump so high due -50-80% dump after the listing. The example is Aptos, which make -70% pullback and grew by +550%.
+
+WLD fell by -60%. Also ARKM, MAV, SUI, SEI are on the list.
+
+💥watch this freshman carefully before it skyrockets.
+
+like❤️ and follow
+
+Check the links and get a gift from me👇</description><pubDate>Thu, 07 Sep 2023 08:15:08 -0500</pubDate><guid>https://www.tradingview.com/chart/WLDUSDT/bBQM8r5C-Worldcoin-Is-Copying-Aptos-Pump-Soon/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Alex_Dehtiarov/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/7277364-fL1A_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>🔥Worldcoin Is Copying Aptos. Pump Soon❓</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/WLDUSDT/">WLD / TetherUS</a>	<span class="symbol-descr">BINANCE:WLDUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Alex_Dehtiarov/" title="User Profile">Alex_Dehtiarov</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/WLDUSDT/bBQM8r5C-Worldcoin-Is-Copying-Aptos-Pump-Soon/">
+	<img src="https://s3.tradingview.com/b/bBQM8r5C_mid.png"/>
+</a>
+<p>Worldcoin is a fresh alt on Binance. Usually, such alts pump so high due -50-80% dump after the listing. The example is Aptos, which make -70% pullback and grew by +550%. <br/>
+ <br/>
+WLD fell by -60%. Also ARKM, MAV, SUI, SEI are on the list. <br/>
+ <br/>
+💥watch this freshman carefully before it skyrockets. <br/>
+ <br/>
+like❤️ and follow <br/>
+ <br/>
+Check the links and get a gift from me👇</p>]]></content:encoded></item><item><title>IOTA-USDT</title><link>https://www.tradingview.com/chart/IOTAUSDT/FC7cA9lZ-IOTA-USDT/</link><description>Same IOTA, same IOTA!
+And Next Target has been hit!!
+Let's see if we continue to go higher))</description><pubDate>Thu, 07 Sep 2023 08:14:51 -0500</pubDate><guid>https://www.tradingview.com/chart/IOTAUSDT/FC7cA9lZ-IOTA-USDT/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/sunmikee/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/92506-284m_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>IOTA-USDT</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/IOTAUSDT/">IOTA / TetherUS</a>	<span class="symbol-descr">BINANCE:IOTAUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/sunmikee/" title="User Profile">sunmikee</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/IOTAUSDT/FC7cA9lZ-IOTA-USDT/">
+	<img src="https://s3.tradingview.com/f/FC7cA9lZ_mid.png"/>
+</a>
+<p>Same IOTA, same IOTA! <br/>
+And Next Target has been hit!! <br/>
+Let's see if we continue to go higher))</p>]]></content:encoded></item><item><title>VELO , SHORT</title><link>https://www.tradingview.com/chart/VELOUSDT.P/wszrRFcU-VELO-SHORT/</link><description>Hello, dear traders, for this currency, my view is a short position as I specified in the chart. Don't forget capital management.
+
+I will be happy to know your comments.</description><pubDate>Thu, 07 Sep 2023 08:13:45 -0500</pubDate><guid>https://www.tradingview.com/chart/VELOUSDT.P/wszrRFcU-VELO-SHORT/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/radinprosignals/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/55496291-pnLw_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>VELO , SHORT</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/VELOUSDT.P/">VELO / Tether PERPETUAL FUTURES</a>	<span class="symbol-descr">MEXC:VELOUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/radinprosignals/" title="User Profile">radinprosignals</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/VELOUSDT.P/wszrRFcU-VELO-SHORT/">
+	<img src="https://s3.tradingview.com/w/wszrRFcU_mid.png"/>
+</a>
+<p>Hello, dear traders, for this currency, my view is a short position as I specified in the chart. Don't forget capital management. <br/>
+ <br/>
+I will be happy to know your comments.</p>]]></content:encoded></item><item><title>BTC Chop area for next weeks, hunt for shorts and trap longs</title><link>https://www.tradingview.com/chart/BTCUSD/aFCm8Zuq-BTC-Chop-area-for-next-weeks-hunt-for-shorts-and-trap-longs/</link><description>We could expect move to 29k area to 20k range for upcoming weeks.
+This is just test idea. gl.</description><pubDate>Thu, 07 Sep 2023 08:09:09 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSD/aFCm8Zuq-BTC-Chop-area-for-next-weeks-hunt-for-shorts-and-trap-longs/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/BatRat/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1757541-JYmj_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BTC Chop area for next weeks, hunt for shorts and trap longs</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSD/">Bitcoin all time history index</a>	<span class="symbol-descr">INDEX:BTCUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/BatRat/" title="User Profile">BatRat</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSD/aFCm8Zuq-BTC-Chop-area-for-next-weeks-hunt-for-shorts-and-trap-longs/">
+	<img src="https://s3.tradingview.com/a/aFCm8Zuq_mid.png"/>
+</a>
+<p>We could expect move to 29k area to 20k range for upcoming weeks. <br/>
+This is just test idea. gl.</p>]]></content:encoded></item><item><title>UNFIUSDT 8H</title><link>https://www.tradingview.com/chart/UNFIUSDT/WYnZ8tAE-UNFIUSDT-8H/</link><description>Expecting some correction for #UNFI
+I think $9.56 is coming for the first step.</description><pubDate>Thu, 07 Sep 2023 08:03:20 -0500</pubDate><guid>https://www.tradingview.com/chart/UNFIUSDT/WYnZ8tAE-UNFIUSDT-8H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/31591148-XReB_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>UNFIUSDT 8H</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/UNFIUSDT/">UNFI / TetherUS</a>	<span class="symbol-descr">BINANCE:UNFIUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">Bithereum_io</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/UNFIUSDT/WYnZ8tAE-UNFIUSDT-8H/">
+	<img src="https://s3.tradingview.com/w/WYnZ8tAE_mid.png"/>
+</a>
+<p>Expecting some correction for #UNFI <br/>
+I think $9.56 is coming for the first step.</p>]]></content:encoded></item><item><title>LPTUSDT 8H</title><link>https://www.tradingview.com/chart/LPTUSDT/5bZjQ4UM-LPTUSDT-8H/</link><description>#LPT lost the trend line support. Leg down to $6.18 and $5.63. Currently it is testing the 0.382 Fibo level. So it can retest the trend line and then reach our mentions targets.</description><pubDate>Thu, 07 Sep 2023 07:50:12 -0500</pubDate><guid>https://www.tradingview.com/chart/LPTUSDT/5bZjQ4UM-LPTUSDT-8H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/31591148-XReB_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>LPTUSDT 8H</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/LPTUSDT/">LPT / TetherUS</a>	<span class="symbol-descr">BINANCE:LPTUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">Bithereum_io</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/LPTUSDT/5bZjQ4UM-LPTUSDT-8H/">
+	<img src="https://s3.tradingview.com/5/5bZjQ4UM_mid.png"/>
+</a>
+<p>#LPT lost the trend line support. Leg down to $6.18 and $5.63. Currently it is testing the 0.382 Fibo level. So it can retest the trend line and then reach our mentions targets.</p>]]></content:encoded></item><item><title>BTC Price predicition</title><link>https://www.tradingview.com/chart/BTCUSD.P/uhNWIvSQ-BTC-Price-predicition/</link><description>Hey everyone, hope you are having an amazing day so far!
+I just wanted to share my idea/predicition for the next few days on BTC. Overall we are in a bearish structure (4h) and currently forming a smaller consolidation. Upon looking at ordeflow we are seeing a ton of new longs entering the market, so I would personally expect a move down to the lows as shown in the picture and then enter into a long position from there (upon seeing a good reaction). If we do not get any, I am expecting lower nPOC to get tapped. If we breakout of the range, then I would expect quite a quick move up to 27k. 
+All in all, I would NOT look for any swing long trades, as the higher tf trend is still bearish.
+Hope this helps and thank you for taking your time to read all of this :D</description><pubDate>Thu, 07 Sep 2023 07:48:32 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSD.P/uhNWIvSQ-BTC-Price-predicition/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Fear_less7/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/15703577-WzCS_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BTC Price predicition</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSD.P/">BTCUSD Perpetual Contract</a>	<span class="symbol-descr">BYBIT:BTCUSD.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Fear_less7/" title="User Profile">Fear_less7</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSD.P/uhNWIvSQ-BTC-Price-predicition/">
+	<img src="https://s3.tradingview.com/u/uhNWIvSQ_mid.png"/>
+</a>
+<p>Hey everyone, hope you are having an amazing day so far! <br/>
+I just wanted to share my idea/predicition for the next few days on BTC. Overall we are in a bearish structure (4h) and currently forming a smaller consolidation. Upon looking at ordeflow we are seeing a ton of new longs entering the market, so I would personally expect a move down to the lows as shown in the picture and then enter into a long position from there (upon seeing a good reaction). If we do not get any, I am expecting lower nPOC to get tapped. If we breakout of the range, then I would expect quite a quick move up to 27k.  <br/>
+All in all, I would NOT look for any swing long trades, as the higher tf trend is still bearish. <br/>
+Hope this helps and thank you for taking your time to read all of this :D</p>]]></content:encoded></item><item><title>BTC up or down,buy or sell</title><link>https://www.tradingview.com/chart/BTCUSD/W5UoGZL1-BTC-up-or-down-buy-or-sell/</link><description>hello everybody, in this idea i want to talk about BTC and say my idea about it i think we should be buyer and we have an bullish wave i see the price of BTC on 68000
+be rady for it 
+I hope to help you in your decisions
+thanks</description><pubDate>Thu, 07 Sep 2023 07:44:03 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSD/W5UoGZL1-BTC-up-or-down-buy-or-sell/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mohamadamin_rezaie/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28213,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EM%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BTC up or down,buy or sell</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSD/">Bitcoin / US Dollar</a>	<span class="symbol-descr">BINANCE:BTCUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mohamadamin_rezaie/" title="User Profile">mohamadamin_rezaie</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSD/W5UoGZL1-BTC-up-or-down-buy-or-sell/">
+	<img src="https://s3.tradingview.com/w/W5UoGZL1_mid.png"/>
+</a>
+<p>hello everybody, in this idea i want to talk about BTC and say my idea about it i think we should be buyer and we have an bullish wave i see the price of BTC on 68000 <br/>
+be rady for it  <br/>
+I hope to help you in your decisions <br/>
+thanks</p>]]></content:encoded></item><item><title>WLD/USDT Break out the Descending Channel, Bullish Momentum ???</title><link>https://www.tradingview.com/chart/WLDUSDT/sRDMAykD-WLD-USDT-Break-out-the-Descending-Channel-Bullish-Momentum/</link><description>Yello Paradisers, listen up! 
+
+💎 WLD has successfully broken out of its descending channel and is currently in a retesting phase, setting the stage for further upward momentum.
+
+💎 Previously, WLD broke through the demand zone, establishing a new lower low. However, it has managed to reclaim this area and is now showing signs of breaking the descending channel, backed by significant volume. This suggests a bullish outlook for WLD.
+
+💎 While the first attempt at a bullish setup didn't pan out, there's renewed hope that WLD will recover and continue its upward trajectory.
+
+💎 Be cautious, though: this bullish scenario would be invalidated if WLD breaks below the key Bullish Invalidation level and closes the day beneath it.
+
+Keep your charts up-to-date and stay tuned for more crypto insights! 🌴</description><pubDate>Thu, 07 Sep 2023 07:42:31 -0500</pubDate><guid>https://www.tradingview.com/chart/WLDUSDT/sRDMAykD-WLD-USDT-Break-out-the-Descending-Channel-Bullish-Momentum/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/MyCryptoParadise_Nathan/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/60128223-dTJT_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>WLD/USDT Break out the Descending Channel, Bullish Momentum ???</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/WLDUSDT/">WLD / TetherUS</a>	<span class="symbol-descr">BINANCE:WLDUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/MyCryptoParadise_Nathan/" title="User Profile">MyCryptoParadise_Nathan</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/WLDUSDT/sRDMAykD-WLD-USDT-Break-out-the-Descending-Channel-Bullish-Momentum/">
+	<img src="https://s3.tradingview.com/s/sRDMAykD_mid.png"/>
+</a>
+<p>Yello Paradisers, listen up!  <br/>
+ <br/>
+💎 WLD has successfully broken out of its descending channel and is currently in a retesting phase, setting the stage for further upward momentum. <br/>
+ <br/>
+💎 Previously, WLD broke through the demand zone, establishing a new lower low. However, it has managed to reclaim this area and is now showing signs of breaking the descending channel, backed by significant volume. This suggests a bullish outlook for WLD. <br/>
+ <br/>
+💎 While the first attempt at a bullish setup didn't pan out, there's renewed hope that WLD will recover and continue its upward trajectory. <br/>
+ <br/>
+💎 Be cautious, though: this bullish scenario would be invalidated if WLD breaks below the key Bullish Invalidation level and closes the day beneath it. <br/>
+ <br/>
+Keep your charts up-to-date and stay tuned for more crypto insights! 🌴</p>]]></content:encoded></item><item><title>LINK</title><link>https://www.tradingview.com/chart/LINKUSDT/WSqfAJzS-LINK/</link><description>Link new scenario after fake breaking up the trend line
+It's not a financial advise 
+Always DYOR 
+Good luck </description><pubDate>Thu, 07 Sep 2023 07:42:14 -0500</pubDate><guid>https://www.tradingview.com/chart/LINKUSDT/WSqfAJzS-LINK/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SignalxBTC/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/31980587-6JQk_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>LINK</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/LINKUSDT/">ChainLink / TetherUS</a>	<span class="symbol-descr">BINANCE:LINKUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SignalxBTC/" title="User Profile">SignalxBTC</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/LINKUSDT/WSqfAJzS-LINK/">
+	<img src="https://s3.tradingview.com/w/WSqfAJzS_mid.png"/>
+</a>
+<p>Link new scenario after fake breaking up the trend line <br/>
+It's not a financial advise  <br/>
+Always DYOR  <br/>
+Good luck </p>]]></content:encoded></item><item><title>Bitcoin analysis in the short term</title><link>https://www.tradingview.com/chart/BTCUSDT.P/nJQlEhbH-Bitcoin-analysis-in-the-short-term/</link><description>In my opinion, Bitcoin is still lagging behind the fall of other markets, and the specified floors and levels are easily broken in 4 hours time.
+
+The market maker is trying his best to make this asset unpredictable, but we are breaking it with a lot of effort
+
+Not financial advice</description><pubDate>Thu, 07 Sep 2023 07:40:14 -0500</pubDate><guid>https://www.tradingview.com/chart/BTCUSDT.P/nJQlEhbH-Bitcoin-analysis-in-the-short-term/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/amirverdkhan/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28156,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EA%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Bitcoin analysis in the short term</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BTCUSDT.P/">Bitcoin / TetherUS PERPETUAL CONTRACT</a>	<span class="symbol-descr">BINANCE:BTCUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/amirverdkhan/" title="User Profile">amirverdkhan</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTCUSDT.P/nJQlEhbH-Bitcoin-analysis-in-the-short-term/">
+	<img src="https://s3.tradingview.com/n/nJQlEhbH_mid.png"/>
+</a>
+<p>In my opinion, Bitcoin is still lagging behind the fall of other markets, and the specified floors and levels are easily broken in 4 hours time. <br/>
+ <br/>
+The market maker is trying his best to make this asset unpredictable, but we are breaking it with a lot of effort <br/>
+ <br/>
+Not financial advice</p>]]></content:encoded></item><item><title>SOL 4H (SOLANA WILL CHOOSE CONTINUE TO DOWN OR PO3)</title><link>https://www.tradingview.com/chart/SOLUSDT.P/Gu0BCldi-SOL-4H-SOLANA-WILL-CHOOSE-CONTINUE-TO-DOWN-OR-PO3/</link><description>Hi friends,
+
+Solana will decide. If there is no good news, it will continue to decline. It is necessary to follow closely and trade. I think solana will continue to fall.
+
+
+Short Position: 19.80
+Tp1:19.20
+Tp2:18.50
+Tp3:18.00
+
+Long Position: 20.50
+Tp:21.50</description><pubDate>Thu, 07 Sep 2023 07:31:39 -0500</pubDate><guid>https://www.tradingview.com/chart/SOLUSDT.P/Gu0BCldi-SOL-4H-SOLANA-WILL-CHOOSE-CONTINUE-TO-DOWN-OR-PO3/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/EmrahKalayJeo/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28267,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EE%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>SOL 4H (SOLANA WILL CHOOSE CONTINUE TO DOWN OR PO3)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/SOLUSDT.P/">SOL / TetherUS PERPETUAL CONTRACT</a>	<span class="symbol-descr">BINANCE:SOLUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/EmrahKalayJeo/" title="User Profile">EmrahKalayJeo</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SOLUSDT.P/Gu0BCldi-SOL-4H-SOLANA-WILL-CHOOSE-CONTINUE-TO-DOWN-OR-PO3/">
+	<img src="https://s3.tradingview.com/g/Gu0BCldi_mid.png"/>
+</a>
+<p>Hi friends, <br/>
+ <br/>
+Solana will decide. If there is no good news, it will continue to decline. It is necessary to follow closely and trade. I think solana will continue to fall. <br/>
+ <br/>
+ <br/>
+Short Position: 19.80 <br/>
+Tp1:19.20 <br/>
+Tp2:18.50 <br/>
+Tp3:18.00 <br/>
+ <br/>
+Long Position: 20.50 <br/>
+Tp:21.50</p>]]></content:encoded></item><item><title>ADA ☀️ In the Next 24 Hrs, Upside Potential</title><link>https://www.tradingview.com/chart/ADAUSDT/PhtnzgxC-ADA-In-the-Next-24-Hrs-Upside-Potential/</link><description>A bearish pressure with both rain and clouds 🌧️ lingers over the global crypto market in the next 24 hours, indicating a downside risk. But Cardano, Dogecoin, and Uniswap shine through the storm with potential. 🌥️
+
+Over a one-week horizon, Bitcoin, Litecoin, XRP, Binance, and other altcoins face continued headwinds and a downward risk, while there's a ray of hope with some sun shining over Ether, Uniswap, and Chainlink, signaling upward potential in the coming week. ☀️🚀
+
+Follow us for more crypto weather reports!</description><pubDate>Thu, 07 Sep 2023 07:30:42 -0500</pubDate><guid>https://www.tradingview.com/chart/ADAUSDT/PhtnzgxC-ADA-In-the-Next-24-Hrs-Upside-Potential/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ATTMO/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/54059735-Xs0S_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>ADA ☀️ In the Next 24 Hrs, Upside Potential</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/ADAUSDT/">Cardano / TetherUS</a>	<span class="symbol-descr">BINANCE:ADAUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ATTMO/" title="User Profile">ATTMO</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ADAUSDT/PhtnzgxC-ADA-In-the-Next-24-Hrs-Upside-Potential/">
+	<img src="https://s3.tradingview.com/p/PhtnzgxC_mid.png"/>
+</a>
+<p>A bearish pressure with both rain and clouds 🌧️ lingers over the global crypto market in the next 24 hours, indicating a downside risk. But Cardano, Dogecoin, and Uniswap shine through the storm with potential. 🌥️ <br/>
+ <br/>
+Over a one-week horizon, Bitcoin, Litecoin, XRP, Binance, and other altcoins face continued headwinds and a downward risk, while there's a ray of hope with some sun shining over Ether, Uniswap, and Chainlink, signaling upward potential in the coming week. ☀️🚀 <br/>
+ <br/>
+Follow us for more crypto weather reports!</p>]]></content:encoded></item><item><title>SFPUSDT 12H</title><link>https://www.tradingview.com/chart/SFPUSDT/TAj1djL0-SFPUSDT-12H/</link><description>Double Top formation on #SFP 12H chart. MACD showing bearish momentum. Target is $0.5010</description><pubDate>Thu, 07 Sep 2023 07:28:08 -0500</pubDate><guid>https://www.tradingview.com/chart/SFPUSDT/TAj1djL0-SFPUSDT-12H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/31591148-XReB_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>SFPUSDT 12H</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/SFPUSDT/">SFP / TetherUS</a>	<span class="symbol-descr">BINANCE:SFPUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">Bithereum_io</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SFPUSDT/TAj1djL0-SFPUSDT-12H/">
+	<img src="https://s3.tradingview.com/t/TAj1djL0_mid.png"/>
+</a>
+<p>Double Top formation on #SFP 12H chart. MACD showing bearish momentum. Target is $0.5010</p>]]></content:encoded></item><item><title>#GMX/USDT breaks the Diagonal Trendline and currently retesting </title><link>https://www.tradingview.com/chart/GMXUSDT.P/apnIgSR3-GMX-USDT-breaks-the-Diagonal-Trendline-and-currently-retesting/</link><description>#GMX/USDT breaks the Diagonal Trendline and currently retesting it in 4-Hour TF!
+
+Open a long on successful retest. Expecting some bullish momentum.</description><pubDate>Thu, 07 Sep 2023 07:26:03 -0500</pubDate><guid>https://www.tradingview.com/chart/GMXUSDT.P/apnIgSR3-GMX-USDT-breaks-the-Diagonal-Trendline-and-currently-retesting/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/TraderAAG/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/25909753-xoYl_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>#GMX/USDT breaks the Diagonal Trendline and currently retesting </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GMXUSDT.P/">GMX / Tether PERPETUAL FUTURES</a>	<span class="symbol-descr">MEXC:GMXUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/TraderAAG/" title="User Profile">TraderAAG</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GMXUSDT.P/apnIgSR3-GMX-USDT-breaks-the-Diagonal-Trendline-and-currently-retesting/">
+	<img src="https://s3.tradingview.com/a/apnIgSR3_mid.png"/>
+</a>
+<p>#GMX/USDT breaks the Diagonal Trendline and currently retesting it in 4-Hour TF! <br/>
+ <br/>
+Open a long on successful retest. Expecting some bullish momentum.</p>]]></content:encoded></item><item><title>RVNUSDT 4H</title><link>https://www.tradingview.com/chart/RVNUSDT/1Y2VxdT4-RVNUSDT-4H/</link><description>#RVN will break down the bearish flag soon. Target would be $0.01444</description><pubDate>Thu, 07 Sep 2023 07:18:28 -0500</pubDate><guid>https://www.tradingview.com/chart/RVNUSDT/1Y2VxdT4-RVNUSDT-4H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/31591148-XReB_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>RVNUSDT 4H</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/RVNUSDT/">Ravencoin / TetherUS</a>	<span class="symbol-descr">BINANCE:RVNUSDT</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Bithereum_io/" title="User Profile">Bithereum_io</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/RVNUSDT/1Y2VxdT4-RVNUSDT-4H/">
+	<img src="https://s3.tradingview.com/1/1Y2VxdT4_mid.png"/>
+</a>
+<p>#RVN will break down the bearish flag soon. Target would be $0.01444</p>]]></content:encoded></item><item><title>#UNFI/USDT rejecting from PDH in 4-Hour TF!</title><link>https://www.tradingview.com/chart/UNFIUSDT.P/8WUSILCP-UNFI-USDT-rejecting-from-PDH-in-4-Hour-TF/</link><description>#UNFI/USDT rejecting from PDH in 4-Hour TF!
+
+ NYSE:UNFI  looking heavy. Expecting some retracement. A Doji candle is formed too.</description><pubDate>Thu, 07 Sep 2023 07:13:03 -0500</pubDate><guid>https://www.tradingview.com/chart/UNFIUSDT.P/8WUSILCP-UNFI-USDT-rejecting-from-PDH-in-4-Hour-TF/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/TraderAAG/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/25909753-xoYl_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>#UNFI/USDT rejecting from PDH in 4-Hour TF!</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/UNFIUSDT.P/">UNFI / Tether PERPETUAL FUTURES</a>	<span class="symbol-descr">MEXC:UNFIUSDT.P</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/TraderAAG/" title="User Profile">TraderAAG</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/UNFIUSDT.P/8WUSILCP-UNFI-USDT-rejecting-from-PDH-in-4-Hour-TF/">
+	<img src="https://s3.tradingview.com/8/8WUSILCP_mid.png"/>
+</a>
+<p>#UNFI/USDT rejecting from PDH in 4-Hour TF! <br/>
+ <br/>
+
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NYSE:UNFI" href="https://www.tradingview.com/symbols/NYSE-UNFI/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/united-natural-foods.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">UNFI</span>
+			</a>
+		 looking heavy. Expecting some retracement. A Doji candle is formed too.</p>]]></content:encoded></item></channel></rss>

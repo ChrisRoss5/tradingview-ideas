@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>TradingView Ideas</title><link>https://www.tradingview.com</link><description>Latest market outlook from popular traders on TradingView.</description><atom:link rel="self" href="https://www.tradingview.com/feed/"></atom:link><language>en</language><lastBuildDate>Thu, 07 Sep 2023 09:05:37 -0500</lastBuildDate><item><title>Get ready for $20- $21</title><link>https://www.tradingview.com/chart/UPST/xQ6F0s7e-Get-ready-for-20-21/</link><description>There's nothing bullish about this chart, despite what others claim. Protect your capital and wait for price to get right into the area between the two pink lines. </description><pubDate>Thu, 07 Sep 2023 09:05:37 -0500</pubDate><guid>https://www.tradingview.com/chart/UPST/xQ6F0s7e-Get-ready-for-20-21/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/MoneyForNothingAndPipsForFree/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3466233-LWAx_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Get ready for $20- $21</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-UPST/">Upstart Holdings, Inc.</a>	<span class="symbol-descr">NASDAQ:UPST</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/MoneyForNothingAndPipsForFree/" title="User Profile">MoneyForNothingAndPipsForFree</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/UPST/xQ6F0s7e-Get-ready-for-20-21/">
+	<img src="https://s3.tradingview.com/x/xQ6F0s7e_mid.png"/>
+</a>
+<p>There's nothing bullish about this chart, despite what others claim. Protect your capital and wait for price to get right into the area between the two pink lines. </p>]]></content:encoded></item><item><title>AAPL LONG with Midas signal reminder </title><link>https://www.tradingview.com/chart/AAPL/GjXDkJGk-AAPL-LONG-with-Midas-signal-reminder/</link><description>https://www.tradingview.com/x/CoO7qPko   NASDAQ:AAPL  
+
+1. Clear all drawings and indicators.
+2. Got a fibo 0.886 level, price reversed at here (React Don't Predict).
+3. Add BandofMidas from indicators. Use Midas factor of 9.( suitable for this chart)
+4. Price fall into Midas zone and reversed. Midas line still in pink. Double confirmed. 
+5. Plan your trade, risk reward ratio. GO Long.
+</description><pubDate>Thu, 07 Sep 2023 08:55:10 -0500</pubDate><guid>https://www.tradingview.com/chart/AAPL/GjXDkJGk-AAPL-LONG-with-Midas-signal-reminder/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/WisdomWavesWealth/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/12798058-KwDI_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>AAPL LONG with Midas signal reminder </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/">Apple Inc.</a>	<span class="symbol-descr">NASDAQ:AAPL</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/WisdomWavesWealth/" title="User Profile">WisdomWavesWealth</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AAPL/GjXDkJGk-AAPL-LONG-with-Midas-signal-reminder/">
+	<img src="https://s3.tradingview.com/g/GjXDkJGk_mid.png"/>
+</a>
+<p><a target="_blank" href="https://www.tradingview.com/x/CoO7qPko"></a>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/CoO7qPko' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/CoO7qPko' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NASDAQ:AAPL" href="https://www.tradingview.com/symbols/NASDAQ-AAPL/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/apple.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">AAPL</span>
+			</a>
+		  <br/>
+ <br/>
+1. Clear all drawings and indicators. <br/>
+2. Got a fibo 0.886 level, price reversed at here (React Don't Predict). <br/>
+3. Add BandofMidas from indicators. Use Midas factor of 9.( suitable for this chart) <br/>
+4. Price fall into Midas zone and reversed. Midas line still in pink. Double confirmed.  <br/>
+5. Plan your trade, risk reward ratio. GO Long. <br/>
+</p>]]></content:encoded></item><item><title>Meta’s Tight Consolidation</title><link>https://www.tradingview.com/chart/META/egnP6OS8-Meta-s-Tight-Consolidation/</link><description>Meta Platforms pulled back along with other growth stocks in August. But now some traders may look for its uptrend to continue.
+
+The first pattern on today’s chart is the 50-day simple moving average (SMA). The recent dip was META’s first pullback to this line all year.  
+
+Next is the series of higher lows since August 25. Prices have simultaneously pushed against the $299 area where they got rejected on August 24. That combination of higher lows and upside resistance could be viewed as an ascending triangle -- a potentially bullish continuation pattern.
+
+Third, Bollinger Bandwidth has contracted to its tightest range since late May. Does that open the door to potential price expansion?
+
+Finally, MACD recently turned upward.
+
+ TradeStation has, for decades, advanced the trading industry, providing access to stocks, options, futures and cryptocurrencies. See our  Overview  for more. 
+
+ Important Information 
+TradeStation Securities, Inc., TradeStation Crypto, Inc., and TradeStation Technologies, Inc. are each wholly owned subsidiaries of TradeStation Group, Inc., all operating, and providing products and services, under the TradeStation brand and trademark. TradeStation Crypto, Inc. offers to self-directed investors and traders cryptocurrency brokerage services.  It is neither licensed with the SEC or the CFTC nor is it a Member of NFA. When applying for, or purchasing, accounts, subscriptions, products, and services, it is important that you know which company you will be dealing with. Please  click here  for further important information explaining what this means.
+ 
+ This content is for informational and educational purposes only.  This is not a recommendation regarding any investment or investment strategy.  Any opinions expressed herein are those of the author and do not represent the views or opinions of TradeStation or any of its affiliates.
+ 
+Investing involves risks. Past performance, whether actual or indicated by historical tests of strategies, is no guarantee of future performance or success. There is a possibility that you may sustain a loss equal to or greater than your entire investment regardless of which asset class you trade (equities, options, futures, or digital assets); therefore, you should not invest or risk money that you cannot afford to lose. Before trading any asset class, first read the relevant risk disclosure statements on the Important Documents page, found here:  www.tradestation.com/important-information .</description><pubDate>Thu, 07 Sep 2023 08:50:33 -0500</pubDate><guid>https://www.tradingview.com/chart/META/egnP6OS8-Meta-s-Tight-Consolidation/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/TradeStation/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/5839748-BhT7_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Meta’s Tight Consolidation</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-META/">Meta Platforms, Inc.</a>	<span class="symbol-descr">NASDAQ:META</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/TradeStation/" title="User Profile">TradeStation</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/META/egnP6OS8-Meta-s-Tight-Consolidation/">
+	<img src="https://s3.tradingview.com/e/egnP6OS8_mid.png"/>
+</a>
+<p>Meta Platforms pulled back along with other growth stocks in August. But now some traders may look for its uptrend to continue. <br/>
+ <br/>
+The first pattern on today’s chart is the 50-day simple moving average (SMA). The recent dip was META’s first pullback to this line all year.   <br/>
+ <br/>
+Next is the series of higher lows since August 25. Prices have simultaneously pushed against the $299 area where they got rejected on August 24. That combination of higher lows and upside resistance could be viewed as an ascending triangle -- a potentially bullish continuation pattern. <br/>
+ <br/>
+Third, Bollinger Bandwidth has contracted to its tightest range since late May. Does that open the door to potential price expansion? <br/>
+ <br/>
+Finally, MACD recently turned upward. <br/>
+ <br/>
+<em>TradeStation has, for decades, advanced the trading industry, providing access to stocks, options, futures and cryptocurrencies. See our <a target="_blank" href="https://www.tradingview.com/broker/TradeStation/">Overview</a> for more.</em> <br/>
+ <br/>
+<strong>Important Information</strong> <br/>
+TradeStation Securities, Inc., TradeStation Crypto, Inc., and TradeStation Technologies, Inc. are each wholly owned subsidiaries of TradeStation Group, Inc., all operating, and providing products and services, under the TradeStation brand and trademark. TradeStation Crypto, Inc. offers to self-directed investors and traders cryptocurrency brokerage services.  It is neither licensed with the SEC or the CFTC nor is it a Member of NFA. When applying for, or purchasing, accounts, subscriptions, products, and services, it is important that you know which company you will be dealing with. Please <a rel="nofollow noopener noreferrer"  target="_blank" href="https://uploads.tradestation.com/uploads/TradeStation-Group-Inc-Companies.pdf">click here</a> for further important information explaining what this means. <br/>
+  <br/>
+<strong>This content is for informational and educational purposes only.</strong> This is not a recommendation regarding any investment or investment strategy.  Any opinions expressed herein are those of the author and do not represent the views or opinions of TradeStation or any of its affiliates. <br/>
+  <br/>
+Investing involves risks. Past performance, whether actual or indicated by historical tests of strategies, is no guarantee of future performance or success. There is a possibility that you may sustain a loss equal to or greater than your entire investment regardless of which asset class you trade (equities, options, futures, or digital assets); therefore, you should not invest or risk money that you cannot afford to lose. Before trading any asset class, first read the relevant risk disclosure statements on the Important Documents page, found here: <a rel="nofollow noopener noreferrer"  target="_blank" href="http://www.tradestation.com/important-information">www.tradestation.com/important-information</a>.</p>]]></content:encoded></item><item><title>BKNG - trade setup</title><link>https://www.tradingview.com/chart/BKNG/h4EezTPN-BKNG-trade-setup/</link><description>BKNG is known for making some huge candles. I like this set up as the chart seems weak for a nice pull back to some support. I like the 10 EMA on the weekly as that support.  </description><pubDate>Thu, 07 Sep 2023 08:48:36 -0500</pubDate><guid>https://www.tradingview.com/chart/BKNG/h4EezTPN-BKNG-trade-setup/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/carley621/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28183,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EC%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BKNG - trade setup</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-BKNG/">Booking Holdings Inc. Common Stock</a>	<span class="symbol-descr">NASDAQ:BKNG</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/carley621/" title="User Profile">carley621</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BKNG/h4EezTPN-BKNG-trade-setup/">
+	<img src="https://s3.tradingview.com/h/h4EezTPN_mid.png"/>
+</a>
+<p>BKNG is known for making some huge candles. I like this set up as the chart seems weak for a nice pull back to some support. I like the 10 EMA on the weekly as that support.  </p>]]></content:encoded></item><item><title>Load up at around $5</title><link>https://www.tradingview.com/chart/LC/XfRbIdkE-Load-up-at-around-5/</link><description>LC isn't done falling. It has to drop to he demand zone at around $4-$5. Given the massive put wall at $5 I don't think we'll see $4, price should bottom out slightly above $5. </description><pubDate>Thu, 07 Sep 2023 08:44:49 -0500</pubDate><guid>https://www.tradingview.com/chart/LC/XfRbIdkE-Load-up-at-around-5/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/MoneyForNothingAndPipsForFree/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3466233-LWAx_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Load up at around $5</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NYSE-LC/">LendingClub Corporation</a>	<span class="symbol-descr">NYSE:LC</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/MoneyForNothingAndPipsForFree/" title="User Profile">MoneyForNothingAndPipsForFree</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/LC/XfRbIdkE-Load-up-at-around-5/">
+	<img src="https://s3.tradingview.com/x/XfRbIdkE_mid.png"/>
+</a>
+<p>LC isn't done falling. It has to drop to he demand zone at around $4-$5. Given the massive put wall at $5 I don't think we'll see $4, price should bottom out slightly above $5. </p>]]></content:encoded></item><item><title>CRWD is on the verge of a Stage 1 breakout</title><link>https://www.tradingview.com/chart/CRWD/IgkUSSlV-CRWD-is-on-the-verge-of-a-Stage-1-breakout/</link><description>CrowdStrike is in the cusp of breaking out of a Stage 1 base. Its currently slightly above the AVWAP from the peak in Nov 2021 with a new Relative Strength high compared to the SPX. It reported stellar numbers in the last quarter earnings with EPS growth of 106%. 
+
+ https://www.tradingview.com/x/L2oi3Wbb/</description><pubDate>Thu, 07 Sep 2023 08:42:37 -0500</pubDate><guid>https://www.tradingview.com/chart/CRWD/IgkUSSlV-CRWD-is-on-the-verge-of-a-Stage-1-breakout/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/thetwigg/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/14075913-zgSY_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>CRWD is on the verge of a Stage 1 breakout</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-CRWD/">CrowdStrike Holdings, Inc.</a>	<span class="symbol-descr">NASDAQ:CRWD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/thetwigg/" title="User Profile">thetwigg</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/CRWD/IgkUSSlV-CRWD-is-on-the-verge-of-a-Stage-1-breakout/">
+	<img src="https://s3.tradingview.com/i/IgkUSSlV_mid.png"/>
+</a>
+<p>CrowdStrike is in the cusp of breaking out of a Stage 1 base. Its currently slightly above the AVWAP from the peak in Nov 2021 with a new Relative Strength high compared to the SPX. It reported stellar numbers in the last quarter earnings with EPS growth of 106%.  <br/>
+ <br/>
+<a target="_blank" href="https://www.tradingview.com/x/L2oi3Wbb/"></a>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/L2oi3Wbb' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/L2oi3Wbb' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		</p>]]></content:encoded></item><item><title>LOOK FOR DOUBLE FROM THE BOTTOM</title><link>https://www.tradingview.com/chart/NIITLTD/wS1Luxc2-LOOK-FOR-DOUBLE-FROM-THE-BOTTOM/</link><description>Stock forming Cup and handle. 
+Made low of 63 and since then have shown some strength. 
+Needs to see if it can break the above resistance. </description><pubDate>Thu, 07 Sep 2023 08:37:15 -0500</pubDate><guid>https://www.tradingview.com/chart/NIITLTD/wS1Luxc2-LOOK-FOR-DOUBLE-FROM-THE-BOTTOM/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Chart_analyser_NJ/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/19996612-4znb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>LOOK FOR DOUBLE FROM THE BOTTOM</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIITLTD/">NIIT</a>	<span class="symbol-descr">NSE:NIITLTD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Chart_analyser_NJ/" title="User Profile">Chart_analyser_NJ</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIITLTD/wS1Luxc2-LOOK-FOR-DOUBLE-FROM-THE-BOTTOM/">
+	<img src="https://s3.tradingview.com/w/wS1Luxc2_mid.png"/>
+</a>
+<p>Stock forming Cup and handle.  <br/>
+Made low of 63 and since then have shown some strength.  <br/>
+Needs to see if it can break the above resistance. </p>]]></content:encoded></item><item><title>NVDA: Sell idea </title><link>https://www.tradingview.com/chart/NVDA/qJ5Yk2I6-NVDA-Sell-idea/</link><description>Sell idea on NVDA as you see on the chart after the breakout with force the vwap indicator and the support line by a big red candle with a large red volume. Thanks!</description><pubDate>Thu, 07 Sep 2023 08:34:33 -0500</pubDate><guid>https://www.tradingview.com/chart/NVDA/qJ5Yk2I6-NVDA-Sell-idea/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/PAZINI19/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/36066159-SVcG_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NVDA: Sell idea </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/">NVIDIA Corporation</a>	<span class="symbol-descr">NASDAQ:NVDA</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/PAZINI19/" title="User Profile">PAZINI19</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NVDA/qJ5Yk2I6-NVDA-Sell-idea/">
+	<img src="https://s3.tradingview.com/q/qJ5Yk2I6_mid.png"/>
+</a>
+<p>Sell idea on NVDA as you see on the chart after the breakout with force the vwap indicator and the support line by a big red candle with a large red volume. Thanks!</p>]]></content:encoded></item><item><title>TCS long set up</title><link>https://www.tradingview.com/chart/TCS/5M9QvHqi-TCS-long-set-up/</link><description>1) can long at dip to 3430 sl 3320 
+
+2) can buy on break above 3480 sl 3320 , can take accordingly in futures also </description><pubDate>Thu, 07 Sep 2023 08:22:54 -0500</pubDate><guid>https://www.tradingview.com/chart/TCS/5M9QvHqi-TCS-long-set-up/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/himeshforex/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28246,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EH%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>TCS long set up</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-TCS/">TATA CONSULTANCY S</a>	<span class="symbol-descr">NSE:TCS</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/himeshforex/" title="User Profile">himeshforex</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/TCS/5M9QvHqi-TCS-long-set-up/">
+	<img src="https://s3.tradingview.com/5/5M9QvHqi_mid.png"/>
+</a>
+<p>1) can long at dip to 3430 sl 3320  <br/>
+ <br/>
+2) can buy on break above 3480 sl 3320 , can take accordingly in futures also </p>]]></content:encoded></item><item><title>Downtrends May Have Begun in Housing</title><link>https://www.tradingview.com/chart/HD/QAoewH5Y-Downtrends-May-Have-Begun-in-Housing/</link><description>Homebuilders were a surprise leader in the first half. But with interest rates staying high, bears could be moving into the neighborhood.
+
+Today’s chart focuses on Home Depot. Similar patterns appear on related charts including  NYSE:LEN  Lennar,  NYSE:PHM  PulteGroup and  NYSE:TOL  Toll Brothers.
+
+The first issue is potential bearish divergence. HD made a six-month high on August 15. But notice how MACD, Wilder’s RSI and Rate of Change peaked earlier and were falling at the time. Those lower studies may indicate slowing momentum.
+
+Second is the emergence of a potential falling channel. In late August, HD dipped below its price range from earlier in the month. It then peaked around $333 on September 1, which was about $5 below the August 15 zenith. In other words, a lower low was followed by a lower high. 
+
+Finally, the macro environment may be more difficult for housing. Optimism about supply and demand boosted sentiment earlier in the year. But now strong economic data could be keeping rates higher for longer. That may cause some anxiety and reality checks in the coming weeks.
+
+ TradeStation has, for decades, advanced the trading industry, providing access to stocks, options, futures and cryptocurrencies. See our  Overview  for more. 
+
+ Important Information 
+TradeStation Securities, Inc., TradeStation Crypto, Inc., and TradeStation Technologies, Inc. are each wholly owned subsidiaries of TradeStation Group, Inc., all operating, and providing products and services, under the TradeStation brand and trademark. TradeStation Crypto, Inc. offers to self-directed investors and traders cryptocurrency brokerage services.  It is neither licensed with the SEC or the CFTC nor is it a Member of NFA. When applying for, or purchasing, accounts, subscriptions, products, and services, it is important that you know which company you will be dealing with. Please  click here  for further important information explaining what this means.
+ 
+ This content is for informational and educational purposes only.  This is not a recommendation regarding any investment or investment strategy.  Any opinions expressed herein are those of the author and do not represent the views or opinions of TradeStation or any of its affiliates.
+ 
+
+Investing involves risks. Past performance, whether actual or indicated by historical tests of strategies, is no guarantee of future performance or success. There is a possibility that you may sustain a loss equal to or greater than your entire investment regardless of which asset class you trade (equities, options, futures, or digital assets); therefore, you should not invest or risk money that you cannot afford to lose. Before trading any asset class, first read the relevant risk disclosure statements on the Important Documents page, found here:  www.tradestation.com/important-information .
+</description><pubDate>Thu, 07 Sep 2023 07:56:26 -0500</pubDate><guid>https://www.tradingview.com/chart/HD/QAoewH5Y-Downtrends-May-Have-Begun-in-Housing/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/TradeStation/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/5839748-BhT7_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Downtrends May Have Begun in Housing</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NYSE-HD/">Home Depot, Inc. (The)</a>	<span class="symbol-descr">NYSE:HD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/TradeStation/" title="User Profile">TradeStation</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/HD/QAoewH5Y-Downtrends-May-Have-Begun-in-Housing/">
+	<img src="https://s3.tradingview.com/q/QAoewH5Y_mid.png"/>
+</a>
+<p>Homebuilders were a surprise leader in the first half. But with interest rates staying high, bears could be moving into the neighborhood. <br/>
+ <br/>
+Today’s chart focuses on Home Depot. Similar patterns appear on related charts including 
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NYSE:LEN" href="https://www.tradingview.com/symbols/NYSE-LEN/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/lennar.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">LEN</span>
+			</a>
+		 Lennar, 
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NYSE:PHM" href="https://www.tradingview.com/symbols/NYSE-PHM/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/pulte-group.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">PHM</span>
+			</a>
+		 PulteGroup and 
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NYSE:TOL" href="https://www.tradingview.com/symbols/NYSE-TOL/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/toll-bros.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">TOL</span>
+			</a>
+		 Toll Brothers. <br/>
+ <br/>
+The first issue is potential bearish divergence. HD made a six-month high on August 15. But notice how MACD, Wilder’s RSI and Rate of Change peaked earlier and were falling at the time. Those lower studies may indicate slowing momentum. <br/>
+ <br/>
+Second is the emergence of a potential falling channel. In late August, HD dipped below its price range from earlier in the month. It then peaked around $333 on September 1, which was about $5 below the August 15 zenith. In other words, a lower low was followed by a lower high.  <br/>
+ <br/>
+Finally, the macro environment may be more difficult for housing. Optimism about supply and demand boosted sentiment earlier in the year. But now strong economic data could be keeping rates higher for longer. That may cause some anxiety and reality checks in the coming weeks. <br/>
+ <br/>
+<em>TradeStation has, for decades, advanced the trading industry, providing access to stocks, options, futures and cryptocurrencies. See our <a target="_blank" href="https://www.tradingview.com/broker/TradeStation/">Overview</a> for more.</em> <br/>
+ <br/>
+<strong>Important Information</strong> <br/>
+TradeStation Securities, Inc., TradeStation Crypto, Inc., and TradeStation Technologies, Inc. are each wholly owned subsidiaries of TradeStation Group, Inc., all operating, and providing products and services, under the TradeStation brand and trademark. TradeStation Crypto, Inc. offers to self-directed investors and traders cryptocurrency brokerage services.  It is neither licensed with the SEC or the CFTC nor is it a Member of NFA. When applying for, or purchasing, accounts, subscriptions, products, and services, it is important that you know which company you will be dealing with. Please <a rel="nofollow noopener noreferrer"  target="_blank" href="https://uploads.tradestation.com/uploads/TradeStation-Group-Inc-Companies.pdf">click here</a> for further important information explaining what this means. <br/>
+  <br/>
+<strong>This content is for informational and educational purposes only.</strong> This is not a recommendation regarding any investment or investment strategy.  Any opinions expressed herein are those of the author and do not represent the views or opinions of TradeStation or any of its affiliates. <br/>
+  <br/>
+ <br/>
+Investing involves risks. Past performance, whether actual or indicated by historical tests of strategies, is no guarantee of future performance or success. There is a possibility that you may sustain a loss equal to or greater than your entire investment regardless of which asset class you trade (equities, options, futures, or digital assets); therefore, you should not invest or risk money that you cannot afford to lose. Before trading any asset class, first read the relevant risk disclosure statements on the Important Documents page, found here: <a rel="nofollow noopener noreferrer"  target="_blank" href="http://www.tradestation.com/important-information">www.tradestation.com/important-information</a>. <br/>
+</p>]]></content:encoded></item><item><title>$TSLA  Another One</title><link>https://www.tradingview.com/chart/TSLA/4TVtKB9j-TSLA-Another-One/</link><description>True to the title, we experienced some serious range and PAIN. We are now in premarket trying to open BELOW support meaning we have to find one under us. I am not bearish until we break into that structure below. </description><pubDate>Thu, 07 Sep 2023 07:51:13 -0500</pubDate><guid>https://www.tradingview.com/chart/TSLA/4TVtKB9j-TSLA-Another-One/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/PotterStocks-PBS/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/60852523-sYd7_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>$TSLA  Another One</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-TSLA/">Tesla, Inc.</a>	<span class="symbol-descr">NASDAQ:TSLA</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/PotterStocks-PBS/" title="User Profile">PotterStocks-PBS</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/TSLA/4TVtKB9j-TSLA-Another-One/">
+	<img src="https://s3.tradingview.com/4/4TVtKB9j_mid.png"/>
+</a>
+<p>True to the title, we experienced some serious range and PAIN. We are now in premarket trying to open BELOW support meaning we have to find one under us. I am not bearish until we break into that structure below. </p>]]></content:encoded></item><item><title>My levels to manage GTLB after its earning</title><link>https://www.tradingview.com/chart/GTLB/CagwJC0A-My-levels-to-manage-GTLB-after-its-earning/</link><description>GitLab posted adjusted earnings of 1 cent per share on $140 million in revenue. Meanwhile, analysts polled by LSEG anticipated a loss of 3 cents per share and revenue of $130 million. The company’s current-quarter revenue outlook was also better than analysts’ forecast.</description><pubDate>Thu, 07 Sep 2023 07:43:19 -0500</pubDate><guid>https://www.tradingview.com/chart/GTLB/CagwJC0A-My-levels-to-manage-GTLB-after-its-earning/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/KhanhC.Hoang/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3323621-s7do_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>My levels to manage GTLB after its earning</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-GTLB/">GitLab Inc.</a>	<span class="symbol-descr">NASDAQ:GTLB</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/KhanhC.Hoang/" title="User Profile">KhanhC.Hoang</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GTLB/CagwJC0A-My-levels-to-manage-GTLB-after-its-earning/">
+	<img src="https://s3.tradingview.com/c/CagwJC0A_mid.png"/>
+</a>
+<p>GitLab posted adjusted earnings of 1 cent per share on $140 million in revenue. Meanwhile, analysts polled by LSEG anticipated a loss of 3 cents per share and revenue of $130 million. The company’s current-quarter revenue outlook was also better than analysts’ forecast.</p>]]></content:encoded></item><item><title>Updating my levels to trade $AAPL</title><link>https://www.tradingview.com/chart/AAPL/0AAqsnId-Updating-my-levels-to-trade-AAPL/</link><description>copy &amp; paste from WSJ
+
+"Apple dominates the high-end smartphone market in the country and counts China as one of its biggest markets, relying on it for about 19% of its overall revenue.
+
+Beijing has for years restricted government officials at some agencies from using iPhones for work, but the order has now been widened.
+
+China’s restriction mirrors similar bans in the U.S. against Huawei Technologies as well as against officials using Chinese-owned TikTok, with both superpowers concerned about data leaks amid heightened emphasis on national security and deteriorating relations."</description><pubDate>Thu, 07 Sep 2023 07:32:40 -0500</pubDate><guid>https://www.tradingview.com/chart/AAPL/0AAqsnId-Updating-my-levels-to-trade-AAPL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/KhanhC.Hoang/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3323621-s7do_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Updating my levels to trade $AAPL</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/">Apple Inc.</a>	<span class="symbol-descr">NASDAQ:AAPL</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/KhanhC.Hoang/" title="User Profile">KhanhC.Hoang</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AAPL/0AAqsnId-Updating-my-levels-to-trade-AAPL/">
+	<img src="https://s3.tradingview.com/0/0AAqsnId_mid.png"/>
+</a>
+<p>copy &amp; paste from WSJ <br/>
+ <br/>
+"Apple dominates the high-end smartphone market in the country and counts China as one of its biggest markets, relying on it for about 19% of its overall revenue. <br/>
+ <br/>
+Beijing has for years restricted government officials at some agencies from using iPhones for work, but the order has now been widened. <br/>
+ <br/>
+China’s restriction mirrors similar bans in the U.S. against Huawei Technologies as well as against officials using Chinese-owned TikTok, with both superpowers concerned about data leaks amid heightened emphasis on national security and deteriorating relations."</p>]]></content:encoded></item><item><title>$ZS Beats on Earnings / Trying to Breakout</title><link>https://www.tradingview.com/chart/ZS/DJpodmw8-ZS-Beats-on-Earnings-Trying-to-Breakout/</link><description>NASDAQ:ZS  I have most relevant info on chart. I have an alert set on the upper resistance line on the chart. It did exceed that but pulled back in this tough market. I will be looking for both the market to improve (who knows?) and  NASDAQ:ZS  to break above that area.
+
+The bad is both the market and  NASDAQ:ZS  did put in a lower low most recently. In any event this is high on my watchlist even for a pullback and rally play.
+
+Ideas, not investing / trading advice. Comments always welcome. Thanks for looking.
+
+From earningswhispers.com :
+
+Zscaler Beat Expectations
+Tuesday, September 5, 2023 at 4:05 PM ET
+
+Zscaler (ZS) reported earnings of $0.64 per share on revenue of $455.01 million for the fiscal fourth quarter ended July 2023. The consensus earnings estimate was $0.49 per share on revenue of $430.38 million. The Earnings Whisper number was $0.52 per share. The company beat expectations by 23.08% while revenue grew 43.06% on a year-over-year basis.
+
+The company said it expects first-quarter non-GAAP earnings of $0.48 to $0.49 per share on revenue of $472.0 million to $474.0 million. The consensus earnings estimate is $0.46 per share on revenue of $464.60 million for the October 31, 2023 quarter. The company also said it expects fiscal 2024 non-GAAP earnings of $2.20 to $2.25 per share on revenue of $2.050 billion to $2.065 billion. The consensus earnings estimate is $2.10 per share on revenue of $2.05 billion for the year ending July 31, 2024.</description><pubDate>Thu, 07 Sep 2023 07:18:54 -0500</pubDate><guid>https://www.tradingview.com/chart/ZS/DJpodmw8-ZS-Beats-on-Earnings-Trying-to-Breakout/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/jaxdog/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3232366-s9Y5_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>$ZS Beats on Earnings / Trying to Breakout</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-ZS/">Zscaler, Inc.</a>	<span class="symbol-descr">NASDAQ:ZS</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/jaxdog/" title="User Profile">jaxdog</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ZS/DJpodmw8-ZS-Beats-on-Earnings-Trying-to-Breakout/">
+	<img src="https://s3.tradingview.com/d/DJpodmw8_mid.png"/>
+</a>
+<p>
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NASDAQ:ZS" href="https://www.tradingview.com/symbols/NASDAQ-ZS/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/zscaler.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">ZS</span>
+			</a>
+		 I have most relevant info on chart. I have an alert set on the upper resistance line on the chart. It did exceed that but pulled back in this tough market. I will be looking for both the market to improve (who knows?) and 
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NASDAQ:ZS" href="https://www.tradingview.com/symbols/NASDAQ-ZS/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/zscaler.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">ZS</span>
+			</a>
+		 to break above that area. <br/>
+ <br/>
+The bad is both the market and 
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NASDAQ:ZS" href="https://www.tradingview.com/symbols/NASDAQ-ZS/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/zscaler.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">ZS</span>
+			</a>
+		 did put in a lower low most recently. In any event this is high on my watchlist even for a pullback and rally play. <br/>
+ <br/>
+Ideas, not investing / trading advice. Comments always welcome. Thanks for looking. <br/>
+ <br/>
+From earningswhispers.com : <br/>
+ <br/>
+Zscaler Beat Expectations <br/>
+Tuesday, September 5, 2023 at 4:05 PM ET <br/>
+ <br/>
+Zscaler (ZS) reported earnings of $0.64 per share on revenue of $455.01 million for the fiscal fourth quarter ended July 2023. The consensus earnings estimate was $0.49 per share on revenue of $430.38 million. The Earnings Whisper number was $0.52 per share. The company beat expectations by 23.08% while revenue grew 43.06% on a year-over-year basis. <br/>
+ <br/>
+The company said it expects first-quarter non-GAAP earnings of $0.48 to $0.49 per share on revenue of $472.0 million to $474.0 million. The consensus earnings estimate is $0.46 per share on revenue of $464.60 million for the October 31, 2023 quarter. The company also said it expects fiscal 2024 non-GAAP earnings of $2.20 to $2.25 per share on revenue of $2.050 billion to $2.065 billion. The consensus earnings estimate is $2.10 per share on revenue of $2.05 billion for the year ending July 31, 2024.</p>]]></content:encoded></item><item><title>akan naik</title><link>https://www.tradingview.com/chart/CSCENIC/M8qm2AyN-akan-naik/</link><description>uptendline, reward 30% risk 5 percent, downtrendwaa over</description><pubDate>Thu, 07 Sep 2023 06:54:48 -0500</pubDate><guid>https://www.tradingview.com/chart/CSCENIC/M8qm2AyN-akan-naik/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/izzuddin1992/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28114,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EI%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>akan naik</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/MYX-CSCENIC/">CLASSIC SCENIC BHD</a>	<span class="symbol-descr">MYX:CSCENIC</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/izzuddin1992/" title="User Profile">izzuddin1992</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/CSCENIC/M8qm2AyN-akan-naik/">
+	<img src="https://s3.tradingview.com/m/M8qm2AyN_mid.png"/>
+</a>
+<p>uptendline, reward 30% risk 5 percent, downtrendwaa over</p>]]></content:encoded></item><item><title>Aartech solonic defence sector rising bull</title><link>https://www.tradingview.com/chart/AARTECH/RRj6Y6hh-Aartech-solonic-defence-sector-rising-bull/</link><description>Defence Sector Stock ( Real Hidden Gem )
+ NSE:AARTECH  @ 173
+Expected 500 / 800 In Coming Years
+Working In Defence &amp; Power Sector
+Regular dividend paying Stock
+Almost Debt Free</description><pubDate>Thu, 07 Sep 2023 06:49:43 -0500</pubDate><guid>https://www.tradingview.com/chart/AARTECH/RRj6Y6hh-Aartech-solonic-defence-sector-rising-bull/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/stocksview11/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2884,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ES%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Aartech solonic defence sector rising bull</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-AARTECH/">AARTECH SOLONICS LTD</a>	<span class="symbol-descr">NSE:AARTECH</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/stocksview11/" title="User Profile">stocksview11</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AARTECH/RRj6Y6hh-Aartech-solonic-defence-sector-rising-bull/">
+	<img src="https://s3.tradingview.com/r/RRj6Y6hh_mid.png"/>
+</a>
+<p>Defence Sector Stock ( Real Hidden Gem ) <br/>
+
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="NSE:AARTECH" href="https://www.tradingview.com/symbols/NSE-AARTECH/">
+				
+				<span class="tv-chart-view__description__tag__text">AARTECH</span>
+			</a>
+		 @ 173 <br/>
+Expected 500 / 800 In Coming Years <br/>
+Working In Defence &amp; Power Sector <br/>
+Regular dividend paying Stock <br/>
+Almost Debt Free</p>]]></content:encoded></item><item><title>Apple in Trouble: Shares Fall More Than 3.5% </title><link>https://www.tradingview.com/chart/AAPL/nEBiilkc-Apple-in-Trouble-Shares-Fall-More-Than-3-5/</link><description>As a result of yesterday's trading, AAPL shares fell more than 3.5%.
+
+ The reason is in the news that came from China: 
+
+→ According to the WSJ, Chinese central government officials have been ordered not to use iPhones or bring them to the office. Apple's business is very vulnerable to tensions between China and the US, as most of the US company's products are made in China.
+→ Chinese Huawei has developed a new high-speed phone that can become a serious competitor to the iPhone. The first batch of the phone, the Mate 60 Pro, priced at USD 960 on a limited pre-order basis, sold out in a matter of hours, causing a sensation on Chinese social media.
+
+ With the SHS pattern in the background, AAPL shares are technically weak: 
+
+→ the price has tested the bearish gap formed at the beginning of August;
+→ USD 188/share AAPL, which acted as support in July, now appears to be resisting;
+→ after the August reversal from the lower border of the channel (shown in blue), the bulls failed to return to the upper half of the channel.
+
+ https://www.tradingview.com/x/Miiwwi67/ 
+
+Bulls can oppose a serious argument — the price is in an upward channel. And AAPL is one of the leaders in the NASDAQ Technology Index, which is rising on the AI-related boom.
+
+However, AAPL's share price continued to decline in premarket trading, dropping below the USD 180 level, and thus threatening a bearish breakdown of the rising channel in 2023. The nearest support is the level of 176.50, where earlier the price slowed down the fall or turned up.
+
+ This article represents the opinion of the Companies operating under the FXOpen brand only. It is not to be construed as an offer, solicitation, or recommendation with respect to products and services provided by the Companies operating under the FXOpen brand, nor is it to be considered financial advice.</description><pubDate>Thu, 07 Sep 2023 06:21:38 -0500</pubDate><guid>https://www.tradingview.com/chart/AAPL/nEBiilkc-Apple-in-Trouble-Shares-Fall-More-Than-3-5/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/FXOpen/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/37829043-Bezn_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Apple in Trouble: Shares Fall More Than 3.5% </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/">Apple Inc.</a>	<span class="symbol-descr">NASDAQ:AAPL</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/FXOpen/" title="User Profile">FXOpen</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AAPL/nEBiilkc-Apple-in-Trouble-Shares-Fall-More-Than-3-5/">
+	<img src="https://s3.tradingview.com/n/nEBiilkc_mid.png"/>
+</a>
+<p>As a result of yesterday's trading, AAPL shares fell more than 3.5%. <br/>
+ <br/>
+<strong>The reason is in the news that came from China:</strong> <br/>
+ <br/>
+→ According to the WSJ, Chinese central government officials have been ordered not to use iPhones or bring them to the office. Apple's business is very vulnerable to tensions between China and the US, as most of the US company's products are made in China. <br/>
+→ Chinese Huawei has developed a new high-speed phone that can become a serious competitor to the iPhone. The first batch of the phone, the Mate 60 Pro, priced at USD 960 on a limited pre-order basis, sold out in a matter of hours, causing a sensation on Chinese social media. <br/>
+ <br/>
+<strong>With the SHS pattern in the background, AAPL shares are technically weak:</strong> <br/>
+ <br/>
+→ the price has tested the bearish gap formed at the beginning of August; <br/>
+→ USD 188/share AAPL, which acted as support in July, now appears to be resisting; <br/>
+→ after the August reversal from the lower border of the channel (shown in blue), the bulls failed to return to the upper half of the channel. <br/>
+ <br/>
+
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/Miiwwi67' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/Miiwwi67' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+Bulls can oppose a serious argument — the price is in an upward channel. And AAPL is one of the leaders in the NASDAQ Technology Index, which is rising on the AI-related boom. <br/>
+ <br/>
+However, AAPL's share price continued to decline in premarket trading, dropping below the USD 180 level, and thus threatening a bearish breakdown of the rising channel in 2023. The nearest support is the level of 176.50, where earlier the price slowed down the fall or turned up. <br/>
+ <br/>
+<em>This article represents the opinion of the Companies operating under the FXOpen brand only. It is not to be construed as an offer, solicitation, or recommendation with respect to products and services provided by the Companies operating under the FXOpen brand, nor is it to be considered financial advice.</em></p>]]></content:encoded></item><item><title>VOW3 about to hit resistance line started in 2009...</title><link>https://www.tradingview.com/chart/VOW3/NSlX92Mg-VOW3-about-to-hit-resistance-line-started-in-2009/</link><description>As we can see in the graph, VOW3 is about to hit a resistance line which started on March 9th, 2009.  This line was solidified on March 18th, 2020.  Morningstar currently classifies Volkswagen as five stars, with almost 70% discount to fair value.  The extremely large dividend yield is ice on the cake...</description><pubDate>Thu, 07 Sep 2023 06:13:45 -0500</pubDate><guid>https://www.tradingview.com/chart/VOW3/NSlX92Mg-VOW3-about-to-hit-resistance-line-started-in-2009/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/HBP_Germany/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28156,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EH%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>VOW3 about to hit resistance line started in 2009...</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GETTEX-VOW3/">VOLKSWAGEN AG VZO O.N.</a>	<span class="symbol-descr">GETTEX:VOW3</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/HBP_Germany/" title="User Profile">HBP_Germany</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/VOW3/NSlX92Mg-VOW3-about-to-hit-resistance-line-started-in-2009/">
+	<img src="https://s3.tradingview.com/n/NSlX92Mg_mid.png"/>
+</a>
+<p>As we can see in the graph, VOW3 is about to hit a resistance line which started on March 9th, 2009.  This line was solidified on March 18th, 2020.  Morningstar currently classifies Volkswagen as five stars, with almost 70% discount to fair value.  The extremely large dividend yield is ice on the cake...</p>]]></content:encoded></item><item><title>For Wave 5 !!! Flat &amp; Continue Bll</title><link>https://www.tradingview.com/chart/NVDA/t3P5SF2D-For-Wave-5-Flat-Continue-Bll/</link><description>Hello friends, I hope you are having a productive week.
+
+I would like to share my ideas on the Elliott Wave Principle with you.
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis.
+
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future.
+Thank you for your continued support and I look forward to our mutual success.
+
+Best regards, Mr. Nobody.
+
+Go up and never stop.</description><pubDate>Thu, 07 Sep 2023 06:11:46 -0500</pubDate><guid>https://www.tradingview.com/chart/NVDA/t3P5SF2D-For-Wave-5-Flat-Continue-Bll/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/14037594-XABS_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>For Wave 5 !!! Flat &amp; Continue Bll</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/">NVIDIA Corporation</a>	<span class="symbol-descr">NASDAQ:NVDA</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">mehdi47abbasi79</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NVDA/t3P5SF2D-For-Wave-5-Flat-Continue-Bll/">
+	<img src="https://s3.tradingview.com/t/t3P5SF2D_mid.png"/>
+</a>
+<p>Hello friends, I hope you are having a productive week. <br/>
+ <br/>
+I would like to share my ideas on the Elliott Wave Principle with you. <br/>
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis. <br/>
+ <br/>
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future. <br/>
+Thank you for your continued support and I look forward to our mutual success. <br/>
+ <br/>
+Best regards, Mr. Nobody. <br/>
+ <br/>
+Go up and never stop.</p>]]></content:encoded></item><item><title>#TataPower Darvas Box Break out</title><link>https://www.tradingview.com/chart/TATAPOWER/lTr3yL5n-TataPower-Darvas-Box-Break-out/</link><description>Tata Power has given a Darvas Box Breakout after a long consolidation. The next target seems to be the previous high of 298.</description><pubDate>Thu, 07 Sep 2023 06:05:07 -0500</pubDate><guid>https://www.tradingview.com/chart/TATAPOWER/lTr3yL5n-TataPower-Darvas-Box-Break-out/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/sandeepnetalkar/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%286,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ES%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>#TataPower Darvas Box Break out</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-TATAPOWER/">TATA POWER CO LTD</a>	<span class="symbol-descr">NSE:TATAPOWER</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/sandeepnetalkar/" title="User Profile">sandeepnetalkar</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/TATAPOWER/lTr3yL5n-TataPower-Darvas-Box-Break-out/">
+	<img src="https://s3.tradingview.com/l/lTr3yL5n_mid.png"/>
+</a>
+<p>Tata Power has given a Darvas Box Breakout after a long consolidation. The next target seems to be the previous high of 298.</p>]]></content:encoded></item><item><title>AI: Sell idea</title><link>https://www.tradingview.com/chart/AI/GswONUBK-AI-Sell-idea/</link><description>On AI as you see on the chart we will have a big probability to have a big downtrend after the breakout with force the vwap indicator and the support line by a big red candle with a large red volume. Thanks.</description><pubDate>Thu, 07 Sep 2023 06:03:39 -0500</pubDate><guid>https://www.tradingview.com/chart/AI/GswONUBK-AI-Sell-idea/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/PAZINI19/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/36066159-SVcG_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>AI: Sell idea</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NYSE-AI/">C3.ai, Inc.</a>	<span class="symbol-descr">NYSE:AI</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/PAZINI19/" title="User Profile">PAZINI19</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AI/GswONUBK-AI-Sell-idea/">
+	<img src="https://s3.tradingview.com/g/GswONUBK_mid.png"/>
+</a>
+<p>On AI as you see on the chart we will have a big probability to have a big downtrend after the breakout with force the vwap indicator and the support line by a big red candle with a large red volume. Thanks.</p>]]></content:encoded></item><item><title>Rectangle/Short if Support Line is Broken</title><link>https://www.tradingview.com/chart/POOL/EVW7X1bp-Rectangle-Short-if-Support-Line-is-Broken/</link><description>Rectangles are horizontal trading channels and are neutral until broken.
+
+An Alternate Bat/M structure/ formed within the Rectangle and T1 was met.
+The Alternate Bat ends at the 1.113 at the 4th leg.  The Bat ends at the .886.
+
+Price is now at the support line of the rectangle.
+Earnings miss x 3.
+Support line with six touches, maybe more .  The more touches a resistance or support line has, the stronger that level becomes.
+
+SHORT if support line broken/No recommendation/Short interest over 11%
+
+52 Week Range
+278.10
+423.97
+Day Range
+349.08
+359.40
+EPS (FWD)
+13.46
+PE (FWD)
+26.01
+Div Rate (FWD)
+$4.40
+Yield (FWD)
+1.26%
+******Short Interest
+10.63%
+Market Cap
+$13.67B
+Volume
+351,975
+Prev. Close
+$358.15
+
+Company Profile
+Pool Corporation logo
+Pool Corporation distributes swimming pool supplies, equipment, and related leisure products in the United States and internationally. The company offers maintenance products, including chemicals, supplies, and pool accessories; repair and replacement parts for pool equipment, such as cleaners, filters, heaters, pumps, and lights; and building materials, such as concrete, plumbing and electrical components, functional and decorative pool surfaces, decking materials, tiles, hardscapes, and natural stones for pool installations and remodeling. It also provides pool equipment and components for new pool construction and the remodeling of existing pools; irrigation and related products, such as irrigation system components, and professional lawn care equipment and supplies; commercial products, including heaters, safety equipment, commercial decking equipment, and commercial pumps and filters. In addition, the company offers fiberglass pools, and hot tubs and packaged pool kits comprising walls, liners, braces, and coping for in-ground and above-ground pools; and other pool construction and recreational products comprising discretionary recreational and related outdoor living products, such as grills and components for outdoor kitchens. It serves swimming pool remodelers and builders; specialty retailers that sell swimming pool supplies; swimming pool repair and service businesses; irrigation construction and landscape maintenance contractors; and commercial pool operators and pool contractors. Pool Corporation was incorporated in 1993 and is headquartered in Covington, Louisiana.</description><pubDate>Thu, 07 Sep 2023 06:01:35 -0500</pubDate><guid>https://www.tradingview.com/chart/POOL/EVW7X1bp-Rectangle-Short-if-Support-Line-is-Broken/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/lauralea/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/5086424-qI5v_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Rectangle/Short if Support Line is Broken</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-POOL/">Pool Corporation</a>	<span class="symbol-descr">NASDAQ:POOL</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/lauralea/" title="User Profile">lauralea</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/POOL/EVW7X1bp-Rectangle-Short-if-Support-Line-is-Broken/">
+	<img src="https://s3.tradingview.com/e/EVW7X1bp_mid.png"/>
+</a>
+<p>Rectangles are horizontal trading channels and are neutral until broken. <br/>
+ <br/>
+An Alternate Bat/M structure/ formed within the Rectangle and T1 was met. <br/>
+The Alternate Bat ends at the 1.113 at the 4th leg.  The Bat ends at the .886. <br/>
+ <br/>
+Price is now at the support line of the rectangle. <br/>
+Earnings miss x 3. <br/>
+Support line with six touches, maybe more .  The more touches a resistance or support line has, the stronger that level becomes. <br/>
+ <br/>
+SHORT if support line broken/No recommendation/Short interest over 11% <br/>
+ <br/>
+52 Week Range <br/>
+278.10 <br/>
+423.97 <br/>
+Day Range <br/>
+349.08 <br/>
+359.40 <br/>
+EPS (FWD) <br/>
+13.46 <br/>
+PE (FWD) <br/>
+26.01 <br/>
+Div Rate (FWD) <br/>
+$4.40 <br/>
+Yield (FWD) <br/>
+1.26% <br/>
+******Short Interest <br/>
+10.63% <br/>
+Market Cap <br/>
+$13.67B <br/>
+Volume <br/>
+351,975 <br/>
+Prev. Close <br/>
+$358.15 <br/>
+ <br/>
+Company Profile <br/>
+Pool Corporation logo <br/>
+Pool Corporation distributes swimming pool supplies, equipment, and related leisure products in the United States and internationally. The company offers maintenance products, including chemicals, supplies, and pool accessories; repair and replacement parts for pool equipment, such as cleaners, filters, heaters, pumps, and lights; and building materials, such as concrete, plumbing and electrical components, functional and decorative pool surfaces, decking materials, tiles, hardscapes, and natural stones for pool installations and remodeling. It also provides pool equipment and components for new pool construction and the remodeling of existing pools; irrigation and related products, such as irrigation system components, and professional lawn care equipment and supplies; commercial products, including heaters, safety equipment, commercial decking equipment, and commercial pumps and filters. In addition, the company offers fiberglass pools, and hot tubs and packaged pool kits comprising walls, liners, braces, and coping for in-ground and above-ground pools; and other pool construction and recreational products comprising discretionary recreational and related outdoor living products, such as grills and components for outdoor kitchens. It serves swimming pool remodelers and builders; specialty retailers that sell swimming pool supplies; swimming pool repair and service businesses; irrigation construction and landscape maintenance contractors; and commercial pool operators and pool contractors. Pool Corporation was incorporated in 1993 and is headquartered in Covington, Louisiana.</p>]]></content:encoded></item><item><title>Apple Moving Lower for Longer</title><link>https://www.tradingview.com/chart/AAPL/B8rzq2El-Apple-Moving-Lower-for-Longer/</link><description>APPL (1D) - Quick Analysis 
+
+ Price Chart 
+
+Apple's price action has filled it's August gap (White Dotted) and turned lower pushing past the 12, 26, and 50-day EMA's in one swoop.  Both RSI and OBV have created trend lines (Yellow Solid) that the indicators look to be respecting with failed retest; as RSI is on the verge of pushing below the 50 level.
+
+ What Seems Legit? 
+
+This bad boy finally cooling off.  It's up 60% YTD.  First retest it's 200-day EMA then retest it's major trend line and some good chaos in-between.
+
+Check us out on Twitter for charts not posted here, memes, and news that that doesn't make the news
+
+ Chart Key 
+Yellow Solid = Trend Line
+White Dotted = Gap Fill
+Green Boxes = Supports / Target Areas</description><pubDate>Thu, 07 Sep 2023 05:33:04 -0500</pubDate><guid>https://www.tradingview.com/chart/AAPL/B8rzq2El-Apple-Moving-Lower-for-Longer/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Seems_Legit_Research/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/60379553-nuOU_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Apple Moving Lower for Longer</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/">Apple Inc.</a>	<span class="symbol-descr">NASDAQ:AAPL</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Seems_Legit_Research/" title="User Profile">Seems_Legit_Research</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AAPL/B8rzq2El-Apple-Moving-Lower-for-Longer/">
+	<img src="https://s3.tradingview.com/b/B8rzq2El_mid.png"/>
+</a>
+<p><strong>APPL (1D) - Quick Analysis</strong> <br/>
+ <br/>
+<em>Price Chart</em> <br/>
+ <br/>
+Apple's price action has filled it's August gap (White Dotted) and turned lower pushing past the 12, 26, and 50-day EMA's in one swoop.  Both RSI and OBV have created trend lines (Yellow Solid) that the indicators look to be respecting with failed retest; as RSI is on the verge of pushing below the 50 level. <br/>
+ <br/>
+<strong>What Seems Legit?</strong> <br/>
+ <br/>
+This bad boy finally cooling off.  It's up 60% YTD.  First retest it's 200-day EMA then retest it's major trend line and some good chaos in-between. <br/>
+ <br/>
+Check us out on Twitter for charts not posted here, memes, and news that that doesn't make the news <br/>
+ <br/>
+<strong>Chart Key</strong> <br/>
+Yellow Solid = Trend Line <br/>
+White Dotted = Gap Fill <br/>
+Green Boxes = Supports / Target Areas</p>]]></content:encoded></item><item><title>Is Nvidia Finally Topping Out? </title><link>https://www.tradingview.com/chart/NVDA/86bQsxK6-Is-Nvidia-Finally-Topping-Out/</link><description>Is Nvidia Finally Topping Out? 
+
+Nvidia, the chip manufacturer, has unquestionably been the standout stock of the year, driven by the increasing demand for its 'supercomputer' chips that are playing a key role in the AI revolution. 
+
+The company's shares have experienced a remarkable uptrend, surging by an impressive 227% year-to-date. However, we are starting to see some subtle signs that Nvidia’s share price might be nearing a turning point.
+
+Before we break down why Nvidia’s powerful uptrend might be coming to an end, let’s take a look at the year-to-date view on the daily candle chart:
+
+ NVDA Daily Candle Chart YTD 
+ https://www.tradingview.com/x/6qTaxCit/ 
+
+We can see that Nvidia’s shares have been running relentlessly higher since the turn of the year with prices comfortably above the 50-day and 100-day simple moving averages. 
+
+Whilst calling the end of established trends like this tends to be foolish, we are seeing some signs that Nvidia’s share price may be due for a deeper retracement. 
+
+Let’s zoom in and take a closer look at Nvidia’s recent price action:
+
+ NVDA Daily Candle Chart Zoomed View 
+ https://www.tradingview.com/x/AdvokIhk/ 
+
+On this zoomed view we can see that during the last two weeks, Nvidia’s share price has struggled to break and hold above resistance at $480.85.
+
+We’ve seen multiple dark cloud cover patterns print at resistance – this pattern is created when the market gaps higher at the open only to end the session back within the previous days range. 
+
+And this week, we have seen the shares attempt to hold above resistance only for the market to close lower during yesterday’s session.
+
+It is also worth noting that whilst prices have continued to carve out a series of higher swing highs and higher swing lows, the Relative Strength Index (RSI) has been trending lower.
+
+This negative divergence on the RSI, combined with the recurring failures at resistance indicate that selling pressure is starting to build and we could start to see some profit taking.
+ 
+ Risk management 
+
+Counter-trend trades pose the risk of the established trend continuing, so traders should always use prudent risk management. 
+
+For stop placement, traders could use the recent highs or a multiple of Nvidia’s average true range (ATR). 
+
+On the calendar, we have Nvidia’s appearance at the Citi Global Technology Conference today (7th September) and Nvidia’s appearance at the Bank of America Global AI Conference on 11th September. These events have the potential to increase the volatility of Nvidia’s share price. 
+
+It is also worth noting that Nvidia’s share price will be sensitive to global macro-economic data and events.  
+
+ Disclaimer: This is for information and learning purposes only. The information provided does not constitute investment advice nor take into account the individual financial circumstances or objectives of any investor. Any information that may be provided relating to past performance is not a reliable indicator of future results or performance. 
+
+
+
+
+
+
+
+</description><pubDate>Thu, 07 Sep 2023 05:29:23 -0500</pubDate><guid>https://www.tradingview.com/chart/NVDA/86bQsxK6-Is-Nvidia-Finally-Topping-Out/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Capitalcom/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/13867310-GKug_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Is Nvidia Finally Topping Out? </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/">NVIDIA Corporation</a>	<span class="symbol-descr">NASDAQ:NVDA</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Capitalcom/" title="User Profile">Capitalcom</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NVDA/86bQsxK6-Is-Nvidia-Finally-Topping-Out/">
+	<img src="https://s3.tradingview.com/8/86bQsxK6_mid.png"/>
+</a>
+<p><strong>Is Nvidia Finally Topping Out?</strong> <br/>
+ <br/>
+Nvidia, the chip manufacturer, has unquestionably been the standout stock of the year, driven by the increasing demand for its 'supercomputer' chips that are playing a key role in the AI revolution.  <br/>
+ <br/>
+The company's shares have experienced a remarkable uptrend, surging by an impressive 227% year-to-date. However, we are starting to see some subtle signs that Nvidia’s share price might be nearing a turning point. <br/>
+ <br/>
+Before we break down why Nvidia’s powerful uptrend might be coming to an end, let’s take a look at the year-to-date view on the daily candle chart: <br/>
+ <br/>
+<strong>NVDA Daily Candle Chart YTD</strong> <br/>
+
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/6qTaxCit' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/6qTaxCit' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+We can see that Nvidia’s shares have been running relentlessly higher since the turn of the year with prices comfortably above the 50-day and 100-day simple moving averages.  <br/>
+ <br/>
+Whilst calling the end of established trends like this tends to be foolish, we are seeing some signs that Nvidia’s share price may be due for a deeper retracement.  <br/>
+ <br/>
+Let’s zoom in and take a closer look at Nvidia’s recent price action: <br/>
+ <br/>
+<strong>NVDA Daily Candle Chart Zoomed View</strong> <br/>
+
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/AdvokIhk' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/AdvokIhk' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+On this zoomed view we can see that during the last two weeks, Nvidia’s share price has struggled to break and hold above resistance at $480.85. <br/>
+ <br/>
+We’ve seen multiple dark cloud cover patterns print at resistance – this pattern is created when the market gaps higher at the open only to end the session back within the previous days range.  <br/>
+ <br/>
+And this week, we have seen the shares attempt to hold above resistance only for the market to close lower during yesterday’s session. <br/>
+ <br/>
+It is also worth noting that whilst prices have continued to carve out a series of higher swing highs and higher swing lows, the Relative Strength Index (RSI) has been trending lower. <br/>
+ <br/>
+This negative divergence on the RSI, combined with the recurring failures at resistance indicate that selling pressure is starting to build and we could start to see some profit taking. <br/>
+  <br/>
+<strong>Risk management</strong> <br/>
+ <br/>
+Counter-trend trades pose the risk of the established trend continuing, so traders should always use prudent risk management.  <br/>
+ <br/>
+For stop placement, traders could use the recent highs or a multiple of Nvidia’s average true range (ATR).  <br/>
+ <br/>
+On the calendar, we have Nvidia’s appearance at the Citi Global Technology Conference today (7th September) and Nvidia’s appearance at the Bank of America Global AI Conference on 11th September. These events have the potential to increase the volatility of Nvidia’s share price.  <br/>
+ <br/>
+It is also worth noting that Nvidia’s share price will be sensitive to global macro-economic data and events.   <br/>
+ <br/>
+<strong>Disclaimer: This is for information and learning purposes only. The information provided does not constitute investment advice nor take into account the individual financial circumstances or objectives of any investor. Any information that may be provided relating to past performance is not a reliable indicator of future results or performance.</strong> <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+</p>]]></content:encoded></item><item><title>Triangle</title><link>https://www.tradingview.com/chart/BA/WYZni7JX-Triangle/</link><description>Symmetrical Triangle that is neutral until broken.
+
+Price is at the support line of this triangle.
+
+Bat noted that ended at the .886.  T1 for bat was met.
+No recommendation</description><pubDate>Thu, 07 Sep 2023 05:25:24 -0500</pubDate><guid>https://www.tradingview.com/chart/BA/WYZni7JX-Triangle/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/lauralea/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/5086424-qI5v_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Triangle</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NYSE-BA/">Boeing Company (The)</a>	<span class="symbol-descr">NYSE:BA</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/lauralea/" title="User Profile">lauralea</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BA/WYZni7JX-Triangle/">
+	<img src="https://s3.tradingview.com/w/WYZni7JX_mid.png"/>
+</a>
+<p>Symmetrical Triangle that is neutral until broken. <br/>
+ <br/>
+Price is at the support line of this triangle. <br/>
+ <br/>
+Bat noted that ended at the .886.  T1 for bat was met. <br/>
+No recommendation</p>]]></content:encoded></item><item><title>Multiply Weekly</title><link>https://www.tradingview.com/chart/MULTIPLY/Tat6QAZh-Multiply-Weekly/</link><description>Same same as TAQA in long term 
+hidden positive divergence that appeared between the fourth wave and the second waves</description><pubDate>Thu, 07 Sep 2023 05:04:44 -0500</pubDate><guid>https://www.tradingview.com/chart/MULTIPLY/Tat6QAZh-Multiply-Weekly/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/abba7114/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/10176848-FAI0_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Multiply Weekly</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/ADX-MULTIPLY/">Multiply Group PJSC</a>	<span class="symbol-descr">ADX:MULTIPLY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/abba7114/" title="User Profile">abba7114</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MULTIPLY/Tat6QAZh-Multiply-Weekly/">
+	<img src="https://s3.tradingview.com/t/Tat6QAZh_mid.png"/>
+</a>
+<p>Same same as TAQA in long term  <br/>
+hidden positive divergence that appeared between the fourth wave and the second waves</p>]]></content:encoded></item><item><title>TAQA Weekly</title><link>https://www.tradingview.com/chart/TAQA/rgXW9fEE-TAQA-Weekly/</link><description>The hidden positive divergence that appeared between the fourth wave and the second was in very favorable circumstances, which is that the fourth did not overlap with the first, and thus its main motive wave did not turn from impulse into a diagonal wave.</description><pubDate>Thu, 07 Sep 2023 04:46:01 -0500</pubDate><guid>https://www.tradingview.com/chart/TAQA/rgXW9fEE-TAQA-Weekly/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/abba7114/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/10176848-FAI0_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>TAQA Weekly</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/ADX-TAQA/">Abu Dhabi National Energy Company</a>	<span class="symbol-descr">ADX:TAQA</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/abba7114/" title="User Profile">abba7114</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/TAQA/rgXW9fEE-TAQA-Weekly/">
+	<img src="https://s3.tradingview.com/r/rgXW9fEE_mid.png"/>
+</a>
+<p>The hidden positive divergence that appeared between the fourth wave and the second was in very favorable circumstances, which is that the fourth did not overlap with the first, and thus its main motive wave did not turn from impulse into a diagonal wave.</p>]]></content:encoded></item><item><title>VRRM stock strong support at $17 area</title><link>https://www.tradingview.com/chart/VRRM/pxzpo0ld-VRRM-stock-strong-support-at-17-area/</link><description>Fundamentals: 
+Insider sells: CFO sold shares 
+
+Technicals:
+$17 area is strong suppoart and good Risk/reqard. </description><pubDate>Thu, 07 Sep 2023 04:36:24 -0500</pubDate><guid>https://www.tradingview.com/chart/VRRM/pxzpo0ld-VRRM-stock-strong-support-at-17-area/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Trading_with_Shakhboz/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%283,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ET%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>VRRM stock strong support at $17 area</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NASDAQ-VRRM/">Verra Mobility Corporation</a>	<span class="symbol-descr">NASDAQ:VRRM</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Trading_with_Shakhboz/" title="User Profile">Trading_with_Shakhboz</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/VRRM/pxzpo0ld-VRRM-stock-strong-support-at-17-area/">
+	<img src="https://s3.tradingview.com/p/pxzpo0ld_mid.png"/>
+</a>
+<p>Fundamentals:  <br/>
+Insider sells: CFO sold shares  <br/>
+ <br/>
+Technicals: <br/>
+$17 area is strong suppoart and good Risk/reqard. </p>]]></content:encoded></item><item><title>'MAZDOCK'</title><link>https://www.tradingview.com/chart/MAZDOCK/ehB0Dv1V-MAZDOCK/</link><description>
+clear cut Flag break out on daily chart, New
+New territory for MAZDOCK
+SL 1920
+cmp 2100
+target in medium term  3500</description><pubDate>Thu, 07 Sep 2023 04:30:20 -0500</pubDate><guid>https://www.tradingview.com/chart/MAZDOCK/ehB0Dv1V-MAZDOCK/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/anuguptag/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/7475479-Y9qW_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>&#39;MAZDOCK&#39;</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-MAZDOCK/">MAZAGON DOCK SHIPBUIL LTD</a>	<span class="symbol-descr">NSE:MAZDOCK</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/anuguptag/" title="User Profile">anuguptag</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MAZDOCK/ehB0Dv1V-MAZDOCK/">
+	<img src="https://s3.tradingview.com/e/ehB0Dv1V_mid.png"/>
+</a>
+<p> <br/>
+clear cut Flag break out on daily chart, New <br/>
+New territory for MAZDOCK <br/>
+SL 1920 <br/>
+cmp 2100 <br/>
+target in medium term  3500</p>]]></content:encoded></item><item><title>Another volatility contractions blast 💥💣</title><link>https://www.tradingview.com/chart/DCMSRIND/MFjeBWuS-Another-volatility-contractions-blast/</link><description>STOP losss 🛑 is 4.5% from CMP
+Entry CMP or choice
+Breakout trading implementation:
+
+1. **Identifying New Trends:** Breakout trading helps traders identify the beginning of new trends by focusing on price levels where an asset breaks out of its historical trading range.
+
+2. **Volatility Indicator:** Breakouts often occur when there's increased volatility in the market. Monitoring breakouts can provide insights into shifts in market sentiment and potential price movements.
+
+3. **Entry Points:** Breakout points serve as potential entry points for traders looking to ride the momentum of a newly established trend. Buying on a breakout can capture the early stages of a price movement.
+
+4. **Confirmation of Strength:** Successful breakouts indicate the strength of a trend. If an asset breaks out with high volume and follows through with sustained price movement, it suggests a strong trend in that direction.
+
+5. **Avoiding False Signals:** Breakout strategies often include using indicators or confirmation signals to avoid false breakouts. This can enhance the accuracy of trade decisions.
+
+6. **Defined Risk and Reward:** Breakout trading allows for setting clear stop-loss levels below the breakout point, which helps manage risk. Traders can also calculate potential profits based on the distance between the breakout point and a projected target.
+
+7. **Adaptable to Various Markets:** Breakout trading can be applied to various markets, including stocks, forex, commodities, and cryptocurrencies. The concept remains consistent across different assets.
+
+8. **Flexibility:** Traders can adapt breakout strategies to their preferred timeframes, whether they are day traders, swing traders, or long-term investors.
+
+9. **Liquidity Opportunities:** Breakout points are often associated with increased trading volume, which can provide better liquidity for executing trades.
+
+10. **Risk vs. Reward Assessment:** Traders can evaluate the potential risk of a trade (stop-loss) against the potential reward (target price), aiding in decision-making and portfolio management.
+
+11. **Psychological Advantage:** Successful breakout trades can boost a trader's confidence and discipline, reinforcing the effectiveness of their strategy.
+
+12. **Market Events:** Breakouts can occur around significant market events such as earnings reports, economic data releases, or geopolitical developments, offering traders opportunities to capitalize on sudden price movements.
+
+Remember, while breakout trading offers potential advantages, it also carries risks. False breakouts and market reversals can lead to losses. Successful implementation requires a solid understanding of technical analysis, risk management, and the ability to adapt to changing market conditions.</description><pubDate>Thu, 07 Sep 2023 04:28:51 -0500</pubDate><guid>https://www.tradingview.com/chart/DCMSRIND/MFjeBWuS-Another-volatility-contractions-blast/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/BAAPOFBREAKOUT/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/24085472-XKHH_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Another volatility contractions blast 💥💣</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-DCMSRIND/">DCM SHRIRAM IND LTD</a>	<span class="symbol-descr">NSE:DCMSRIND</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/BAAPOFBREAKOUT/" title="User Profile">BAAPOFBREAKOUT</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DCMSRIND/MFjeBWuS-Another-volatility-contractions-blast/">
+	<img src="https://s3.tradingview.com/m/MFjeBWuS_mid.png"/>
+</a>
+<p>STOP losss 🛑 is 4.5% from CMP <br/>
+Entry CMP or choice <br/>
+Breakout trading implementation: <br/>
+ <br/>
+1. **Identifying New Trends:** Breakout trading helps traders identify the beginning of new trends by focusing on price levels where an asset breaks out of its historical trading range. <br/>
+ <br/>
+2. **Volatility Indicator:** Breakouts often occur when there's increased volatility in the market. Monitoring breakouts can provide insights into shifts in market sentiment and potential price movements. <br/>
+ <br/>
+3. **Entry Points:** Breakout points serve as potential entry points for traders looking to ride the momentum of a newly established trend. Buying on a breakout can capture the early stages of a price movement. <br/>
+ <br/>
+4. **Confirmation of Strength:** Successful breakouts indicate the strength of a trend. If an asset breaks out with high volume and follows through with sustained price movement, it suggests a strong trend in that direction. <br/>
+ <br/>
+5. **Avoiding False Signals:** Breakout strategies often include using indicators or confirmation signals to avoid false breakouts. This can enhance the accuracy of trade decisions. <br/>
+ <br/>
+6. **Defined Risk and Reward:** Breakout trading allows for setting clear stop-loss levels below the breakout point, which helps manage risk. Traders can also calculate potential profits based on the distance between the breakout point and a projected target. <br/>
+ <br/>
+7. **Adaptable to Various Markets:** Breakout trading can be applied to various markets, including stocks, forex, commodities, and cryptocurrencies. The concept remains consistent across different assets. <br/>
+ <br/>
+8. **Flexibility:** Traders can adapt breakout strategies to their preferred timeframes, whether they are day traders, swing traders, or long-term investors. <br/>
+ <br/>
+9. **Liquidity Opportunities:** Breakout points are often associated with increased trading volume, which can provide better liquidity for executing trades. <br/>
+ <br/>
+10. **Risk vs. Reward Assessment:** Traders can evaluate the potential risk of a trade (stop-loss) against the potential reward (target price), aiding in decision-making and portfolio management. <br/>
+ <br/>
+11. **Psychological Advantage:** Successful breakout trades can boost a trader's confidence and discipline, reinforcing the effectiveness of their strategy. <br/>
+ <br/>
+12. **Market Events:** Breakouts can occur around significant market events such as earnings reports, economic data releases, or geopolitical developments, offering traders opportunities to capitalize on sudden price movements. <br/>
+ <br/>
+Remember, while breakout trading offers potential advantages, it also carries risks. False breakouts and market reversals can lead to losses. Successful implementation requires a solid understanding of technical analysis, risk management, and the ability to adapt to changing market conditions.</p>]]></content:encoded></item></channel></rss>

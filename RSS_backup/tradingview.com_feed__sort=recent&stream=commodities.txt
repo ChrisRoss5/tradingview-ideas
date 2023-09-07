@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>TradingView Ideas</title><link>https://www.tradingview.com</link><description>Latest market outlook from popular traders on TradingView.</description><atom:link rel="self" href="https://www.tradingview.com/feed/"></atom:link><language>en</language><lastBuildDate>Thu, 07 Sep 2023 09:03:46 -0500</lastBuildDate><item><title>BANKNIFTY</title><link>https://www.tradingview.com/chart/BANKNIFTY1!/q480Csdn-BANKNIFTY/</link><description>BANKNIFTY closed above va
+1. gapup 45200 can long till 45600
+2. flat opening 45000-44900 will wait for price freaction at these zones
+3. gap down 44900 can long till 45000</description><pubDate>Thu, 07 Sep 2023 09:03:46 -0500</pubDate><guid>https://www.tradingview.com/chart/BANKNIFTY1!/q480Csdn-BANKNIFTY/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/subhankarsahoo/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/26189501-JBhb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BANKNIFTY</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-BANKNIFTY1!/">BANKNIFTY INDEX FUTURES</a>	<span class="symbol-descr">NSE:BANKNIFTY1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/subhankarsahoo/" title="User Profile">subhankarsahoo</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BANKNIFTY1!/q480Csdn-BANKNIFTY/">
+	<img src="https://s3.tradingview.com/q/q480Csdn_mid.png"/>
+</a>
+<p>BANKNIFTY closed above va <br/>
+1. gapup 45200 can long till 45600 <br/>
+2. flat opening 45000-44900 will wait for price freaction at these zones <br/>
+3. gap down 44900 can long till 45000</p>]]></content:encoded></item><item><title>Bobby's homework assignment  Long Sl</title><link>https://www.tradingview.com/chart/SI1!/F6rJXj7s-Bobby-s-homework-assignment-Long-Sl/</link><description>9.7.23 There is a long trade in silver with a small stop .  ....................................................................</description><pubDate>Thu, 07 Sep 2023 09:03:17 -0500</pubDate><guid>https://www.tradingview.com/chart/SI1!/F6rJXj7s-Bobby-s-homework-assignment-Long-Sl/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ScottBogatin/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/121107-dz50_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Bobby&#39;s homework assignment  Long Sl</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/COMEX-SI1!/">SILVER FUTURES</a>	<span class="symbol-descr">COMEX:SI1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ScottBogatin/" title="User Profile">ScottBogatin</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SI1!/F6rJXj7s-Bobby-s-homework-assignment-Long-Sl/">
+	<img src="https://s3.tradingview.com/f/F6rJXj7s_mid.png"/>
+</a>
+<p>9.7.23 There is a long trade in silver with a small stop .  ....................................................................</p>]]></content:encoded></item><item><title>NIFTY</title><link>https://www.tradingview.com/chart/NIFTY1!/4hIih0O0-NIFTY/</link><description>NIFTY closed above va
+1. gapup 19800 can long till 19900
+2. flat opening 19800-19700 will wait for price reaction at these zones
+3. gap down 19700 can long till 19800</description><pubDate>Thu, 07 Sep 2023 08:57:15 -0500</pubDate><guid>https://www.tradingview.com/chart/NIFTY1!/4hIih0O0-NIFTY/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/subhankarsahoo/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/26189501-JBhb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NIFTY</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIFTY1!/">S&amp;P CNX NIFTY INDEX FUTURES</a>	<span class="symbol-descr">NSE:NIFTY1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/subhankarsahoo/" title="User Profile">subhankarsahoo</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIFTY1!/4hIih0O0-NIFTY/">
+	<img src="https://s3.tradingview.com/4/4hIih0O0_mid.png"/>
+</a>
+<p>NIFTY closed above va <br/>
+1. gapup 19800 can long till 19900 <br/>
+2. flat opening 19800-19700 will wait for price reaction at these zones <br/>
+3. gap down 19700 can long till 19800</p>]]></content:encoded></item><item><title>Sell 30Yr Bonds at Market; Stop 121.18; Target Open</title><link>https://www.tradingview.com/chart/ZB1!/xYM1Z2OT-Sell-30Yr-Bonds-at-Market-Stop-121-18-Target-Open/</link><description>Technicals point to move lower short term 2 days-2 weeks</description><pubDate>Thu, 07 Sep 2023 08:51:08 -0500</pubDate><guid>https://www.tradingview.com/chart/ZB1!/xYM1Z2OT-Sell-30Yr-Bonds-at-Market-Stop-121-18-Target-Open/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Cannon-Trading/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/36229924-w1Oz_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Sell 30Yr Bonds at Market; Stop 121.18; Target Open</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CBOT-ZB1!/">U.S. TREASURY BOND FUTURES</a>	<span class="symbol-descr">CBOT:ZB1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Cannon-Trading/" title="User Profile">Cannon-Trading</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ZB1!/xYM1Z2OT-Sell-30Yr-Bonds-at-Market-Stop-121-18-Target-Open/">
+	<img src="https://s3.tradingview.com/x/xYM1Z2OT_mid.png"/>
+</a>
+<p>Technicals point to move lower short term 2 days-2 weeks</p>]]></content:encoded></item><item><title>9/7 Daily Recap, Outlook, and Trading Plan</title><link>https://www.tradingview.com/chart/ES1!/oHOULGmG-9-7-Daily-Recap-Outlook-and-Trading-Plan/</link><description>Recap
+
+In recent weeks, I've been discussing the crucial level in ES: 4493-87. This level has been a battleground since early June. Significant highs were set there in June and early July, which then broke on July 12th to trigger the July melt-up. It then failed in August, triggering the 130 point late August melt-down, before reclaiming late month. Yesterday, it lost yet again, and ES immediately went into a one directional, relentless sell-off.
+
+Market Outlook: Bearish
+
+The Markets Overnight
+
+🌏 Asia: Down
+🌍 Europe: Down
+🌎 US Index Futures: Down a lot
+🛢 Crude Oil: Down a bit
+💵 Dollar: Up a bit
+🧐 Yields: Up slightly
+🔮 Crypto: Down
+
+World News
+
+China’s iPhone ban from government offices to expand to state owned companies weighing on tech.
+
+Key Structures
+
+These are some big picture structures that I am watching now:
+
+- 4493-87: This level has been a critical pivot since June for several reasons.
+- 4448-54: This was an important level in August.
+- The 4409-13 level: This has been key all August and is also the white trendline connecting the Dec 2022, Feb 2023 highs, and June 2023 low.
+
+Support Levels
+
+Supports are: 4466, 4460 (major), 4454-4448 (major), 4440 (major), 4429, 4423, 4414-10 (major), 4402, 4389 (major), 4382, 4376 (major), 4364, 4357, 4344-48 (major), 4338, 4323-27 (major), 4317, 4311, 4295 (major).
+
+Resistance Levels
+
+Resistances are: 4473, 4485, 4493-87 (major), 4502, 4509, 4516 (major), 4523, 4531 (major), 4537-41 (major), 4551, 4560, 4570-75 (major), 4584, 4592 (major), 4597 (major).
+
+Trading Plan
+
+For the bull case, the relief bounce case depends on 4448-54 continuing to hold. If ES returns to the level after any dip, its a warning its about to rip through.
+
+For the bear case, bears have the ball for now and until proven otherwise. There are many spots to short weakness here, but one area I do like is on the fail of 4440.
+
+Wrap Up
+
+We broke down yesterday. In terms of direct downside, it begins on the fail of 4440 today. With rollover coming up, expect complex trading and I’ll just be looking to take my level to level piece and get out.
+
+Disclosure: This is not financial advice and is for informational purposes only. Please consult a professional financial advisor before making any investment decisions.</description><pubDate>Thu, 07 Sep 2023 08:46:28 -0500</pubDate><guid>https://www.tradingview.com/chart/ES1!/oHOULGmG-9-7-Daily-Recap-Outlook-and-Trading-Plan/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/spytradingpro/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/41687403-WSnb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>9/7 Daily Recap, Outlook, and Trading Plan</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/">E-MINI S&amp;P 500 FUTURES</a>	<span class="symbol-descr">CME_MINI:ES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/spytradingpro/" title="User Profile">spytradingpro</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ES1!/oHOULGmG-9-7-Daily-Recap-Outlook-and-Trading-Plan/">
+	<img src="https://s3.tradingview.com/o/oHOULGmG_mid.png"/>
+</a>
+<p>Recap <br/>
+ <br/>
+In recent weeks, I've been discussing the crucial level in ES: 4493-87. This level has been a battleground since early June. Significant highs were set there in June and early July, which then broke on July 12th to trigger the July melt-up. It then failed in August, triggering the 130 point late August melt-down, before reclaiming late month. Yesterday, it lost yet again, and ES immediately went into a one directional, relentless sell-off. <br/>
+ <br/>
+Market Outlook: Bearish <br/>
+ <br/>
+The Markets Overnight <br/>
+ <br/>
+🌏 Asia: Down <br/>
+🌍 Europe: Down <br/>
+🌎 US Index Futures: Down a lot <br/>
+🛢 Crude Oil: Down a bit <br/>
+💵 Dollar: Up a bit <br/>
+🧐 Yields: Up slightly <br/>
+🔮 Crypto: Down <br/>
+ <br/>
+World News <br/>
+ <br/>
+China’s iPhone ban from government offices to expand to state owned companies weighing on tech. <br/>
+ <br/>
+Key Structures <br/>
+ <br/>
+These are some big picture structures that I am watching now: <br/>
+ <br/>
+- 4493-87: This level has been a critical pivot since June for several reasons. <br/>
+- 4448-54: This was an important level in August. <br/>
+- The 4409-13 level: This has been key all August and is also the white trendline connecting the Dec 2022, Feb 2023 highs, and June 2023 low. <br/>
+ <br/>
+Support Levels <br/>
+ <br/>
+Supports are: 4466, 4460 (major), 4454-4448 (major), 4440 (major), 4429, 4423, 4414-10 (major), 4402, 4389 (major), 4382, 4376 (major), 4364, 4357, 4344-48 (major), 4338, 4323-27 (major), 4317, 4311, 4295 (major). <br/>
+ <br/>
+Resistance Levels <br/>
+ <br/>
+Resistances are: 4473, 4485, 4493-87 (major), 4502, 4509, 4516 (major), 4523, 4531 (major), 4537-41 (major), 4551, 4560, 4570-75 (major), 4584, 4592 (major), 4597 (major). <br/>
+ <br/>
+Trading Plan <br/>
+ <br/>
+For the bull case, the relief bounce case depends on 4448-54 continuing to hold. If ES returns to the level after any dip, its a warning its about to rip through. <br/>
+ <br/>
+For the bear case, bears have the ball for now and until proven otherwise. There are many spots to short weakness here, but one area I do like is on the fail of 4440. <br/>
+ <br/>
+Wrap Up <br/>
+ <br/>
+We broke down yesterday. In terms of direct downside, it begins on the fail of 4440 today. With rollover coming up, expect complex trading and I’ll just be looking to take my level to level piece and get out. <br/>
+ <br/>
+Disclosure: This is not financial advice and is for informational purposes only. Please consult a professional financial advisor before making any investment decisions.</p>]]></content:encoded></item><item><title>MARUTI FUT long setup</title><link>https://www.tradingview.com/chart/MARUTI1!/r9TYJEOu-MARUTI-FUT-long-setup/</link><description>1) buy at dip to 10265 sl 10150
+
+2) buy on breakout above 10355 sl 10150 </description><pubDate>Thu, 07 Sep 2023 08:20:15 -0500</pubDate><guid>https://www.tradingview.com/chart/MARUTI1!/r9TYJEOu-MARUTI-FUT-long-setup/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/himeshforex/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28246,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EH%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>MARUTI FUT long setup</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-MARUTI1!/">MARUTI SUZUKI IND FUTURES</a>	<span class="symbol-descr">NSE:MARUTI1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/himeshforex/" title="User Profile">himeshforex</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MARUTI1!/r9TYJEOu-MARUTI-FUT-long-setup/">
+	<img src="https://s3.tradingview.com/r/r9TYJEOu_mid.png"/>
+</a>
+<p>1) buy at dip to 10265 sl 10150 <br/>
+ <br/>
+2) buy on breakout above 10355 sl 10150 </p>]]></content:encoded></item><item><title>NQ next support</title><link>https://www.tradingview.com/chart/MNQ1!/sFmNnfe5-NQ-next-support/</link><description>Multi-confluence area of volume related supports, a fib and some channel liquidity.</description><pubDate>Thu, 07 Sep 2023 08:18:07 -0500</pubDate><guid>https://www.tradingview.com/chart/MNQ1!/sFmNnfe5-NQ-next-support/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/viSion_TC/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/76471-p1gq_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NQ next support</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-MNQ1!/">MICRO E-MINI NASDAQ-100 INDEX FUTURES</a>	<span class="symbol-descr">CME_MINI:MNQ1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/viSion_TC/" title="User Profile">viSion_TC</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MNQ1!/sFmNnfe5-NQ-next-support/">
+	<img src="https://s3.tradingview.com/s/sFmNnfe5_mid.png"/>
+</a>
+<p>Multi-confluence area of volume related supports, a fib and some channel liquidity.</p>]]></content:encoded></item><item><title>Day Trade Market Condition sep 07, 2023</title><link>https://www.tradingview.com/chart/ES1!/yPanRdXf-Day-Trade-Market-Condition-sep-07-2023/</link><description>Day Trade Market Condition sep 07, 2023
+levels for NQ ES CL BTC
+watch the table left side for trade, right side for trend</description><pubDate>Thu, 07 Sep 2023 08:17:24 -0500</pubDate><guid>https://www.tradingview.com/chart/ES1!/yPanRdXf-Day-Trade-Market-Condition-sep-07-2023/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/situ886/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28309,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ES%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Day Trade Market Condition sep 07, 2023</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/">E-MINI S&amp;P 500 FUTURES</a>	<span class="symbol-descr">CME_MINI:ES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/situ886/" title="User Profile">situ886</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ES1!/yPanRdXf-Day-Trade-Market-Condition-sep-07-2023/">
+	<img src="https://s3.tradingview.com/y/yPanRdXf_mid.png"/>
+</a>
+<p>Day Trade Market Condition sep 07, 2023 <br/>
+levels for NQ ES CL BTC <br/>
+watch the table left side for trade, right side for trend</p>]]></content:encoded></item><item><title>Stocks Are Turning Down After Three Wave Rally </title><link>https://www.tradingview.com/chart/NQU2023/nzYMp1fI-Stocks-Are-Turning-Down-After-Three-Wave-Rally/</link><description>US yields are coming higher once again and looks like new high can show up soon, and this is something that is drving the USD higher. Even stocks are coming down this morning, cannot handle the USD strenght anymore so it appears that we ahve some risk-off flows at the moment which can last a few more sessions. 
+
+The elliott wave A-B-C rally on SP500, NASDAQ100 and even DAX is not looking good for the bulls.
+Grega</description><pubDate>Thu, 07 Sep 2023 08:02:07 -0500</pubDate><guid>https://www.tradingview.com/chart/NQU2023/nzYMp1fI-Stocks-Are-Turning-Down-After-Three-Wave-Rally/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ew-forecast/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/23871-8b89_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Stocks Are Turning Down After Three Wave Rally </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/?contract=NQU2023">E-MINI NASDAQ-100 FUTURES (SEP 2023)</a>	<span class="symbol-descr">CME_MINI:NQU2023</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ew-forecast/" title="User Profile">ew-forecast</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQU2023/nzYMp1fI-Stocks-Are-Turning-Down-After-Three-Wave-Rally/">
+	<img src="https://s3.tradingview.com/n/nzYMp1fI_mid.png"/>
+</a>
+<p>US yields are coming higher once again and looks like new high can show up soon, and this is something that is drving the USD higher. Even stocks are coming down this morning, cannot handle the USD strenght anymore so it appears that we ahve some risk-off flows at the moment which can last a few more sessions.  <br/>
+ <br/>
+The elliott wave A-B-C rally on SP500, NASDAQ100 and even DAX is not looking good for the bulls. <br/>
+Grega</p>]]></content:encoded></item><item><title>NQ1 - Third Wave of Correction Underway</title><link>https://www.tradingview.com/chart/NQ1!/0wJ4bEkF-NQ1-Third-Wave-of-Correction-Underway/</link><description>Dollar is pushing up and indexes have begun to move inverse.
+
+ So it looks like the third wave is on.
+
+This is where we'll find out lot more about if this bearish trend has legs.
+
+Considering that dollar may have legs to move on up to the retracement Golden Window, then indexes may have a significant slump.
+
+Unless there is a fast recovery it does look like it will drift out of the pitchfork showing us that a highest time frame correction since the lows is underway.
+
+Liquidity landmarks below are the long term trendline, 200 / 500 MA and Accumulation Top Support.
+
+ Not advice</description><pubDate>Thu, 07 Sep 2023 07:49:22 -0500</pubDate><guid>https://www.tradingview.com/chart/NQ1!/0wJ4bEkF-NQ1-Third-Wave-of-Correction-Underway/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/dRends35/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1494350-L1vY_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NQ1 - Third Wave of Correction Underway</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/">E-MINI NASDAQ-100 FUTURES</a>	<span class="symbol-descr">CME_MINI:NQ1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/dRends35/" title="User Profile">dRends35</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQ1!/0wJ4bEkF-NQ1-Third-Wave-of-Correction-Underway/">
+	<img src="https://s3.tradingview.com/0/0wJ4bEkF_mid.png"/>
+</a>
+<p>Dollar is pushing up and indexes have begun to move inverse. <br/>
+ <br/>
+ So it looks like the third wave is on. <br/>
+ <br/>
+This is where we'll find out lot more about if this bearish trend has legs. <br/>
+ <br/>
+Considering that dollar may have legs to move on up to the retracement Golden Window, then indexes may have a significant slump. <br/>
+ <br/>
+Unless there is a fast recovery it does look like it will drift out of the pitchfork showing us that a highest time frame correction since the lows is underway. <br/>
+ <br/>
+Liquidity landmarks below are the long term trendline, 200 / 500 MA and Accumulation Top Support. <br/>
+ <br/>
+<em>Not advice</em></p>]]></content:encoded></item><item><title>ES S&amp;P 500 Index looking Bearish </title><link>https://www.tradingview.com/chart/ES1!/LoiHNDxy-ES-S-P-500-Index-looking-Bearish/</link><description>S&amp;P Index is heading south again. The price is likely to continue to close out the Gaps it created in the last week of August.
+
+Looking at 4433 as the next sellside target before any movements. </description><pubDate>Thu, 07 Sep 2023 07:47:47 -0500</pubDate><guid>https://www.tradingview.com/chart/ES1!/LoiHNDxy-ES-S-P-500-Index-looking-Bearish/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/xrischosser/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%283,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EX%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>ES S&amp;P 500 Index looking Bearish </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/">E-MINI S&amp;P 500 FUTURES</a>	<span class="symbol-descr">CME_MINI:ES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/xrischosser/" title="User Profile">xrischosser</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ES1!/LoiHNDxy-ES-S-P-500-Index-looking-Bearish/">
+	<img src="https://s3.tradingview.com/l/LoiHNDxy_mid.png"/>
+</a>
+<p>S&amp;P Index is heading south again. The price is likely to continue to close out the Gaps it created in the last week of August. <br/>
+ <br/>
+Looking at 4433 as the next sellside target before any movements. </p>]]></content:encoded></item><item><title>Technical and digital analysis</title><link>https://www.tradingview.com/chart/NQ1!/r1qATPo3-Technical-and-digital-analysis/</link><description>We notice that we are in an upward correction and we have an increase in selling momentum. We are waiting for the selling momentum to weaken to buy</description><pubDate>Thu, 07 Sep 2023 07:41:06 -0500</pubDate><guid>https://www.tradingview.com/chart/NQ1!/r1qATPo3-Technical-and-digital-analysis/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/faridsalim308/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2857,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EF%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Technical and digital analysis</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/">E-MINI NASDAQ-100 FUTURES</a>	<span class="symbol-descr">CME_MINI:NQ1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/faridsalim308/" title="User Profile">faridsalim308</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQ1!/r1qATPo3-Technical-and-digital-analysis/">
+	<img src="https://s3.tradingview.com/r/r1qATPo3_mid.png"/>
+</a>
+<p>We notice that we are in an upward correction and we have an increase in selling momentum. We are waiting for the selling momentum to weaken to buy</p>]]></content:encoded></item><item><title>07 SEP 2023  PreMarket Overview  OPTIONS TRADERS SPY MES DXY VIX</title><link>https://www.tradingview.com/chart/MES1!/wOGxduwT-07-SEP-2023-PreMarket-Overview-OPTIONS-TRADERS-SPY-MES-DXY-VIX/</link><description>Have a look at some technicals pre-market and get some options trading ideas. Be sure to follow me! </description><pubDate>Thu, 07 Sep 2023 07:05:35 -0500</pubDate><guid>https://www.tradingview.com/chart/MES1!/wOGxduwT-07-SEP-2023-PreMarket-Overview-OPTIONS-TRADERS-SPY-MES-DXY-VIX/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/RaymackTraders/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/994179-AE2d_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>07 SEP 2023  PreMarket Overview  OPTIONS TRADERS SPY MES DXY VIX</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-MES1!/">MICRO E-MINI S&amp;P 500 INDEX FUTURES</a>	<span class="symbol-descr">CME_MINI:MES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/RaymackTraders/" title="User Profile">RaymackTraders</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MES1!/wOGxduwT-07-SEP-2023-PreMarket-Overview-OPTIONS-TRADERS-SPY-MES-DXY-VIX/">
+	<img src="https://s3.tradingview.com/w/wOGxduwT_mid.png"/>
+</a>
+<p>Have a look at some technicals pre-market and get some options trading ideas. Be sure to follow me! </p>]]></content:encoded></item><item><title>Day Trader’s Post Market Analysis - Nifty BankNifty-7th Sep ’23</title><link>https://www.tradingview.com/chart/NIFTY1!/DR20uA9M-Day-Trader-s-Post-Market-Analysis-Nifty-BankNifty-7th-Sep-23/</link><description>Below mentioned points are discussed in my post analysis video(Fast forward to 1:01 for Hindi Audio)
+
+-Day Low Sl and buy was the trade
+-Banknifty Future Met My yesterday's Target
+-Buying Nifty Futures when it broke the 19620-625 levels offered a good R:R.
+-How will i trade when market opens tom</description><pubDate>Thu, 07 Sep 2023 06:57:54 -0500</pubDate><guid>https://www.tradingview.com/chart/NIFTY1!/DR20uA9M-Day-Trader-s-Post-Market-Analysis-Nifty-BankNifty-7th-Sep-23/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/eliftrades/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1226108-oHBY_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Day Trader’s Post Market Analysis - Nifty BankNifty-7th Sep ’23</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIFTY1!/">S&amp;P CNX NIFTY INDEX FUTURES</a>	<span class="symbol-descr">NSE:NIFTY1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/eliftrades/" title="User Profile">eliftrades</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIFTY1!/DR20uA9M-Day-Trader-s-Post-Market-Analysis-Nifty-BankNifty-7th-Sep-23/">
+	<img src="https://s3.tradingview.com/d/DR20uA9M_mid.png"/>
+</a>
+<p>Below mentioned points are discussed in my post analysis video(Fast forward to 1:01 for Hindi Audio) <br/>
+ <br/>
+-Day Low Sl and buy was the trade <br/>
+-Banknifty Future Met My yesterday's Target <br/>
+-Buying Nifty Futures when it broke the 19620-625 levels offered a good R:R. <br/>
+-How will i trade when market opens tom</p>]]></content:encoded></item><item><title>share test</title><link>https://www.tradingview.com/chart/ESU2023/rEcQa6UH-share-test/</link><description>share test
+different studies
+share test
+different studies
+share test
+different studies
+share test
+different studies
+share test
+different studies</description><pubDate>Thu, 07 Sep 2023 06:10:30 -0500</pubDate><guid>https://www.tradingview.com/chart/ESU2023/rEcQa6UH-share-test/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/kshariff/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28306,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EK%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>share test</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/?contract=ESU2023">E-MINI S&amp;P 500 FUTURES (SEP 2023)</a>	<span class="symbol-descr">CME_MINI:ESU2023</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/kshariff/" title="User Profile">kshariff</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ESU2023/rEcQa6UH-share-test/">
+	<img src="https://s3.tradingview.com/r/rEcQa6UH_mid.png"/>
+</a>
+<p>share test <br/>
+different studies <br/>
+share test <br/>
+different studies <br/>
+share test <br/>
+different studies <br/>
+share test <br/>
+different studies <br/>
+share test <br/>
+different studies</p>]]></content:encoded></item><item><title>ES</title><link>https://www.tradingview.com/chart/ES1!/ogKw51ZD-ES/</link><description>ES (S&amp;P500 Future)
+Two possible Scenarios.
+Downside - preferable.</description><pubDate>Thu, 07 Sep 2023 05:09:46 -0500</pubDate><guid>https://www.tradingview.com/chart/ES1!/ogKw51ZD-ES/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/sunmikee/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/92506-284m_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>ES</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/">E-MINI S&amp;P 500 FUTURES</a>	<span class="symbol-descr">CME_MINI:ES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/sunmikee/" title="User Profile">sunmikee</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ES1!/ogKw51ZD-ES/">
+	<img src="https://s3.tradingview.com/o/ogKw51ZD_mid.png"/>
+</a>
+<p>ES (S&amp;P500 Future) <br/>
+Two possible Scenarios. <br/>
+Downside - preferable.</p>]]></content:encoded></item><item><title>YM</title><link>https://www.tradingview.com/chart/YM1!/sPUz9X9i-YM/</link><description>YM (DOW Future)
+Bounce mode may bring us to those levels...</description><pubDate>Thu, 07 Sep 2023 05:02:49 -0500</pubDate><guid>https://www.tradingview.com/chart/YM1!/sPUz9X9i-YM/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/sunmikee/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/92506-284m_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>YM</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CBOT_MINI-YM1!/">E-MINI DOW ($5) FUTURES</a>	<span class="symbol-descr">CBOT_MINI:YM1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/sunmikee/" title="User Profile">sunmikee</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/YM1!/sPUz9X9i-YM/">
+	<img src="https://s3.tradingview.com/s/sPUz9X9i_mid.png"/>
+</a>
+<p>YM (DOW Future) <br/>
+Bounce mode may bring us to those levels...</p>]]></content:encoded></item><item><title>CME EMINI-NASDAQ100 INDEX FUTURES-LONG TERM OUTLOOK</title><link>https://www.tradingview.com/chart/NQ1!/mxPuuQsi-CME-EMINI-NASDAQ100-INDEX-FUTURES-LONG-TERM-OUTLOOK/</link><description>We maintain the same outlook. Bullish structure in 5 impulsive waves. After the completion of wave 4 correction, the market is expected to resume its upward to complete the 5th wave of the same degree.</description><pubDate>Thu, 07 Sep 2023 04:29:40 -0500</pubDate><guid>https://www.tradingview.com/chart/NQ1!/mxPuuQsi-CME-EMINI-NASDAQ100-INDEX-FUTURES-LONG-TERM-OUTLOOK/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/gentlemanlb/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/26561924-q2Tn_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>CME EMINI-NASDAQ100 INDEX FUTURES-LONG TERM OUTLOOK</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/">E-MINI NASDAQ-100 FUTURES</a>	<span class="symbol-descr">CME_MINI:NQ1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/gentlemanlb/" title="User Profile">gentlemanlb</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQ1!/mxPuuQsi-CME-EMINI-NASDAQ100-INDEX-FUTURES-LONG-TERM-OUTLOOK/">
+	<img src="https://s3.tradingview.com/m/mxPuuQsi_mid.png"/>
+</a>
+<p>We maintain the same outlook. Bullish structure in 5 impulsive waves. After the completion of wave 4 correction, the market is expected to resume its upward to complete the 5th wave of the same degree.</p>]]></content:encoded></item><item><title>Rounded top pattern</title><link>https://www.tradingview.com/chart/NQ1!/N6iHIFoO-Rounded-top-pattern/</link><description>Rounded top pattern breakout and retest neckline 
+hope down movement will continue by this pattern  
+
+Based on Thomas Bulkonski book 
+this pattern have 60% to reach target </description><pubDate>Thu, 07 Sep 2023 04:12:34 -0500</pubDate><guid>https://www.tradingview.com/chart/NQ1!/N6iHIFoO-Rounded-top-pattern/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/tofinse/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/15573628-qY2f_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Rounded top pattern</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/">E-MINI NASDAQ-100 FUTURES</a>	<span class="symbol-descr">CME_MINI:NQ1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/tofinse/" title="User Profile">tofinse</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQ1!/N6iHIFoO-Rounded-top-pattern/">
+	<img src="https://s3.tradingview.com/n/N6iHIFoO_mid.png"/>
+</a>
+<p>Rounded top pattern breakout and retest neckline  <br/>
+hope down movement will continue by this pattern   <br/>
+ <br/>
+Based on Thomas Bulkonski book  <br/>
+this pattern have 60% to reach target </p>]]></content:encoded></item><item><title>#RTY Targeting An Equality Test</title><link>https://www.tradingview.com/chart/RTY1!/iMVui3bG-RTY-Targeting-An-Equality-Test/</link><description>IN this update we review the recent price action in the emini Russell 2000 futures contract and identify the next high probability trading opportunity and price objectives to target
+PAST PERFORMANCE NOT INDICATIVE OF FUTURE RESULTS</description><pubDate>Thu, 07 Sep 2023 03:57:55 -0500</pubDate><guid>https://www.tradingview.com/chart/RTY1!/iMVui3bG-RTY-Targeting-An-Equality-Test/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Tickmill/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/288206-50m8_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>#RTY Targeting An Equality Test</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-RTY1!/">E-MINI RUSSELL 2000 INDEX FUTURES</a>	<span class="symbol-descr">CME_MINI:RTY1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Tickmill/" title="User Profile">Tickmill</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/RTY1!/iMVui3bG-RTY-Targeting-An-Equality-Test/">
+	<img src="https://s3.tradingview.com/i/iMVui3bG_mid.png"/>
+</a>
+<p>IN this update we review the recent price action in the emini Russell 2000 futures contract and identify the next high probability trading opportunity and price objectives to target <br/>
+PAST PERFORMANCE NOT INDICATIVE OF FUTURE RESULTS</p>]]></content:encoded></item><item><title>SP500 Is In A Higher Degree Correction</title><link>https://www.tradingview.com/chart/ES1!/bNrjQd27-SP500-Is-In-A-Higher-Degree-Correction/</link><description>SP500  has been bullish most of the year; a trend that can resume after a corrective pullback that is underway now, seen in wave 4 on a daily chart. However, wave 4 should then be made by three waves before correction can come to an end; which is not the case yet, as the recent bounce to 4492-4543 resistance area looks like a corrective wave, ideally wave (B), so be aware of more weakness after recent turn down. Ideally, wave (C) of 4 is now underway towards the lower side of a summer range. If wave (A) low is not going to be broken then wave four can also become a triangle rather than deep A-B-C drop.</description><pubDate>Thu, 07 Sep 2023 01:17:38 -0500</pubDate><guid>https://www.tradingview.com/chart/ES1!/bNrjQd27-SP500-Is-In-A-Higher-Degree-Correction/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ew-forecast/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/23871-8b89_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>SP500 Is In A Higher Degree Correction</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/">E-MINI S&amp;P 500 FUTURES</a>	<span class="symbol-descr">CME_MINI:ES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ew-forecast/" title="User Profile">ew-forecast</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ES1!/bNrjQd27-SP500-Is-In-A-Higher-Degree-Correction/">
+	<img src="https://s3.tradingview.com/b/bNrjQd27_mid.png"/>
+</a>
+<p>SP500  has been bullish most of the year; a trend that can resume after a corrective pullback that is underway now, seen in wave 4 on a daily chart. However, wave 4 should then be made by three waves before correction can come to an end; which is not the case yet, as the recent bounce to 4492-4543 resistance area looks like a corrective wave, ideally wave (B), so be aware of more weakness after recent turn down. Ideally, wave (C) of 4 is now underway towards the lower side of a summer range. If wave (A) low is not going to be broken then wave four can also become a triangle rather than deep A-B-C drop.</p>]]></content:encoded></item><item><title>multiple re-entries this week using the fair value gap method</title><link>https://www.tradingview.com/chart/CL1!/0nLHiCQy-multiple-re-entries-this-week-using-the-fair-value-gap-method/</link><description>low risk entries: wait till 16 min bar closed above prior bar then buy the lowest part of the fair value gap</description><pubDate>Thu, 07 Sep 2023 00:33:44 -0500</pubDate><guid>https://www.tradingview.com/chart/CL1!/0nLHiCQy-multiple-re-entries-this-week-using-the-fair-value-gap-method/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/zweiprozent/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/2789133-PZu3_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>multiple re-entries this week using the fair value gap method</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NYMEX-CL1!/">CRUDE OIL FUTURES</a>	<span class="symbol-descr">NYMEX:CL1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/zweiprozent/" title="User Profile">zweiprozent</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/CL1!/0nLHiCQy-multiple-re-entries-this-week-using-the-fair-value-gap-method/">
+	<img src="https://s3.tradingview.com/0/0nLHiCQy_mid.png"/>
+</a>
+<p>low risk entries: wait till 16 min bar closed above prior bar then buy the lowest part of the fair value gap</p>]]></content:encoded></item><item><title>NQ Power Range Report with FIB Ext - 9/7/2023 Session</title><link>https://www.tradingview.com/chart/NQU2023/UzKfAnCQ-NQ-Power-Range-Report-with-FIB-Ext-9-7-2023-Session/</link><description>CME_MINI:NQU2023 
+
+- PR High: 15392.00
+- PR Low: 15379.00
+
+ - NZ Spread: 29.0
+
+Economic Events:
+08:30 – Initial Jobless Claims
+11:00 – Crude Oil Inventories
+
+Follow-through with daily rollover
+- Inventory response at daily KA-20
+- Retraced 1/3 of prev session range
+
+Evening Stats (As of 12:05 AM)
+
+- Weekend Gap: N/A
+- Session Gap: -0.33% (open &gt; 15807)
+- Session Gap: -0.11% (open &gt; 15939)
+- Session Open ATR: 234.30
+- Volume: 17K
+- Open Int: 250K
+- Trend Grade: Neutral
+- From ATH: -8.3% (Rounded)
+
+Key Levels (Rounded - Think of these as ranges)
+
+- Long: 16105
+- Mid: 15247
+- Short: 14675
+
+
+Keep in mind this is not speculation or a prediction. Only a report of the Power Range with Fib extensions for target hunting. Do your DD! You determine your risk tolerance. You are fully capable of making your own decisions.
+</description><pubDate>Wed, 06 Sep 2023 23:27:16 -0500</pubDate><guid>https://www.tradingview.com/chart/NQU2023/UzKfAnCQ-NQ-Power-Range-Report-with-FIB-Ext-9-7-2023-Session/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mv3trader5/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1148041-e1pc_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NQ Power Range Report with FIB Ext - 9/7/2023 Session</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/?contract=NQU2023">E-MINI NASDAQ-100 FUTURES (SEP 2023)</a>	<span class="symbol-descr">CME_MINI:NQU2023</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mv3trader5/" title="User Profile">mv3trader5</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQU2023/UzKfAnCQ-NQ-Power-Range-Report-with-FIB-Ext-9-7-2023-Session/">
+	<img src="https://s3.tradingview.com/u/UzKfAnCQ_mid.png"/>
+</a>
+<p>
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="CME_MINI:NQU2023" href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/?contract=NQU2023">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/indices/nasdaq-100.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">NQU2023</span>
+			</a>
+		 <br/>
+ <br/>
+- PR High: 15392.00 <br/>
+- PR Low: 15379.00 <br/>
+ <br/>
+ - NZ Spread: 29.0 <br/>
+ <br/>
+Economic Events: <br/>
+08:30 – Initial Jobless Claims <br/>
+11:00 – Crude Oil Inventories <br/>
+ <br/>
+Follow-through with daily rollover <br/>
+- Inventory response at daily KA-20 <br/>
+- Retraced 1/3 of prev session range <br/>
+ <br/>
+Evening Stats (As of 12:05 AM) <br/>
+ <br/>
+- Weekend Gap: N/A <br/>
+- Session Gap: -0.33% (open &gt; 15807) <br/>
+- Session Gap: -0.11% (open &gt; 15939) <br/>
+- Session Open ATR: 234.30 <br/>
+- Volume: 17K <br/>
+- Open Int: 250K <br/>
+- Trend Grade: Neutral <br/>
+- From ATH: -8.3% (Rounded) <br/>
+ <br/>
+Key Levels (Rounded - Think of these as ranges) <br/>
+ <br/>
+- Long: 16105 <br/>
+- Mid: 15247 <br/>
+- Short: 14675 <br/>
+ <br/>
+ <br/>
+Keep in mind this is not speculation or a prediction. Only a report of the Power Range with Fib extensions for target hunting. Do your DD! You determine your risk tolerance. You are fully capable of making your own decisions. <br/>
+</p>]]></content:encoded></item><item><title>Still Bearish </title><link>https://www.tradingview.com/chart/ESU2023/8lNJOG9l-Still-Bearish/</link><description>got the push down like we were expecting. Going into tomorrow I'm expecting the low end of FVG to be violated.</description><pubDate>Wed, 06 Sep 2023 21:43:00 -0500</pubDate><guid>https://www.tradingview.com/chart/ESU2023/8lNJOG9l-Still-Bearish/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Courtlandxx/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28300,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EC%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Still Bearish </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/?contract=ESU2023">E-MINI S&amp;P 500 FUTURES (SEP 2023)</a>	<span class="symbol-descr">CME_MINI:ESU2023</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Courtlandxx/" title="User Profile">Courtlandxx</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ESU2023/8lNJOG9l-Still-Bearish/">
+	<img src="https://s3.tradingview.com/8/8lNJOG9l_mid.png"/>
+</a>
+<p>got the push down like we were expecting. Going into tomorrow I'm expecting the low end of FVG to be violated.</p>]]></content:encoded></item><item><title>Nikkei Futures (NKD) Looking to Extend Higher as an Impulse</title><link>https://www.tradingview.com/chart/NKD1!/kD34Dpg7-Nikkei-Futures-NKD-Looking-to-Extend-Higher-as-an-Impulse/</link><description>Short term Elliott Wave view in Nikkei Futures (NKD) suggests the Index rallies as a 5 waves impulse structure from August 18, 2023 low. Up from August 18, wave ((i)) ended at 32285 and pullback in wave ((ii)) ended at 31555 as the 1 hour chart below shows. Up from wave ((ii)), wave i ended at 31850 and dips in wave ii ended at 31620. Index resumed higher in wave (iii) towards 32375 and wave iv ended at 32150. Final leg wave v ended at 32560. This completed wave (i) in higher degree.
+
+Pullback in wave (ii) ended at 32200 and the Index then resumed higher in wave (iii) towards 33280. Dips in wave (iv) ended at 33015 as expanded flat. Expect the Index to end wave (v) of ((iii)) soon. Afterwards, it should pullback in wave ((iv)) to correct cycle from August 25 low before the rally resumes. Typically wave ((iv)) should pullback somewhere around 23.6 – 38.2 Fibonacci retracement of wave ((iii)). Near term, as far as pivot at 31549 low stays intact, expect wave ((iv)) pullback to find support in 3, 7, 11 swing for more upside in wave ((v)).</description><pubDate>Wed, 06 Sep 2023 21:35:04 -0500</pubDate><guid>https://www.tradingview.com/chart/NKD1!/kD34Dpg7-Nikkei-Futures-NKD-Looking-to-Extend-Higher-as-an-Impulse/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Elliottwave-Forecast/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1023357-ntHO_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Nikkei Futures (NKD) Looking to Extend Higher as an Impulse</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME-NKD1!/">NIKKEI/USD FUTURES</a>	<span class="symbol-descr">CME:NKD1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Elliottwave-Forecast/" title="User Profile">Elliottwave-Forecast</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NKD1!/kD34Dpg7-Nikkei-Futures-NKD-Looking-to-Extend-Higher-as-an-Impulse/">
+	<img src="https://s3.tradingview.com/k/kD34Dpg7_mid.png"/>
+</a>
+<p>Short term Elliott Wave view in Nikkei Futures (NKD) suggests the Index rallies as a 5 waves impulse structure from August 18, 2023 low. Up from August 18, wave ((i)) ended at 32285 and pullback in wave ((ii)) ended at 31555 as the 1 hour chart below shows. Up from wave ((ii)), wave i ended at 31850 and dips in wave ii ended at 31620. Index resumed higher in wave (iii) towards 32375 and wave iv ended at 32150. Final leg wave v ended at 32560. This completed wave (i) in higher degree. <br/>
+ <br/>
+Pullback in wave (ii) ended at 32200 and the Index then resumed higher in wave (iii) towards 33280. Dips in wave (iv) ended at 33015 as expanded flat. Expect the Index to end wave (v) of ((iii)) soon. Afterwards, it should pullback in wave ((iv)) to correct cycle from August 25 low before the rally resumes. Typically wave ((iv)) should pullback somewhere around 23.6 – 38.2 Fibonacci retracement of wave ((iii)). Near term, as far as pivot at 31549 low stays intact, expect wave ((iv)) pullback to find support in 3, 7, 11 swing for more upside in wave ((v)).</p>]]></content:encoded></item><item><title>Technical and digital analysis</title><link>https://www.tradingview.com/chart/NQ1!/5UUWjlMc-Technical-and-digital-analysis/</link><description>We notice that we have entered into a correction and there is an increase in selling momentum. We await the end of the correction to sell</description><pubDate>Wed, 06 Sep 2023 21:30:57 -0500</pubDate><guid>https://www.tradingview.com/chart/NQ1!/5UUWjlMc-Technical-and-digital-analysis/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/faridsalim308/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2857,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EF%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Technical and digital analysis</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/">E-MINI NASDAQ-100 FUTURES</a>	<span class="symbol-descr">CME_MINI:NQ1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/faridsalim308/" title="User Profile">faridsalim308</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NQ1!/5UUWjlMc-Technical-and-digital-analysis/">
+	<img src="https://s3.tradingview.com/5/5UUWjlMc_mid.png"/>
+</a>
+<p>We notice that we have entered into a correction and there is an increase in selling momentum. We await the end of the correction to sell</p>]]></content:encoded></item><item><title>VOL Profile &amp; Gap levels </title><link>https://www.tradingview.com/chart/BTC1!/EisRUPo1-VOL-Profile-Gap-levels/</link><description>This is my Chart for the rest of the year 
+Gaps too break lower and higher 
+Think we tag &amp; fill USDC gap lower before the Luna gap down from 2021
+POC yearly retest and bounce 
+Trend flip seems too be forming will update Binnace futures chart next </description><pubDate>Wed, 06 Sep 2023 21:08:20 -0500</pubDate><guid>https://www.tradingview.com/chart/BTC1!/EisRUPo1-VOL-Profile-Gap-levels/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/bryptobro/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/5552389-z9lG_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>VOL Profile &amp; Gap levels </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME-BTC1!/">BITCOIN FUTURES</a>	<span class="symbol-descr">CME:BTC1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/bryptobro/" title="User Profile">bryptobro</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BTC1!/EisRUPo1-VOL-Profile-Gap-levels/">
+	<img src="https://s3.tradingview.com/e/EisRUPo1_mid.png"/>
+</a>
+<p>This is my Chart for the rest of the year  <br/>
+Gaps too break lower and higher  <br/>
+Think we tag &amp; fill USDC gap lower before the Luna gap down from 2021 <br/>
+POC yearly retest and bounce  <br/>
+Trend flip seems too be forming will update Binnace futures chart next </p>]]></content:encoded></item><item><title>Change to WXYXZ expectation for this correction.</title><link>https://www.tradingview.com/chart/ES1!/4IM43oty-Change-to-WXYXZ-expectation-for-this-correction/</link><description>Tonight into cash session we should finish our move lower to the expected 4440 level.   However it seems we have one more high in this corrective move.   Looking for a final abc structure toward 4569. 
+
+Bearish from 4475 to 4440.   Then we find buyers for "a" of Z.   </description><pubDate>Wed, 06 Sep 2023 20:41:16 -0500</pubDate><guid>https://www.tradingview.com/chart/ES1!/4IM43oty-Change-to-WXYXZ-expectation-for-this-correction/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/OneClap2019/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28258,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EO%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Change to WXYXZ expectation for this correction.</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/">E-MINI S&amp;P 500 FUTURES</a>	<span class="symbol-descr">CME_MINI:ES1!</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/OneClap2019/" title="User Profile">OneClap2019</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/ES1!/4IM43oty-Change-to-WXYXZ-expectation-for-this-correction/">
+	<img src="https://s3.tradingview.com/4/4IM43oty_mid.png"/>
+</a>
+<p>Tonight into cash session we should finish our move lower to the expected 4440 level.   However it seems we have one more high in this corrective move.   Looking for a final abc structure toward 4569.  <br/>
+ <br/>
+Bearish from 4475 to 4440.   Then we find buyers for "a" of Z.   </p>]]></content:encoded></item><item><title>SILVER BULLET 2PM</title><link>https://www.tradingview.com/chart/MESU2023/Mrldperx-SILVER-BULLET-2PM/</link><description>Explanation in video....took this Silver Bullet at 2pm. Should have entered on an Inverse FVG but didn't....being distracted threw me off</description><pubDate>Wed, 06 Sep 2023 19:23:55 -0500</pubDate><guid>https://www.tradingview.com/chart/MESU2023/Mrldperx-SILVER-BULLET-2PM/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/estuardoe8/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28348,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EE%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>SILVER BULLET 2PM</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-MES1!/?contract=MESU2023">MICRO E-MINI S&amp;P 500 INDEX FUTURES (SEP 2023)</a>	<span class="symbol-descr">CME_MINI:MESU2023</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/estuardoe8/" title="User Profile">estuardoe8</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MESU2023/Mrldperx-SILVER-BULLET-2PM/">
+	<img src="https://s3.tradingview.com/m/Mrldperx_mid.png"/>
+</a>
+<p>Explanation in video....took this Silver Bullet at 2pm. Should have entered on an Inverse FVG but didn't....being distracted threw me off</p>]]></content:encoded></item><item><title>DR CONFIRMATION-GOLDFISH PLUS MONKEY</title><link>https://www.tradingview.com/chart/MESU2023/cigqSZhB-DR-CONFIRMATION-GOLDFISH-PLUS-MONKEY/</link><description>Explanation in video...initially entered goldfish but set BE at entry quickly....re-entered on Monkey based on 2nd time cluster......I was waiting to take profit at Tuesday DRC but it didn't reach. Did not go full size...</description><pubDate>Wed, 06 Sep 2023 19:05:14 -0500</pubDate><guid>https://www.tradingview.com/chart/MESU2023/cigqSZhB-DR-CONFIRMATION-GOLDFISH-PLUS-MONKEY/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/estuardoe8/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28348,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EE%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>DR CONFIRMATION-GOLDFISH PLUS MONKEY</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CME_MINI-MES1!/?contract=MESU2023">MICRO E-MINI S&amp;P 500 INDEX FUTURES (SEP 2023)</a>	<span class="symbol-descr">CME_MINI:MESU2023</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/estuardoe8/" title="User Profile">estuardoe8</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/MESU2023/cigqSZhB-DR-CONFIRMATION-GOLDFISH-PLUS-MONKEY/">
+	<img src="https://s3.tradingview.com/c/cigqSZhB_mid.png"/>
+</a>
+<p>Explanation in video...initially entered goldfish but set BE at entry quickly....re-entered on Monkey based on 2nd time cluster......I was waiting to take profit at Tuesday DRC but it didn't reach. Did not go full size...</p>]]></content:encoded></item></channel></rss>

@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>TradingView Ideas</title><link>https://www.tradingview.com</link><description>Latest market outlook from popular traders on TradingView.</description><atom:link rel="self" href="https://www.tradingview.com/feed/"></atom:link><language>en</language><lastBuildDate>Thu, 07 Sep 2023 09:07:44 -0500</lastBuildDate><item><title>USDJPY: CURVE ANALYSIS (1D)</title><link>https://www.tradingview.com/chart/USDJPY/xUMJdFqL-USDJPY-CURVE-ANALYSIS-1D/</link><description>-SL @ 150.00 🚫
+SLO @ 148.90 (conservative) ⏳
+SSO @ 147.75 (moderate) ⏳
+TP1 @ 142.66 (shaving 25%)
+TP2 @ 139.15 (shaving 25%)
+TP3 @ 136.60 (shaving 25%)
+TP4 @ 132.60 (shaving 25%)
+TP5 @ 130.50 (closing ALL Sell Orders)
+BLO @ 129.33 (1D) ⏳
+-SL @ 128.25 🚫
+
+PA is hanging out in the Supply Zone.
+
+📉 Hopefully, it wicks up to our SLO and tanks </description><pubDate>Thu, 07 Sep 2023 09:07:44 -0500</pubDate><guid>https://www.tradingview.com/chart/USDJPY/xUMJdFqL-USDJPY-CURVE-ANALYSIS-1D/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3487427-weoi_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>USDJPY: CURVE ANALYSIS (1D)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDJPY/">USD/JPY</a>	<span class="symbol-descr">OANDA:USDJPY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">ProfessorCEWard</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDJPY/xUMJdFqL-USDJPY-CURVE-ANALYSIS-1D/">
+	<img src="https://s3.tradingview.com/x/xUMJdFqL_mid.png"/>
+</a>
+<p>-SL @ 150.00 🚫 <br/>
+SLO @ 148.90 (conservative) ⏳ <br/>
+SSO @ 147.75 (moderate) ⏳ <br/>
+TP1 @ 142.66 (shaving 25%) <br/>
+TP2 @ 139.15 (shaving 25%) <br/>
+TP3 @ 136.60 (shaving 25%) <br/>
+TP4 @ 132.60 (shaving 25%) <br/>
+TP5 @ 130.50 (closing ALL Sell Orders) <br/>
+BLO @ 129.33 (1D) ⏳ <br/>
+-SL @ 128.25 🚫 <br/>
+ <br/>
+PA is hanging out in the Supply Zone. <br/>
+ <br/>
+📉 Hopefully, it wicks up to our SLO and tanks </p>]]></content:encoded></item><item><title>GBPUSD has formed Bullish AB=CD Pattern</title><link>https://www.tradingview.com/chart/GBPUSD/FG1fkykE-GBPUSD-has-formed-Bullish-AB-CD-Pattern/</link><description>The chart has made a perfect Bullish AB=CD reversal pattern.
+Clear Bullish Divergence is created hitting the potential reversal zone.
+Bulls will be pushing hard to be in control and the price has all the tendency to make higher highs and higher lows, thus reversing the trend.
+
+Verdict: Bulls to win.</description><pubDate>Thu, 07 Sep 2023 09:06:23 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPUSD/FG1fkykE-GBPUSD-has-formed-Bullish-AB-CD-Pattern/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/qasim009/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28132,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EQ%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>GBPUSD has formed Bullish AB=CD Pattern</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPUSD/">GBP/USD</a>	<span class="symbol-descr">OANDA:GBPUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/qasim009/" title="User Profile">qasim009</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPUSD/FG1fkykE-GBPUSD-has-formed-Bullish-AB-CD-Pattern/">
+	<img src="https://s3.tradingview.com/f/FG1fkykE_mid.png"/>
+</a>
+<p>The chart has made a perfect Bullish AB=CD reversal pattern. <br/>
+Clear Bullish Divergence is created hitting the potential reversal zone. <br/>
+Bulls will be pushing hard to be in control and the price has all the tendency to make higher highs and higher lows, thus reversing the trend. <br/>
+ <br/>
+Verdict: Bulls to win.</p>]]></content:encoded></item><item><title>Bullish reversal is likely in EURCAD</title><link>https://www.tradingview.com/chart/EURCAD/hOuPiBsG-Bullish-reversal-is-likely-in-EURCAD/</link><description>EURCAD is presently in downtrend, printing LHs and LLs. However a bullish divergence has been notices on RSI on 1H timeframe alongwith a rising wedge bullish reversal pattern. Entry has been placed above upward break of wedge and previous LH. Suitable SL and TP have been marked on chart. </description><pubDate>Thu, 07 Sep 2023 09:04:54 -0500</pubDate><guid>https://www.tradingview.com/chart/EURCAD/hOuPiBsG-Bullish-reversal-is-likely-in-EURCAD/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/UsmanFarouk/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2812,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EU%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Bullish reversal is likely in EURCAD</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURCAD/">EUR/CAD</a>	<span class="symbol-descr">OANDA:EURCAD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/UsmanFarouk/" title="User Profile">UsmanFarouk</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURCAD/hOuPiBsG-Bullish-reversal-is-likely-in-EURCAD/">
+	<img src="https://s3.tradingview.com/h/hOuPiBsG_mid.png"/>
+</a>
+<p>EURCAD is presently in downtrend, printing LHs and LLs. However a bullish divergence has been notices on RSI on 1H timeframe alongwith a rising wedge bullish reversal pattern. Entry has been placed above upward break of wedge and previous LH. Suitable SL and TP have been marked on chart. </p>]]></content:encoded></item><item><title>GBPJPY: Forecast &amp; Trading Plan</title><link>https://www.tradingview.com/chart/GBPJPY/MZNu2v3m-GBPJPY-Forecast-Trading-Plan/</link><description>https://www.tradingview.com/x/BE9eFxBE/
+
+The price of GBPJPY will most likely increase soon enough, due to the demand beginning to exceed supply which we can see by looking at the chart of the pair. 
+
+❤️ Please, support our work with like &amp; comment! ❤️
+
+</description><pubDate>Thu, 07 Sep 2023 09:01:43 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPJPY/MZNu2v3m-GBPJPY-Forecast-Trading-Plan/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/UnitedSignals/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/12492339-J3hE_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>GBPJPY: Forecast &amp; Trading Plan</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPJPY/">British Pound/Japanese Yen</a>	<span class="symbol-descr">FX:GBPJPY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/UnitedSignals/" title="User Profile">UnitedSignals</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPJPY/MZNu2v3m-GBPJPY-Forecast-Trading-Plan/">
+	<img src="https://s3.tradingview.com/m/MZNu2v3m_mid.png"/>
+</a>
+<p>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/BE9eFxBE' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/BE9eFxBE' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+The price of GBPJPY will most likely increase soon enough, due to the demand beginning to exceed supply which we can see by looking at the chart of the pair.  <br/>
+ <br/>
+❤️<strong>Please, support our work with like &amp; comment!</strong>❤️ <br/>
+ <br/>
+</p>]]></content:encoded></item><item><title>Buy analysis </title><link>https://www.tradingview.com/chart/EURUSD/4un1QiS0-Buy-analysis/</link><description>This is not an investment idea
+Wait for it
+If M1 doesn’t react don’t act</description><pubDate>Thu, 07 Sep 2023 09:01:38 -0500</pubDate><guid>https://www.tradingview.com/chart/EURUSD/4un1QiS0-Buy-analysis/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/grussss/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28294,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EG%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Buy analysis </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURUSD/">Euro Fx/U.S. Dollar</a>	<span class="symbol-descr">FX:EURUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/grussss/" title="User Profile">grussss</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURUSD/4un1QiS0-Buy-analysis/">
+	<img src="https://s3.tradingview.com/4/4un1QiS0_mid.png"/>
+</a>
+<p>This is not an investment idea <br/>
+Wait for it <br/>
+If M1 doesn’t react don’t act</p>]]></content:encoded></item><item><title>USDCAD: CURVE ANALYSIS (2D)</title><link>https://www.tradingview.com/chart/USDCAD/Op6IibyC-USDCAD-CURVE-ANALYSIS-2D/</link><description>SLO2 @ 1.3805 ⏳
+SLO1 @ 1.3695 ⏳
+SSO @ 1.3625 ⏳
+TP1 @ 1.3485
+TP2 @ 1.3305
+TP3 @ 1.3175
+TP4 @ 1.2975
+BLO @ 1.2810 ⏳
+
+— PA on this pair has been insane
+
+— ALL three of our TPs were triggered, but ironically it retraced so hard that it returned back to the Supply Zone.
+
+— Well, it's time to get paid for the second time.
+
+— Here's a new setup</description><pubDate>Thu, 07 Sep 2023 08:56:07 -0500</pubDate><guid>https://www.tradingview.com/chart/USDCAD/Op6IibyC-USDCAD-CURVE-ANALYSIS-2D/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3487427-weoi_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>USDCAD: CURVE ANALYSIS (2D)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDCAD/">USD/CAD</a>	<span class="symbol-descr">OANDA:USDCAD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">ProfessorCEWard</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDCAD/Op6IibyC-USDCAD-CURVE-ANALYSIS-2D/">
+	<img src="https://s3.tradingview.com/o/Op6IibyC_mid.png"/>
+</a>
+<p>SLO2 @ 1.3805 ⏳ <br/>
+SLO1 @ 1.3695 ⏳ <br/>
+SSO @ 1.3625 ⏳ <br/>
+TP1 @ 1.3485 <br/>
+TP2 @ 1.3305 <br/>
+TP3 @ 1.3175 <br/>
+TP4 @ 1.2975 <br/>
+BLO @ 1.2810 ⏳ <br/>
+ <br/>
+— PA on this pair has been insane <br/>
+ <br/>
+— ALL three of our TPs were triggered, but ironically it retraced so hard that it returned back to the Supply Zone. <br/>
+ <br/>
+— Well, it's time to get paid for the second time. <br/>
+ <br/>
+— Here's a new setup</p>]]></content:encoded></item><item><title>GBPJPY Knowing when to be there P.1</title><link>https://www.tradingview.com/chart/GBPJPY/hQFXjVjH-GBPJPY-Knowing-when-to-be-there-P-1/</link><description>The chart patterns delineated, particularly on the 30-minute timescale, offer unequivocal insights into the temporal dynamics of market movements. A common pitfall among retail investors, guided by the Japanese concept of "Chiri mo tsumoreba yama to naru" (even dust, when piled, becomes a mountain), is the misbelief that high-frequency intraday trading is a guaranteed pathway to rapid wealth accumulation. These market participants often labor under the misconception that increased trading frequency translates to augmented returns. Such strategies, however, frequently diverge from actual market rhythms and culminate in suboptimal outcomes.
+
+A meticulous examination of the ordinate axis reveals the strategic timings coinciding with significant financial announcements. However, the actual content of these announcements often holds minimal actionable value for the retail trader. Delving deeply into the intricacies of financial news landscapes can be a futile endeavor, given the propensity of such channels to deploy manipulative narratives that ensnare retail investors into positions favoring institutional behemoths.
+
+It's noteworthy to highlight that these market-moving intervals are synchronized with the wee hours of the U.S. Eastern Time, posing inherent challenges. The average individual's cognitive faculties are scarcely at their zenith during such hours, and yet they find themselves pitted against algorithmically-driven trading entities and deep-pocketed institutions, often with government backing. This systemic design intrinsically tilts the scales against the retail trader.
+
+For many, the equity market's gyrations are enigmatic, with shifts seemingly dictated by external news events and often contravening intuitive predictions. Such idiosyncrasies, like witnessing bearish trajectories amidst flourishing economies or bullish trends during recessions, perplex the lay observer. Some surmise that Wall Street and financial district insiders possess an arcane comprehension of these dynamics. This, however, is a misapprehension. Delving into the art of technical chart interpretation, akin to a seasoned professional, dispels these nebulous conceptions. It equips one with the acumen to discern market inflection points, cognize the precursors to market ascents and descents, and comprehend the genesis of both bullish and bearish cycles. Above all, it endows one with the sagacity, reminiscent of the Japanese proverb "Ishi no ue ni mo sannen" (perseverance pays off), to harness these insights lucratively.
+
+Leveraging an astute understanding of Wyckoff methodologies, coupled with a granular supply-demand analysis utilizing volume metrics, equips the retail trader with the requisite arsenal to navigate the intricate financial trading arena. 
+
+For a detailed explanation of VSA and Wyckoff:
+Pete Faders VSA (Free on youtube)
+Tom Williams very important book called "Master the Markets" (also can be found for free)</description><pubDate>Thu, 07 Sep 2023 08:53:20 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPJPY/hQFXjVjH-GBPJPY-Knowing-when-to-be-there-P-1/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/dee718/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1858874-qb47_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>GBPJPY Knowing when to be there P.1</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPJPY/">GBP/JPY</a>	<span class="symbol-descr">OANDA:GBPJPY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/dee718/" title="User Profile">dee718</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPJPY/hQFXjVjH-GBPJPY-Knowing-when-to-be-there-P-1/">
+	<img src="https://s3.tradingview.com/h/hQFXjVjH_mid.png"/>
+</a>
+<p>The chart patterns delineated, particularly on the 30-minute timescale, offer unequivocal insights into the temporal dynamics of market movements. A common pitfall among retail investors, guided by the Japanese concept of "Chiri mo tsumoreba yama to naru" (even dust, when piled, becomes a mountain), is the misbelief that high-frequency intraday trading is a guaranteed pathway to rapid wealth accumulation. These market participants often labor under the misconception that increased trading frequency translates to augmented returns. Such strategies, however, frequently diverge from actual market rhythms and culminate in suboptimal outcomes. <br/>
+ <br/>
+A meticulous examination of the ordinate axis reveals the strategic timings coinciding with significant financial announcements. However, the actual content of these announcements often holds minimal actionable value for the retail trader. Delving deeply into the intricacies of financial news landscapes can be a futile endeavor, given the propensity of such channels to deploy manipulative narratives that ensnare retail investors into positions favoring institutional behemoths. <br/>
+ <br/>
+It's noteworthy to highlight that these market-moving intervals are synchronized with the wee hours of the U.S. Eastern Time, posing inherent challenges. The average individual's cognitive faculties are scarcely at their zenith during such hours, and yet they find themselves pitted against algorithmically-driven trading entities and deep-pocketed institutions, often with government backing. This systemic design intrinsically tilts the scales against the retail trader. <br/>
+ <br/>
+For many, the equity market's gyrations are enigmatic, with shifts seemingly dictated by external news events and often contravening intuitive predictions. Such idiosyncrasies, like witnessing bearish trajectories amidst flourishing economies or bullish trends during recessions, perplex the lay observer. Some surmise that Wall Street and financial district insiders possess an arcane comprehension of these dynamics. This, however, is a misapprehension. Delving into the art of technical chart interpretation, akin to a seasoned professional, dispels these nebulous conceptions. It equips one with the acumen to discern market inflection points, cognize the precursors to market ascents and descents, and comprehend the genesis of both bullish and bearish cycles. Above all, it endows one with the sagacity, reminiscent of the Japanese proverb "Ishi no ue ni mo sannen" (perseverance pays off), to harness these insights lucratively. <br/>
+ <br/>
+Leveraging an astute understanding of Wyckoff methodologies, coupled with a granular supply-demand analysis utilizing volume metrics, equips the retail trader with the requisite arsenal to navigate the intricate financial trading arena.  <br/>
+ <br/>
+For a detailed explanation of VSA and Wyckoff: <br/>
+Pete Faders VSA (Free on youtube) <br/>
+Tom Williams very important book called "Master the Markets" (also can be found for free)</p>]]></content:encoded></item><item><title>Bearish Reversal likely in USDCHF</title><link>https://www.tradingview.com/chart/USDCHF/Hv5U9sLq-Bearish-Reversal-likely-in-USDCHF/</link><description>USDCHF is presently in uptrend, printing HHs and HLs. However, a bearish divergence has been observed on RSI on 1H timeframe alongwith an Ascending Wedge (Bearish) Reversal pattern. Entry has been place on downward break of wedge and previous HL. SL and TP has been suitably placed.</description><pubDate>Thu, 07 Sep 2023 08:51:47 -0500</pubDate><guid>https://www.tradingview.com/chart/USDCHF/Hv5U9sLq-Bearish-Reversal-likely-in-USDCHF/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/UsmanFarouk/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2812,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EU%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Bearish Reversal likely in USDCHF</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDCHF/">USD/CHF</a>	<span class="symbol-descr">OANDA:USDCHF</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/UsmanFarouk/" title="User Profile">UsmanFarouk</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDCHF/Hv5U9sLq-Bearish-Reversal-likely-in-USDCHF/">
+	<img src="https://s3.tradingview.com/h/Hv5U9sLq_mid.png"/>
+</a>
+<p>USDCHF is presently in uptrend, printing HHs and HLs. However, a bearish divergence has been observed on RSI on 1H timeframe alongwith an Ascending Wedge (Bearish) Reversal pattern. Entry has been place on downward break of wedge and previous HL. SL and TP has been suitably placed.</p>]]></content:encoded></item><item><title>Closing early </title><link>https://www.tradingview.com/chart/GBPUSD/3TiofETq-Closing-early/</link><description>Closing this trade early as it's needed for holiday money. </description><pubDate>Thu, 07 Sep 2023 08:49:24 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPUSD/3TiofETq-Closing-early/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/NQCapital/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/12602473-ZPbW_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Closing early </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPUSD/">GBP/USD</a>	<span class="symbol-descr">OANDA:GBPUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/NQCapital/" title="User Profile">NQCapital</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPUSD/3TiofETq-Closing-early/">
+	<img src="https://s3.tradingview.com/3/3TiofETq_mid.png"/>
+</a>
+<p>Closing this trade early as it's needed for holiday money. </p>]]></content:encoded></item><item><title>USDCAD Breakout Expected after forming Bullish Rectangle</title><link>https://www.tradingview.com/chart/USDCAD/fJ4ZC8qo-USDCAD-Breakout-Expected-after-forming-Bullish-Rectangle/</link><description>After having traded within range, It seems now that it will breakout &amp; form newer HHs &amp; HLs. Reason supporting this idea is the fact that it has not shown any divergence &amp; prev major trend is bullish.</description><pubDate>Thu, 07 Sep 2023 08:46:58 -0500</pubDate><guid>https://www.tradingview.com/chart/USDCAD/fJ4ZC8qo-USDCAD-Breakout-Expected-after-forming-Bullish-Rectangle/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ForexDoc91/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28180,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EF%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>USDCAD Breakout Expected after forming Bullish Rectangle</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDCAD/">U.S. Dollar/Canadian Dollar</a>	<span class="symbol-descr">FX:USDCAD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ForexDoc91/" title="User Profile">ForexDoc91</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDCAD/fJ4ZC8qo-USDCAD-Breakout-Expected-after-forming-Bullish-Rectangle/">
+	<img src="https://s3.tradingview.com/f/fJ4ZC8qo_mid.png"/>
+</a>
+<p>After having traded within range, It seems now that it will breakout &amp; form newer HHs &amp; HLs. Reason supporting this idea is the fact that it has not shown any divergence &amp; prev major trend is bullish.</p>]]></content:encoded></item><item><title>long</title><link>https://www.tradingview.com/chart/EURAUD/rjgeQ9zK-long/</link><description>https://www.tradingview.com/chart/wfRC4XLX/
+buy set up</description><pubDate>Thu, 07 Sep 2023 08:44:16 -0500</pubDate><guid>https://www.tradingview.com/chart/EURAUD/rjgeQ9zK-long/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mandrake1/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28204,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EM%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>long</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURAUD/">Euro Fx/Australian Dollar</a>	<span class="symbol-descr">FX:EURAUD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mandrake1/" title="User Profile">mandrake1</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURAUD/rjgeQ9zK-long/">
+	<img src="https://s3.tradingview.com/r/rjgeQ9zK_mid.png"/>
+</a>
+<p>https://www.tradingview.com/chart/wfRC4XLX/ <br/>
+buy set up</p>]]></content:encoded></item><item><title>nzdjpy buy</title><link>https://www.tradingview.com/chart/NZDJPY/WGl6y5Jl-nzdjpy-buy/</link><description>bought this pair, will take to the previous high. good risk to reward.</description><pubDate>Thu, 07 Sep 2023 08:43:45 -0500</pubDate><guid>https://www.tradingview.com/chart/NZDJPY/WGl6y5Jl-nzdjpy-buy/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mbm19/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/2900051-1ywE_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>nzdjpy buy</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NZDJPY/">New Zealand Dollar/Japanese Yen</a>	<span class="symbol-descr">FX:NZDJPY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mbm19/" title="User Profile">mbm19</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NZDJPY/WGl6y5Jl-nzdjpy-buy/">
+	<img src="https://s3.tradingview.com/w/WGl6y5Jl_mid.png"/>
+</a>
+<p>bought this pair, will take to the previous high. good risk to reward.</p>]]></content:encoded></item><item><title>EURUSD Expected Growth! BUY!</title><link>https://www.tradingview.com/chart/EURUSD/LE4pGmWV-EURUSD-Expected-Growth-BUY/</link><description>https://www.tradingview.com/x/XorAr1f0/
+
+ My dear friends,
+ My technical analysis for EURUSD is below:
+The market is trading on 1.0698  pivot level.
+Bias - Bullish 
+
+Technical Indicators: Both Super Trend &amp; Pivot HL indicate a highly probable Bullish  continuation.
+Target - 1.0763
+
+About Used Indicators:
+A pivot point is a technical analysis indicator, or calculations, used to determine the overall trend of the market over different time frames.
+———————————
+ WISH YOU ALL LUCK
+</description><pubDate>Thu, 07 Sep 2023 08:43:16 -0500</pubDate><guid>https://www.tradingview.com/chart/EURUSD/LE4pGmWV-EURUSD-Expected-Growth-BUY/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/AnabelSignals/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/40418649-7jZX_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>EURUSD Expected Growth! BUY!</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURUSD/">Euro Fx/U.S. Dollar</a>	<span class="symbol-descr">FX:EURUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/AnabelSignals/" title="User Profile">AnabelSignals</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURUSD/LE4pGmWV-EURUSD-Expected-Growth-BUY/">
+	<img src="https://s3.tradingview.com/l/LE4pGmWV_mid.png"/>
+</a>
+<p>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/XorAr1f0' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/XorAr1f0' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+<strong>My dear friends, <br/>
+</strong>My technical analysis for EURUSD is below: <br/>
+The market is trading on 1.0698  pivot level. <br/>
+Bias - Bullish  <br/>
+ <br/>
+Technical Indicators: Both Super Trend &amp; Pivot HL indicate a highly probable Bullish  continuation. <br/>
+Target - 1.0763 <br/>
+ <br/>
+About Used Indicators: <br/>
+A pivot point is a technical analysis indicator, or calculations, used to determine the overall trend of the market over different time frames. <br/>
+——————————— <br/>
+<strong>WISH YOU ALL LUCK <br/>
+</strong></p>]]></content:encoded></item><item><title>USDCHF - NEW SIGNAL</title><link>https://www.tradingview.com/chart/USDCHF/hDj1X4li-USDCHF-NEW-SIGNAL/</link><description>Pattern Recognition: Identifies trends and corrections for precise entry and exit points.
+
+Price Targets: Sets profit targets accurately with wave analysis.
+
+Market Psychology: Understands market sentiment for informed decision-making.
+
+Risk Management: Establishes rules to protect your capital.
+
+For a short USDCHF position:
+
+Current Wave Identification: Confirm the current wave counts, focusing on a downward impulsive wave (e.g., Wave 3).
+
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves.
+
+Price Targets: Utilize wave analysis to determine potential price targets based on expected downtrends.
+
+Risk Control: Implement stop-loss orders to manage risk effectively while maintaining a favorable risk-reward ratio.</description><pubDate>Thu, 07 Sep 2023 08:41:19 -0500</pubDate><guid>https://www.tradingview.com/chart/USDCHF/hDj1X4li-USDCHF-NEW-SIGNAL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/24774761-vnKb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>USDCHF - NEW SIGNAL</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDCHF/">U.S. Dollar/Swiss Franc</a>	<span class="symbol-descr">FX:USDCHF</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">SignalsProvider</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDCHF/hDj1X4li-USDCHF-NEW-SIGNAL/">
+	<img src="https://s3.tradingview.com/h/hDj1X4li_mid.png"/>
+</a>
+<p>Pattern Recognition: Identifies trends and corrections for precise entry and exit points. <br/>
+ <br/>
+Price Targets: Sets profit targets accurately with wave analysis. <br/>
+ <br/>
+Market Psychology: Understands market sentiment for informed decision-making. <br/>
+ <br/>
+Risk Management: Establishes rules to protect your capital. <br/>
+ <br/>
+For a short USDCHF position: <br/>
+ <br/>
+Current Wave Identification: Confirm the current wave counts, focusing on a downward impulsive wave (e.g., Wave 3). <br/>
+ <br/>
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves. <br/>
+ <br/>
+Price Targets: Utilize wave analysis to determine potential price targets based on expected downtrends. <br/>
+ <br/>
+Risk Control: Implement stop-loss orders to manage risk effectively while maintaining a favorable risk-reward ratio.</p>]]></content:encoded></item><item><title>NZDUSD CURVE ANALYSIS (2D)</title><link>https://www.tradingview.com/chart/NZDUSD/C8iAapP6-NZDUSD-CURVE-ANALYSIS-2D/</link><description>RESISTANCE @ 0.7350
+SLO @ 0.7160 ⏳
+TP4 @ 0.7060
+TP3 @ 0.6720
+TP2 @ 0.6500
+TP1 @ 0.6180
+BSO @ 0.5900 ⏳
+BLO @ 0.5855 ⏳
+SUPPORT @ 0.5655
+
+After a +600 pips profit towards the downside, we are ready to rock towards the upside again.</description><pubDate>Thu, 07 Sep 2023 08:38:02 -0500</pubDate><guid>https://www.tradingview.com/chart/NZDUSD/C8iAapP6-NZDUSD-CURVE-ANALYSIS-2D/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3487427-weoi_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NZDUSD CURVE ANALYSIS (2D)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NZDUSD/">NZD/USD</a>	<span class="symbol-descr">OANDA:NZDUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">ProfessorCEWard</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NZDUSD/C8iAapP6-NZDUSD-CURVE-ANALYSIS-2D/">
+	<img src="https://s3.tradingview.com/c/C8iAapP6_mid.png"/>
+</a>
+<p>RESISTANCE @ 0.7350 <br/>
+SLO @ 0.7160 ⏳ <br/>
+TP4 @ 0.7060 <br/>
+TP3 @ 0.6720 <br/>
+TP2 @ 0.6500 <br/>
+TP1 @ 0.6180 <br/>
+BSO @ 0.5900 ⏳ <br/>
+BLO @ 0.5855 ⏳ <br/>
+SUPPORT @ 0.5655 <br/>
+ <br/>
+After a +600 pips profit towards the downside, we are ready to rock towards the upside again.</p>]]></content:encoded></item><item><title>EURUSD Ready to UP</title><link>https://www.tradingview.com/chart/EURUSD/AtRON7Vh-EURUSD-Ready-to-UP/</link><description>According to the situation in the EURUSD chart
+I expect a new impulsive wave to start from this area</description><pubDate>Thu, 07 Sep 2023 08:37:53 -0500</pubDate><guid>https://www.tradingview.com/chart/EURUSD/AtRON7Vh-EURUSD-Ready-to-UP/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ostadkoochak/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/8691522-NZi9_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>EURUSD Ready to UP</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURUSD/">Euro Fx/U.S. Dollar</a>	<span class="symbol-descr">FX:EURUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ostadkoochak/" title="User Profile">ostadkoochak</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURUSD/AtRON7Vh-EURUSD-Ready-to-UP/">
+	<img src="https://s3.tradingview.com/a/AtRON7Vh_mid.png"/>
+</a>
+<p>According to the situation in the EURUSD chart <br/>
+I expect a new impulsive wave to start from this area</p>]]></content:encoded></item><item><title>Trade 3. (2/0) # things saying EUR is going to raise</title><link>https://www.tradingview.com/chart/EURUSD/cyAC9Qab-Trade-3-2-0-things-saying-EUR-is-going-to-raise/</link><description>(2/0) means in the past 2 trades, we were sucessful with 2, and lost 0.
+
+In this one, we can see as positive factors for this trade:
++Bullish divergence with RSI
++Reject from main support (blue line)
++Reject from secondary support (black line) which before was a resistance, so is now retesting 
++Reject from strong horizontal support (green line)
+
+Negative factors:
+-Trade could make stop hunt even to second pink line.</description><pubDate>Thu, 07 Sep 2023 08:35:58 -0500</pubDate><guid>https://www.tradingview.com/chart/EURUSD/cyAC9Qab-Trade-3-2-0-things-saying-EUR-is-going-to-raise/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Cinnamon_Club/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/61133880-I6zJ_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Trade 3. (2/0) # things saying EUR is going to raise</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURUSD/">Euro Fx/U.S. Dollar</a>	<span class="symbol-descr">FX:EURUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Cinnamon_Club/" title="User Profile">Cinnamon_Club</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURUSD/cyAC9Qab-Trade-3-2-0-things-saying-EUR-is-going-to-raise/">
+	<img src="https://s3.tradingview.com/c/cyAC9Qab_mid.png"/>
+</a>
+<p>(2/0) means in the past 2 trades, we were sucessful with 2, and lost 0. <br/>
+ <br/>
+In this one, we can see as positive factors for this trade: <br/>
++Bullish divergence with RSI <br/>
++Reject from main support (blue line) <br/>
++Reject from secondary support (black line) which before was a resistance, so is now retesting  <br/>
++Reject from strong horizontal support (green line) <br/>
+ <br/>
+Negative factors: <br/>
+-Trade could make stop hunt even to second pink line.</p>]]></content:encoded></item><item><title>CHF/JPY Gave Yesterday +110 Pips 0 Drawdown , New Entry Added !</title><link>https://www.tradingview.com/chart/CHFJPY/fkY8QMUM-CHF-JPY-Gave-Yesterday-110-Pips-0-Drawdown-New-Entry-Added/</link><description>This Is An Educational + Analytic Content That Will Teach Why And How To Enter A Trade
+Make Sure You Watch The Price Action Closely In Each Analysis As This Is A Very Important Part Of Our Method
+
+Disclaimer : This Analysis Can Change At Anytime Without Notice And It Is Only For The Purpose Of Assisting Traders To Make Independent Investments Decisions.</description><pubDate>Thu, 07 Sep 2023 08:35:48 -0500</pubDate><guid>https://www.tradingview.com/chart/CHFJPY/fkY8QMUM-CHF-JPY-Gave-Yesterday-110-Pips-0-Drawdown-New-Entry-Added/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/FX_Elite_Club/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/6536233-O0df_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>CHF/JPY Gave Yesterday +110 Pips 0 Drawdown , New Entry Added !</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CHFJPY/">Swiss Franc/Japanese Yen</a>	<span class="symbol-descr">FX:CHFJPY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/FX_Elite_Club/" title="User Profile">FX_Elite_Club</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/CHFJPY/fkY8QMUM-CHF-JPY-Gave-Yesterday-110-Pips-0-Drawdown-New-Entry-Added/">
+	<img src="https://s3.tradingview.com/f/fkY8QMUM_mid.png"/>
+</a>
+<p>This Is An Educational + Analytic Content That Will Teach Why And How To Enter A Trade <br/>
+Make Sure You Watch The Price Action Closely In Each Analysis As This Is A Very Important Part Of Our Method <br/>
+ <br/>
+Disclaimer : This Analysis Can Change At Anytime Without Notice And It Is Only For The Purpose Of Assisting Traders To Make Independent Investments Decisions.</p>]]></content:encoded></item><item><title>Long GBPUSD</title><link>https://www.tradingview.com/chart/GBPUSD/gFZyF9H0-Long-GBPUSD/</link><description>Inverted head and shoulder at 5 min timeframe bulls going to come in!</description><pubDate>Thu, 07 Sep 2023 08:35:43 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPUSD/gFZyF9H0-Long-GBPUSD/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/biswabiswa/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28108,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EB%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Long GBPUSD</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPUSD/">British Pound/U.S. Dollar</a>	<span class="symbol-descr">FX:GBPUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/biswabiswa/" title="User Profile">biswabiswa</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPUSD/gFZyF9H0-Long-GBPUSD/">
+	<img src="https://s3.tradingview.com/g/gFZyF9H0_mid.png"/>
+</a>
+<p>Inverted head and shoulder at 5 min timeframe bulls going to come in!</p>]]></content:encoded></item><item><title>USDJPY - NEW SIGNAL</title><link>https://www.tradingview.com/chart/USDJPY/0O1Ng6Sj-USDJPY-NEW-SIGNAL/</link><description>Pattern Recognition: Identifies trends and corrections for precise entry and exit points.
+
+Price Targets: Sets profit targets accurately with wave analysis.
+
+Market Psychology: Understands market sentiment for informed decision-making.
+
+Risk Management: Establishes rules to protect your capital.
+
+For a long USDJPY position:
+
+Current Wave Identification: Confirm the current wave counts, focusing on an upward impulsive wave (e.g., Wave 3).
+
+Entry Confirmation: Wait for bullish signals that align with Elliot Waves.
+
+Price Targets: Utilize wave analysis to determine potential price targets based on expected uptrends.
+
+Risk Control: Implement stop-loss orders to manage risk effectively while maintaining a favorable risk-reward ratio.</description><pubDate>Thu, 07 Sep 2023 08:35:30 -0500</pubDate><guid>https://www.tradingview.com/chart/USDJPY/0O1Ng6Sj-USDJPY-NEW-SIGNAL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/24774761-vnKb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>USDJPY - NEW SIGNAL</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/USDJPY/">U.S. Dollar/Japanese Yen</a>	<span class="symbol-descr">FX:USDJPY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">SignalsProvider</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/USDJPY/0O1Ng6Sj-USDJPY-NEW-SIGNAL/">
+	<img src="https://s3.tradingview.com/0/0O1Ng6Sj_mid.png"/>
+</a>
+<p>Pattern Recognition: Identifies trends and corrections for precise entry and exit points. <br/>
+ <br/>
+Price Targets: Sets profit targets accurately with wave analysis. <br/>
+ <br/>
+Market Psychology: Understands market sentiment for informed decision-making. <br/>
+ <br/>
+Risk Management: Establishes rules to protect your capital. <br/>
+ <br/>
+For a long USDJPY position: <br/>
+ <br/>
+Current Wave Identification: Confirm the current wave counts, focusing on an upward impulsive wave (e.g., Wave 3). <br/>
+ <br/>
+Entry Confirmation: Wait for bullish signals that align with Elliot Waves. <br/>
+ <br/>
+Price Targets: Utilize wave analysis to determine potential price targets based on expected uptrends. <br/>
+ <br/>
+Risk Control: Implement stop-loss orders to manage risk effectively while maintaining a favorable risk-reward ratio.</p>]]></content:encoded></item><item><title>EURUSD likely reversal</title><link>https://www.tradingview.com/chart/EURUSD/ZFpe1Rc7-EURUSD-likely-reversal/</link><description>EURUSD is presently in downtrend and printing LHs and LLs. However, a bullish divergence has been noticed on RSI on 1H timeframe along with a falling wedge Bullish reversal pattern. Accordingly, an Buy Stop long entry has been marked on chart with suitable SL and TP. Entry shall only be made once previous LH is broken towards the upside.</description><pubDate>Thu, 07 Sep 2023 08:34:04 -0500</pubDate><guid>https://www.tradingview.com/chart/EURUSD/ZFpe1Rc7-EURUSD-likely-reversal/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/UsmanFarouk/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2812,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EU%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>EURUSD likely reversal</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURUSD/">EUR/USD</a>	<span class="symbol-descr">OANDA:EURUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/UsmanFarouk/" title="User Profile">UsmanFarouk</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURUSD/ZFpe1Rc7-EURUSD-likely-reversal/">
+	<img src="https://s3.tradingview.com/z/ZFpe1Rc7_mid.png"/>
+</a>
+<p>EURUSD is presently in downtrend and printing LHs and LLs. However, a bullish divergence has been noticed on RSI on 1H timeframe along with a falling wedge Bullish reversal pattern. Accordingly, an Buy Stop long entry has been marked on chart with suitable SL and TP. Entry shall only be made once previous LH is broken towards the upside.</p>]]></content:encoded></item><item><title>NZDUSD</title><link>https://www.tradingview.com/chart/NZDUSD/UA5iIgsA-NZDUSD/</link><description>The news of the unemployment rate is negative for the dollar, which caused it to fall slightly, but the opportunity is favorable for a slight reversal of the dollar downward. The pair is technically capable of rising to 0.603 points, and this is a resistance point after which it will return to complete the downward trend The news of the unemployment rate is negative for the dollar, which caused it to fall slightly, but the opportunity is favorable for a slight reversal of the dollar downward. The pair is technically capable of rising to 0.603 points, and this is a resistance point after which it will return to complete the downward trend.</description><pubDate>Thu, 07 Sep 2023 08:33:37 -0500</pubDate><guid>https://www.tradingview.com/chart/NZDUSD/UA5iIgsA-NZDUSD/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SalemSignals/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/7116697-bYeL_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NZDUSD</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NZDUSD/">NZD/USD</a>	<span class="symbol-descr">OANDA:NZDUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SalemSignals/" title="User Profile">SalemSignals</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NZDUSD/UA5iIgsA-NZDUSD/">
+	<img src="https://s3.tradingview.com/u/UA5iIgsA_mid.png"/>
+</a>
+<p>The news of the unemployment rate is negative for the dollar, which caused it to fall slightly, but the opportunity is favorable for a slight reversal of the dollar downward. The pair is technically capable of rising to 0.603 points, and this is a resistance point after which it will return to complete the downward trend The news of the unemployment rate is negative for the dollar, which caused it to fall slightly, but the opportunity is favorable for a slight reversal of the dollar downward. The pair is technically capable of rising to 0.603 points, and this is a resistance point after which it will return to complete the downward trend.</p>]]></content:encoded></item><item><title>EURNZD: Growth &amp; Bullish Forecast</title><link>https://www.tradingview.com/chart/EURNZD/foOKZUEI-EURNZD-Growth-Bullish-Forecast/</link><description>https://www.tradingview.com/x/AbNRkWYb/
+
+Our strategy, polished by years of trial and error has helped us identify what seems to be a great trading opportunity and we are here to share it with you as the time is ripe for us to buy EURNZD.
+ ❤️ Please, support our work with like &amp; comment! ❤️
+
+</description><pubDate>Thu, 07 Sep 2023 08:33:28 -0500</pubDate><guid>https://www.tradingview.com/chart/EURNZD/foOKZUEI-EURNZD-Growth-Bullish-Forecast/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/UnitedSignals/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/12492339-J3hE_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>EURNZD: Growth &amp; Bullish Forecast</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURNZD/">Euro Fx/New Zealand Dollar</a>	<span class="symbol-descr">FX:EURNZD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/UnitedSignals/" title="User Profile">UnitedSignals</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURNZD/foOKZUEI-EURNZD-Growth-Bullish-Forecast/">
+	<img src="https://s3.tradingview.com/f/foOKZUEI_mid.png"/>
+</a>
+<p>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/AbNRkWYb' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/AbNRkWYb' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+Our strategy, polished by years of trial and error has helped us identify what seems to be a great trading opportunity and we are here to share it with you as the time is ripe for us to buy EURNZD. <br/>
+ ❤️<strong>Please, support our work with like &amp; comment!</strong>❤️ <br/>
+ <br/>
+</p>]]></content:encoded></item><item><title>NZDCHF - NEW SIGNAL</title><link>https://www.tradingview.com/chart/NZDCHF/Ui1FgLGM-NZDCHF-NEW-SIGNAL/</link><description>Pattern Recognition: Identifies trends and corrections for precise entry and exit points.
+
+Price Targets: Sets profit and stop-loss levels accurately with wave analysis.
+
+Market Psychology: Understands market sentiment for better decision-making.
+
+Risk Management: Establishes rules to protect your capital.
+
+For a short NZDCHF position:
+
+Current Wave Identification: Confirm the current wave counts, focusing on an upward correction (e.g., Wave B or 2).
+
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves.
+
+Price Targets: Utilize wave analysis to determine price targets based on expected downtrends.
+
+Risk Control: Implement stop-loss orders to manage risk effectively, maintaining a favorable risk-reward ratio.</description><pubDate>Thu, 07 Sep 2023 08:32:41 -0500</pubDate><guid>https://www.tradingview.com/chart/NZDCHF/Ui1FgLGM-NZDCHF-NEW-SIGNAL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/24774761-vnKb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NZDCHF - NEW SIGNAL</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NZDCHF/">New Zealand Dollar/Swiss Franc</a>	<span class="symbol-descr">FX:NZDCHF</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">SignalsProvider</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NZDCHF/Ui1FgLGM-NZDCHF-NEW-SIGNAL/">
+	<img src="https://s3.tradingview.com/u/Ui1FgLGM_mid.png"/>
+</a>
+<p>Pattern Recognition: Identifies trends and corrections for precise entry and exit points. <br/>
+ <br/>
+Price Targets: Sets profit and stop-loss levels accurately with wave analysis. <br/>
+ <br/>
+Market Psychology: Understands market sentiment for better decision-making. <br/>
+ <br/>
+Risk Management: Establishes rules to protect your capital. <br/>
+ <br/>
+For a short NZDCHF position: <br/>
+ <br/>
+Current Wave Identification: Confirm the current wave counts, focusing on an upward correction (e.g., Wave B or 2). <br/>
+ <br/>
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves. <br/>
+ <br/>
+Price Targets: Utilize wave analysis to determine price targets based on expected downtrends. <br/>
+ <br/>
+Risk Control: Implement stop-loss orders to manage risk effectively, maintaining a favorable risk-reward ratio.</p>]]></content:encoded></item><item><title>NZDUSD - New Signal</title><link>https://www.tradingview.com/chart/NZDUSD/De7UOpVN-NZDUSD-New-Signal/</link><description>Pattern Recognition: Identify trends and corrections for precise entry and exit points.
+
+Price Targets: Set profit and stop-loss levels accurately with wave analysis.
+
+Market Psychology: Understand market sentiment for better decision-making.
+
+Risk Management: Establish rules to protect your capital.
+
+For a short NZDUSD position:
+
+Current Wave Identification: Confirm the current wave counts, particularly targeting an upward correction (e.g., Wave B or 2).
+
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves.
+
+Price Targets: Utilize wave analysis to determine price targets based on expected downtrends.
+
+Risk Control: Implement stop-loss orders to manage risk effectively, maintaining a favorable risk-reward ratio.</description><pubDate>Thu, 07 Sep 2023 08:30:27 -0500</pubDate><guid>https://www.tradingview.com/chart/NZDUSD/De7UOpVN-NZDUSD-New-Signal/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/24774761-vnKb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NZDUSD - New Signal</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NZDUSD/">New Zealand Dollar/U.S. Dollar</a>	<span class="symbol-descr">FX:NZDUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">SignalsProvider</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NZDUSD/De7UOpVN-NZDUSD-New-Signal/">
+	<img src="https://s3.tradingview.com/d/De7UOpVN_mid.png"/>
+</a>
+<p>Pattern Recognition: Identify trends and corrections for precise entry and exit points. <br/>
+ <br/>
+Price Targets: Set profit and stop-loss levels accurately with wave analysis. <br/>
+ <br/>
+Market Psychology: Understand market sentiment for better decision-making. <br/>
+ <br/>
+Risk Management: Establish rules to protect your capital. <br/>
+ <br/>
+For a short NZDUSD position: <br/>
+ <br/>
+Current Wave Identification: Confirm the current wave counts, particularly targeting an upward correction (e.g., Wave B or 2). <br/>
+ <br/>
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves. <br/>
+ <br/>
+Price Targets: Utilize wave analysis to determine price targets based on expected downtrends. <br/>
+ <br/>
+Risk Control: Implement stop-loss orders to manage risk effectively, maintaining a favorable risk-reward ratio.</p>]]></content:encoded></item><item><title>AUDHCF - NEW SIGNAL</title><link>https://www.tradingview.com/chart/AUDCHF/LCJQapo9-AUDHCF-NEW-SIGNAL/</link><description>Elliot Wave Analysis is a crucial tool for traders on TradingView, especially when taking a short position like AUDCHF. It helps predict price movements based on wave patterns. Here's why it's important:
+
+Pattern Recognition: Elliot Waves identify trends and corrections, guiding entry and exit points.
+Price Targets: Set precise profit and stop-loss levels using wave analysis.
+Market Psychology: Understand market sentiment for better decision-making.
+Risk Management: Follow rules to protect capital.
+In the case of shorting AUDCHF:
+
+Identify Current Wave: Confirm the upward correction (Wave B or 2).
+
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves.
+
+Set Targets: Use waves to set price targets for the expected downtrend (Wave C or 3).
+
+Risk Control: Place stop-loss orders to manage risk and maintain a favorable risk-reward ratio.</description><pubDate>Thu, 07 Sep 2023 08:23:58 -0500</pubDate><guid>https://www.tradingview.com/chart/AUDCHF/LCJQapo9-AUDHCF-NEW-SIGNAL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/24774761-vnKb_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>AUDHCF - NEW SIGNAL</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/AUDCHF/">Australian Dollar / Swiss Franc</a>	<span class="symbol-descr">FOREXCOM:AUDCHF</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/SignalsProvider/" title="User Profile">SignalsProvider</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/AUDCHF/LCJQapo9-AUDHCF-NEW-SIGNAL/">
+	<img src="https://s3.tradingview.com/l/LCJQapo9_mid.png"/>
+</a>
+<p>Elliot Wave Analysis is a crucial tool for traders on TradingView, especially when taking a short position like AUDCHF. It helps predict price movements based on wave patterns. Here's why it's important: <br/>
+ <br/>
+Pattern Recognition: Elliot Waves identify trends and corrections, guiding entry and exit points. <br/>
+Price Targets: Set precise profit and stop-loss levels using wave analysis. <br/>
+Market Psychology: Understand market sentiment for better decision-making. <br/>
+Risk Management: Follow rules to protect capital. <br/>
+In the case of shorting AUDCHF: <br/>
+ <br/>
+Identify Current Wave: Confirm the upward correction (Wave B or 2). <br/>
+ <br/>
+Entry Confirmation: Wait for bearish signals that align with Elliot Waves. <br/>
+ <br/>
+Set Targets: Use waves to set price targets for the expected downtrend (Wave C or 3). <br/>
+ <br/>
+Risk Control: Place stop-loss orders to manage risk and maintain a favorable risk-reward ratio.</p>]]></content:encoded></item><item><title>long</title><link>https://www.tradingview.com/chart/GBPCHF/YlwIgTsF-long/</link><description>https://www.tradingview.com/chart/wfRC4XLX/
+buy set up</description><pubDate>Thu, 07 Sep 2023 08:22:59 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPCHF/YlwIgTsF-long/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mandrake1/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28204,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EM%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>long</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPCHF/">British Pound/Swiss Franc</a>	<span class="symbol-descr">FX:GBPCHF</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mandrake1/" title="User Profile">mandrake1</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPCHF/YlwIgTsF-long/">
+	<img src="https://s3.tradingview.com/y/YlwIgTsF_mid.png"/>
+</a>
+<p>https://www.tradingview.com/chart/wfRC4XLX/ <br/>
+buy set up</p>]]></content:encoded></item><item><title>GBPUSD CURVE ANALYSIS (18H)</title><link>https://www.tradingview.com/chart/GBPUSD/ZqfMd5lD-GBPUSD-CURVE-ANALYSIS-18H/</link><description>SLO @ 1.3085 ⏳
+TP5 @ 1.3045
+TP4 @ 1.2960
+TP3 @ 1.2815
+TP2 @ 1.2725
+TP1 @ 1.2585
+BSO @ 1.2475 ⏳
+BLO1 @ 1.2455 📈
+BLO2 @ 1.2325 ⏳
+
+After a +600 pips profit towards the downside, we are ready to rock towards the upside again.</description><pubDate>Thu, 07 Sep 2023 08:22:34 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPUSD/ZqfMd5lD-GBPUSD-CURVE-ANALYSIS-18H/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/3487427-weoi_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>GBPUSD CURVE ANALYSIS (18H)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPUSD/">GBP/USD</a>	<span class="symbol-descr">OANDA:GBPUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ProfessorCEWard/" title="User Profile">ProfessorCEWard</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPUSD/ZqfMd5lD-GBPUSD-CURVE-ANALYSIS-18H/">
+	<img src="https://s3.tradingview.com/z/ZqfMd5lD_mid.png"/>
+</a>
+<p>SLO @ 1.3085 ⏳ <br/>
+TP5 @ 1.3045 <br/>
+TP4 @ 1.2960 <br/>
+TP3 @ 1.2815 <br/>
+TP2 @ 1.2725 <br/>
+TP1 @ 1.2585 <br/>
+BSO @ 1.2475 ⏳ <br/>
+BLO1 @ 1.2455 📈 <br/>
+BLO2 @ 1.2325 ⏳ <br/>
+ <br/>
+After a +600 pips profit towards the downside, we are ready to rock towards the upside again.</p>]]></content:encoded></item><item><title>EURGBP The Target Is DOWN! SELL!</title><link>https://www.tradingview.com/chart/EURGBP/ZFY30Ej7-EURGBP-The-Target-Is-DOWN-SELL/</link><description>https://www.tradingview.com/x/e6FTT9uP/
+
+ My dear subscribers,
+ EURGBP  looks like it will make a good move, and here are the details:
+The market is trading on 0.8579  pivot level.
+Bias - Bearish 
+
+Technical Indicators: Both Super Trend &amp; Pivot HL indicate a highly probable Bearish continuation.
+Target - 0.8557
+
+About Used Indicators:
+The average true range ATR plays an important role in 'Supertrend' as the indicator uses ATR to calculate its value. The ATR indicator signals the degree of price volatility.
+———————————
+ WISH YOU ALL LUCK
+ 
+</description><pubDate>Thu, 07 Sep 2023 08:21:19 -0500</pubDate><guid>https://www.tradingview.com/chart/EURGBP/ZFY30Ej7-EURGBP-The-Target-Is-DOWN-SELL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/AnabelSignals/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/40418649-7jZX_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>EURGBP The Target Is DOWN! SELL!</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EURGBP/">Euro Fx/British Pound</a>	<span class="symbol-descr">FX:EURGBP</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/AnabelSignals/" title="User Profile">AnabelSignals</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/EURGBP/ZFY30Ej7-EURGBP-The-Target-Is-DOWN-SELL/">
+	<img src="https://s3.tradingview.com/z/ZFY30Ej7_mid.png"/>
+</a>
+<p>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/e6FTT9uP' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/e6FTT9uP' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+<strong>My dear subscribers, <br/>
+</strong>EURGBP  looks like it will make a good move, and here are the details: <br/>
+The market is trading on 0.8579  pivot level. <br/>
+Bias - Bearish  <br/>
+ <br/>
+Technical Indicators: Both Super Trend &amp; Pivot HL indicate a highly probable Bearish continuation. <br/>
+Target - 0.8557 <br/>
+ <br/>
+About Used Indicators: <br/>
+The average true range ATR plays an important role in 'Supertrend' as the indicator uses ATR to calculate its value. The ATR indicator signals the degree of price volatility. <br/>
+——————————— <br/>
+<strong>WISH YOU ALL LUCK <br/>
+</strong> <br/>
+</p>]]></content:encoded></item><item><title>GBPUSD 07 SEP 2023 (FOLLOW UP)</title><link>https://www.tradingview.com/chart/GBPUSD/kWRO8QgD-GBPUSD-07-SEP-2023-FOLLOW-UP/</link><description>While the broader market may present an illusion of stability, discerning market participants, such as specialists and floor traders, have identified underlying vulnerabilities. This fragility is manifested by a diminution in trading volume, particularly when the equity or index endeavors to appreciate, indicating a paucity of demand. Institutional and seasoned traders, adhering to the Japanese tenet of "Nana korobi, ya oki" (fall seven times, get up eight) — an embodiment of patience and perseverance — will recognize this latent weakness and abstain from engagement in the prevailing bullish trajectory. Their reticence to participate provides tacit confirmation of any subsurface weak signals you might have intercepted.
+
+Upon introspection, my evaluation of the price zone appears astute. The current market behavior mirrors the classic Wyckoff distribution schematic, punctuated by an upthrust designed to ensnare unsophisticated retail traders into a bullish position. Such deceptive maneuvers are par for the course in the intricate chess game of trading, and unfortunately, the majority of retail market participants, lacking the patience symbolized by the Japanese proverb "Ishi no ue ni mo sannen" (even a stone will warm up if you sit on it for three years), often find themselves mispositioned in these scenarios.</description><pubDate>Thu, 07 Sep 2023 08:21:10 -0500</pubDate><guid>https://www.tradingview.com/chart/GBPUSD/kWRO8QgD-GBPUSD-07-SEP-2023-FOLLOW-UP/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/dee718/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/1858874-qb47_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>GBPUSD 07 SEP 2023 (FOLLOW UP)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/GBPUSD/">GBP/USD</a>	<span class="symbol-descr">OANDA:GBPUSD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/dee718/" title="User Profile">dee718</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/GBPUSD/kWRO8QgD-GBPUSD-07-SEP-2023-FOLLOW-UP/">
+	<img src="https://s3.tradingview.com/k/kWRO8QgD_mid.png"/>
+</a>
+<p>While the broader market may present an illusion of stability, discerning market participants, such as specialists and floor traders, have identified underlying vulnerabilities. This fragility is manifested by a diminution in trading volume, particularly when the equity or index endeavors to appreciate, indicating a paucity of demand. Institutional and seasoned traders, adhering to the Japanese tenet of "Nana korobi, ya oki" (fall seven times, get up eight) — an embodiment of patience and perseverance — will recognize this latent weakness and abstain from engagement in the prevailing bullish trajectory. Their reticence to participate provides tacit confirmation of any subsurface weak signals you might have intercepted. <br/>
+ <br/>
+Upon introspection, my evaluation of the price zone appears astute. The current market behavior mirrors the classic Wyckoff distribution schematic, punctuated by an upthrust designed to ensnare unsophisticated retail traders into a bullish position. Such deceptive maneuvers are par for the course in the intricate chess game of trading, and unfortunately, the majority of retail market participants, lacking the patience symbolized by the Japanese proverb "Ishi no ue ni mo sannen" (even a stone will warm up if you sit on it for three years), often find themselves mispositioned in these scenarios.</p>]]></content:encoded></item></channel></rss>

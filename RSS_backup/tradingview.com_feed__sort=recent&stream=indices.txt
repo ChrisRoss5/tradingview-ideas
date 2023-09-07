@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel xmlns:content="http://purl.org/rss/1.0/modules/content/"><title>TradingView Ideas</title><link>https://www.tradingview.com</link><description>Latest market outlook from popular traders on TradingView.</description><atom:link rel="self" href="https://www.tradingview.com/feed/"></atom:link><language>en</language><lastBuildDate>Thu, 07 Sep 2023 09:08:13 -0500</lastBuildDate><item><title>Nifty Levels</title><link>https://www.tradingview.com/chart/NIFTY/G9JRktcs-Nifty-Levels/</link><description>I am sharing Nifty Levels this levels act as important support and resistance for intraday . If you want to trade with this levels wait for 15 min candle closing above that levels. You can trade with breakout and reversal both.
+Please note this levels are for intraday trading only.</description><pubDate>Thu, 07 Sep 2023 09:08:13 -0500</pubDate><guid>https://www.tradingview.com/chart/NIFTY/G9JRktcs-Nifty-Levels/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/learntradingwithkb/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/20810086-f05M_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Nifty Levels</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIFTY/">NIFTY 50</a>	<span class="symbol-descr">NSE:NIFTY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/learntradingwithkb/" title="User Profile">learntradingwithkb</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIFTY/G9JRktcs-Nifty-Levels/">
+	<img src="https://s3.tradingview.com/g/G9JRktcs_mid.png"/>
+</a>
+<p>I am sharing Nifty Levels this levels act as important support and resistance for intraday . If you want to trade with this levels wait for 15 min candle closing above that levels. You can trade with breakout and reversal both. <br/>
+Please note this levels are for intraday trading only.</p>]]></content:encoded></item><item><title>Quick buy on Nas</title><link>https://www.tradingview.com/chart/NAS100/RIwXQ8sS-Quick-buy-on-Nas/</link><description>Small market flow pattern I noticed looking at the chart. Tight SL because its a higher risk entry. Trade safe. Trade smart. Trade Drippy </description><pubDate>Thu, 07 Sep 2023 09:07:13 -0500</pubDate><guid>https://www.tradingview.com/chart/NAS100/RIwXQ8sS-Quick-buy-on-Nas/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/Drippysnipes/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28270,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ED%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Quick buy on Nas</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/PEPPERSTONE-NAS100/">US Tech 100 Index</a>	<span class="symbol-descr">PEPPERSTONE:NAS100</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/Drippysnipes/" title="User Profile">Drippysnipes</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NAS100/RIwXQ8sS-Quick-buy-on-Nas/">
+	<img src="https://s3.tradingview.com/r/RIwXQ8sS_mid.png"/>
+</a>
+<p>Small market flow pattern I noticed looking at the chart. Tight SL because its a higher risk entry. Trade safe. Trade smart. Trade Drippy </p>]]></content:encoded></item><item><title>Nifty50 Chart Analysis: Uptrend Signals and Key Levels</title><link>https://www.tradingview.com/chart/NIFTY/qatNuHU2-Nifty50-Chart-Analysis-Uptrend-Signals-and-Key-Levels/</link><description>As a technical analyst, it is crucial to provide a clear and professional analysis of the Nifty50 index, helping traders and investors understand the current market structure without offering specific buy, sell, or hold recommendations. In this article, we will discuss recent developments in the Nifty50 index and how they indicate a shift towards a “buy on dips” market.
+
+  Introduction:  
+The Nifty50 index has recently completed a short-term correction and appears to be entering a fresh uptrend. On 7th September, the index closed above the critical level of 19,700, signifying a significant market shift. This development is marked by the creation of a “higher high,” which is a crucial concept in technical analysis.
+
+  Understanding “Buy on Dips” Market Structure:  
+The term “buy on dips” refers to a market structure characterized by the formation of “higher highs” and “higher lows.” This structure indicates an uptrend in the market. Here’s what it means:
+
+-	  Higher Highs:   A higher high occurs when the price of an asset reaches a level that is higher than the previous high. In the case of Nifty50, the index closing above 19,700 on 7th September is a higher high compared to previous highs. This signals bullish sentiment as investors are willing to pay higher prices.
+
+-	  Higher Lows:   Similarly, a higher low occurs when the price doesn’t fall as far as the previous low during a correction. This signifies that buyers are stepping in at higher price levels, indicating confidence in the market’s upward movement.
+
+
+In essence, when a market forms a series of higher highs and higher lows, it suggests that the trend is bullish, and it becomes an opportune time for traders to consider buying on price dips.
+
+  Anticipating Future Movements:  
+With the Nifty50 closing above 19,700, it’s possible that the market could soon reach the 20,000 mark. This milestone could mark the beginning of a fresh trend that may eventually lead to new all-time highs.
+
+  Conclusion:  
+As a technical analyst, it’s essential to focus on market structure and key levels without providing specific buy, sell, or hold recommendations. The recent higher high in the Nifty50, along with the potential for further gains, indicates a “buy on dips" market structure. Traders and investors should monitor the market closely, keeping these technical aspects in mind.
+
+This analysis has been provided by:
+Shivam Bhanot
+Professional Trader, Technical Analyst, Senior Mentor at Trading Game Strong
+
+Please note that this article is for informational purposes only and does not constitute financial advice. Readers should conduct their own research and consult with a financial professional before making any investment decisions.</description><pubDate>Thu, 07 Sep 2023 09:04:29 -0500</pubDate><guid>https://www.tradingview.com/chart/NIFTY/qatNuHU2-Nifty50-Chart-Analysis-Uptrend-Signals-and-Key-Levels/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/ShivamBhanot_TGS/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/25776641-PC5X_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Nifty50 Chart Analysis: Uptrend Signals and Key Levels</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIFTY/">NIFTY 50</a>	<span class="symbol-descr">NSE:NIFTY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/ShivamBhanot_TGS/" title="User Profile">ShivamBhanot_TGS</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIFTY/qatNuHU2-Nifty50-Chart-Analysis-Uptrend-Signals-and-Key-Levels/">
+	<img src="https://s3.tradingview.com/q/qatNuHU2_mid.png"/>
+</a>
+<p>As a technical analyst, it is crucial to provide a clear and professional analysis of the Nifty50 index, helping traders and investors understand the current market structure without offering specific buy, sell, or hold recommendations. In this article, we will discuss recent developments in the Nifty50 index and how they indicate a shift towards a “buy on dips” market. <br/>
+ <br/>
+  Introduction:   <br/>
+The Nifty50 index has recently completed a short-term correction and appears to be entering a fresh uptrend. On 7th September, the index closed above the critical level of 19,700, signifying a significant market shift. This development is marked by the creation of a “higher high,” which is a crucial concept in technical analysis. <br/>
+ <br/>
+  Understanding “Buy on Dips” Market Structure:   <br/>
+The term “buy on dips” refers to a market structure characterized by the formation of “higher highs” and “higher lows.” This structure indicates an uptrend in the market. Here’s what it means: <br/>
+ <br/>
+-	  Higher Highs:   A higher high occurs when the price of an asset reaches a level that is higher than the previous high. In the case of Nifty50, the index closing above 19,700 on 7th September is a higher high compared to previous highs. This signals bullish sentiment as investors are willing to pay higher prices. <br/>
+ <br/>
+-	  Higher Lows:   Similarly, a higher low occurs when the price doesn’t fall as far as the previous low during a correction. This signifies that buyers are stepping in at higher price levels, indicating confidence in the market’s upward movement. <br/>
+ <br/>
+ <br/>
+In essence, when a market forms a series of higher highs and higher lows, it suggests that the trend is bullish, and it becomes an opportune time for traders to consider buying on price dips. <br/>
+ <br/>
+  Anticipating Future Movements:   <br/>
+With the Nifty50 closing above 19,700, it’s possible that the market could soon reach the 20,000 mark. This milestone could mark the beginning of a fresh trend that may eventually lead to new all-time highs. <br/>
+ <br/>
+  Conclusion:   <br/>
+As a technical analyst, it’s essential to focus on market structure and key levels without providing specific buy, sell, or hold recommendations. The recent higher high in the Nifty50, along with the potential for further gains, indicates a “buy on dips" market structure. Traders and investors should monitor the market closely, keeping these technical aspects in mind. <br/>
+ <br/>
+This analysis has been provided by: <br/>
+Shivam Bhanot <br/>
+Professional Trader, Technical Analyst, Senior Mentor at Trading Game Strong <br/>
+ <br/>
+Please note that this article is for informational purposes only and does not constitute financial advice. Readers should conduct their own research and consult with a financial professional before making any investment decisions.</p>]]></content:encoded></item><item><title>US30</title><link>https://www.tradingview.com/chart/US30/Q9rI7zOA-US30/</link><description>BULLISH MOMENTUM ON US30
+dollar shows strength strong open Bulls in control</description><pubDate>Thu, 07 Sep 2023 08:59:37 -0500</pubDate><guid>https://www.tradingview.com/chart/US30/Q9rI7zOA-US30/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/waynepipkill/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/2728479-UpE0_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>US30</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BLACKBULL-US30/">Dow Jones 30</a>	<span class="symbol-descr">BLACKBULL:US30</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/waynepipkill/" title="User Profile">waynepipkill</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/US30/Q9rI7zOA-US30/">
+	<img src="https://s3.tradingview.com/q/Q9rI7zOA_mid.png"/>
+</a>
+<p>BULLISH MOMENTUM ON US30 <br/>
+dollar shows strength strong open Bulls in control</p>]]></content:encoded></item><item><title>Us100 short on 2Sept using only 1 indicator BandofMidas </title><link>https://www.tradingview.com/chart/US100/p9KoKkLm-Us100-short-on-2Sept-using-only-1-indicator-BandofMidas/</link><description>CAPITALCOM:US100   https://www.tradingview.com/x/rckx3FwK 
+
+1. CLEAR all drawings and indicators.
+2. Back to basic ( draw some lines, fibo, chart pattern,  simple support and resistance level etc )
+3. Go to indicators &gt; invite only script &gt; BandofMidas 
+4. Observe the if the price fall in Midas zone and reverse.
+5. Enter the trade if the price level is at critical support resistance level. Double confirmation is great enough.
+6. Plan your trading plan, strategy, risk reward ratios. 
+7. Consider to breakeven if price doesn't move accordingly, to take profit at opposite Midas zone or follow the trend reversal line to change color.
+8. ALWAYS plan your trades before you enter, BandofMidas is a great helping tool but it won't be absolutely accurate.  
+
+
+Good luck to all the traders here.</description><pubDate>Thu, 07 Sep 2023 08:42:55 -0500</pubDate><guid>https://www.tradingview.com/chart/US100/p9KoKkLm-Us100-short-on-2Sept-using-only-1-indicator-BandofMidas/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/WisdomWavesWealth/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/12798058-KwDI_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Us100 short on 2Sept using only 1 indicator BandofMidas </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CAPITALCOM-US100/">US 100</a>	<span class="symbol-descr">CAPITALCOM:US100</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/WisdomWavesWealth/" title="User Profile">WisdomWavesWealth</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/US100/p9KoKkLm-Us100-short-on-2Sept-using-only-1-indicator-BandofMidas/">
+	<img src="https://s3.tradingview.com/p/p9KoKkLm_mid.png"/>
+</a>
+<p>
+			<a class="tv-chart-view__description__tag js-inline-quote-ticker" data-symbol="CAPITALCOM:US100" href="https://www.tradingview.com/symbols/CAPITALCOM-US100/">
+				
+				<img class="tv-circle-logo tv-circle-logo--xxxsmall" src="https://s3-symbol-logo.tradingview.com/indices/nasdaq-100.svg" alt="" >
+			
+				<span class="tv-chart-view__description__tag__text">US100</span>
+			</a>
+		 <a target="_blank" href="https://www.tradingview.com/x/rckx3FwK"></a>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/rckx3FwK' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/rckx3FwK' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+1. CLEAR all drawings and indicators. <br/>
+2. Back to basic ( draw some lines, fibo, chart pattern,  simple support and resistance level etc ) <br/>
+3. Go to indicators &gt; invite only script &gt; BandofMidas  <br/>
+4. Observe the if the price fall in Midas zone and reverse. <br/>
+5. Enter the trade if the price level is at critical support resistance level. Double confirmation is great enough. <br/>
+6. Plan your trading plan, strategy, risk reward ratios.  <br/>
+7. Consider to breakeven if price doesn't move accordingly, to take profit at opposite Midas zone or follow the trend reversal line to change color. <br/>
+8. ALWAYS plan your trades before you enter, BandofMidas is a great helping tool but it won't be absolutely accurate.   <br/>
+ <br/>
+ <br/>
+Good luck to all the traders here.</p>]]></content:encoded></item><item><title>US DOLLAR INDEX IS APPROACHING ITS IDEAL COUNTER-SWING  TARGET</title><link>https://www.tradingview.com/chart/DXY/QKsOyTZL-US-DOLLAR-INDEX-IS-APPROACHING-ITS-IDEAL-COUNTER-SWING-TARGET/</link><description>The US DOLLAR INDEX is approaching its ideal counter-swing ideal target where we anticipated that profit taking and fresh selling interests will drive the index lower.</description><pubDate>Thu, 07 Sep 2023 08:42:09 -0500</pubDate><guid>https://www.tradingview.com/chart/DXY/QKsOyTZL-US-DOLLAR-INDEX-IS-APPROACHING-ITS-IDEAL-COUNTER-SWING-TARGET/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/gentlemanlb/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/26561924-q2Tn_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>US DOLLAR INDEX IS APPROACHING ITS IDEAL COUNTER-SWING  TARGET</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/TVC-DXY/">U.S. DOLLAR CURRENCY INDEX</a>	<span class="symbol-descr">TVC:DXY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/gentlemanlb/" title="User Profile">gentlemanlb</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DXY/QKsOyTZL-US-DOLLAR-INDEX-IS-APPROACHING-ITS-IDEAL-COUNTER-SWING-TARGET/">
+	<img src="https://s3.tradingview.com/q/QKsOyTZL_mid.png"/>
+</a>
+<p>The US DOLLAR INDEX is approaching its ideal counter-swing ideal target where we anticipated that profit taking and fresh selling interests will drive the index lower.</p>]]></content:encoded></item><item><title>Wave Five </title><link>https://www.tradingview.com/chart/SPX500/uCFeUaKE-Wave-Five/</link><description>Hello friends, I hope you are having a productive week.
+
+I would like to share my ideas on the Elliott Wave Principle with you.
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis.
+
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future.
+Thank you for your continued support and I look forward to our mutual success.
+
+Best regards, Mr. Nobody.
+
+Go up and never stop.</description><pubDate>Thu, 07 Sep 2023 08:34:57 -0500</pubDate><guid>https://www.tradingview.com/chart/SPX500/uCFeUaKE-Wave-Five/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/14037594-XABS_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Wave Five </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/SPX500/">SPX500</a>	<span class="symbol-descr">BLACKBULL:SPX500</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">mehdi47abbasi79</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SPX500/uCFeUaKE-Wave-Five/">
+	<img src="https://s3.tradingview.com/u/uCFeUaKE_mid.png"/>
+</a>
+<p>Hello friends, I hope you are having a productive week. <br/>
+ <br/>
+I would like to share my ideas on the Elliott Wave Principle with you. <br/>
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis. <br/>
+ <br/>
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future. <br/>
+Thank you for your continued support and I look forward to our mutual success. <br/>
+ <br/>
+Best regards, Mr. Nobody. <br/>
+ <br/>
+Go up and never stop.</p>]]></content:encoded></item><item><title>Trading Plans for THU. 09/07 - Back to the Basics</title><link>https://www.tradingview.com/chart/SPX/smAnN1Cb-Trading-Plans-for-THU-09-07-Back-to-the-Basics/</link><description>S&amp;P 500 INDEX MODEL TRADING PLANS for THU. 09/07
+
+As we wrote in our trading plans published yesterday, Wed. 09/06: "In this morning's session so far, markets continue to be listless with the bias sliding towards mildly bearish. Nevertheless, bears need to wait for a confirmation before taking any positional shorts - a daily close below 4450 today might give that confirmation".
+
+The index failed to close below 4450 yesterday, but showed continued weakness. The price action in the pre-market session after the Initial Jobless Claims is showing the potential for further weakness to develop. The retail positioning and the retail sentiment reinforce our view for a downward push to follow in the coming days. Rising yields are renewed concern for the bulls.
+
+Our models are sporting outright bearish bias for positional trades while the index is below 4470. The index has to close above 4507 for our models to abandon the bearish bias.
+
+Aggressive, Intraday Trading Plans:
+
+For today, our aggressive intraday models indicate going long on a break above 4490, 4472, 4445, or 4419 with an 8-point trailing stop, and going short on a break below 4488, 4468, 4457, 4442, or 4415 with a 9-point trailing stop. 
+
+Models indicate explicit short exits on a break above 4459. Models also indicate a break-even hard stop once a trade gets into a 4-point profit level. Models indicate taking these signals from 09:31am EST or later.
+
+By definition the intraday models do not hold any positions overnight - the models exit any open position at the close of the last bar (3:59pm bar or 4:00pm bar, depending on your platform's bar timing convention).
+
+To avoid getting whipsawed, use at least a 5-minute closing or a higher time frame (a 1-minute if you know what you are doing) - depending on your risk tolerance and trading style - to determine the signals.
+(WHAT IS THE CREDIBILITY and the PERFORMANCE OF OUR MODEL TRADING PLANS over the LAST WEEK, LAST MONTH, LAST YEAR? Please check for yourself how our pre-published model trades have performed so far! Seeing is believing!) 
+
+NOTES - HOW TO INTERPRET/USE THESE TRADING PLANS:
+(i) The trading levels identified are derived from our A.I. Powered Quant Models. Depending on the market conditions, these may or may not correspond to any specific indicator(s).
+(ii) These trading plans may be used to trade in any instrument that tracks the S&amp;P 500 Index (e.g., ETFs such as SPY, derivatives such as futures and options on futures, and SPX options), triggered by the price levels in the Index. The results of these indicated trades would vary widely depending on the timeframe you use (tick chart, 1 minute, or 5 minute, or 15 minute or 60 minute etc.), the quality of your broker's execution, any slippages, your trading commissions and many other factors.
+(iii) These are NOT trading recommendations for any individual(s) and may or may not be suitable to your own financial objectives and risk tolerance - USE these ONLY as educational tools to inform and educate your own trading decisions, at your own risk.
+
+#spx, #spx500, #spy, #sp500, #esmini, #indextrading, #daytrading, #models, #tradingplans, #outlook, #economy, #bear, #yields, #stocks, #futures, #inflation, #recession, #softlanding, #risingyields, #initialjoblessclaims
+</description><pubDate>Thu, 07 Sep 2023 08:30:21 -0500</pubDate><guid>https://www.tradingview.com/chart/SPX/smAnN1Cb-Trading-Plans-for-THU-09-07-Back-to-the-Basics/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/TradersAITradingPlans/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/2942770-OlAr_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Trading Plans for THU. 09/07 - Back to the Basics</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/SPX/">S&amp;P 500</a>	<span class="symbol-descr">SP:SPX</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/TradersAITradingPlans/" title="User Profile">TradersAITradingPlans</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SPX/smAnN1Cb-Trading-Plans-for-THU-09-07-Back-to-the-Basics/">
+	<img src="https://s3.tradingview.com/s/smAnN1Cb_mid.png"/>
+</a>
+<p>S&amp;P 500 INDEX MODEL TRADING PLANS for THU. 09/07 <br/>
+ <br/>
+As we wrote in our trading plans published yesterday, Wed. 09/06: "In this morning's session so far, markets continue to be listless with the bias sliding towards mildly bearish. Nevertheless, bears need to wait for a confirmation before taking any positional shorts - a daily close below 4450 today might give that confirmation". <br/>
+ <br/>
+The index failed to close below 4450 yesterday, but showed continued weakness. The price action in the pre-market session after the Initial Jobless Claims is showing the potential for further weakness to develop. The retail positioning and the retail sentiment reinforce our view for a downward push to follow in the coming days. Rising yields are renewed concern for the bulls. <br/>
+ <br/>
+Our models are sporting outright bearish bias for positional trades while the index is below 4470. The index has to close above 4507 for our models to abandon the bearish bias. <br/>
+ <br/>
+Aggressive, Intraday Trading Plans: <br/>
+ <br/>
+For today, our aggressive intraday models indicate going long on a break above 4490, 4472, 4445, or 4419 with an 8-point trailing stop, and going short on a break below 4488, 4468, 4457, 4442, or 4415 with a 9-point trailing stop.  <br/>
+ <br/>
+Models indicate explicit short exits on a break above 4459. Models also indicate a break-even hard stop once a trade gets into a 4-point profit level. Models indicate taking these signals from 09:31am EST or later. <br/>
+ <br/>
+By definition the intraday models do not hold any positions overnight - the models exit any open position at the close of the last bar (3:59pm bar or 4:00pm bar, depending on your platform's bar timing convention). <br/>
+ <br/>
+To avoid getting whipsawed, use at least a 5-minute closing or a higher time frame (a 1-minute if you know what you are doing) - depending on your risk tolerance and trading style - to determine the signals. <br/>
+(WHAT IS THE CREDIBILITY and the PERFORMANCE OF OUR MODEL TRADING PLANS over the LAST WEEK, LAST MONTH, LAST YEAR? Please check for yourself how our pre-published model trades have performed so far! Seeing is believing!)  <br/>
+ <br/>
+NOTES - HOW TO INTERPRET/USE THESE TRADING PLANS: <br/>
+(i) The trading levels identified are derived from our A.I. Powered Quant Models. Depending on the market conditions, these may or may not correspond to any specific indicator(s). <br/>
+(ii) These trading plans may be used to trade in any instrument that tracks the S&amp;P 500 Index (e.g., ETFs such as SPY, derivatives such as futures and options on futures, and SPX options), triggered by the price levels in the Index. The results of these indicated trades would vary widely depending on the timeframe you use (tick chart, 1 minute, or 5 minute, or 15 minute or 60 minute etc.), the quality of your broker's execution, any slippages, your trading commissions and many other factors. <br/>
+(iii) These are NOT trading recommendations for any individual(s) and may or may not be suitable to your own financial objectives and risk tolerance - USE these ONLY as educational tools to inform and educate your own trading decisions, at your own risk. <br/>
+ <br/>
+#spx, #spx500, #spy, #sp500, #esmini, #indextrading, #daytrading, #models, #tradingplans, #outlook, #economy, #bear, #yields, #stocks, #futures, #inflation, #recession, #softlanding, #risingyields, #initialjoblessclaims <br/>
+</p>]]></content:encoded></item><item><title>DXY short hardcore</title><link>https://www.tradingview.com/chart/DXY/mkHJJtoe-DXY-short-hardcore/</link><description>DXy shoud be crazy bearish. Lets see how it works out!!</description><pubDate>Thu, 07 Sep 2023 08:29:51 -0500</pubDate><guid>https://www.tradingview.com/chart/DXY/mkHJJtoe-DXY-short-hardcore/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/G1D3onn/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28270,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EG%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>DXY short hardcore</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/TVC-DXY/">U.S. DOLLAR CURRENCY INDEX</a>	<span class="symbol-descr">TVC:DXY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/G1D3onn/" title="User Profile">G1D3onn</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DXY/mkHJJtoe-DXY-short-hardcore/">
+	<img src="https://s3.tradingview.com/m/mkHJJtoe_mid.png"/>
+</a>
+<p>DXy shoud be crazy bearish. Lets see how it works out!!</p>]]></content:encoded></item><item><title>DIAGONAL</title><link>https://www.tradingview.com/chart/DE30.F/5ouKnji7-DIAGONAL/</link><description>Hello friends, I hope you are having a productive week.
+
+I would like to share my ideas on the Elliott Wave Principle with you.
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis.
+
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future.
+Thank you for your continued support and I look forward to our mutual success.
+
+Best regards, Mr. Nobody.
+
+Go up and never stop.</description><pubDate>Thu, 07 Sep 2023 08:29:38 -0500</pubDate><guid>https://www.tradingview.com/chart/DE30.F/5ouKnji7-DIAGONAL/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/14037594-XABS_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>DIAGONAL</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/BLACKBULL-DE30.F/">Germany 30 Future</a>	<span class="symbol-descr">BLACKBULL:DE30.F</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">mehdi47abbasi79</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DE30.F/5ouKnji7-DIAGONAL/">
+	<img src="https://s3.tradingview.com/5/5ouKnji7_mid.png"/>
+</a>
+<p>Hello friends, I hope you are having a productive week. <br/>
+ <br/>
+I would like to share my ideas on the Elliott Wave Principle with you. <br/>
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis. <br/>
+ <br/>
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future. <br/>
+Thank you for your continued support and I look forward to our mutual success. <br/>
+ <br/>
+Best regards, Mr. Nobody. <br/>
+ <br/>
+Go up and never stop.</p>]]></content:encoded></item><item><title>Degree Correction</title><link>https://www.tradingview.com/chart/DAX/2s1c8LdX-Degree-Correction/</link><description>Hello friends, I hope you are having a productive week.
+
+I would like to share my ideas on the Elliott Wave Principle with you.
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis.
+
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future.
+Thank you for your continued support and I look forward to our mutual success.
+
+Best regards, Mr. Nobody.
+
+Go up and never stop.</description><pubDate>Thu, 07 Sep 2023 08:27:44 -0500</pubDate><guid>https://www.tradingview.com/chart/DAX/2s1c8LdX-Degree-Correction/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/14037594-XABS_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Degree Correction</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/XETR-DAX/">DAX INDEX</a>	<span class="symbol-descr">XETR:DAX</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/mehdi47abbasi79/" title="User Profile">mehdi47abbasi79</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DAX/2s1c8LdX-Degree-Correction/">
+	<img src="https://s3.tradingview.com/2/2s1c8LdX_mid.png"/>
+</a>
+<p>Hello friends, I hope you are having a productive week. <br/>
+ <br/>
+I would like to share my ideas on the Elliott Wave Principle with you. <br/>
+Please refer to the attached chart for more information. If you are interested, you can also check out my previous analysis. <br/>
+ <br/>
+I want to mention that my understanding of this principle is based on my personal experience and I am still learning, but I hope to provide better analysis in the future. <br/>
+Thank you for your continued support and I look forward to our mutual success. <br/>
+ <br/>
+Best regards, Mr. Nobody. <br/>
+ <br/>
+Go up and never stop.</p>]]></content:encoded></item><item><title>#Banknifty:8th Sept</title><link>https://www.tradingview.com/chart/BANKNIFTY/MLIn83Sk-Banknifty-8th-Sept/</link><description>
+Rudrajit deb
+@fernroad
+·
+Now
+#BankNiftyOptions :8th Sept
+Rally to continue.
+Buy opening gap up.
+Add longs between 44878- 44715.
+R1-45343 tomorrow. 
+R2-45778.
+Clear Buy on dips...texture to continue.
+Next big trend reversal only at 46234.</description><pubDate>Thu, 07 Sep 2023 08:27:22 -0500</pubDate><guid>https://www.tradingview.com/chart/BANKNIFTY/MLIn83Sk-Banknifty-8th-Sept/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/technicalMagpi37769/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28255,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ET%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>#Banknifty:8th Sept</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-BANKNIFTY/">NIFTY BANK</a>	<span class="symbol-descr">NSE:BANKNIFTY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/technicalMagpi37769/" title="User Profile">technicalMagpi37769</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BANKNIFTY/MLIn83Sk-Banknifty-8th-Sept/">
+	<img src="https://s3.tradingview.com/m/MLIn83Sk_mid.png"/>
+</a>
+<p> <br/>
+Rudrajit deb <br/>
+@fernroad <br/>
+· <br/>
+Now <br/>
+#BankNiftyOptions :8th Sept <br/>
+Rally to continue. <br/>
+Buy opening gap up. <br/>
+Add longs between 44878- 44715. <br/>
+R1-45343 tomorrow.  <br/>
+R2-45778. <br/>
+Clear Buy on dips...texture to continue. <br/>
+Next big trend reversal only at 46234.</p>]]></content:encoded></item><item><title>Price start to act to move up when Price touch one more 15200 </title><link>https://www.tradingview.com/chart/NAS100/5v4HqRqV-Price-start-to-act-to-move-up-when-Price-touch-one-more-15200/</link><description>I think the Nasdaq index will soon start its upward movement by filling the gap and reaching the price of 1500 and reach at least 15400 and even the ceiling.</description><pubDate>Thu, 07 Sep 2023 08:25:51 -0500</pubDate><guid>https://www.tradingview.com/chart/NAS100/5v4HqRqV-Price-start-to-act-to-move-up-when-Price-touch-one-more-15200/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/CNAFX/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/5319497-UcYA_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Price start to act to move up when Price touch one more 15200 </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/PEPPERSTONE-NAS100/">US Tech 100 Index</a>	<span class="symbol-descr">PEPPERSTONE:NAS100</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/CNAFX/" title="User Profile">CNAFX</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NAS100/5v4HqRqV-Price-start-to-act-to-move-up-when-Price-touch-one-more-15200/">
+	<img src="https://s3.tradingview.com/5/5v4HqRqV_mid.png"/>
+</a>
+<p>I think the Nasdaq index will soon start its upward movement by filling the gap and reaching the price of 1500 and reach at least 15400 and even the ceiling.</p>]]></content:encoded></item><item><title>de40 long 30</title><link>https://www.tradingview.com/chart/DE40/nxUxIQ7W-de40-long-30/</link><description>key level below is very strong, if we look at the level 4h it also holds, in minimal time frames it also holds, soo sl below lower low, tp on the higher key level
+</description><pubDate>Thu, 07 Sep 2023 08:21:22 -0500</pubDate><guid>https://www.tradingview.com/chart/DE40/nxUxIQ7W-de40-long-30/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/andy_1155/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/32956566-46lW_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>de40 long 30</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CAPITALCOM-DE40/">Germany 40</a>	<span class="symbol-descr">CAPITALCOM:DE40</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/andy_1155/" title="User Profile">andy_1155</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DE40/nxUxIQ7W-de40-long-30/">
+	<img src="https://s3.tradingview.com/n/nxUxIQ7W_mid.png"/>
+</a>
+<p>key level below is very strong, if we look at the level 4h it also holds, in minimal time frames it also holds, soo sl below lower low, tp on the higher key level <br/>
+</p>]]></content:encoded></item><item><title>  Lower Price Alert !   Pre-Market Update  9/7/23</title><link>https://www.tradingview.com/chart/SPX/3mOuxSGj-Lower-Price-Alert-Pre-Market-Update-9-7-23/</link><description>Yesterday afternoon's rally
+from SPX 4442.38 Low 
+was almost certainly a bull trap !
+
+This can be seen clearly on the 3 X Reverse S+P 500 ETF SPXS Chart
+which yesterday formed the handle, on a potentially powerful "Cup and Handle Pattern"
+
+The US stock market is now vulnerable. 
+Perhaps more than one realizes.
+This has triggered a "lower price alert signal, in my work.
+Traders should use extreme caution today.
+
+SPX Close 9/6/23 4465.47
+
+THE_UNWIND
+WOODS OF CONNECTICUT
+
+</description><pubDate>Thu, 07 Sep 2023 08:17:03 -0500</pubDate><guid>https://www.tradingview.com/chart/SPX/3mOuxSGj-Lower-Price-Alert-Pre-Market-Update-9-7-23/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/The_Unwind/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/689584-1yFc_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>  Lower Price Alert !   Pre-Market Update  9/7/23</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/SPX/">S&amp;P 500</a>	<span class="symbol-descr">SP:SPX</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/The_Unwind/" title="User Profile">The_Unwind</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SPX/3mOuxSGj-Lower-Price-Alert-Pre-Market-Update-9-7-23/">
+	<img src="https://s3.tradingview.com/3/3mOuxSGj_mid.png"/>
+</a>
+<p>Yesterday afternoon's rally <br/>
+from SPX 4442.38 Low  <br/>
+was almost certainly a bull trap ! <br/>
+ <br/>
+This can be seen clearly on the 3 X Reverse S+P 500 ETF SPXS Chart <br/>
+which yesterday formed the handle, on a potentially powerful "Cup and Handle Pattern" <br/>
+ <br/>
+The US stock market is now vulnerable.  <br/>
+Perhaps more than one realizes. <br/>
+This has triggered a "lower price alert signal, in my work. <br/>
+Traders should use extreme caution today. <br/>
+ <br/>
+SPX Close 9/6/23 4465.47 <br/>
+ <br/>
+THE_UNWIND <br/>
+WOODS OF CONNECTICUT <br/>
+ <br/>
+</p>]]></content:encoded></item><item><title>Nas100 Trade Update</title><link>https://www.tradingview.com/chart/NAS100/w9AVZk95-Nas100-Trade-Update/</link><description>If you look back at my previous nas100 posts I spoke about going short as long as price could show more signs of bearish structures while maintaining under 15370. Price even gave a break and retest of 15370 on the hourly time frame confirming the bearish move. Once price showed signs of bears taking over I simply waited on more retest under 15370 ! I personally closed with some profits and left 1 runner. Been serving gems all week! The losses don't even matter lol Risk management at its finest.</description><pubDate>Thu, 07 Sep 2023 08:12:04 -0500</pubDate><guid>https://www.tradingview.com/chart/NAS100/w9AVZk95-Nas100-Trade-Update/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/OfficialJ23/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/37095602-jJSV_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Nas100 Trade Update</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/PEPPERSTONE-NAS100/">US Tech 100 Index</a>	<span class="symbol-descr">PEPPERSTONE:NAS100</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/OfficialJ23/" title="User Profile">OfficialJ23</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NAS100/w9AVZk95-Nas100-Trade-Update/">
+	<img src="https://s3.tradingview.com/w/w9AVZk95_mid.png"/>
+</a>
+<p>If you look back at my previous nas100 posts I spoke about going short as long as price could show more signs of bearish structures while maintaining under 15370. Price even gave a break and retest of 15370 on the hourly time frame confirming the bearish move. Once price showed signs of bears taking over I simply waited on more retest under 15370 ! I personally closed with some profits and left 1 runner. Been serving gems all week! The losses don't even matter lol Risk management at its finest.</p>]]></content:encoded></item><item><title>dxy short </title><link>https://www.tradingview.com/chart/DXY/5rVCfPD2-dxy-short/</link><description>dxy short 
+we have downtrend and we have confirm inducement supply LH LL etc</description><pubDate>Thu, 07 Sep 2023 08:07:17 -0500</pubDate><guid>https://www.tradingview.com/chart/DXY/5rVCfPD2-dxy-short/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/smartmoneyconceptRA/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%2818,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3ES%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>dxy short </h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/TVC-DXY/">U.S. DOLLAR CURRENCY INDEX</a>	<span class="symbol-descr">TVC:DXY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/smartmoneyconceptRA/" title="User Profile">smartmoneyconceptRA</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DXY/5rVCfPD2-dxy-short/">
+	<img src="https://s3.tradingview.com/5/5rVCfPD2_mid.png"/>
+</a>
+<p>dxy short  <br/>
+we have downtrend and we have confirm inducement supply LH LL etc</p>]]></content:encoded></item><item><title>DAX at a very important decision point</title><link>https://www.tradingview.com/chart/DAX/c364M8Zi-DAX-at-a-very-important-decision-point/</link><description>DAX almost reached the low of a channel also near the intersection of a curve and a arc, so , market  is bound to take a decision possibly by the week end</description><pubDate>Thu, 07 Sep 2023 08:03:50 -0500</pubDate><guid>https://www.tradingview.com/chart/DAX/c364M8Zi-DAX-at-a-very-important-decision-point/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/omvats1/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/16347977-F5Zc_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>DAX at a very important decision point</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/XETR-DAX/">DAX INDEX</a>	<span class="symbol-descr">XETR:DAX</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/omvats1/" title="User Profile">omvats1</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DAX/c364M8Zi-DAX-at-a-very-important-decision-point/">
+	<img src="https://s3.tradingview.com/c/c364M8Zi_mid.png"/>
+</a>
+<p>DAX almost reached the low of a channel also near the intersection of a curve and a arc, so , market  is bound to take a decision possibly by the week end</p>]]></content:encoded></item><item><title>BANKNIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE</title><link>https://www.tradingview.com/chart/BANKNIFTY/9K217b7j-BANKNIFTY-ANALYSIS-FOR-8th-September-2023-FOR-EDUCATION-PURPOSE/</link><description>BANKNIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE
+This video is for educational purpose and my personal view . We are NOT SEBI registered Advisor, we only give the level on our practical trading experience. Kindly take the trade according to your risk and reward position and consulting your advisor. It is advisable to take the advice of SEBI registered advisor.
+@vijayanjum
+#nse
+#nsebse
+ #Nifty 
+#niftyfifty 
+#bankniftytrading
+ #nfitybank
+#niftypredictionfortomorrow 
+#niftyoptions 
+#NiftyBank 
+#nifty50
+ #nifty500
+ #niftytomorrow
+ #niftytoday 
+#NiftyCE 
+#bankniftyoptions
+ #sensex
+ #sensexindia 
+#sensextoday
+ #bankniftytips
+#bankniftyanalysis
+#bankniftytrading
+#bankniftyoptions 
+#finnifty
+#bankniftystrategies
+#niftystrategies
+#bse#bseindia
+#bsesensex
+#nsenifty
+#nsebse
+#nseindia
+#STOCKMARKETEDUCATION
+#STOCKMARKETUPTODATE
+#STOCKMARKETTODAY
+#stockmarkets
+#tommorrowMarketPrediction
+#nfityoutlookfornextweek 
+#bankniftyoutlookfornext week
+#bankniftyoutlookformonday
+#niftyforecast 
+#bankniftyforecast 
+#niftyshareprice
+ #bankniftyshareprice
+ #tommorrowniftyprediction 
+#tommorrobankniftypredicton
+ #niftytargettommrrow
+ #bankniftytargettommrrow 
+#bankniftylive 
+#banknifty
+ #bankniftyoptions 
+#bankniftystrategies
+ #bankniftyfuture 
+#bankniftyoptionstrategy
+ #bankniftycalls
+ #bankniftyintraday
+ #bankniftylivetrading 
+#bankniftyweeklyexpiry 
+#bankniftycrash 
+#bankniftytomorrow 
+#bankniftypredictions 
+#bankniftychart
+ #bankniftytips
+ #bankniftypremium 
+#bankniftyoptions 
+#bankniftyfuture
+ #bankniftytomorrowprediction
+ #bankniftyoption
+#niftyweeklyexpiry
+#stockmarketinindia
+#derivatives
+#niftypredictions
+#niftytips
+#bank nifty analysis,
+#bank nifty prediction for tomorrow,
+#bank nifty analysis for 13 july,
+#bank nifty tomorrow,
+#nifty prediction for tomorrow,
+#nifty prediction,
+#nifty analysis,
+#banknifty tomorrow,
+#bank nifty tomorrow analysis,
+#nifty tomorrow,
+#bank nifty analysis for tomorrow,
+#nifty analysis for tomorrow,
+#stock market crash,
+#stock market latest news today,
+#bank nifty live,
+#live trading bank nifty,
+#nifty live trading,
+#live trading,
+#bank nifty live trading
+</description><pubDate>Thu, 07 Sep 2023 07:45:33 -0500</pubDate><guid>https://www.tradingview.com/chart/BANKNIFTY/9K217b7j-BANKNIFTY-ANALYSIS-FOR-8th-September-2023-FOR-EDUCATION-PURPOSE/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/vijayanjum/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/7927794-FY3w_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>BANKNIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-BANKNIFTY/">NIFTY BANK</a>	<span class="symbol-descr">NSE:BANKNIFTY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/vijayanjum/" title="User Profile">vijayanjum</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/BANKNIFTY/9K217b7j-BANKNIFTY-ANALYSIS-FOR-8th-September-2023-FOR-EDUCATION-PURPOSE/">
+	<img src="https://s3.tradingview.com/9/9K217b7j_mid.png"/>
+</a>
+<p>BANKNIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE <br/>
+This video is for educational purpose and my personal view . We are NOT SEBI registered Advisor, we only give the level on our practical trading experience. Kindly take the trade according to your risk and reward position and consulting your advisor. It is advisable to take the advice of SEBI registered advisor. <br/>
+<a href="https://www.tradingview.com/u/vijayanjum/" target="_blank">@vijayanjum</a> <br/>
+#nse <br/>
+#nsebse <br/>
+ #Nifty  <br/>
+#niftyfifty  <br/>
+#bankniftytrading <br/>
+ #nfitybank <br/>
+#niftypredictionfortomorrow  <br/>
+#niftyoptions  <br/>
+#NiftyBank  <br/>
+#nifty50 <br/>
+ #nifty500 <br/>
+ #niftytomorrow <br/>
+ #niftytoday  <br/>
+#NiftyCE  <br/>
+#bankniftyoptions <br/>
+ #sensex <br/>
+ #sensexindia  <br/>
+#sensextoday <br/>
+ #bankniftytips <br/>
+#bankniftyanalysis <br/>
+#bankniftytrading <br/>
+#bankniftyoptions  <br/>
+#finnifty <br/>
+#bankniftystrategies <br/>
+#niftystrategies <br/>
+#bse#bseindia <br/>
+#bsesensex <br/>
+#nsenifty <br/>
+#nsebse <br/>
+#nseindia <br/>
+#STOCKMARKETEDUCATION <br/>
+#STOCKMARKETUPTODATE <br/>
+#STOCKMARKETTODAY <br/>
+#stockmarkets <br/>
+#tommorrowMarketPrediction <br/>
+#nfityoutlookfornextweek  <br/>
+#bankniftyoutlookfornext week <br/>
+#bankniftyoutlookformonday <br/>
+#niftyforecast  <br/>
+#bankniftyforecast  <br/>
+#niftyshareprice <br/>
+ #bankniftyshareprice <br/>
+ #tommorrowniftyprediction  <br/>
+#tommorrobankniftypredicton <br/>
+ #niftytargettommrrow <br/>
+ #bankniftytargettommrrow  <br/>
+#bankniftylive  <br/>
+#banknifty <br/>
+ #bankniftyoptions  <br/>
+#bankniftystrategies <br/>
+ #bankniftyfuture  <br/>
+#bankniftyoptionstrategy <br/>
+ #bankniftycalls <br/>
+ #bankniftyintraday <br/>
+ #bankniftylivetrading  <br/>
+#bankniftyweeklyexpiry  <br/>
+#bankniftycrash  <br/>
+#bankniftytomorrow  <br/>
+#bankniftypredictions  <br/>
+#bankniftychart <br/>
+ #bankniftytips <br/>
+ #bankniftypremium  <br/>
+#bankniftyoptions  <br/>
+#bankniftyfuture <br/>
+ #bankniftytomorrowprediction <br/>
+ #bankniftyoption <br/>
+#niftyweeklyexpiry <br/>
+#stockmarketinindia <br/>
+#derivatives <br/>
+#niftypredictions <br/>
+#niftytips <br/>
+#bank nifty analysis, <br/>
+#bank nifty prediction for tomorrow, <br/>
+#bank nifty analysis for 13 july, <br/>
+#bank nifty tomorrow, <br/>
+#nifty prediction for tomorrow, <br/>
+#nifty prediction, <br/>
+#nifty analysis, <br/>
+#banknifty tomorrow, <br/>
+#bank nifty tomorrow analysis, <br/>
+#nifty tomorrow, <br/>
+#bank nifty analysis for tomorrow, <br/>
+#nifty analysis for tomorrow, <br/>
+#stock market crash, <br/>
+#stock market latest news today, <br/>
+#bank nifty live, <br/>
+#live trading bank nifty, <br/>
+#nifty live trading, <br/>
+#live trading, <br/>
+#bank nifty live trading <br/>
+</p>]]></content:encoded></item><item><title>At crucial juncture. Up possible from today.</title><link>https://www.tradingview.com/chart/US30/GJU1GpQd-At-crucial-juncture-Up-possible-from-today/</link><description>Confluence of supports.
+Any reversal indications will be very much rewarding.
+Obviously there are some ifs and buts.
+A head and shoulder pattern also present. (Bearish)
+
+I will stick with bullish probability.</description><pubDate>Thu, 07 Sep 2023 07:35:23 -0500</pubDate><guid>https://www.tradingview.com/chart/US30/GJU1GpQd-At-crucial-juncture-Up-possible-from-today/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/any_money/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28225,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EA%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>At crucial juncture. Up possible from today.</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CAPITALCOM-US30/">US 30</a>	<span class="symbol-descr">CAPITALCOM:US30</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/any_money/" title="User Profile">any_money</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/US30/GJU1GpQd-At-crucial-juncture-Up-possible-from-today/">
+	<img src="https://s3.tradingview.com/g/GJU1GpQd_mid.png"/>
+</a>
+<p>Confluence of supports. <br/>
+Any reversal indications will be very much rewarding. <br/>
+Obviously there are some ifs and buts. <br/>
+A head and shoulder pattern also present. (Bearish) <br/>
+ <br/>
+I will stick with bullish probability.</p>]]></content:encoded></item><item><title>Dollar Index (DXY): Important Key Levels to Watch 💵</title><link>https://www.tradingview.com/chart/DXY/6TEfM3hO-Dollar-Index-DXY-Important-Key-Levels-to-Watch/</link><description>https://www.tradingview.com/x/UFLXLLJh/ 
+
+Here is my latest structure analysis for Dollar Index.
+
+Resistance 1: 105.00 - 105.10 area
+Resistance 2: 105.68 - 105.88 area
+
+Support 1: 104.28 - 104.7 area
+Support 2: 102.60 - 103.10 area
+Support 3: 101.75 - 102.00 area
+Support 4: 100.55 - 100.68 area
+Support 5: 99.57 - 99.75 area
+
+Consider these structures for pullback/breakout trading.
+
+ ❤️Please, support my work with like, thank you!❤️ 
+</description><pubDate>Thu, 07 Sep 2023 07:19:49 -0500</pubDate><guid>https://www.tradingview.com/chart/DXY/6TEfM3hO-Dollar-Index-DXY-Important-Key-Levels-to-Watch/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/VasilyTrader/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/253061-OOwl_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Dollar Index (DXY): Important Key Levels to Watch 💵</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/TVC-DXY/">U.S. DOLLAR CURRENCY INDEX</a>	<span class="symbol-descr">TVC:DXY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/VasilyTrader/" title="User Profile">VasilyTrader</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DXY/6TEfM3hO-Dollar-Index-DXY-Important-Key-Levels-to-Watch/">
+	<img src="https://s3.tradingview.com/6/6TEfM3hO_mid.png"/>
+</a>
+<p><a target="_blank" href="https://www.tradingview.com/x/UFLXLLJh/"></a>
+			<div class='tv-embeded-image'>
+				<a class='js-embeded-image' href='https://www.tradingview.com/x/UFLXLLJh' target='_blank'>
+					<img data-src='https://www.tradingview.com/x/UFLXLLJh' src='https://static.tradingview.com/static/images/svg/idea-image-placeholder.svg' alt='snapshot' class='js-image-lazy-load'>
+				</a>
+			</div>
+		 <br/>
+Here is my latest structure analysis for Dollar Index. <br/>
+ <br/>
+Resistance 1: 105.00 - 105.10 area <br/>
+Resistance 2: 105.68 - 105.88 area <br/>
+ <br/>
+Support 1: 104.28 - 104.7 area <br/>
+Support 2: 102.60 - 103.10 area <br/>
+Support 3: 101.75 - 102.00 area <br/>
+Support 4: 100.55 - 100.68 area <br/>
+Support 5: 99.57 - 99.75 area <br/>
+ <br/>
+Consider these structures for pullback/breakout trading. <br/>
+ <br/>
+<strong>❤️Please, support my work with like, thank you!❤️</strong> <br/>
+</p>]]></content:encoded></item><item><title>My SPX projections based on historical resistances</title><link>https://www.tradingview.com/chart/SPX/CmSrrOrJ-My-SPX-projections-based-on-historical-resistances/</link><description>I've employed a historical resistances approach to identify the most critical monthly levels that tend to hold significance when considering new positions. Currently, the green level has not yet been surpassed, although I strongly believe it's likely to occur, possibly either now or following a move towards the pattern resistance, which should align with a new all-time high (ATH).
+
+This potential development should result in declining Treasury Bills (TBills), a risk-on sentiment for TLT, and a peaking DXY (US Dollar Index), presenting an opportunity for a short position with a target in the high 3000s. The timing of this move, whether it unfolds now (then the target should be 4100's) or a bit later, will depend on how the monthly close plays out. I'll be closely monitoring this to determine the more probable scenario.
+
+Currently am short but watching with caution given the signal if we need to switch long.</description><pubDate>Thu, 07 Sep 2023 07:13:47 -0500</pubDate><guid>https://www.tradingview.com/chart/SPX/CmSrrOrJ-My-SPX-projections-based-on-historical-resistances/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/EdwinPus/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/27381444-HQmj_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>My SPX projections based on historical resistances</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/SPX/">S&amp;P 500</a>	<span class="symbol-descr">SP:SPX</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/EdwinPus/" title="User Profile">EdwinPus</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/SPX/CmSrrOrJ-My-SPX-projections-based-on-historical-resistances/">
+	<img src="https://s3.tradingview.com/c/CmSrrOrJ_mid.png"/>
+</a>
+<p>I've employed a historical resistances approach to identify the most critical monthly levels that tend to hold significance when considering new positions. Currently, the green level has not yet been surpassed, although I strongly believe it's likely to occur, possibly either now or following a move towards the pattern resistance, which should align with a new all-time high (ATH). <br/>
+ <br/>
+This potential development should result in declining Treasury Bills (TBills), a risk-on sentiment for TLT, and a peaking DXY (US Dollar Index), presenting an opportunity for a short position with a target in the high 3000s. The timing of this move, whether it unfolds now (then the target should be 4100's) or a bit later, will depend on how the monthly close plays out. I'll be closely monitoring this to determine the more probable scenario. <br/>
+ <br/>
+Currently am short but watching with caution given the signal if we need to switch long.</p>]]></content:encoded></item><item><title>US30- Liqgrab$$$ or crab, then kaboom but down</title><link>https://www.tradingview.com/chart/US30/las0zcey-US30-Liqgrab-or-crab-then-kaboom-but-down/</link><description>Keep It Simple $tupid(KISS)  dxy takes a nice little nose dive for a min and then BAM shoots gold,us,nas etc for that last little bit of liq sitting there and continue our journey down or not..</description><pubDate>Thu, 07 Sep 2023 06:58:01 -0500</pubDate><guid>https://www.tradingview.com/chart/US30/las0zcey-US30-Liqgrab-or-crab-then-kaboom-but-down/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/CryptoMakeveli/" title="User Profile">
+		<img src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220,0,20,20%22%20width=%2296%22%20height=%2296%22%3E%3Crect%20height=%2220%22%20width=%2220%22%20fill=%22hsl%28225,25%25,50%25%29%22/%3E%3Ctext%20fill=%22white%22%20x=%2210%22%20y=%2214.8%22%20font-size=%2214%22%20font-family=%22-apple-system,BlinkMacSystemFont,Trebuchet%20MS,Roboto,Ubuntu,sans-serif%22%20text-anchor=%22middle%22%3EC%3C/text%3E%3C/svg%3E" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>US30- Liqgrab$$$ or crab, then kaboom but down</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/CAPITALCOM-US30/">US 30</a>	<span class="symbol-descr">CAPITALCOM:US30</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/CryptoMakeveli/" title="User Profile">CryptoMakeveli</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/US30/las0zcey-US30-Liqgrab-or-crab-then-kaboom-but-down/">
+	<img src="https://s3.tradingview.com/l/las0zcey_mid.png"/>
+</a>
+<p>Keep It Simple $tupid(KISS)  dxy takes a nice little nose dive for a min and then BAM shoots gold,us,nas etc for that last little bit of liq sitting there and continue our journey down or not..</p>]]></content:encoded></item><item><title>NIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE</title><link>https://www.tradingview.com/chart/NIFTY/VT0QF6v7-NIFTY-ANALYSIS-FOR-8th-September-2023-FOR-EDUCATION-PURPOSE/</link><description>NIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE
+This video is for educational purpose and my personal view . We are NOT SEBI registered Advisor, we only give the level on our practical trading experience. Kindly take the trade according to your risk and reward position and consulting your advisor. It is advisable to take the advice of SEBI registered advisor.
+@vijayanjum
+#nse
+#nsebse
+ #Nifty 
+#niftyfifty 
+#bankniftytrading
+ #nfitybank
+#niftypredictionfortomorrow 
+#niftyoptions 
+#NiftyBank 
+#nifty50
+ #nifty500
+ #niftytomorrow
+ #niftytoday 
+#NiftyCE 
+#bankniftyoptions
+ #sensex
+ #sensexindia 
+#sensextoday
+ #bankniftytips
+#bankniftyanalysis
+#bankniftytrading
+#bankniftyoptions 
+#finnifty
+#bankniftystrategies
+#niftystrategies
+#bse#bseindia
+#bsesensex
+#nsenifty
+#nsebse
+#nseindia
+#STOCKMARKETEDUCATION
+#STOCKMARKETUPTODATE
+#STOCKMARKETTODAY
+#stockmarkets
+#tommorrowMarketPrediction
+#nfityoutlookfornextweek 
+#bankniftyoutlookfornext week
+#bankniftyoutlookformonday
+#niftyforecast 
+#bankniftyforecast 
+#niftyshareprice
+ #bankniftyshareprice
+ #tommorrowniftyprediction 
+#tommorrobankniftypredicton
+ #niftytargettommrrow
+ #bankniftytargettommrrow 
+#bankniftylive 
+#banknifty
+ #bankniftyoptions 
+#bankniftystrategies
+ #bankniftyfuture 
+#bankniftyoptionstrategy
+ #bankniftycalls
+ #bankniftyintraday
+ #bankniftylivetrading 
+#bankniftyweeklyexpiry 
+#bankniftycrash 
+#bankniftytomorrow 
+#bankniftypredictions 
+#bankniftychart
+ #bankniftytips
+ #bankniftypremium 
+#bankniftyoptions 
+#bankniftyfuture
+ #bankniftytomorrowprediction
+ #bankniftyoption
+#niftyweeklyexpiry
+#stockmarketinindia
+#derivatives
+#niftypredictions
+#niftytips
+#bank nifty analysis,
+#bank nifty prediction for tomorrow,
+#bank nifty analysis 
+#bank nifty tomorrow,
+#nifty prediction for tomorrow,
+#nifty prediction,
+#nifty analysis,
+#banknifty tomorrow,
+#bank nifty tomorrow analysis,
+#nifty tomorrow,
+#bank nifty analysis for tomorrow,
+#nifty analysis for tomorrow,
+#stock market crash,
+#stock market latest news today,
+#bank nifty live,
+#live trading bank nifty,
+#nifty live trading,
+#live trading,
+#bank nifty live trading
+</description><pubDate>Thu, 07 Sep 2023 06:54:58 -0500</pubDate><guid>https://www.tradingview.com/chart/NIFTY/VT0QF6v7-NIFTY-ANALYSIS-FOR-8th-September-2023-FOR-EDUCATION-PURPOSE/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/vijayanjum/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/7927794-FY3w_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIFTY/">NIFTY 50</a>	<span class="symbol-descr">NSE:NIFTY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/vijayanjum/" title="User Profile">vijayanjum</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIFTY/VT0QF6v7-NIFTY-ANALYSIS-FOR-8th-September-2023-FOR-EDUCATION-PURPOSE/">
+	<img src="https://s3.tradingview.com/v/VT0QF6v7_mid.png"/>
+</a>
+<p>NIFTY ANALYSIS FOR 8th September 2023-FOR EDUCATION PURPOSE <br/>
+This video is for educational purpose and my personal view . We are NOT SEBI registered Advisor, we only give the level on our practical trading experience. Kindly take the trade according to your risk and reward position and consulting your advisor. It is advisable to take the advice of SEBI registered advisor. <br/>
+<a href="https://www.tradingview.com/u/vijayanjum/" target="_blank">@vijayanjum</a> <br/>
+#nse <br/>
+#nsebse <br/>
+ #Nifty  <br/>
+#niftyfifty  <br/>
+#bankniftytrading <br/>
+ #nfitybank <br/>
+#niftypredictionfortomorrow  <br/>
+#niftyoptions  <br/>
+#NiftyBank  <br/>
+#nifty50 <br/>
+ #nifty500 <br/>
+ #niftytomorrow <br/>
+ #niftytoday  <br/>
+#NiftyCE  <br/>
+#bankniftyoptions <br/>
+ #sensex <br/>
+ #sensexindia  <br/>
+#sensextoday <br/>
+ #bankniftytips <br/>
+#bankniftyanalysis <br/>
+#bankniftytrading <br/>
+#bankniftyoptions  <br/>
+#finnifty <br/>
+#bankniftystrategies <br/>
+#niftystrategies <br/>
+#bse#bseindia <br/>
+#bsesensex <br/>
+#nsenifty <br/>
+#nsebse <br/>
+#nseindia <br/>
+#STOCKMARKETEDUCATION <br/>
+#STOCKMARKETUPTODATE <br/>
+#STOCKMARKETTODAY <br/>
+#stockmarkets <br/>
+#tommorrowMarketPrediction <br/>
+#nfityoutlookfornextweek  <br/>
+#bankniftyoutlookfornext week <br/>
+#bankniftyoutlookformonday <br/>
+#niftyforecast  <br/>
+#bankniftyforecast  <br/>
+#niftyshareprice <br/>
+ #bankniftyshareprice <br/>
+ #tommorrowniftyprediction  <br/>
+#tommorrobankniftypredicton <br/>
+ #niftytargettommrrow <br/>
+ #bankniftytargettommrrow  <br/>
+#bankniftylive  <br/>
+#banknifty <br/>
+ #bankniftyoptions  <br/>
+#bankniftystrategies <br/>
+ #bankniftyfuture  <br/>
+#bankniftyoptionstrategy <br/>
+ #bankniftycalls <br/>
+ #bankniftyintraday <br/>
+ #bankniftylivetrading  <br/>
+#bankniftyweeklyexpiry  <br/>
+#bankniftycrash  <br/>
+#bankniftytomorrow  <br/>
+#bankniftypredictions  <br/>
+#bankniftychart <br/>
+ #bankniftytips <br/>
+ #bankniftypremium  <br/>
+#bankniftyoptions  <br/>
+#bankniftyfuture <br/>
+ #bankniftytomorrowprediction <br/>
+ #bankniftyoption <br/>
+#niftyweeklyexpiry <br/>
+#stockmarketinindia <br/>
+#derivatives <br/>
+#niftypredictions <br/>
+#niftytips <br/>
+#bank nifty analysis, <br/>
+#bank nifty prediction for tomorrow, <br/>
+#bank nifty analysis  <br/>
+#bank nifty tomorrow, <br/>
+#nifty prediction for tomorrow, <br/>
+#nifty prediction, <br/>
+#nifty analysis, <br/>
+#banknifty tomorrow, <br/>
+#bank nifty tomorrow analysis, <br/>
+#nifty tomorrow, <br/>
+#bank nifty analysis for tomorrow, <br/>
+#nifty analysis for tomorrow, <br/>
+#stock market crash, <br/>
+#stock market latest news today, <br/>
+#bank nifty live, <br/>
+#live trading bank nifty, <br/>
+#nifty live trading, <br/>
+#live trading, <br/>
+#bank nifty live trading <br/>
+</p>]]></content:encoded></item><item><title>US30 4H (Pivot Price:34375)</title><link>https://www.tradingview.com/chart/US30/53QUsqbn-US30-4H-Pivot-Price-34375/</link><description>US30
+
+stabilizing prices above 35548 will support raising to touch 34690 and 34893 
+
+if the price stable under 34375 then the movement will be between 34273 and 34137 
+
+Pivot Price:34375 
+Resistance Price: 34690 &amp; 34893 &amp; 35043 
+support price: 34273 &amp; 34137 &amp; 34032 
+
+timeframe: 4H
+</description><pubDate>Thu, 07 Sep 2023 06:42:42 -0500</pubDate><guid>https://www.tradingview.com/chart/US30/53QUsqbn-US30-4H-Pivot-Price-34375/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/evarmayi/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/27773169-PsHT_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>US30 4H (Pivot Price:34375)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/EIGHTCAP-US30/">Wall Street 30 Cash</a>	<span class="symbol-descr">EIGHTCAP:US30</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/evarmayi/" title="User Profile">evarmayi</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/US30/53QUsqbn-US30-4H-Pivot-Price-34375/">
+	<img src="https://s3.tradingview.com/5/53QUsqbn_mid.png"/>
+</a>
+<p>US30 <br/>
+ <br/>
+stabilizing prices above 35548 will support raising to touch 34690 and 34893  <br/>
+ <br/>
+if the price stable under 34375 then the movement will be between 34273 and 34137  <br/>
+ <br/>
+Pivot Price:34375  <br/>
+Resistance Price: 34690 &amp; 34893 &amp; 35043  <br/>
+support price: 34273 &amp; 34137 &amp; 34032  <br/>
+ <br/>
+timeframe: 4H <br/>
+</p>]]></content:encoded></item><item><title>NIFTY NEXT 50 READY TO BLAST</title><link>https://www.tradingview.com/chart/NIFTYJR/QSqW40zb-NIFTY-NEXT-50-READY-TO-BLAST/</link><description>Here is the chart of NIFTY NEXT 50.
+
+The chart looks amazing and is ready for a good upmove. 
+
+What one should do?
+One should track the stocks of Nifty Next 50 and can make entry in those stocks.</description><pubDate>Thu, 07 Sep 2023 06:36:16 -0500</pubDate><guid>https://www.tradingview.com/chart/NIFTYJR/QSqW40zb-NIFTY-NEXT-50-READY-TO-BLAST/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/NikunjBangad/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/43632568-ivWC_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>NIFTY NEXT 50 READY TO BLAST</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/NSE-NIFTYJR/">NIFTY NEXT 50</a>	<span class="symbol-descr">NSE:NIFTYJR</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/NikunjBangad/" title="User Profile">NikunjBangad</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NIFTYJR/QSqW40zb-NIFTY-NEXT-50-READY-TO-BLAST/">
+	<img src="https://s3.tradingview.com/q/QSqW40zb_mid.png"/>
+</a>
+<p>Here is the chart of NIFTY NEXT 50. <br/>
+ <br/>
+The chart looks amazing and is ready for a good upmove.  <br/>
+ <br/>
+What one should do? <br/>
+One should track the stocks of Nifty Next 50 and can make entry in those stocks.</p>]]></content:encoded></item><item><title>Nas100 trade idea</title><link>https://www.tradingview.com/chart/NAS100/DFgvYdIp-Nas100-trade-idea/</link><description>I spoke about possibly going short on nas as long as price can show bearish structures &amp; maintain below the levels. I just went in for the kill for a 1:3rr! I might leave a runner &amp; look for a 1:4rr while trailing stops based on structure. This is a half risk set up for me!</description><pubDate>Thu, 07 Sep 2023 06:29:11 -0500</pubDate><guid>https://www.tradingview.com/chart/NAS100/DFgvYdIp-Nas100-trade-idea/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/OfficialJ23/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/37095602-jJSV_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Nas100 trade idea</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/PEPPERSTONE-NAS100/">US Tech 100 Index</a>	<span class="symbol-descr">PEPPERSTONE:NAS100</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/OfficialJ23/" title="User Profile">OfficialJ23</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NAS100/DFgvYdIp-Nas100-trade-idea/">
+	<img src="https://s3.tradingview.com/d/DFgvYdIp_mid.png"/>
+</a>
+<p>I spoke about possibly going short on nas as long as price can show bearish structures &amp; maintain below the levels. I just went in for the kill for a 1:3rr! I might leave a runner &amp; look for a 1:4rr while trailing stops based on structure. This is a half risk set up for me!</p>]]></content:encoded></item><item><title>DXY Potential Upsides</title><link>https://www.tradingview.com/chart/DXY/fGxAIIWY-DXY-Potential-Upsides/</link><description>Hey Traders, in today’s trading session we are monitoring DXY for a buying opportunity around 103.700 zone, DXY is trading in an uptrend and currently is in a correction phase in which it is approaching the trend at 103.700 support and resistance area.
+Trade safe, Joe.</description><pubDate>Thu, 07 Sep 2023 06:20:05 -0500</pubDate><guid>https://www.tradingview.com/chart/DXY/fGxAIIWY-DXY-Potential-Upsides/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/JoeChampion/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/28215102-K5XT_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>DXY Potential Upsides</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/TVC-DXY/">U.S. DOLLAR CURRENCY INDEX</a>	<span class="symbol-descr">TVC:DXY</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/JoeChampion/" title="User Profile">JoeChampion</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/DXY/fGxAIIWY-DXY-Potential-Upsides/">
+	<img src="https://s3.tradingview.com/f/fGxAIIWY_mid.png"/>
+</a>
+<p>Hey Traders, in today’s trading session we are monitoring DXY for a buying opportunity around 103.700 zone, DXY is trading in an uptrend and currently is in a correction phase in which it is approaching the trend at 103.700 support and resistance area. <br/>
+Trade safe, Joe.</p>]]></content:encoded></item><item><title>Nasdaq</title><link>https://www.tradingview.com/chart/NAS100USD/c5fw3P3D-Nasdaq/</link><description>a closer look to the previous idea, we coul have an opposite movement of the previous june up movement it means that we coul the retest august low to have  an HL or a LH to decide wich way to go</description><pubDate>Thu, 07 Sep 2023 06:16:12 -0500</pubDate><guid>https://www.tradingview.com/chart/NAS100USD/c5fw3P3D-Nasdaq/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/pas29/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/8997929-c41b_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>Nasdaq</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/OANDA-NAS100USD/">US Nas 100</a>	<span class="symbol-descr">OANDA:NAS100USD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/pas29/" title="User Profile">pas29</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NAS100USD/c5fw3P3D-Nasdaq/">
+	<img src="https://s3.tradingview.com/c/c5fw3P3D_mid.png"/>
+</a>
+<p>a closer look to the previous idea, we coul have an opposite movement of the previous june up movement it means that we coul the retest august low to have  an HL or a LH to decide wich way to go</p>]]></content:encoded></item><item><title>USNAS100 4H (Pivot Price:15264)</title><link>https://www.tradingview.com/chart/NAS100USD/pStZgbY6-USNAS100-4H-Pivot-Price-15264/</link><description>USNAS100
+
+if it falls above 15358 in this direction will rise to 15480 then 15600 then 15706
+
+but if it is below 15264 the direction will go down 15264 then 15184 then 15027
+
+Pivot Price:15264 
+Resistance prices: 15480 &amp; 15600 &amp; 15706
+Support prices: 15264 &amp; 15184 &amp; 15027
+
+timeframe: 4H </description><pubDate>Thu, 07 Sep 2023 06:11:40 -0500</pubDate><guid>https://www.tradingview.com/chart/NAS100USD/pStZgbY6-USNAS100-4H-Pivot-Price-15264/</guid><content:encoded><![CDATA[
+<div class="avatar">
+	<a href="https://www.tradingview.com/u/evarmayi/" title="User Profile">
+		<img src="https://s3.tradingview.com/userpics/27773169-PsHT_mid.png" width="32" height="32"/>
+	</a>
+</div>
+<div class="chart-name">
+	<h1>USNAS100 4H (Pivot Price:15264)</h1>
+</div>
+
+<div class="chart-symbol">
+<a href="https://www.tradingview.com/symbols/OANDA-NAS100USD/">US Nas 100</a>	<span class="symbol-descr">OANDA:NAS100USD</span>
+</div>
+<div class="chart-author">
+	<a href="https://www.tradingview.com/u/evarmayi/" title="User Profile">evarmayi</a>
+</div>
+
+<a href="https://www.tradingview.com/chart/NAS100USD/pStZgbY6-USNAS100-4H-Pivot-Price-15264/">
+	<img src="https://s3.tradingview.com/p/pStZgbY6_mid.png"/>
+</a>
+<p>USNAS100 <br/>
+ <br/>
+if it falls above 15358 in this direction will rise to 15480 then 15600 then 15706 <br/>
+ <br/>
+but if it is below 15264 the direction will go down 15264 then 15184 then 15027 <br/>
+ <br/>
+Pivot Price:15264  <br/>
+Resistance prices: 15480 &amp; 15600 &amp; 15706 <br/>
+Support prices: 15264 &amp; 15184 &amp; 15027 <br/>
+ <br/>
+timeframe: 4H </p>]]></content:encoded></item></channel></rss>
