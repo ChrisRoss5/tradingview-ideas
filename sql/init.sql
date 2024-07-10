@@ -1,14 +1,14 @@
 use master
 
 begin try
-  alter database JavaProject set single_user with rollback immediate
-  drop database JavaProject
+  alter database TradingViewIdeas set single_user with rollback immediate
+  drop database TradingViewIdeas
 end try
 begin catch end catch
 
-create database JavaProject
+create database TradingViewIdeas
 go
-use JavaProject
+use TradingViewIdeas
 go
 
 /* TABLES */
