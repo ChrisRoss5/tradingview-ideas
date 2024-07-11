@@ -15,7 +15,7 @@
 If the source is no longer working, update the `RSS_URL` in [IdeaParser.java](TradingViewIdeas\src\main\java\hr\algebra\parser\rss\IdeaParser.java) to use the files in [RSS_backup](/RSS_backup/) and adjust the query string params in the parser function.
 
 ---
-For more info, see task specifications:
+For more info, see project specifications:
 
 - [specs-en.pdf](specs-en.pdf)
 - [specs-hr.pdf](specs-hr.pdf)
