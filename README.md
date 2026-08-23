@@ -1,4 +1,14 @@
+# TradingView Ideas
+
+College project (Java programming S4): A Java Swing app fetching TradingView data via RSS, with a fully responsive design. Supports user & admin roles with CRUD for ideas, authors, symbols & markets.
+
 ![App preview](/preview-images/1.png)
+
+Maven reactor: `Dao`, `TradingViewIdeas`, `Utilities`.
+
+```
+mvn package
+```
 
 # Setup
 
